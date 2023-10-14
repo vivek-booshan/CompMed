@@ -1,0 +1,500 @@
+BIN_DIRECTORY              : /work/00303/tg455757/stampede2/M1_101214/scripts/BIN
+SCRIPTS_DIRECTORY          : /work/00303/tg455757/stampede2/M1_101214/scripts_070218
+AIR_BIN_DIRECTORY          : /work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN
+
+
+
+Number of input arguments = 
+	23
+Parameters = 
+	0 = 2
+	1 = 2
+	2 = 0
+	3 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/1_05_MNI.img
+	4 = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection/target.img
+	5 = 1
+	6 = 1
+	7 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/1_05_LV.img
+	8 = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection/M1_lfseg_1_LV.img
+	9 = 0
+	10 = 0
+	11 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/1_05_7L.img
+	12 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/FT5L/FT5l_105.img
+	13 = /tmp/target/06_registration/02_air_lddmm/atlas_3
+	14 = 2
+	15 = 1
+	16 = 0.01
+	17 = 2
+	18 = 2
+	19 = 0.5
+	20 = 1
+	21 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/1_05_bmask.img
+	22 = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1_bmask.img
+
+*************************************************
+*********************STEP1***********************
+*************************************************
+
+CHANNEL NUMBER        (CN)           = 2
+TEMPLATE LABEL NUMBER (LN1)          = 2
+TARGET LABEL NUMBER   (LN2)          = 0
+channel 1:
+	template     = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/1_05_MNI.img
+	target       = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection/target.img
+	histmatching = 1
+	imagetype    = 1
+
+channel 2:
+	template     = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/1_05_LV.img
+	target       = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection/M1_lfseg_1_LV.img
+	histmatching = 0
+	imagetype    = 0
+
+template label 1 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/1_05_7L.img
+template label 2 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/FT5L/FT5l_105.img
+
+No target label to be transformed
+
+output path                          = /tmp/target/06_registration/02_air_lddmm/atlas_3
+lddmm_cascading_iteration_type       = 2
+lddmm_cascading_iteration_number (K) = 1
+	alpha=0.01 	 timestep=2
+air resolution                       = 2
+lddmm resolution scaling factor      = 0.5
+create ldat file true                = 1
+	template mask= /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/1_05_bmask.img
+	target mask  = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1_bmask.img
+
+
+1_05_MNI.img
+/work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014
+1_05_MNI
+
+1_05_LV.img
+/work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014
+1_05_LV
+
+target.img
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection
+target
+
+M1_lfseg_1_LV.img
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection
+M1_lfseg_1_LV
+
+1_05_7L.img
+/work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014
+1_05_7L
+
+FT5l_105.img
+/work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/FT5L
+FT5l_105
+
+M1_lfseg_1_bmask.img
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking
+M1_lfseg_1_bmask
+
+1_05_bmask.img
+/work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014
+1_05_bmask
+
+*************************************************
+*********************STEP2***********************
+*************************************************
+
+CREATING OUTPUT TEMPORARY DIRECTORY AND COPYING FILES
+
+*************************************************
+*********************STEP3***********************
+*************************************************
+
+HISTOGRAM MATCHING
+
+
+*************************************************
+*********************STEP4***********************
+*************************************************
+
+AIR CALCULATIONS
+
+/work/00303/tg455757/stampede2/M1_101214/scripts_070218/AIR_registration4_1024.pl 1_histmatch/1_05_MNI.img 1_histmatch/target.img 2_air 0 2 4 6 8 6 2 9 2 12 2
+BIN_DIRECTORY              : /work/00303/tg455757/stampede2/M1_101214/scripts/BIN
+SCRIPTS_DIRECTORY          : /work/00303/tg455757/stampede2/M1_101214/scripts_070218
+AIR_BIN_DIRECTORY          : /work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN
+
+
+
+Number of input arguments = 
+	14
+Parameters = 
+	0 = 1_histmatch/1_05_MNI.img
+	1 = 1_histmatch/target.img
+	2 = 2_air
+	3 = 0
+	4 = 2
+	5 = 4
+	6 = 6
+	7 = 8
+	8 = 6
+	9 = 2
+	10 = 9
+	11 = 2
+	12 = 12
+	13 = 2
+
+*************************************************
+*********************STEP1***********************
+*************************************************
+
+0) Template   = 
+	template img = 1_histmatch/1_05_MNI.img 		 FILE EXISTS
+	template hdr = 1_histmatch/1_05_MNI.hdr 		 FILE EXISTS
+1) Target   = 
+	target img   = 1_histmatch/target.img 		 FILE EXISTS
+	target hdr   = 1_histmatch/target.hdr 		 FILE EXISTS
+2) Output folder   = 
+	output path  = 2_air		 DIRECTORY EXISTS
+3) Output   = 
+	output img = .img 
+4) Do histogram matching before AIR   = 
+	NO
+5) Registration resolution =                        	2 
+6) Number of AIR cascading iterations =             	4 
+7) AIR param numbers for each cascading iteration = 	6	6	9	12
+8) AIR sigmas for each cascading iteration =        	8	2	2	2
+
+*************************************************
+*********************STEP2***********************
+*************************************************
+
+CREATING OUTPUT TEMPORARY DIRECTORY AND COPYING FILES
+
+COPYING TEMPLATE AND TARGET IMAGE
+
+*************************************************
+*********************STEP3***********************
+*************************************************
+
+SIZE AND RESOLUTION CORRECTION
+
+INPUT TEMPLATE IMAGE SIZE AND RESOLUTION AND FOV
+181	217	181	
+1	1	1	
+181	217	181	
+INPUT TARGET IMAGE SIZE AND RESOLUTION AND FOV
+181	217	181	
+1	1	1	
+181	217	181	
+AIR REGIST. IMAGE SIZE AND RESOLUTION AND FOV
+91	109	91	
+2	2	2	
+182	218	182	
+2	0	0	0	
+0	2	0	0	
+0	0	2	0	
+0	0	0	1	
+0.5	0	0	0	
+0	0.5	0	0	
+0	0	0.5	0	
+0	0	0	1	
+*************************************************
+*********************STEP4***********************
+*************************************************
+
+AIR CALCULATIONS
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/alignlinear 1_05_MNI_to_target.tmp/target_hi.img 1_05_MNI_to_target.tmp/1_05_MNI_hi.img 1_05_MNI_to_target.tmp/temp1.air -m 6 -x 3 -b1 8 8 8 -b2 8 8 8 -t1 5 -t2 5
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/reslice 1_05_MNI_to_target.tmp/temp1.air 1_05_MNI_to_target.tmp/temp1.img -a 1_05_MNI_to_target.tmp/1_05_MNI_hi.img -o -k -n 1
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/alignlinear 1_05_MNI_to_target.tmp/target_hi.img 1_05_MNI_to_target.tmp/temp1.img 1_05_MNI_to_target.tmp/temp2.air -m 6 -x 3 -b1 2 2 2 -b2 2 2 2 -t1 5 -t2 5
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/reslice 1_05_MNI_to_target.tmp/temp2.air 1_05_MNI_to_target.tmp/temp2.img -a 1_05_MNI_to_target.tmp/temp1.img -o -k -n 1
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/alignlinear 1_05_MNI_to_target.tmp/target_hi.img 1_05_MNI_to_target.tmp/temp2.img 1_05_MNI_to_target.tmp/temp3.air -m 9 -x 3 -b1 2 2 2 -b2 2 2 2 -t1 5 -t2 5
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/reslice 1_05_MNI_to_target.tmp/temp3.air 1_05_MNI_to_target.tmp/temp3.img -a 1_05_MNI_to_target.tmp/temp2.img -o -k -n 1
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/alignlinear 1_05_MNI_to_target.tmp/target_hi.img 1_05_MNI_to_target.tmp/temp3.img 1_05_MNI_to_target.tmp/temp4.air -m 12 -x 3 -b1 2 2 2 -b2 2 2 2 -t1 5 -t2 5
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/reslice 1_05_MNI_to_target.tmp/temp4.air 1_05_MNI_to_target.tmp/temp4.img -a 1_05_MNI_to_target.tmp/temp3.img -o -k -n 1
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/combine_air 1_05_MNI_to_target.tmp/final.air y 1_05_MNI_to_target.tmp/temp4.air 1_05_MNI_to_target.tmp/temp3.air 1_05_MNI_to_target.tmp/temp2.air 1_05_MNI_to_target.tmp/temp1.air 
+*************************************************
+*********************STEP5***********************
+*************************************************
+
+CLEANING TEMPORARY FILES
+
+FINISHED...
+
+
+INPUT TEMPLATE IMAGE SIZE AND RESOLUTION
+181	217	181	
+1	1	1	
+INPUT TARGET IMAGE SIZE AND RESOLUTION
+181	217	181	
+1	1	1	
+*************************************************
+*********************STEP5***********************
+*************************************************
+
+LDDMM CALCULATIONS
+
+/work/00303/tg455757/stampede2/M1_101214/scripts_070218/mm_lddmm1n.pl 2 2_air/1_05_MNI.img 1_histmatch/target.img 1 2_air/1_05_LV.img 1_histmatch/M1_lfseg_1_LV.img 1 3_lddmm 1 0.01 2
+*************************************************
+*********************STEP6***********************
+*************************************************
+
+DEFORMATIONS
+
+
+...Completed
+Total running time is 79 seconds
+
+BIN_DIRECTORY              : /work/00303/tg455757/stampede2/M1_101214/scripts/BIN
+SCRIPTS_DIRECTORY          : /work/00303/tg455757/stampede2/M1_101214/scripts_070218
+AIR_BIN_DIRECTORY          : /work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN
+
+
+
+Number of input arguments = 
+	23
+Parameters = 
+	0 = 2
+	1 = 2
+	2 = 0
+	3 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/GSK_NC_800005.img
+	4 = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection/target.img
+	5 = 1
+	6 = 1
+	7 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/800005_LV.img
+	8 = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection/M1_lfseg_1_LV.img
+	9 = 0
+	10 = 0
+	11 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/800005_7L.img
+	12 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/FT5L/FT5l_GSK_NC_800005.img
+	13 = /tmp/target/06_registration/02_air_lddmm/atlas_9
+	14 = 2
+	15 = 1
+	16 = 0.01
+	17 = 2
+	18 = 2
+	19 = 0.5
+	20 = 1
+	21 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/800005_bmask.img
+	22 = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1_bmask.img
+
+*************************************************
+*********************STEP1***********************
+*************************************************
+
+CHANNEL NUMBER        (CN)           = 2
+TEMPLATE LABEL NUMBER (LN1)          = 2
+TARGET LABEL NUMBER   (LN2)          = 0
+channel 1:
+	template     = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/GSK_NC_800005.img
+	target       = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection/target.img
+	histmatching = 1
+	imagetype    = 1
+
+channel 2:
+	template     = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/800005_LV.img
+	target       = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection/M1_lfseg_1_LV.img
+	histmatching = 0
+	imagetype    = 0
+
+template label 1 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/800005_7L.img
+template label 2 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/FT5L/FT5l_GSK_NC_800005.img
+
+No target label to be transformed
+
+output path                          = /tmp/target/06_registration/02_air_lddmm/atlas_9
+lddmm_cascading_iteration_type       = 2
+lddmm_cascading_iteration_number (K) = 1
+	alpha=0.01 	 timestep=2
+air resolution                       = 2
+lddmm resolution scaling factor      = 0.5
+create ldat file true                = 1
+	template mask= /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/800005_bmask.img
+	target mask  = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1_bmask.img
+
+
+GSK_NC_800005.img
+/work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014
+GSK_NC_800005
+
+800005_LV.img
+/work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014
+800005_LV
+
+target.img
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection
+target
+
+M1_lfseg_1_LV.img
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection
+M1_lfseg_1_LV
+
+800005_7L.img
+/work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014
+800005_7L
+
+FT5l_GSK_NC_800005.img
+/work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/FT5L
+FT5l_GSK_NC_800005
+
+M1_lfseg_1_bmask.img
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking
+M1_lfseg_1_bmask
+
+800005_bmask.img
+/work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014
+800005_bmask
+
+*************************************************
+*********************STEP2***********************
+*************************************************
+
+CREATING OUTPUT TEMPORARY DIRECTORY AND COPYING FILES
+
+*************************************************
+*********************STEP3***********************
+*************************************************
+
+HISTOGRAM MATCHING
+
+
+*************************************************
+*********************STEP4***********************
+*************************************************
+
+AIR CALCULATIONS
+
+/work/00303/tg455757/stampede2/M1_101214/scripts_070218/AIR_registration4_1024.pl 1_histmatch/GSK_NC_800005.img 1_histmatch/target.img 2_air 0 2 4 6 8 6 2 9 2 12 2
+BIN_DIRECTORY              : /work/00303/tg455757/stampede2/M1_101214/scripts/BIN
+SCRIPTS_DIRECTORY          : /work/00303/tg455757/stampede2/M1_101214/scripts_070218
+AIR_BIN_DIRECTORY          : /work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN
+
+
+
+Number of input arguments = 
+	14
+Parameters = 
+	0 = 1_histmatch/GSK_NC_800005.img
+	1 = 1_histmatch/target.img
+	2 = 2_air
+	3 = 0
+	4 = 2
+	5 = 4
+	6 = 6
+	7 = 8
+	8 = 6
+	9 = 2
+	10 = 9
+	11 = 2
+	12 = 12
+	13 = 2
+
+*************************************************
+*********************STEP1***********************
+*************************************************
+
+0) Template   = 
+	template img = 1_histmatch/GSK_NC_800005.img 		 FILE EXISTS
+	template hdr = 1_histmatch/GSK_NC_800005.hdr 		 FILE EXISTS
+1) Target   = 
+	target img   = 1_histmatch/target.img 		 FILE EXISTS
+	target hdr   = 1_histmatch/target.hdr 		 FILE EXISTS
+2) Output folder   = 
+	output path  = 2_air		 DIRECTORY EXISTS
+3) Output   = 
+	output img = .img 
+4) Do histogram matching before AIR   = 
+	NO
+5) Registration resolution =                        	2 
+6) Number of AIR cascading iterations =             	4 
+7) AIR param numbers for each cascading iteration = 	6	6	9	12
+8) AIR sigmas for each cascading iteration =        	8	2	2	2
+
+*************************************************
+*********************STEP2***********************
+*************************************************
+
+CREATING OUTPUT TEMPORARY DIRECTORY AND COPYING FILES
+
+COPYING TEMPLATE AND TARGET IMAGE
+
+*************************************************
+*********************STEP3***********************
+*************************************************
+
+SIZE AND RESOLUTION CORRECTION
+
+INPUT TEMPLATE IMAGE SIZE AND RESOLUTION AND FOV
+181	217	181	
+1	1	1	
+181	217	181	
+INPUT TARGET IMAGE SIZE AND RESOLUTION AND FOV
+181	217	181	
+1	1	1	
+181	217	181	
+AIR REGIST. IMAGE SIZE AND RESOLUTION AND FOV
+91	109	91	
+2	2	2	
+182	218	182	
+2	0	0	0	
+0	2	0	0	
+0	0	2	0	
+0	0	0	1	
+0.5	0	0	0	
+0	0.5	0	0	
+0	0	0.5	0	
+0	0	0	1	
+*************************************************
+*********************STEP4***********************
+*************************************************
+
+AIR CALCULATIONS
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/alignlinear GSK_NC_800005_to_target.tmp/target_hi.img GSK_NC_800005_to_target.tmp/GSK_NC_800005_hi.img GSK_NC_800005_to_target.tmp/temp1.air -m 6 -x 3 -b1 8 8 8 -b2 8 8 8 -t1 5 -t2 5
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/reslice GSK_NC_800005_to_target.tmp/temp1.air GSK_NC_800005_to_target.tmp/temp1.img -a GSK_NC_800005_to_target.tmp/GSK_NC_800005_hi.img -o -k -n 1
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/alignlinear GSK_NC_800005_to_target.tmp/target_hi.img GSK_NC_800005_to_target.tmp/temp1.img GSK_NC_800005_to_target.tmp/temp2.air -m 6 -x 3 -b1 2 2 2 -b2 2 2 2 -t1 5 -t2 5
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/reslice GSK_NC_800005_to_target.tmp/temp2.air GSK_NC_800005_to_target.tmp/temp2.img -a GSK_NC_800005_to_target.tmp/temp1.img -o -k -n 1
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/alignlinear GSK_NC_800005_to_target.tmp/target_hi.img GSK_NC_800005_to_target.tmp/temp2.img GSK_NC_800005_to_target.tmp/temp3.air -m 9 -x 3 -b1 2 2 2 -b2 2 2 2 -t1 5 -t2 5
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/reslice GSK_NC_800005_to_target.tmp/temp3.air GSK_NC_800005_to_target.tmp/temp3.img -a GSK_NC_800005_to_target.tmp/temp2.img -o -k -n 1
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/alignlinear GSK_NC_800005_to_target.tmp/target_hi.img GSK_NC_800005_to_target.tmp/temp3.img GSK_NC_800005_to_target.tmp/temp4.air -m 12 -x 3 -b1 2 2 2 -b2 2 2 2 -t1 5 -t2 5
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/reslice GSK_NC_800005_to_target.tmp/temp4.air GSK_NC_800005_to_target.tmp/temp4.img -a GSK_NC_800005_to_target.tmp/temp3.img -o -k -n 1
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN/combine_air GSK_NC_800005_to_target.tmp/final.air y GSK_NC_800005_to_target.tmp/temp4.air GSK_NC_800005_to_target.tmp/temp3.air GSK_NC_800005_to_target.tmp/temp2.air GSK_NC_800005_to_target.tmp/temp1.air 
+*************************************************
+*********************STEP5***********************
+*************************************************
+
+CLEANING TEMPORARY FILES
+
+FINISHED...
+
+
+INPUT TEMPLATE IMAGE SIZE AND RESOLUTION
+181	217	181	
+1	1	1	
+INPUT TARGET IMAGE SIZE AND RESOLUTION
+181	217	181	
+1	1	1	
+*************************************************
+*********************STEP5***********************
+*************************************************
+
+LDDMM CALCULATIONS
+
+/work/00303/tg455757/stampede2/M1_101214/scripts_070218/mm_lddmm1n.pl 2 2_air/GSK_NC_800005.img 1_histmatch/target.img 1 2_air/800005_LV.img 1_histmatch/M1_lfseg_1_LV.img 1 3_lddmm 1 0.01 2
+*************************************************
+*********************STEP6***********************
+*************************************************
+
+DEFORMATIONS
+
+
+...Completed
+Total running time is 49 seconds
+

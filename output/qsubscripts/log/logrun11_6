@@ -1,0 +1,4250 @@
+------------------------------------------
+------------------------------------------
+Setting up environment variables
+Setting up environment variables
+---
+---
+LD_LIBRARY_PATH is .:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/runtime/glnxa64:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/bin/glnxa64:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/sys/os/glnxa64:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/sys/java/jre/glnxa64/jre/lib/amd64/server:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/sys/java/jre/glnxa64/jre/lib/amd64/client:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/sys/java/jre/glnxa64/jre/lib/amd64
+LD_LIBRARY_PATH is .:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/runtime/glnxa64:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/bin/glnxa64:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/sys/os/glnxa64:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/sys/java/jre/glnxa64/jre/lib/amd64/server:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/sys/java/jre/glnxa64/jre/lib/amd64/client:/work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81/sys/java/jre/glnxa64/jre/lib/amd64
+1
+1
+/tmp/MCRcache_23903
+/tmp/MCRcache_7099
+Warning: No display specified.  You will not be able to display graphics on the screen.
+Warning: Name is nonexistent or not a directory: /matlab
+[> In path at 110
+  In startup at 4] 
+Warning: No display specified.  You will not be able to display graphics on the screen.
+Warning: Name is nonexistent or not a directory: /matlab
+[> In path at 110
+  In startup at 4] 
+Warning: Name is nonexistent or not a directory: /toolbox
+[> In path at 110
+  In startup at 11] 
+Warning: Name is nonexistent or not a directory: /toolbox
+[> In path at 110
+  In startup at 11] 
+thread: 1 of node: 5 threads per node: 2 totally 10 nodes
+thread: 0 of node: 5 threads per node: 2 totally 10 nodes
+
+threadId =
+
+    11
+
+
+Nthread =
+
+    20
+
+
+threadId =
+
+    10
+
+
+Nthread =
+
+    20
+
+
+p = 
+
+                                roifn: [1x109 char]
+                                 t1fn: [1x105 char]
+                                lutfn: [1x118 char]
+                         fullnamefile: [1x121 char]
+                            colorfile: [1x117 char]
+                       demographyjson: [1x120 char]
+                     roicolorencoding: 'zscore'
+                         zscoremethod: 'subject'
+    roivolumezscoremodelparameterjson: [1x152 char]
+                        roivolumefile: [1x115 char]
+                          writeimages: 1
+                        writesurfaces: 1
+                        writecontours: 1
+
+
+p = 
+
+                                roifn: [1x109 char]
+                                 t1fn: [1x105 char]
+                                lutfn: [1x118 char]
+                         fullnamefile: [1x121 char]
+                            colorfile: [1x117 char]
+                       demographyjson: [1x120 char]
+                     roicolorencoding: 'zscore'
+                         zscoremethod: 'subject'
+    roivolumezscoremodelparameterjson: [1x152 char]
+                        roivolumefile: [1x115 char]
+                          writeimages: 1
+                        writesurfaces: 1
+                        writecontours: 1
+
+
+img_scale_max =
+
+  213.5219
+
+
+img_scale_max =
+
+  213.5219
+
+loadjson
+loadjson
+T1_L5_OpticTract_L is an orphan roi
+T1_L5_OpticTract_R is an orphan roi
+T1_L5_CSF is an orphan roi
+T1_L5_SKULL1 is an orphan roi
+T1_L5_SKULL2 is an orphan roi
+T1_L5_SKULL3 is an orphan roi
+T1_L5_Bone_marrow is an orphan roi
+readrawvolumes
+reading type 1 level 1
+reading type 1 level 2
+reading type 1 level 3
+reading type 1 level 4
+reading type 1 level 5
+reading type 2 level 1
+reading type 2 level 2
+reading type 2 level 3
+reading type 2 level 4
+reading type 2 level 5
+T1_L5_Fx_ST_L not found in rawroivolume
+T1_L5_Fx_ST_R not found in rawroivolume
+T1_L5_OpticTract_L not found in rawroivolume
+T1_L5_OpticTract_R not found in rawroivolume
+T1_L5_CSF not found in rawroivolume
+T1_L5_SKULL1 not found in rawroivolume
+T1_L5_SKULL2 not found in rawroivolume
+T1_L5_SKULL3 not found in rawroivolume
+T1_L5_Bone_marrow not found in rawroivolume
+T1_L4_Fx_ST_L not found in rawroivolume
+T1_L4_Fx_ST_R not found in rawroivolume
+T1_L0_Brain not found in rawroivolume
+Elapsed time is 12.081088 seconds.
+getWholeBrainVolume
+Elapsed time is 12.108574 seconds.
+getPercentROIVolumes
+Elapsed time is 12.111049 seconds.
+getPercentROIVolumesZscoresv2
+infinite zscore found in 1 T1_L5_SFG_L
+infinite zscore found in 2 T1_L5_SFG_R
+infinite zscore found in 3 T1_L5_SFG_PFC_L
+infinite zscore found in 4 T1_L5_SFG_PFC_R
+infinite zscore found in 5 T1_L5_SFG_pole_L
+infinite zscore found in 6 T1_L5_SFG_pole_R
+infinite zscore found in 7 T1_L5_MFG_L
+infinite zscore found in 8 T1_L5_MFG_R
+infinite zscore found in 9 T1_L5_MFG_DPFC_L
+infinite zscore found in 10 T1_L5_MFG_DPFC_R
+infinite zscore found in 11 T1_L5_IFG_opercularis_L
+infinite zscore found in 12 T1_L5_IFG_opercularis_R
+infinite zscore found in 13 T1_L5_IFG_orbitalis_L
+infinite zscore found in 14 T1_L5_IFG_orbitalis_R
+infinite zscore found in 15 T1_L5_IFG_triangularis_L
+infinite zscore found in 16 T1_L5_IFG_triangularis_R
+infinite zscore found in 17 T1_L5_LFOG_L
+infinite zscore found in 18 T1_L5_LFOG_R
+infinite zscore found in 19 T1_L5_MFOG_L
+infinite zscore found in 20 T1_L5_MFOG_R
+infinite zscore found in 21 T1_L5_RG_L
+infinite zscore found in 22 T1_L5_RG_R
+infinite zscore found in 23 T1_L5_PoCG_L
+infinite zscore found in 24 T1_L5_PoCG_R
+infinite zscore found in 25 T1_L5_PrCG_L
+infinite zscore found in 26 T1_L5_PrCG_R
+infinite zscore found in 27 T1_L5_SPG_L
+infinite zscore found in 28 T1_L5_SPG_R
+infinite zscore found in 29 T1_L5_SMG_L
+infinite zscore found in 30 T1_L5_SMG_R
+infinite zscore found in 31 T1_L5_AG_L
+infinite zscore found in 32 T1_L5_AG_R
+infinite zscore found in 33 T1_L5_PrCu_L
+infinite zscore found in 34 T1_L5_PrCu_R
+infinite zscore found in 35 T1_L5_STG_L
+infinite zscore found in 36 T1_L5_STG_R
+infinite zscore found in 37 T1_L5_STG_L_pole
+infinite zscore found in 38 T1_L5_STG_R_pole
+infinite zscore found in 39 T1_L5_MTG_L
+infinite zscore found in 40 T1_L5_MTG_R
+infinite zscore found in 41 T1_L5_MTG_L_pole
+infinite zscore found in 42 T1_L5_MTG_R_pole
+infinite zscore found in 43 T1_L5_ITG_L
+infinite zscore found in 44 T1_L5_ITG_R
+infinite zscore found in 45 T1_L5_PHG_L
+infinite zscore found in 46 T1_L5_PHG_R
+infinite zscore found in 47 T1_L5_ENT_L
+infinite zscore found in 48 T1_L5_ENT_R
+infinite zscore found in 49 T1_L5_FuG_L
+infinite zscore found in 50 T1_L5_FuG_R
+infinite zscore found in 51 T1_L5_SOG_L
+infinite zscore found in 52 T1_L5_SOG_R
+infinite zscore found in 53 T1_L5_MOG_L
+infinite zscore found in 54 T1_L5_MOG_R
+infinite zscore found in 55 T1_L5_IOG_L
+infinite zscore found in 56 T1_L5_IOG_R
+infinite zscore found in 57 T1_L5_Cu_L
+infinite zscore found in 58 T1_L5_Cu_R
+infinite zscore found in 59 T1_L5_LG_L
+infinite zscore found in 60 T1_L5_LG_R
+infinite zscore found in 61 T1_L5_rostral_ACC_L
+infinite zscore found in 62 T1_L5_rostral_ACC_R
+infinite zscore found in 63 T1_L5_subcallosal_ACC_L
+infinite zscore found in 64 T1_L5_subcallosal_ACC_R
+infinite zscore found in 65 T1_L5_subgenual_ACC_L
+infinite zscore found in 66 T1_L5_subgenual_ACC_R
+infinite zscore found in 67 T1_L5_dorsal_ACC_L
+infinite zscore found in 68 T1_L5_dorsal_ACC_R
+infinite zscore found in 69 T1_L5_PCC_L
+infinite zscore found in 70 T1_L5_PCC_R
+infinite zscore found in 71 T1_L5_Insula_L
+infinite zscore found in 72 T1_L5_Insula_R
+infinite zscore found in 73 T1_L5_Amyg_L
+infinite zscore found in 74 T1_L5_Amyg_R
+infinite zscore found in 75 T1_L5_Hippo_L
+infinite zscore found in 76 T1_L5_Hippo_R
+infinite zscore found in 77 T1_L5_Caud_L
+infinite zscore found in 78 T1_L5_Caud_R
+infinite zscore found in 79 T1_L5_Put_L
+infinite zscore found in 80 T1_L5_Put_R
+infinite zscore found in 81 T1_L5_GP_L
+infinite zscore found in 82 T1_L5_GP_R
+infinite zscore found in 83 T1_L5_Thalamus_L
+infinite zscore found in 84 T1_L5_Thalamus_R
+infinite zscore found in 85 T1_L5_HypoThalamus_L
+infinite zscore found in 86 T1_L5_HypoThalamus_R
+T1_L5_BasalForebrain_L not found in rawroivolume
+T1_L5_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 89 T1_L5_NucAccumbens_L
+infinite zscore found in 90 T1_L5_NucAccumbens_R
+infinite zscore found in 91 T1_L5_RedNc_L
+infinite zscore found in 92 T1_L5_RedNc_R
+infinite zscore found in 93 T1_L5_Snigra_L
+infinite zscore found in 94 T1_L5_Snigra_R
+infinite zscore found in 95 T1_L5_CerebellumGM_R
+infinite zscore found in 96 T1_L5_CerebellumGM_L
+infinite zscore found in 97 T1_L5_CP_L
+infinite zscore found in 98 T1_L5_CP_R
+infinite zscore found in 99 T1_L5_Midbrain_L
+infinite zscore found in 100 T1_L5_Midbrain_R
+infinite zscore found in 101 T1_L5_CST_L
+infinite zscore found in 102 T1_L5_CST_R
+infinite zscore found in 103 T1_L5_SCP_L
+infinite zscore found in 104 T1_L5_SCP_R
+infinite zscore found in 105 T1_L5_MCP_L
+infinite zscore found in 106 T1_L5_MCP_R
+infinite zscore found in 107 T1_L5_PCT_L
+infinite zscore found in 108 T1_L5_PCT_R
+infinite zscore found in 109 T1_L5_ICP_L
+infinite zscore found in 110 T1_L5_ICP_R
+infinite zscore found in 111 T1_L5_ML_L
+infinite zscore found in 112 T1_L5_ML_R
+infinite zscore found in 113 T1_L5_Pons_L
+infinite zscore found in 114 T1_L5_Pons_R
+infinite zscore found in 115 T1_L5_Medulla_L
+infinite zscore found in 116 T1_L5_Medulla_R
+infinite zscore found in 117 T1_L5_ACR_L
+infinite zscore found in 118 T1_L5_ACR_R
+infinite zscore found in 119 T1_L5_SCR_L
+infinite zscore found in 120 T1_L5_SCR_R
+infinite zscore found in 121 T1_L5_PCR_L
+infinite zscore found in 122 T1_L5_PCR_R
+infinite zscore found in 123 T1_L5_GCC_L
+infinite zscore found in 124 T1_L5_GCC_R
+infinite zscore found in 125 T1_L5_BCC_L
+infinite zscore found in 126 T1_L5_BCC_R
+infinite zscore found in 127 T1_L5_SCC_L
+infinite zscore found in 128 T1_L5_SCC_R
+T1_L5_PVWl_L not found in rawroivolume
+T1_L5_PVWl_R not found in rawroivolume
+infinite zscore found in 131 T1_L5_ALIC_L
+infinite zscore found in 132 T1_L5_ALIC_R
+infinite zscore found in 133 T1_L5_PLIC_L
+infinite zscore found in 134 T1_L5_PLIC_R
+infinite zscore found in 135 T1_L5_RLIC_L
+infinite zscore found in 136 T1_L5_RLIC_R
+infinite zscore found in 137 T1_L5_EC_L
+infinite zscore found in 138 T1_L5_EC_R
+infinite zscore found in 139 T1_L5_CGC_L
+infinite zscore found in 140 T1_L5_CGC_R
+infinite zscore found in 141 T1_L5_CGH_L
+infinite zscore found in 142 T1_L5_CGH_R
+T1_L5_Fx_ST_L not found in rawroivolume
+T1_L5_Fx_ST_R not found in rawroivolume
+infinite zscore found in 145 T1_L5_Fx_L
+infinite zscore found in 146 T1_L5_Fx_R
+infinite zscore found in 147 T1_L5_IFO_L
+infinite zscore found in 148 T1_L5_IFO_R
+infinite zscore found in 149 T1_L5_PTR_L
+infinite zscore found in 150 T1_L5_PTR_R
+infinite zscore found in 151 T1_L5_SS_L
+infinite zscore found in 152 T1_L5_SS_R
+infinite zscore found in 153 T1_L5_SFO_L
+infinite zscore found in 154 T1_L5_SFO_R
+infinite zscore found in 155 T1_L5_SLF_L
+infinite zscore found in 156 T1_L5_SLF_R
+infinite zscore found in 157 T1_L5_Cl_L
+infinite zscore found in 158 T1_L5_Cl_R
+infinite zscore found in 159 T1_L5_Mammillary_R
+infinite zscore found in 160 T1_L5_Mammillary_L
+T1_L5_OpticTract_L not found in rawroivolume
+T1_L5_OpticTract_R not found in rawroivolume
+infinite zscore found in 163 T1_L5_LV_Frontal_L
+infinite zscore found in 164 T1_L5_LV_body_L
+infinite zscore found in 165 T1_L5_LV_atrium_L
+infinite zscore found in 166 T1_L5_LV_Occipital_L
+T1_L5_LV_Inferior_L not found in rawroivolume
+infinite zscore found in 168 T1_L5_LV_Frontal_R
+infinite zscore found in 169 T1_L5_LV_body_R
+infinite zscore found in 170 T1_L5_LV_atrium_R
+infinite zscore found in 171 T1_L5_LV_Occipital_R
+T1_L5_LV_Inferior_R not found in rawroivolume
+infinite zscore found in 173 T1_L5_III_and_IV_ventricle
+T1_L5_PVWa_L not found in rawroivolume
+T1_L5_PVWa_R not found in rawroivolume
+infinite zscore found in 176 T1_L5_PVWp_L
+infinite zscore found in 177 T1_L5_PVWp_R
+infinite zscore found in 178 T1_L5_SFWM_L
+infinite zscore found in 179 T1_L5_SFWM_R
+infinite zscore found in 180 T1_L5_SFWM_PFC_L
+infinite zscore found in 181 T1_L5_SFWM_PFC_R
+infinite zscore found in 182 T1_L5_SFWM_pole_L
+infinite zscore found in 183 T1_L5_SFWM_pole_R
+infinite zscore found in 184 T1_L5_MFWM_L
+infinite zscore found in 185 T1_L5_MFWM_R
+infinite zscore found in 186 T1_L5_MFWM_DPFC_L
+infinite zscore found in 187 T1_L5_MFWM_DPFC_R
+infinite zscore found in 188 T1_L5_IFWM_opercularis_L
+infinite zscore found in 189 T1_L5_IFWM_opercularis_R
+infinite zscore found in 190 T1_L5_IFWM_orbitalis_L
+infinite zscore found in 191 T1_L5_IFWM_orbitalis_R
+infinite zscore found in 192 T1_L5_IFWM_triangularis_L
+infinite zscore found in 193 T1_L5_IFWM_triangularis_R
+infinite zscore found in 194 T1_L5_LFOWM_L
+infinite zscore found in 195 T1_L5_LFOWM_R
+infinite zscore found in 196 T1_L5_MFOWM_L
+infinite zscore found in 197 T1_L5_MFOWM_R
+infinite zscore found in 198 T1_L5_RGWM_L
+infinite zscore found in 199 T1_L5_RGWM_R
+infinite zscore found in 200 T1_L5_PoCWM_L
+infinite zscore found in 201 T1_L5_PoCWM_R
+infinite zscore found in 202 T1_L5_PrCWM_L
+infinite zscore found in 203 T1_L5_PrCWM_R
+infinite zscore found in 204 T1_L5_SPWM_L
+infinite zscore found in 205 T1_L5_SPWM_R
+infinite zscore found in 206 T1_L5_SMWM_L
+infinite zscore found in 207 T1_L5_SMWM_R
+T1_L5_AGWM_L not found in rawroivolume
+T1_L5_AGWM_R not found in rawroivolume
+infinite zscore found in 210 T1_L5_PrCuWM_L
+infinite zscore found in 211 T1_L5_PrCuWM_R
+infinite zscore found in 212 T1_L5_STWM_L
+infinite zscore found in 213 T1_L5_STWM_R
+infinite zscore found in 214 T1_L5_STWM_L_pole
+infinite zscore found in 215 T1_L5_STWM_R_pole
+infinite zscore found in 216 T1_L5_MTWM_L
+infinite zscore found in 217 T1_L5_MTWM_R
+infinite zscore found in 218 T1_L5_MTWM_L_pole
+infinite zscore found in 219 T1_L5_MTWM_R_pole
+infinite zscore found in 220 T1_L5_ITWM_L
+infinite zscore found in 221 T1_L5_ITWM_R
+infinite zscore found in 222 T1_L5_FuWM_L
+infinite zscore found in 223 T1_L5_FuWM_R
+infinite zscore found in 224 T1_L5_SOWM_L
+infinite zscore found in 225 T1_L5_SOWM_R
+infinite zscore found in 226 T1_L5_MOWM_L
+infinite zscore found in 227 T1_L5_MOWM_R
+infinite zscore found in 228 T1_L5_IOWM_L
+infinite zscore found in 229 T1_L5_IOWM_R
+infinite zscore found in 230 T1_L5_CuWM_L
+infinite zscore found in 231 T1_L5_CuWM_R
+infinite zscore found in 232 T1_L5_LWM_L
+infinite zscore found in 233 T1_L5_LWM_R
+infinite zscore found in 234 T1_L5_rostralWM_ACC_L
+infinite zscore found in 235 T1_L5_rostralWM_ACC_R
+infinite zscore found in 236 T1_L5_subcallosalWM_ACC_L
+infinite zscore found in 237 T1_L5_subcallosalWM_ACC_R
+infinite zscore found in 238 T1_L5_subgenualWM_ACC_L
+infinite zscore found in 239 T1_L5_subgenualWM_ACC_R
+infinite zscore found in 240 T1_L5_dorsalWM_ACC_L
+infinite zscore found in 241 T1_L5_dorsalWM_ACC_R
+infinite zscore found in 242 T1_L5_PCCWM_L
+infinite zscore found in 243 T1_L5_PCCWM_R
+infinite zscore found in 244 T1_L5_CerebellumWM_R
+infinite zscore found in 245 T1_L5_CerebellumWM_L
+T1_L5_CSF not found in rawroivolume
+T1_L5_SKULL1 not found in rawroivolume
+T1_L5_SKULL2 not found in rawroivolume
+T1_L5_SKULL3 not found in rawroivolume
+infinite zscore found in 250 T1_L5_MCP_cb_L
+infinite zscore found in 251 T1_L5_MCP_cb_R
+T1_L5_Bone_marrow not found in rawroivolume
+infinite zscore found in 253 T1_L5_ICP_pons_L
+infinite zscore found in 254 T1_L5_ICP_pons_R
+infinite zscore found in 255 T1_L5_FrontSul_L
+infinite zscore found in 256 T1_L5_FrontSul_R
+infinite zscore found in 257 T1_L5_CentralSul_L
+infinite zscore found in 258 T1_L5_CentralSul_R
+infinite zscore found in 259 T1_L5_SylFrontSul_L
+infinite zscore found in 260 T1_L5_SylFrontSul_R
+infinite zscore found in 261 T1_L5_SylTempSul_L
+infinite zscore found in 262 T1_L5_SylTempSul_R
+infinite zscore found in 263 T1_L5_SylParieSul_L
+infinite zscore found in 264 T1_L5_SylParieSul_R
+infinite zscore found in 265 T1_L5_ParietSul_L
+infinite zscore found in 266 T1_L5_ParietSul_R
+infinite zscore found in 267 T1_L5_CinguSul_L
+infinite zscore found in 268 T1_L5_CinguSul_R
+infinite zscore found in 269 T1_L5_OcciptSul_L
+infinite zscore found in 270 T1_L5_OcciptSul_R
+infinite zscore found in 271 T1_L5_TempSul_L
+infinite zscore found in 272 T1_L5_TempSul_R
+infinite zscore found in 274 T1_L5_Fimbria_L
+infinite zscore found in 276 T1_L5_Fimbria_R
+T1_L5_Chroid_LVetc_L not found in rawroivolume
+T1_L5_Chroid_LVetc_R not found in rawroivolume
+infinite zscore found in 279 T1_L4_SFG_L
+infinite zscore found in 280 T1_L4_SFG_R
+infinite zscore found in 281 T1_L4_MFG_L
+infinite zscore found in 282 T1_L4_MFG_R
+infinite zscore found in 283 T1_L4_IFG_L
+infinite zscore found in 284 T1_L4_IFG_R
+infinite zscore found in 285 T1_L4_OG_L
+infinite zscore found in 286 T1_L4_OG_R
+infinite zscore found in 287 T1_L4_RG_L
+infinite zscore found in 288 T1_L4_RG_R
+infinite zscore found in 289 T1_L4_PoCG_L
+infinite zscore found in 290 T1_L4_PoCG_R
+infinite zscore found in 291 T1_L4_PrCG_L
+infinite zscore found in 292 T1_L4_PrCG_R
+infinite zscore found in 293 T1_L4_SPG_L
+infinite zscore found in 294 T1_L4_SPG_R
+infinite zscore found in 295 T1_L4_SMG_L
+infinite zscore found in 296 T1_L4_SMG_R
+infinite zscore found in 297 T1_L4_AG_L
+infinite zscore found in 298 T1_L4_AG_R
+infinite zscore found in 299 T1_L4_PrCu_L
+infinite zscore found in 300 T1_L4_PrCu_R
+infinite zscore found in 301 T1_L4_STG_L
+infinite zscore found in 302 T1_L4_STG_R
+infinite zscore found in 303 T1_L4_MTG_L
+infinite zscore found in 304 T1_L4_MTG_R
+infinite zscore found in 305 T1_L4_ITG_L
+infinite zscore found in 306 T1_L4_ITG_R
+infinite zscore found in 307 T1_L4_Limbic_L
+infinite zscore found in 308 T1_L4_Limbic_R
+T1_L4_FuG_L not found in rawroivolume
+T1_L4_FuG_R not found in rawroivolume
+T1_L4_SOG_L not found in rawroivolume
+T1_L4_SOG_R not found in rawroivolume
+T1_L4_MOG_L not found in rawroivolume
+T1_L4_MOG_R not found in rawroivolume
+T1_L4_IOG_L not found in rawroivolume
+T1_L4_IOG_R not found in rawroivolume
+T1_L4_Cu_L not found in rawroivolume
+T1_L4_Cu_R not found in rawroivolume
+T1_L4_LG_L not found in rawroivolume
+T1_L4_LG_R not found in rawroivolume
+infinite zscore found in 321 T1_L4_Cingulate_L
+infinite zscore found in 322 T1_L4_Cingulate_R
+infinite zscore found in 323 T1_L4_Insula_L
+infinite zscore found in 324 T1_L4_Insula_R
+infinite zscore found in 325 T1_L4_Amyg_L
+infinite zscore found in 326 T1_L4_Amyg_R
+infinite zscore found in 327 T1_L4_Hippo_L
+infinite zscore found in 328 T1_L4_Hippo_R
+infinite zscore found in 329 T1_L4_Caud_L
+infinite zscore found in 330 T1_L4_Caud_R
+infinite zscore found in 331 T1_L4_Put_L
+infinite zscore found in 332 T1_L4_Put_R
+infinite zscore found in 333 T1_L4_GP_L
+infinite zscore found in 334 T1_L4_GP_R
+infinite zscore found in 335 T1_L4_Thalamus_L
+infinite zscore found in 336 T1_L4_Thalamus_R
+T1_L4_BasalForebrain_L not found in rawroivolume
+T1_L4_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 339 T1_L4_midbrain_L
+infinite zscore found in 340 T1_L4_midbrain_R
+infinite zscore found in 341 T1_L4_Cerebellum_R
+infinite zscore found in 342 T1_L4_Cerebellum_L
+infinite zscore found in 343 T1_L4_Pons_L
+infinite zscore found in 344 T1_L4_Pons_R
+infinite zscore found in 345 T1_L4_Medulla_L
+infinite zscore found in 346 T1_L4_Medulla_R
+T1_L4_ant_DPWM_L not found in rawroivolume
+T1_L4_ant_DPWM_R not found in rawroivolume
+T1_L4_post_DPWM_L not found in rawroivolume
+T1_L4_post_DPWM_R not found in rawroivolume
+infinite zscore found in 351 T1_L4_GCC_L
+infinite zscore found in 352 T1_L4_GCC_R
+infinite zscore found in 353 T1_L4_BCC_L
+infinite zscore found in 354 T1_L4_BCC_R
+infinite zscore found in 355 T1_L4_SCC_L
+infinite zscore found in 356 T1_L4_SCC_R
+T1_L4_PVA_posterior_L not found in rawroivolume
+T1_L4_PVA_posterior_R not found in rawroivolume
+infinite zscore found in 359 T1_L4_ALIC_L
+infinite zscore found in 360 T1_L4_ALIC_R
+infinite zscore found in 361 T1_L4_PLIC_L
+infinite zscore found in 362 T1_L4_PLIC_R
+T1_L4_inf_DPWM_L not found in rawroivolume
+T1_L4_inf_DPWM_R not found in rawroivolume
+infinite zscore found in 365 T1_L4_CGC_L
+infinite zscore found in 366 T1_L4_CGC_R
+infinite zscore found in 367 T1_L4_CGH_L
+infinite zscore found in 368 T1_L4_CGH_R
+T1_L4_Fx_ST_L not found in rawroivolume
+T1_L4_Fx_ST_R not found in rawroivolume
+infinite zscore found in 371 T1_L4_Fx_L
+infinite zscore found in 372 T1_L4_Fx_R
+infinite zscore found in 373 T1_L4_PeripheralParietalWM_L
+infinite zscore found in 374 T1_L4_PeripheralParietalWM_R
+T1_L4_AnteriorLateralVentricle_L not found in rawroivolume
+infinite zscore found in 376 T1_L4_PosteriorLateralVentricle_L
+infinite zscore found in 377 T1_L4_InferiorLateralVentricle_L
+T1_L4_AnteriorLateralVentricle_R not found in rawroivolume
+infinite zscore found in 379 T1_L4_PosteriorLateralVentricle_R
+infinite zscore found in 380 T1_L4_InferiorLateralVentricle_R
+infinite zscore found in 381 T1_L4_IIIandIV_Ventricle
+T1_L4_PVA_anterior_L not found in rawroivolume
+T1_L4_PVA_anterior_R not found in rawroivolume
+infinite zscore found in 384 T1_L4_PeripheralFrontalWM_L
+infinite zscore found in 385 T1_L4_PeripheralFrontalWM_R
+infinite zscore found in 386 T1_L4_PeripheralTemporalWM_L
+infinite zscore found in 387 T1_L4_PeripheralTemporalWM_R
+infinite zscore found in 388 T1_L4_PeripheralOccipitalWM_L
+infinite zscore found in 389 T1_L4_PeripheralOccipitalWM_R
+T1_L4_PeripheralCingulateWM_L not found in rawroivolume
+T1_L4_PeripheralCingulateWM_R not found in rawroivolume
+infinite zscore found in 392 T1_L4_CerebellumWM_R
+infinite zscore found in 393 T1_L4_CerebellumWM_L
+infinite zscore found in 394 T1_L4_FrontSul_L
+infinite zscore found in 395 T1_L4_FrontSul_R
+infinite zscore found in 396 T1_L4_CentralSul_L
+infinite zscore found in 397 T1_L4_CentralSul_R
+infinite zscore found in 398 T1_L4_SylFrontSul_L
+infinite zscore found in 399 T1_L4_SylFrontSul_R
+infinite zscore found in 400 T1_L4_SylTempSul_L
+infinite zscore found in 401 T1_L4_SylTempSul_R
+infinite zscore found in 402 T1_L4_SylParieSul_L
+infinite zscore found in 403 T1_L4_SylParieSul_R
+infinite zscore found in 404 T1_L4_ParietSul_L
+infinite zscore found in 405 T1_L4_ParietSul_R
+infinite zscore found in 406 T1_L4_CinguSul_L
+infinite zscore found in 407 T1_L4_CinguSul_R
+infinite zscore found in 408 T1_L4_OcciptSul_L
+infinite zscore found in 409 T1_L4_OcciptSul_R
+infinite zscore found in 410 T1_L4_TempSul_L
+infinite zscore found in 411 T1_L4_TempSul_R
+T1_L4_Caudate_tail_L not found in rawroivolume
+T1_L4_Caudate_tail_R not found in rawroivolume
+infinite zscore found in 414 T1_L3_Frontal_L
+infinite zscore found in 415 T1_L3_Frontal_R
+infinite zscore found in 416 T1_L3_Parietal_L
+infinite zscore found in 417 T1_L3_Parietal_R
+infinite zscore found in 418 T1_L3_Temporal_L
+infinite zscore found in 419 T1_L3_Temporal_R
+infinite zscore found in 420 T1_L3_Limbic_L
+infinite zscore found in 421 T1_L3_Limbic_R
+infinite zscore found in 422 T1_L3_Occipital_L
+infinite zscore found in 423 T1_L3_Occipital_R
+infinite zscore found in 424 T1_L3_Insula_L
+infinite zscore found in 425 T1_L3_Insula_R
+infinite zscore found in 426 T1_L3_BasalGang_L
+infinite zscore found in 427 T1_L3_BasalGang_R
+infinite zscore found in 428 T1_L3_Thalamus_L
+infinite zscore found in 429 T1_L3_Thalamus_R
+T1_L3_BasalForebrain_L not found in rawroivolume
+T1_L3_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 432 T1_L3_midbrain_L
+infinite zscore found in 433 T1_L3_midbrain_R
+infinite zscore found in 434 T1_L3_Cerebellum_R
+infinite zscore found in 435 T1_L3_Cerebellum_L
+infinite zscore found in 436 T1_L3_Pons_L
+infinite zscore found in 437 T1_L3_Pons_R
+infinite zscore found in 438 T1_L3_Medulla_L
+infinite zscore found in 439 T1_L3_Medulla_R
+T1_L3_AnteriorWM_L not found in rawroivolume
+T1_L3_AnteriorWM_R not found in rawroivolume
+infinite zscore found in 442 T1_L3_PosteriorWM_L
+infinite zscore found in 443 T1_L3_PosteriorWM_R
+infinite zscore found in 444 T1_L3_CorpusCallosum_L
+infinite zscore found in 445 T1_L3_CorpusCallosum_R
+infinite zscore found in 446 T1_L3_InferiorWM_L
+infinite zscore found in 447 T1_L3_InferiorWM_R
+infinite zscore found in 448 T1_L3_LimbicWM_L
+infinite zscore found in 449 T1_L3_LimbicWM_R
+T1_L5_OpticTract_L is an orphan roi
+infinite zscore found in 450 T1_L3_LateralVentricle_L
+T1_L5_OpticTract_R is an orphan roi
+infinite zscore found in 451 T1_L3_LateralVentricle_R
+infinite zscore found in 452 T1_L3_IIIandIV_Ventricle
+infinite zscore found in 453 T1_L3_FrontSul_L
+infinite zscore found in 454 T1_L3_FrontSul_R
+infinite zscore found in 455 T1_L3_CentralSul_L
+infinite zscore found in 456 T1_L3_CentralSul_R
+T1_L3_SylvianFissureExt_L not found in rawroivolume
+T1_L3_SylvianFissureExt_R not found in rawroivolume
+infinite zscore found in 459 T1_L3_ParietSul_L
+infinite zscore found in 460 T1_L3_ParietSul_R
+infinite zscore found in 461 T1_L3_CinguSul_L
+infinite zscore found in 462 T1_L3_CinguSul_R
+infinite zscore found in 463 T1_L3_OcciptSul_L
+infinite zscore found in 464 T1_L3_OcciptSul_R
+infinite zscore found in 465 T1_L3_TempSul_L
+infinite zscore found in 466 T1_L3_TempSul_R
+infinite zscore found in 467 T1_L2_CerebralCortex_L
+infinite zscore found in 468 T1_L2_CerebralCortex_R
+infinite zscore found in 469 T1_L2_CerebralNucli_L
+infinite zscore found in 470 T1_L2_CerebralNucli_R
+infinite zscore found in 471 T1_L2_Thalamus_L
+infinite zscore found in 472 T1_L2_Thalamus_R
+T1_L2_BasalForebrain_L not found in rawroivolume
+T1_L2_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 475 T1_L2_Mesencephalon_L
+infinite zscore found in 476 T1_L2_Mesencephalon_R
+infinite zscore found in 477 T1_L2_Metencephalon_R
+infinite zscore found in 478 T1_L2_Metencephalon_L
+infinite zscore found in 479 T1_L2_Myelencephalon_L
+infinite zscore found in 480 T1_L2_Myelencephalon_R
+infinite zscore found in 481 T1_L2_WhiteMatter_L
+infinite zscore found in 482 T1_L2_WhiteMatter_R
+infinite zscore found in 483 T1_L2_Ventricle
+infinite zscore found in 484 T1_L2_Sulcus_L
+infinite zscore found in 485 T1_L2_Sulcus_R
+infinite zscore found in 486 T1_L1_Telencephalon_L
+infinite zscore found in 487 T1_L1_Telencephalon_R
+infinite zscore found in 488 T1_L1_Diencephalon_L
+infinite zscore found in 489 T1_L1_Diencephalon_R
+infinite zscore found in 490 T1_L1_Mesencephalon
+infinite zscore found in 491 T1_L1_Metencephalon
+infinite zscore found in 492 T1_L1_Myelencephalon
+infinite zscore found in 493 T1_L1_CSF
+T1_L0_Brain not found in rawroivolume
+T1_L5_CSF is an orphan roi
+T1_L5_SKULL1 is an orphan roi
+T1_L5_SKULL2 is an orphan roi
+T1_L5_SKULL3 is an orphan roi
+T1_L5_Bone_marrow is an orphan roi
+
+nametreearray = 
+
+1x494 struct array with fields:
+
+    id
+    name
+    level
+    idname
+    shortname
+    fullname
+    fullnameintextfile
+    firstappearintable
+    isleaf
+    roilabels
+    roiids
+    children
+    parent
+    isorphan
+    idsatlevels
+    volume
+    percentvolume
+    zscore
+    rgbcolor
+
+12
+readrawvolumes
+reading type 1 level 1
+reading type 1 level 2
+reading type 1 level 3
+reading type 1 level 4
+reading type 1 level 5
+reading type 2 level 1
+reading type 2 level 2
+reading type 2 level 3
+reading type 2 level 4
+reading type 2 level 5
+T1_L5_Fx_ST_L not found in rawroivolume
+T1_L5_Fx_ST_R not found in rawroivolume
+T1_L5_OpticTract_L not found in rawroivolume
+T1_L5_OpticTract_R not found in rawroivolume
+T1_L5_CSF not found in rawroivolume
+T1_L5_SKULL1 not found in rawroivolume
+T1_L5_SKULL2 not found in rawroivolume
+T1_L5_SKULL3 not found in rawroivolume
+T1_L5_Bone_marrow not found in rawroivolume
+T1_L4_Fx_ST_L not found in rawroivolume
+T1_L4_Fx_ST_R not found in rawroivolume
+T1_L0_Brain not found in rawroivolume
+Elapsed time is 12.848821 seconds.
+getWholeBrainVolume
+Elapsed time is 12.878812 seconds.
+getPercentROIVolumes
+Elapsed time is 12.881700 seconds.
+getPercentROIVolumesZscoresv2
+infinite zscore found in 1 T1_L5_SFG_L
+infinite zscore found in 2 T1_L5_SFG_R
+infinite zscore found in 3 T1_L5_SFG_PFC_L
+infinite zscore found in 4 T1_L5_SFG_PFC_R
+infinite zscore found in 5 T1_L5_SFG_pole_L
+infinite zscore found in 6 T1_L5_SFG_pole_R
+infinite zscore found in 7 T1_L5_MFG_L
+infinite zscore found in 8 T1_L5_MFG_R
+infinite zscore found in 9 T1_L5_MFG_DPFC_L
+infinite zscore found in 10 T1_L5_MFG_DPFC_R
+infinite zscore found in 11 T1_L5_IFG_opercularis_L
+infinite zscore found in 12 T1_L5_IFG_opercularis_R
+infinite zscore found in 13 T1_L5_IFG_orbitalis_L
+infinite zscore found in 14 T1_L5_IFG_orbitalis_R
+infinite zscore found in 15 T1_L5_IFG_triangularis_L
+infinite zscore found in 16 T1_L5_IFG_triangularis_R
+infinite zscore found in 17 T1_L5_LFOG_L
+infinite zscore found in 18 T1_L5_LFOG_R
+infinite zscore found in 19 T1_L5_MFOG_L
+infinite zscore found in 20 T1_L5_MFOG_R
+infinite zscore found in 21 T1_L5_RG_L
+infinite zscore found in 22 T1_L5_RG_R
+infinite zscore found in 23 T1_L5_PoCG_L
+infinite zscore found in 24 T1_L5_PoCG_R
+infinite zscore found in 25 T1_L5_PrCG_L
+infinite zscore found in 26 T1_L5_PrCG_R
+infinite zscore found in 27 T1_L5_SPG_L
+infinite zscore found in 28 T1_L5_SPG_R
+infinite zscore found in 29 T1_L5_SMG_L
+infinite zscore found in 30 T1_L5_SMG_R
+infinite zscore found in 31 T1_L5_AG_L
+infinite zscore found in 32 T1_L5_AG_R
+infinite zscore found in 33 T1_L5_PrCu_L
+infinite zscore found in 34 T1_L5_PrCu_R
+infinite zscore found in 35 T1_L5_STG_L
+infinite zscore found in 36 T1_L5_STG_R
+infinite zscore found in 37 T1_L5_STG_L_pole
+infinite zscore found in 38 T1_L5_STG_R_pole
+infinite zscore found in 39 T1_L5_MTG_L
+infinite zscore found in 40 T1_L5_MTG_R
+infinite zscore found in 41 T1_L5_MTG_L_pole
+infinite zscore found in 42 T1_L5_MTG_R_pole
+infinite zscore found in 43 T1_L5_ITG_L
+infinite zscore found in 44 T1_L5_ITG_R
+infinite zscore found in 45 T1_L5_PHG_L
+infinite zscore found in 46 T1_L5_PHG_R
+infinite zscore found in 47 T1_L5_ENT_L
+infinite zscore found in 48 T1_L5_ENT_R
+infinite zscore found in 49 T1_L5_FuG_L
+infinite zscore found in 50 T1_L5_FuG_R
+infinite zscore found in 51 T1_L5_SOG_L
+infinite zscore found in 52 T1_L5_SOG_R
+infinite zscore found in 53 T1_L5_MOG_L
+infinite zscore found in 54 T1_L5_MOG_R
+infinite zscore found in 55 T1_L5_IOG_L
+infinite zscore found in 56 T1_L5_IOG_R
+infinite zscore found in 57 T1_L5_Cu_L
+infinite zscore found in 58 T1_L5_Cu_R
+infinite zscore found in 59 T1_L5_LG_L
+infinite zscore found in 60 T1_L5_LG_R
+infinite zscore found in 61 T1_L5_rostral_ACC_L
+infinite zscore found in 62 T1_L5_rostral_ACC_R
+infinite zscore found in 63 T1_L5_subcallosal_ACC_L
+infinite zscore found in 64 T1_L5_subcallosal_ACC_R
+infinite zscore found in 65 T1_L5_subgenual_ACC_L
+infinite zscore found in 66 T1_L5_subgenual_ACC_R
+infinite zscore found in 67 T1_L5_dorsal_ACC_L
+infinite zscore found in 68 T1_L5_dorsal_ACC_R
+infinite zscore found in 69 T1_L5_PCC_L
+infinite zscore found in 70 T1_L5_PCC_R
+infinite zscore found in 71 T1_L5_Insula_L
+infinite zscore found in 72 T1_L5_Insula_R
+infinite zscore found in 73 T1_L5_Amyg_L
+infinite zscore found in 74 T1_L5_Amyg_R
+infinite zscore found in 75 T1_L5_Hippo_L
+infinite zscore found in 76 T1_L5_Hippo_R
+infinite zscore found in 77 T1_L5_Caud_L
+infinite zscore found in 78 T1_L5_Caud_R
+infinite zscore found in 79 T1_L5_Put_L
+infinite zscore found in 80 T1_L5_Put_R
+infinite zscore found in 81 T1_L5_GP_L
+infinite zscore found in 82 T1_L5_GP_R
+infinite zscore found in 83 T1_L5_Thalamus_L
+infinite zscore found in 84 T1_L5_Thalamus_R
+infinite zscore found in 85 T1_L5_HypoThalamus_L
+infinite zscore found in 86 T1_L5_HypoThalamus_R
+T1_L5_BasalForebrain_L not found in rawroivolume
+T1_L5_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 89 T1_L5_NucAccumbens_L
+infinite zscore found in 90 T1_L5_NucAccumbens_R
+infinite zscore found in 91 T1_L5_RedNc_L
+infinite zscore found in 92 T1_L5_RedNc_R
+infinite zscore found in 93 T1_L5_Snigra_L
+infinite zscore found in 94 T1_L5_Snigra_R
+infinite zscore found in 95 T1_L5_CerebellumGM_R
+infinite zscore found in 96 T1_L5_CerebellumGM_L
+infinite zscore found in 97 T1_L5_CP_L
+infinite zscore found in 98 T1_L5_CP_R
+infinite zscore found in 99 T1_L5_Midbrain_L
+infinite zscore found in 100 T1_L5_Midbrain_R
+infinite zscore found in 101 T1_L5_CST_L
+infinite zscore found in 102 T1_L5_CST_R
+infinite zscore found in 103 T1_L5_SCP_L
+infinite zscore found in 104 T1_L5_SCP_R
+infinite zscore found in 105 T1_L5_MCP_L
+infinite zscore found in 106 T1_L5_MCP_R
+infinite zscore found in 107 T1_L5_PCT_L
+infinite zscore found in 108 T1_L5_PCT_R
+infinite zscore found in 109 T1_L5_ICP_L
+infinite zscore found in 110 T1_L5_ICP_R
+infinite zscore found in 111 T1_L5_ML_L
+infinite zscore found in 112 T1_L5_ML_R
+infinite zscore found in 113 T1_L5_Pons_L
+infinite zscore found in 114 T1_L5_Pons_R
+infinite zscore found in 115 T1_L5_Medulla_L
+infinite zscore found in 116 T1_L5_Medulla_R
+infinite zscore found in 117 T1_L5_ACR_L
+infinite zscore found in 118 T1_L5_ACR_R
+infinite zscore found in 119 T1_L5_SCR_L
+infinite zscore found in 120 T1_L5_SCR_R
+infinite zscore found in 121 T1_L5_PCR_L
+infinite zscore found in 122 T1_L5_PCR_R
+infinite zscore found in 123 T1_L5_GCC_L
+infinite zscore found in 124 T1_L5_GCC_R
+infinite zscore found in 125 T1_L5_BCC_L
+infinite zscore found in 126 T1_L5_BCC_R
+infinite zscore found in 127 T1_L5_SCC_L
+infinite zscore found in 128 T1_L5_SCC_R
+T1_L5_PVWl_L not found in rawroivolume
+T1_L5_PVWl_R not found in rawroivolume
+infinite zscore found in 131 T1_L5_ALIC_L
+infinite zscore found in 132 T1_L5_ALIC_R
+infinite zscore found in 133 T1_L5_PLIC_L
+infinite zscore found in 134 T1_L5_PLIC_R
+infinite zscore found in 135 T1_L5_RLIC_L
+infinite zscore found in 136 T1_L5_RLIC_R
+infinite zscore found in 137 T1_L5_EC_L
+infinite zscore found in 138 T1_L5_EC_R
+infinite zscore found in 139 T1_L5_CGC_L
+infinite zscore found in 140 T1_L5_CGC_R
+infinite zscore found in 141 T1_L5_CGH_L
+infinite zscore found in 142 T1_L5_CGH_R
+T1_L5_Fx_ST_L not found in rawroivolume
+T1_L5_Fx_ST_R not found in rawroivolume
+infinite zscore found in 145 T1_L5_Fx_L
+infinite zscore found in 146 T1_L5_Fx_R
+infinite zscore found in 147 T1_L5_IFO_L
+infinite zscore found in 148 T1_L5_IFO_R
+infinite zscore found in 149 T1_L5_PTR_L
+infinite zscore found in 150 T1_L5_PTR_R
+infinite zscore found in 151 T1_L5_SS_L
+infinite zscore found in 152 T1_L5_SS_R
+infinite zscore found in 153 T1_L5_SFO_L
+infinite zscore found in 154 T1_L5_SFO_R
+infinite zscore found in 155 T1_L5_SLF_L
+infinite zscore found in 156 T1_L5_SLF_R
+infinite zscore found in 157 T1_L5_Cl_L
+infinite zscore found in 158 T1_L5_Cl_R
+infinite zscore found in 159 T1_L5_Mammillary_R
+infinite zscore found in 160 T1_L5_Mammillary_L
+T1_L5_OpticTract_L not found in rawroivolume
+T1_L5_OpticTract_R not found in rawroivolume
+infinite zscore found in 163 T1_L5_LV_Frontal_L
+infinite zscore found in 164 T1_L5_LV_body_L
+infinite zscore found in 165 T1_L5_LV_atrium_L
+infinite zscore found in 166 T1_L5_LV_Occipital_L
+T1_L5_LV_Inferior_L not found in rawroivolume
+infinite zscore found in 168 T1_L5_LV_Frontal_R
+infinite zscore found in 169 T1_L5_LV_body_R
+infinite zscore found in 170 T1_L5_LV_atrium_R
+infinite zscore found in 171 T1_L5_LV_Occipital_R
+T1_L5_LV_Inferior_R not found in rawroivolume
+infinite zscore found in 173 T1_L5_III_and_IV_ventricle
+T1_L5_PVWa_L not found in rawroivolume
+T1_L5_PVWa_R not found in rawroivolume
+infinite zscore found in 176 T1_L5_PVWp_L
+infinite zscore found in 177 T1_L5_PVWp_R
+infinite zscore found in 178 T1_L5_SFWM_L
+infinite zscore found in 179 T1_L5_SFWM_R
+infinite zscore found in 180 T1_L5_SFWM_PFC_L
+infinite zscore found in 181 T1_L5_SFWM_PFC_R
+infinite zscore found in 182 T1_L5_SFWM_pole_L
+infinite zscore found in 183 T1_L5_SFWM_pole_R
+infinite zscore found in 184 T1_L5_MFWM_L
+infinite zscore found in 185 T1_L5_MFWM_R
+infinite zscore found in 186 T1_L5_MFWM_DPFC_L
+infinite zscore found in 187 T1_L5_MFWM_DPFC_R
+infinite zscore found in 188 T1_L5_IFWM_opercularis_L
+infinite zscore found in 189 T1_L5_IFWM_opercularis_R
+infinite zscore found in 190 T1_L5_IFWM_orbitalis_L
+infinite zscore found in 191 T1_L5_IFWM_orbitalis_R
+infinite zscore found in 192 T1_L5_IFWM_triangularis_L
+infinite zscore found in 193 T1_L5_IFWM_triangularis_R
+infinite zscore found in 194 T1_L5_LFOWM_L
+infinite zscore found in 195 T1_L5_LFOWM_R
+infinite zscore found in 196 T1_L5_MFOWM_L
+infinite zscore found in 197 T1_L5_MFOWM_R
+infinite zscore found in 198 T1_L5_RGWM_L
+infinite zscore found in 199 T1_L5_RGWM_R
+infinite zscore found in 200 T1_L5_PoCWM_L
+infinite zscore found in 201 T1_L5_PoCWM_R
+infinite zscore found in 202 T1_L5_PrCWM_L
+infinite zscore found in 203 T1_L5_PrCWM_R
+infinite zscore found in 204 T1_L5_SPWM_L
+infinite zscore found in 205 T1_L5_SPWM_R
+infinite zscore found in 206 T1_L5_SMWM_L
+infinite zscore found in 207 T1_L5_SMWM_R
+T1_L5_AGWM_L not found in rawroivolume
+T1_L5_AGWM_R not found in rawroivolume
+infinite zscore found in 210 T1_L5_PrCuWM_L
+infinite zscore found in 211 T1_L5_PrCuWM_R
+infinite zscore found in 212 T1_L5_STWM_L
+infinite zscore found in 213 T1_L5_STWM_R
+infinite zscore found in 214 T1_L5_STWM_L_pole
+infinite zscore found in 215 T1_L5_STWM_R_pole
+infinite zscore found in 216 T1_L5_MTWM_L
+infinite zscore found in 217 T1_L5_MTWM_R
+infinite zscore found in 218 T1_L5_MTWM_L_pole
+infinite zscore found in 219 T1_L5_MTWM_R_pole
+infinite zscore found in 220 T1_L5_ITWM_L
+infinite zscore found in 221 T1_L5_ITWM_R
+infinite zscore found in 222 T1_L5_FuWM_L
+infinite zscore found in 223 T1_L5_FuWM_R
+infinite zscore found in 224 T1_L5_SOWM_L
+infinite zscore found in 225 T1_L5_SOWM_R
+infinite zscore found in 226 T1_L5_MOWM_L
+infinite zscore found in 227 T1_L5_MOWM_R
+infinite zscore found in 228 T1_L5_IOWM_L
+infinite zscore found in 229 T1_L5_IOWM_R
+infinite zscore found in 230 T1_L5_CuWM_L
+infinite zscore found in 231 T1_L5_CuWM_R
+infinite zscore found in 232 T1_L5_LWM_L
+infinite zscore found in 233 T1_L5_LWM_R
+infinite zscore found in 234 T1_L5_rostralWM_ACC_L
+infinite zscore found in 235 T1_L5_rostralWM_ACC_R
+infinite zscore found in 236 T1_L5_subcallosalWM_ACC_L
+infinite zscore found in 237 T1_L5_subcallosalWM_ACC_R
+infinite zscore found in 238 T1_L5_subgenualWM_ACC_L
+infinite zscore found in 239 T1_L5_subgenualWM_ACC_R
+infinite zscore found in 240 T1_L5_dorsalWM_ACC_L
+infinite zscore found in 241 T1_L5_dorsalWM_ACC_R
+infinite zscore found in 242 T1_L5_PCCWM_L
+infinite zscore found in 243 T1_L5_PCCWM_R
+infinite zscore found in 244 T1_L5_CerebellumWM_R
+infinite zscore found in 245 T1_L5_CerebellumWM_L
+T1_L5_CSF not found in rawroivolume
+T1_L5_SKULL1 not found in rawroivolume
+T1_L5_SKULL2 not found in rawroivolume
+T1_L5_SKULL3 not found in rawroivolume
+infinite zscore found in 250 T1_L5_MCP_cb_L
+infinite zscore found in 251 T1_L5_MCP_cb_R
+T1_L5_Bone_marrow not found in rawroivolume
+infinite zscore found in 253 T1_L5_ICP_pons_L
+infinite zscore found in 254 T1_L5_ICP_pons_R
+infinite zscore found in 255 T1_L5_FrontSul_L
+infinite zscore found in 256 T1_L5_FrontSul_R
+infinite zscore found in 257 T1_L5_CentralSul_L
+infinite zscore found in 258 T1_L5_CentralSul_R
+infinite zscore found in 259 T1_L5_SylFrontSul_L
+infinite zscore found in 260 T1_L5_SylFrontSul_R
+infinite zscore found in 261 T1_L5_SylTempSul_L
+infinite zscore found in 262 T1_L5_SylTempSul_R
+infinite zscore found in 263 T1_L5_SylParieSul_L
+infinite zscore found in 264 T1_L5_SylParieSul_R
+infinite zscore found in 265 T1_L5_ParietSul_L
+infinite zscore found in 266 T1_L5_ParietSul_R
+infinite zscore found in 267 T1_L5_CinguSul_L
+infinite zscore found in 268 T1_L5_CinguSul_R
+infinite zscore found in 269 T1_L5_OcciptSul_L
+infinite zscore found in 270 T1_L5_OcciptSul_R
+infinite zscore found in 271 T1_L5_TempSul_L
+infinite zscore found in 272 T1_L5_TempSul_R
+infinite zscore found in 274 T1_L5_Fimbria_L
+infinite zscore found in 276 T1_L5_Fimbria_R
+T1_L5_Chroid_LVetc_L not found in rawroivolume
+T1_L5_Chroid_LVetc_R not found in rawroivolume
+infinite zscore found in 279 T1_L4_SFG_L
+infinite zscore found in 280 T1_L4_SFG_R
+infinite zscore found in 281 T1_L4_MFG_L
+infinite zscore found in 282 T1_L4_MFG_R
+infinite zscore found in 283 T1_L4_IFG_L
+infinite zscore found in 284 T1_L4_IFG_R
+infinite zscore found in 285 T1_L4_OG_L
+infinite zscore found in 286 T1_L4_OG_R
+infinite zscore found in 287 T1_L4_RG_L
+infinite zscore found in 288 T1_L4_RG_R
+infinite zscore found in 289 T1_L4_PoCG_L
+infinite zscore found in 290 T1_L4_PoCG_R
+infinite zscore found in 291 T1_L4_PrCG_L
+infinite zscore found in 292 T1_L4_PrCG_R
+infinite zscore found in 293 T1_L4_SPG_L
+infinite zscore found in 294 T1_L4_SPG_R
+infinite zscore found in 295 T1_L4_SMG_L
+infinite zscore found in 296 T1_L4_SMG_R
+infinite zscore found in 297 T1_L4_AG_L
+infinite zscore found in 298 T1_L4_AG_R
+infinite zscore found in 299 T1_L4_PrCu_L
+infinite zscore found in 300 T1_L4_PrCu_R
+infinite zscore found in 301 T1_L4_STG_L
+infinite zscore found in 302 T1_L4_STG_R
+infinite zscore found in 303 T1_L4_MTG_L
+infinite zscore found in 304 T1_L4_MTG_R
+infinite zscore found in 305 T1_L4_ITG_L
+infinite zscore found in 306 T1_L4_ITG_R
+infinite zscore found in 307 T1_L4_Limbic_L
+infinite zscore found in 308 T1_L4_Limbic_R
+T1_L4_FuG_L not found in rawroivolume
+T1_L4_FuG_R not found in rawroivolume
+T1_L4_SOG_L not found in rawroivolume
+T1_L4_SOG_R not found in rawroivolume
+T1_L4_MOG_L not found in rawroivolume
+T1_L4_MOG_R not found in rawroivolume
+T1_L4_IOG_L not found in rawroivolume
+T1_L4_IOG_R not found in rawroivolume
+T1_L4_Cu_L not found in rawroivolume
+T1_L4_Cu_R not found in rawroivolume
+T1_L4_LG_L not found in rawroivolume
+T1_L4_LG_R not found in rawroivolume
+infinite zscore found in 321 T1_L4_Cingulate_L
+infinite zscore found in 322 T1_L4_Cingulate_R
+infinite zscore found in 323 T1_L4_Insula_L
+infinite zscore found in 324 T1_L4_Insula_R
+infinite zscore found in 325 T1_L4_Amyg_L
+infinite zscore found in 326 T1_L4_Amyg_R
+infinite zscore found in 327 T1_L4_Hippo_L
+infinite zscore found in 328 T1_L4_Hippo_R
+infinite zscore found in 329 T1_L4_Caud_L
+infinite zscore found in 330 T1_L4_Caud_R
+infinite zscore found in 331 T1_L4_Put_L
+infinite zscore found in 332 T1_L4_Put_R
+infinite zscore found in 333 T1_L4_GP_L
+infinite zscore found in 334 T1_L4_GP_R
+infinite zscore found in 335 T1_L4_Thalamus_L
+infinite zscore found in 336 T1_L4_Thalamus_R
+T1_L4_BasalForebrain_L not found in rawroivolume
+T1_L4_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 339 T1_L4_midbrain_L
+infinite zscore found in 340 T1_L4_midbrain_R
+infinite zscore found in 341 T1_L4_Cerebellum_R
+infinite zscore found in 342 T1_L4_Cerebellum_L
+infinite zscore found in 343 T1_L4_Pons_L
+infinite zscore found in 344 T1_L4_Pons_R
+infinite zscore found in 345 T1_L4_Medulla_L
+infinite zscore found in 346 T1_L4_Medulla_R
+T1_L4_ant_DPWM_L not found in rawroivolume
+T1_L4_ant_DPWM_R not found in rawroivolume
+T1_L4_post_DPWM_L not found in rawroivolume
+T1_L4_post_DPWM_R not found in rawroivolume
+infinite zscore found in 351 T1_L4_GCC_L
+infinite zscore found in 352 T1_L4_GCC_R
+infinite zscore found in 353 T1_L4_BCC_L
+infinite zscore found in 354 T1_L4_BCC_R
+infinite zscore found in 355 T1_L4_SCC_L
+infinite zscore found in 356 T1_L4_SCC_R
+T1_L4_PVA_posterior_L not found in rawroivolume
+T1_L4_PVA_posterior_R not found in rawroivolume
+infinite zscore found in 359 T1_L4_ALIC_L
+infinite zscore found in 360 T1_L4_ALIC_R
+infinite zscore found in 361 T1_L4_PLIC_L
+infinite zscore found in 362 T1_L4_PLIC_R
+T1_L4_inf_DPWM_L not found in rawroivolume
+T1_L4_inf_DPWM_R not found in rawroivolume
+infinite zscore found in 365 T1_L4_CGC_L
+infinite zscore found in 366 T1_L4_CGC_R
+infinite zscore found in 367 T1_L4_CGH_L
+infinite zscore found in 368 T1_L4_CGH_R
+T1_L4_Fx_ST_L not found in rawroivolume
+T1_L4_Fx_ST_R not found in rawroivolume
+infinite zscore found in 371 T1_L4_Fx_L
+infinite zscore found in 372 T1_L4_Fx_R
+infinite zscore found in 373 T1_L4_PeripheralParietalWM_L
+infinite zscore found in 374 T1_L4_PeripheralParietalWM_R
+T1_L4_AnteriorLateralVentricle_L not found in rawroivolume
+infinite zscore found in 376 T1_L4_PosteriorLateralVentricle_L
+infinite zscore found in 377 T1_L4_InferiorLateralVentricle_L
+T1_L4_AnteriorLateralVentricle_R not found in rawroivolume
+infinite zscore found in 379 T1_L4_PosteriorLateralVentricle_R
+infinite zscore found in 380 T1_L4_InferiorLateralVentricle_R
+infinite zscore found in 381 T1_L4_IIIandIV_Ventricle
+T1_L4_PVA_anterior_L not found in rawroivolume
+T1_L4_PVA_anterior_R not found in rawroivolume
+infinite zscore found in 384 T1_L4_PeripheralFrontalWM_L
+infinite zscore found in 385 T1_L4_PeripheralFrontalWM_R
+infinite zscore found in 386 T1_L4_PeripheralTemporalWM_L
+infinite zscore found in 387 T1_L4_PeripheralTemporalWM_R
+infinite zscore found in 388 T1_L4_PeripheralOccipitalWM_L
+infinite zscore found in 389 T1_L4_PeripheralOccipitalWM_R
+T1_L4_PeripheralCingulateWM_L not found in rawroivolume
+T1_L4_PeripheralCingulateWM_R not found in rawroivolume
+infinite zscore found in 392 T1_L4_CerebellumWM_R
+infinite zscore found in 393 T1_L4_CerebellumWM_L
+infinite zscore found in 394 T1_L4_FrontSul_L
+infinite zscore found in 395 T1_L4_FrontSul_R
+infinite zscore found in 396 T1_L4_CentralSul_L
+infinite zscore found in 397 T1_L4_CentralSul_R
+infinite zscore found in 398 T1_L4_SylFrontSul_L
+infinite zscore found in 399 T1_L4_SylFrontSul_R
+infinite zscore found in 400 T1_L4_SylTempSul_L
+infinite zscore found in 401 T1_L4_SylTempSul_R
+infinite zscore found in 402 T1_L4_SylParieSul_L
+infinite zscore found in 403 T1_L4_SylParieSul_R
+infinite zscore found in 404 T1_L4_ParietSul_L
+infinite zscore found in 405 T1_L4_ParietSul_R
+infinite zscore found in 406 T1_L4_CinguSul_L
+infinite zscore found in 407 T1_L4_CinguSul_R
+infinite zscore found in 408 T1_L4_OcciptSul_L
+infinite zscore found in 409 T1_L4_OcciptSul_R
+infinite zscore found in 410 T1_L4_TempSul_L
+infinite zscore found in 411 T1_L4_TempSul_R
+T1_L4_Caudate_tail_L not found in rawroivolume
+T1_L4_Caudate_tail_R not found in rawroivolume
+infinite zscore found in 414 T1_L3_Frontal_L
+infinite zscore found in 415 T1_L3_Frontal_R
+infinite zscore found in 416 T1_L3_Parietal_L
+infinite zscore found in 417 T1_L3_Parietal_R
+infinite zscore found in 418 T1_L3_Temporal_L
+infinite zscore found in 419 T1_L3_Temporal_R
+infinite zscore found in 420 T1_L3_Limbic_L
+infinite zscore found in 421 T1_L3_Limbic_R
+infinite zscore found in 422 T1_L3_Occipital_L
+infinite zscore found in 423 T1_L3_Occipital_R
+infinite zscore found in 424 T1_L3_Insula_L
+infinite zscore found in 425 T1_L3_Insula_R
+infinite zscore found in 426 T1_L3_BasalGang_L
+infinite zscore found in 427 T1_L3_BasalGang_R
+infinite zscore found in 428 T1_L3_Thalamus_L
+infinite zscore found in 429 T1_L3_Thalamus_R
+T1_L3_BasalForebrain_L not found in rawroivolume
+T1_L3_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 432 T1_L3_midbrain_L
+infinite zscore found in 433 T1_L3_midbrain_R
+infinite zscore found in 434 T1_L3_Cerebellum_R
+infinite zscore found in 435 T1_L3_Cerebellum_L
+infinite zscore found in 436 T1_L3_Pons_L
+infinite zscore found in 437 T1_L3_Pons_R
+infinite zscore found in 438 T1_L3_Medulla_L
+infinite zscore found in 439 T1_L3_Medulla_R
+T1_L3_AnteriorWM_L not found in rawroivolume
+T1_L3_AnteriorWM_R not found in rawroivolume
+infinite zscore found in 442 T1_L3_PosteriorWM_L
+infinite zscore found in 443 T1_L3_PosteriorWM_R
+infinite zscore found in 444 T1_L3_CorpusCallosum_L
+infinite zscore found in 445 T1_L3_CorpusCallosum_R
+infinite zscore found in 446 T1_L3_InferiorWM_L
+infinite zscore found in 447 T1_L3_InferiorWM_R
+infinite zscore found in 448 T1_L3_LimbicWM_L
+infinite zscore found in 449 T1_L3_LimbicWM_R
+infinite zscore found in 450 T1_L3_LateralVentricle_L
+infinite zscore found in 451 T1_L3_LateralVentricle_R
+infinite zscore found in 452 T1_L3_IIIandIV_Ventricle
+infinite zscore found in 453 T1_L3_FrontSul_L
+infinite zscore found in 454 T1_L3_FrontSul_R
+infinite zscore found in 455 T1_L3_CentralSul_L
+infinite zscore found in 456 T1_L3_CentralSul_R
+T1_L3_SylvianFissureExt_L not found in rawroivolume
+T1_L3_SylvianFissureExt_R not found in rawroivolume
+infinite zscore found in 459 T1_L3_ParietSul_L
+infinite zscore found in 460 T1_L3_ParietSul_R
+infinite zscore found in 461 T1_L3_CinguSul_L
+infinite zscore found in 462 T1_L3_CinguSul_R
+infinite zscore found in 463 T1_L3_OcciptSul_L
+infinite zscore found in 464 T1_L3_OcciptSul_R
+infinite zscore found in 465 T1_L3_TempSul_L
+infinite zscore found in 466 T1_L3_TempSul_R
+infinite zscore found in 467 T1_L2_CerebralCortex_L
+infinite zscore found in 468 T1_L2_CerebralCortex_R
+infinite zscore found in 469 T1_L2_CerebralNucli_L
+infinite zscore found in 470 T1_L2_CerebralNucli_R
+infinite zscore found in 471 T1_L2_Thalamus_L
+infinite zscore found in 472 T1_L2_Thalamus_R
+T1_L2_BasalForebrain_L not found in rawroivolume
+T1_L2_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 475 T1_L2_Mesencephalon_L
+infinite zscore found in 476 T1_L2_Mesencephalon_R
+infinite zscore found in 477 T1_L2_Metencephalon_R
+infinite zscore found in 478 T1_L2_Metencephalon_L
+infinite zscore found in 479 T1_L2_Myelencephalon_L
+infinite zscore found in 480 T1_L2_Myelencephalon_R
+infinite zscore found in 481 T1_L2_WhiteMatter_L
+infinite zscore found in 482 T1_L2_WhiteMatter_R
+infinite zscore found in 483 T1_L2_Ventricle
+infinite zscore found in 484 T1_L2_Sulcus_L
+infinite zscore found in 485 T1_L2_Sulcus_R
+infinite zscore found in 486 T1_L1_Telencephalon_L
+infinite zscore found in 487 T1_L1_Telencephalon_R
+infinite zscore found in 488 T1_L1_Diencephalon_L
+infinite zscore found in 489 T1_L1_Diencephalon_R
+infinite zscore found in 490 T1_L1_Mesencephalon
+infinite zscore found in 491 T1_L1_Metencephalon
+infinite zscore found in 492 T1_L1_Myelencephalon
+infinite zscore found in 493 T1_L1_CSF
+T1_L0_Brain not found in rawroivolume
+
+nametreearray = 
+
+1x494 struct array with fields:
+
+    id
+    name
+    level
+    idname
+    shortname
+    fullname
+    fullnameintextfile
+    firstappearintable
+    isleaf
+    roilabels
+    roiids
+    children
+    parent
+    isorphan
+    idsatlevels
+    volume
+    percentvolume
+    zscore
+    rgbcolor
+
+11
+number of faces before reduction: 8208
+number of faces after reduction: 4904
+mexx3dfacestring length of string is 81649
+mexx3dverticesstring length of string is 62735
+32
+number of faces before reduction: 8740
+number of faces after reduction: 4954
+mexx3dfacestring length of string is 82520
+mexx3dverticesstring length of string is 60965
+31
+number of faces before reduction: 22668
+number of faces after reduction: 3692
+mexx3dfacestring length of string is 59811
+mexx3dverticesstring length of string is 48049
+52
+number of faces before reduction: 16332
+number of faces after reduction: 4452
+mexx3dfacestring length of string is 73645
+mexx3dverticesstring length of string is 56051
+51
+number of faces before reduction: 7444
+number of faces after reduction: 4788
+mexx3dfacestring length of string is 79529
+mexx3dverticesstring length of string is 62454
+72
+number of faces before reduction: 8692
+number of faces after reduction: 4950
+mexx3dfacestring length of string is 82475
+mexx3dverticesstring length of string is 62185
+71
+number of faces before reduction: 13364
+number of faces after reduction: 4796
+mexx3dfacestring length of string is 79703
+mexx3dverticesstring length of string is 62649
+92
+number of faces before reduction: 14028
+number of faces after reduction: 4726
+mexx3dfacestring length of string is 78423
+mexx3dverticesstring length of string is 59232
+91
+number of faces before reduction: 920
+number of faces after reduction: 912
+mexx3dfacestring length of string is 13027
+mexx3dverticesstring length of string is 12289
+112
+number of faces before reduction: 852
+number of faces after reduction: 844
+mexx3dfacestring length of string is 12007
+mexx3dverticesstring length of string is 10932
+111
+number of faces before reduction: 2356
+number of faces after reduction: 2232
+mexx3dfacestring length of string is 33530
+mexx3dverticesstring length of string is 30187
+132
+number of faces before reduction: 2112
+number of faces after reduction: 2020
+mexx3dfacestring length of string is 29715
+number of faces before reduction: 4808
+mexx3dverticesstring length of string is 26349
+131
+number of faces after reduction: 3904
+mexx3dfacestring length of string is 63635
+mexx3dverticesstring length of string is 50574
+152
+number of faces before reduction: 4796
+number of faces after reduction: 3898
+number of faces before reduction: 7680
+mexx3dfacestring length of string is 63523
+mexx3dverticesstring length of string is 48546
+151
+number of faces after reduction: 4830
+mexx3dfacestring length of string is 80300
+mexx3dverticesstring length of string is 64857
+172
+number of faces before reduction: 6484
+number of faces after reduction: 4564
+mexx3dfacestring length of string is 75516
+mexx3dverticesstring length of string is 59288
+171
+number of faces before reduction: 3996
+number of faces after reduction: 3444
+mexx3dfacestring length of string is 55352
+mexx3dverticesstring length of string is 45963
+192
+number of faces before reduction: 1240
+number of faces after reduction: 1220
+mexx3dfacestring length of string is 17655
+mexx3dverticesstring length of string is 16687
+191
+number of faces before reduction: 5680
+number of faces after reduction: 4294
+mexx3dfacestring length of string is 70646
+mexx3dverticesstring length of string is 53541
+212
+number of faces before reduction: 4712
+number of faces before reduction: 16008
+number of faces after reduction: 3854
+mexx3dfacestring length of string is 62740
+mexx3dverticesstring length of string is 50155
+211
+number of faces after reduction: 4492
+mexx3dfacestring length of string is 74352
+mexx3dverticesstring length of string is 58226
+232
+number of faces before reduction: 10572
+number of faces before reduction: 8500
+number of faces after reduction: 4934
+number of faces after reduction: 4992
+mexx3dfacestring length of string is 82156
+mexx3dfacestring length of string is 83196
+mexx3dverticesstring length of string is 64299
+231
+mexx3dverticesstring length of string is 65209
+252
+number of faces before reduction: 7600
+number of faces after reduction: 4816
+mexx3dfacestring length of string is 80047
+mexx3dverticesstring length of string is 64559
+251
+number of faces before reduction: 102464
+number of faces after reduction: 10246
+mexx3dfacestring length of string is 177645
+mexx3dverticesstring length of string is 139024
+272
+number of faces before reduction: 3628
+number of faces after reduction: 3206
+mexx3dfacestring length of string is 51076
+mexx3dverticesstring length of string is 43390
+271
+number of faces before reduction: 8340
+number of faces after reduction: 4918
+mexx3dfacestring length of string is 82014
+mexx3dverticesstring length of string is 66242
+292
+number of faces before reduction: 10748
+number of faces after reduction: 4986
+mexx3dfacestring length of string is 83355
+mexx3dverticesstring length of string is 65336
+291
+number of faces before reduction: 32576
+number of faces after reduction: 3256
+mexx3dfacestring length of string is 51925
+mexx3dverticesstring length of string is 41197
+312
+number of faces before reduction: 30876
+number of faces after reduction: 3086
+mexx3dfacestring length of string is 48900
+mexx3dverticesstring length of string is 37657
+311
+number of faces before reduction: 7444
+number of faces after reduction: 4788
+mexx3dfacestring length of string is 79529
+mexx3dverticesstring length of string is 62454
+332
+number of faces before reduction: 8692
+number of faces after reduction: 4950
+mexx3dfacestring length of string is 82475
+mexx3dverticesstring length of string is 62185
+331
+number of faces before reduction: 7352
+number of faces after reduction: 4772
+mexx3dfacestring length of string is 79244
+mexx3dverticesstring length of string is 62252
+352
+number of faces before reduction: 7168
+number of faces after reduction: 4734
+mexx3dfacestring length of string is 78563
+mexx3dverticesstring length of string is 59441
+351
+number of faces before reduction: 5120
+number of faces after reduction: 4056
+mexx3dfacestring length of string is 66369
+mexx3dverticesstring length of string is 52200
+372
+number of faces before reduction: 4652
+number of faces after reduction: 3824
+mexx3dfacestring length of string is 62188
+mexx3dverticesstring length of string is 47602
+371
+number of faces before reduction: 3632
+number of faces after reduction: 3208
+mexx3dfacestring length of string is 51168
+mexx3dverticesstring length of string is 42176
+392
+number of faces before reduction: 3048
+number of faces after reduction: 2788
+mexx3dfacestring length of string is 43646
+mexx3dverticesstring length of string is 36152
+391
+number of faces before reduction: 15732
+number of faces after reduction: 4526
+mexx3dfacestring length of string is 74831
+mexx3dverticesstring length of string is 61264
+412
+number of faces before reduction: 16752
+number of faces after reduction: 4400
+mexx3dfacestring length of string is 72497
+mexx3dverticesstring length of string is 56566
+411
+number of faces before reduction: 2008
+number of faces after reduction: 1930
+mexx3dfacestring length of string is 28293
+mexx3dverticesstring length of string is 24993
+432
+number of faces before reduction: 8340
+number of faces after reduction: 4918
+mexx3dfacestring length of string is 82014
+mexx3dverticesstring length of string is 66242
+431
+number of faces before reduction: 6544
+number of faces after reduction: 4580
+mexx3dfacestring length of string is 75789
+mexx3dverticesstring length of string is 58758
+452
+number of faces before reduction: 8212
+number of faces after reduction: 4904
+mexx3dfacestring length of string is 81632
+mexx3dverticesstring length of string is 63739
+451
+number of faces before reduction: 11148
+number of faces after reduction: 4970
+mexx3dfacestring length of string is 82835
+mexx3dverticesstring length of string is 65340
+472
+number of faces before reduction: 11572
+number of faces after reduction: 4946
+mexx3dfacestring length of string is 82398
+mexx3dverticesstring length of string is 65448
+471
+number of faces before reduction: 6660
+number of faces after reduction: 4612
+mexx3dfacestring length of string is 76435
+mexx3dverticesstring length of string is 61338
+492
+number of faces before reduction: 6888
+number of faces after reduction: 4670
+mexx3dfacestring length of string is 77441
+mexx3dverticesstring length of string is 59822
+491
+number of faces before reduction: 6404
+number of faces after reduction: 4540
+mexx3dfacestring length of string is 75070
+mexx3dverticesstring length of string is 60328
+
+j =
+
+    12
+
+
+j =
+
+    32
+
+
+j =
+
+    52
+
+
+j =
+
+    72
+
+number of faces before reduction: 66952
+
+j =
+
+    92
+
+number of faces after reduction: 6694
+mexx3dfacestring length of string is 113843
+mexx3dverticesstring length of string is 88881
+
+j =
+
+    11
+
+
+j =
+
+    31
+
+
+j =
+
+    51
+
+
+j =
+
+   112
+
+
+j =
+
+    71
+
+
+j =
+
+   132
+
+
+j =
+
+   152
+
+
+j =
+
+   172
+
+
+j =
+
+    12
+
+
+j =
+
+    32
+
+
+j =
+
+    52
+
+
+j =
+
+    91
+
+
+j =
+
+    72
+
+
+j =
+
+    92
+
+
+j =
+
+   111
+
+
+j =
+
+   112
+
+
+j =
+
+   131
+
+
+j =
+
+   132
+
+
+j =
+
+   151
+
+
+j =
+
+   171
+
+
+j =
+
+    11
+
+
+j =
+
+    31
+
+
+j =
+
+    51
+
+
+j =
+
+   152
+
+
+j =
+
+   172
+
+
+j =
+
+    12
+
+
+j =
+
+    32
+
+
+j =
+
+    71
+
+
+j =
+
+    52
+
+
+j =
+
+    72
+
+
+j =
+
+    91
+
+
+j =
+
+    92
+
+
+j =
+
+   111
+
+
+j =
+
+   112
+
+
+j =
+
+   131
+
+
+j =
+
+   132
+
+
+j =
+
+   151
+
+
+j =
+
+   171
+
+
+j =
+
+    11
+
+
+j =
+
+    31
+
+
+j =
+
+   152
+
+
+j =
+
+    51
+
+
+j =
+
+    71
+
+
+j =
+
+   172
+
+
+j =
+
+    91
+
+
+j =
+
+   192
+
+
+j =
+
+   212
+
+
+j =
+
+   111
+
+
+j =
+
+   131
+
+
+j =
+
+   151
+
+
+j =
+
+   171
+
+
+j =
+
+   191
+
+
+j =
+
+   211
+
+T2_L6_OpticTract_L is an orphan roi
+T2_L6_OpticTract_R is an orphan roi
+T2_L6_CSF is an orphan roi
+T2_L6_SKULL1 is an orphan roi
+T2_L6_SKULL2 is an orphan roi
+T2_L6_SKULL3 is an orphan roi
+T2_L6_Bone_marrow is an orphan roi
+readrawvolumes
+reading type 1 level 1
+reading type 1 level 2
+reading type 1 level 3
+reading type 1 level 4
+reading type 1 level 5
+reading type 2 level 1
+reading type 2 level 2
+reading type 2 level 3
+reading type 2 level 4
+reading type 2 level 5
+T2_L6_SFG_L not found in rawroivolume
+T2_L6_SFG_R not found in rawroivolume
+T2_L6_SFG_PFC_L not found in rawroivolume
+T2_L6_SFG_PFC_R not found in rawroivolume
+T2_L6_SFG_pole_L not found in rawroivolume
+T2_L6_SFG_pole_R not found in rawroivolume
+T2_L6_MFG_L not found in rawroivolume
+T2_L6_MFG_R not found in rawroivolume
+T2_L6_MFG_DPFC_L not found in rawroivolume
+T2_L6_MFG_DPFC_R not found in rawroivolume
+T2_L6_IFG_opercularis_L not found in rawroivolume
+T2_L6_IFG_opercularis_R not found in rawroivolume
+T2_L6_IFG_orbitalis_L not found in rawroivolume
+T2_L6_IFG_orbitalis_R not found in rawroivolume
+T2_L6_IFG_triangularis_L not found in rawroivolume
+T2_L6_IFG_triangularis_R not found in rawroivolume
+T2_L6_LFOG_L not found in rawroivolume
+T2_L6_LFOG_R not found in rawroivolume
+T2_L6_MFOG_L not found in rawroivolume
+T2_L6_MFOG_R not found in rawroivolume
+T2_L6_RG_L not found in rawroivolume
+T2_L6_RG_R not found in rawroivolume
+T2_L6_PoCG_L not found in rawroivolume
+T2_L6_PoCG_R not found in rawroivolume
+T2_L6_PrCG_L not found in rawroivolume
+T2_L6_PrCG_R not found in rawroivolume
+T2_L6_SPG_L not found in rawroivolume
+T2_L6_SPG_R not found in rawroivolume
+T2_L6_SMG_L not found in rawroivolume
+T2_L6_SMG_R not found in rawroivolume
+T2_L6_AG_L not found in rawroivolume
+T2_L6_AG_R not found in rawroivolume
+T2_L6_PrCu_L not found in rawroivolume
+T2_L6_PrCu_R not found in rawroivolume
+T2_L6_STG_L not found in rawroivolume
+T2_L6_STG_R not found in rawroivolume
+T2_L6_STG_L_pole not found in rawroivolume
+T2_L6_STG_R_pole not found in rawroivolume
+T2_L6_MTG_L not found in rawroivolume
+T2_L6_MTG_R not found in rawroivolume
+T2_L6_MTG_L_pole not found in rawroivolume
+T2_L6_MTG_R_pole not found in rawroivolume
+T2_L6_ITG_L not found in rawroivolume
+T2_L6_ITG_R not found in rawroivolume
+T2_L6_PHG_L not found in rawroivolume
+T2_L6_PHG_R not found in rawroivolume
+T2_L6_ENT_L not found in rawroivolume
+T2_L6_ENT_R not found in rawroivolume
+T2_L6_FuG_L not found in rawroivolume
+T2_L6_FuG_R not found in rawroivolume
+T2_L6_SOG_L not found in rawroivolume
+T2_L6_SOG_R not found in rawroivolume
+T2_L6_MOG_L not found in rawroivolume
+T2_L6_MOG_R not found in rawroivolume
+T2_L6_IOG_L not found in rawroivolume
+T2_L6_IOG_R not found in rawroivolume
+T2_L6_Cu_L not found in rawroivolume
+T2_L6_Cu_R not found in rawroivolume
+T2_L6_LG_L not found in rawroivolume
+T2_L6_LG_R not found in rawroivolume
+T2_L6_rostral_ACC_L not found in rawroivolume
+T2_L6_rostral_ACC_R not found in rawroivolume
+T2_L6_subcallosal_ACC_L not found in rawroivolume
+T2_L6_subcallosal_ACC_R not found in rawroivolume
+T2_L6_subgenual_ACC_L not found in rawroivolume
+T2_L6_subgenual_ACC_R not found in rawroivolume
+T2_L6_dorsal_ACC_L not found in rawroivolume
+T2_L6_dorsal_ACC_R not found in rawroivolume
+T2_L6_PCC_L not found in rawroivolume
+T2_L6_PCC_R not found in rawroivolume
+T2_L6_Insula_L not found in rawroivolume
+T2_L6_Insula_R not found in rawroivolume
+T2_L6_Amyg_L not found in rawroivolume
+T2_L6_Amyg_R not found in rawroivolume
+T2_L6_Hippo_L not found in rawroivolume
+T2_L6_Hippo_R not found in rawroivolume
+T2_L6_Caud_L not found in rawroivolume
+T2_L6_Caud_R not found in rawroivolume
+T2_L6_Put_L not found in rawroivolume
+T2_L6_Put_R not found in rawroivolume
+T2_L6_GP_L not found in rawroivolume
+T2_L6_GP_R not found in rawroivolume
+T2_L6_Thalamus_L not found in rawroivolume
+T2_L6_Thalamus_R not found in rawroivolume
+T2_L6_HypoThalamus_L not found in rawroivolume
+T2_L6_HypoThalamus_R not found in rawroivolume
+T2_L6_BasalForebrain_L not found in rawroivolume
+T2_L6_BasalForebrain_R not found in rawroivolume
+T2_L6_NucAccumbens_L not found in rawroivolume
+T2_L6_NucAccumbens_R not found in rawroivolume
+T2_L6_RedNc_L not found in rawroivolume
+T2_L6_RedNc_R not found in rawroivolume
+T2_L6_Snigra_L not found in rawroivolume
+T2_L6_Snigra_R not found in rawroivolume
+T2_L6_CerebellumGM_R not found in rawroivolume
+T2_L6_CerebellumGM_L not found in rawroivolume
+T2_L6_CP_L not found in rawroivolume
+T2_L6_CP_R not found in rawroivolume
+T2_L6_Midbrain_L not found in rawroivolume
+T2_L6_Midbrain_R not found in rawroivolume
+T2_L6_CST_L not found in rawroivolume
+T2_L6_CST_R not found in rawroivolume
+T2_L6_SCP_L not found in rawroivolume
+T2_L6_SCP_R not found in rawroivolume
+T2_L6_MCP_L not found in rawroivolume
+T2_L6_MCP_R not found in rawroivolume
+T2_L6_PCT_L not found in rawroivolume
+T2_L6_PCT_R not found in rawroivolume
+T2_L6_ICP_L not found in rawroivolume
+T2_L6_ICP_R not found in rawroivolume
+T2_L6_ML_L not found in rawroivolume
+T2_L6_ML_R not found in rawroivolume
+T2_L6_Pons_L not found in rawroivolume
+T2_L6_Pons_R not found in rawroivolume
+T2_L6_Medulla_L not found in rawroivolume
+T2_L6_Medulla_R not found in rawroivolume
+T2_L6_ACR_L not found in rawroivolume
+T2_L6_ACR_R not found in rawroivolume
+T2_L6_SCR_L not found in rawroivolume
+T2_L6_SCR_R not found in rawroivolume
+T2_L6_PCR_L not found in rawroivolume
+T2_L6_PCR_R not found in rawroivolume
+T2_L6_GCC_L not found in rawroivolume
+T2_L6_GCC_R not found in rawroivolume
+T2_L6_BCC_L not found in rawroivolume
+T2_L6_BCC_R not found in rawroivolume
+T2_L6_SCC_L not found in rawroivolume
+T2_L6_SCC_R not found in rawroivolume
+T2_L6_PVWl_L not found in rawroivolume
+T2_L6_PVWl_R not found in rawroivolume
+T2_L6_ALIC_L not found in rawroivolume
+T2_L6_ALIC_R not found in rawroivolume
+T2_L6_PLIC_L not found in rawroivolume
+T2_L6_PLIC_R not found in rawroivolume
+T2_L6_RLIC_L not found in rawroivolume
+T2_L6_RLIC_R not found in rawroivolume
+T2_L6_EC_L not found in rawroivolume
+T2_L6_EC_R not found in rawroivolume
+T2_L6_CGC_L not found in rawroivolume
+T2_L6_CGC_R not found in rawroivolume
+T2_L6_CGH_L not found in rawroivolume
+T2_L6_CGH_R not found in rawroivolume
+T2_L6_Fx_ST_L not found in rawroivolume
+T2_L6_Fx_ST_R not found in rawroivolume
+T2_L6_Fx_L not found in rawroivolume
+T2_L6_Fx_R not found in rawroivolume
+T2_L6_IFO_L not found in rawroivolume
+T2_L6_IFO_R not found in rawroivolume
+T2_L6_PTR_L not found in rawroivolume
+T2_L6_PTR_R not found in rawroivolume
+T2_L6_SS_L not found in rawroivolume
+T2_L6_SS_R not found in rawroivolume
+T2_L6_SFO_L not found in rawroivolume
+T2_L6_SFO_R not found in rawroivolume
+T2_L6_SLF_L not found in rawroivolume
+T2_L6_SLF_R not found in rawroivolume
+T2_L6_Cl_L not found in rawroivolume
+T2_L6_Cl_R not found in rawroivolume
+T2_L6_Mammillary_R not found in rawroivolume
+T2_L6_Mammillary_L not found in rawroivolume
+T2_L6_OpticTract_L not found in rawroivolume
+T2_L6_OpticTract_R not found in rawroivolume
+T2_L6_LV_Frontal_L not found in rawroivolume
+T2_L6_LV_body_L not found in rawroivolume
+T2_L6_LV_atrium_L not found in rawroivolume
+T2_L6_LV_Occipital_L not found in rawroivolume
+T2_L6_LV_Inferior_L not found in rawroivolume
+T2_L6_LV_Frontal_R not found in rawroivolume
+T2_L6_LV_body_R not found in rawroivolume
+T2_L6_LV_atrium_R not found in rawroivolume
+T2_L6_LV_Occipital_R not found in rawroivolume
+T2_L6_LV_Inferior_R not found in rawroivolume
+T2_L6_III_and_IV_ventricle not found in rawroivolume
+T2_L6_PVWa_L not found in rawroivolume
+T2_L6_PVWa_R not found in rawroivolume
+T2_L6_PVWp_L not found in rawroivolume
+T2_L6_PVWp_R not found in rawroivolume
+T2_L6_SFWM_L not found in rawroivolume
+T2_L6_SFWM_R not found in rawroivolume
+T2_L6_SFWM_PFC_L not found in rawroivolume
+T2_L6_SFWM_PFC_R not found in rawroivolume
+T2_L6_SFWM_pole_L not found in rawroivolume
+T2_L6_SFWM_pole_R not found in rawroivolume
+T2_L6_MFWM_L not found in rawroivolume
+T2_L6_MFWM_R not found in rawroivolume
+T2_L6_MFWM_DPFC_L not found in rawroivolume
+T2_L6_MFWM_DPFC_R not found in rawroivolume
+T2_L6_IFWM_opercularis_L not found in rawroivolume
+T2_L6_IFWM_opercularis_R not found in rawroivolume
+T2_L6_IFWM_orbitalis_L not found in rawroivolume
+T2_L6_IFWM_orbitalis_R not found in rawroivolume
+T2_L6_IFWM_triangularis_L not found in rawroivolume
+T2_L6_IFWM_triangularis_R not found in rawroivolume
+T2_L6_LFOWM_L not found in rawroivolume
+T2_L6_LFOWM_R not found in rawroivolume
+T2_L6_MFOWM_L not found in rawroivolume
+T2_L6_MFOWM_R not found in rawroivolume
+T2_L6_RGWM_L not found in rawroivolume
+T2_L6_RGWM_R not found in rawroivolume
+T2_L6_PoCWM_L not found in rawroivolume
+T2_L6_PoCWM_R not found in rawroivolume
+T2_L6_PrCWM_L not found in rawroivolume
+T2_L6_PrCWM_R not found in rawroivolume
+T2_L6_SPWM_L not found in rawroivolume
+T2_L6_SPWM_R not found in rawroivolume
+T2_L6_SMWM_L not found in rawroivolume
+T2_L6_SMWM_R not found in rawroivolume
+T2_L6_AGWM_L not found in rawroivolume
+T2_L6_AGWM_R not found in rawroivolume
+T2_L6_PrCuWM_L not found in rawroivolume
+T2_L6_PrCuWM_R not found in rawroivolume
+T2_L6_STWM_L not found in rawroivolume
+T2_L6_STWM_R not found in rawroivolume
+T2_L6_STWM_L_pole not found in rawroivolume
+T2_L6_STWM_R_pole not found in rawroivolume
+T2_L6_MTWM_L not found in rawroivolume
+T2_L6_MTWM_R not found in rawroivolume
+T2_L6_MTWM_L_pole not found in rawroivolume
+T2_L6_MTWM_R_pole not found in rawroivolume
+T2_L6_ITWM_L not found in rawroivolume
+T2_L6_ITWM_R not found in rawroivolume
+T2_L6_FuWM_L not found in rawroivolume
+T2_L6_FuWM_R not found in rawroivolume
+T2_L6_SOWM_L not found in rawroivolume
+T2_L6_SOWM_R not found in rawroivolume
+T2_L6_MOWM_L not found in rawroivolume
+T2_L6_MOWM_R not found in rawroivolume
+T2_L6_IOWM_L not found in rawroivolume
+T2_L6_IOWM_R not found in rawroivolume
+T2_L6_CuWM_L not found in rawroivolume
+T2_L6_CuWM_R not found in rawroivolume
+T2_L6_LWM_L not found in rawroivolume
+T2_L6_LWM_R not found in rawroivolume
+T2_L6_rostralWM_ACC_L not found in rawroivolume
+T2_L6_rostralWM_ACC_R not found in rawroivolume
+T2_L6_subcallosalWM_ACC_L not found in rawroivolume
+T2_L6_subcallosalWM_ACC_R not found in rawroivolume
+T2_L6_subgenualWM_ACC_L not found in rawroivolume
+T2_L6_subgenualWM_ACC_R not found in rawroivolume
+T2_L6_dorsalWM_ACC_L not found in rawroivolume
+T2_L6_dorsalWM_ACC_R not found in rawroivolume
+T2_L6_PCCWM_L not found in rawroivolume
+T2_L6_PCCWM_R not found in rawroivolume
+T2_L6_CerebellumWM_R not found in rawroivolume
+T2_L6_CerebellumWM_L not found in rawroivolume
+T2_L6_CSF not found in rawroivolume
+T2_L6_SKULL1 not found in rawroivolume
+T2_L6_SKULL2 not found in rawroivolume
+T2_L6_SKULL3 not found in rawroivolume
+T2_L6_MCP_cb_L not found in rawroivolume
+T2_L6_MCP_cb_R not found in rawroivolume
+T2_L6_Bone_marrow not found in rawroivolume
+T2_L6_ICP_pons_L not found in rawroivolume
+T2_L6_ICP_pons_R not found in rawroivolume
+T2_L6_FrontSul_L not found in rawroivolume
+T2_L6_FrontSul_R not found in rawroivolume
+T2_L6_CentralSul_L not found in rawroivolume
+T2_L6_CentralSul_R not found in rawroivolume
+T2_L6_SylFrontSul_L not found in rawroivolume
+T2_L6_SylFrontSul_R not found in rawroivolume
+T2_L6_SylTempSul_L not found in rawroivolume
+T2_L6_SylTempSul_R not found in rawroivolume
+T2_L6_SylParieSul_L not found in rawroivolume
+T2_L6_SylParieSul_R not found in rawroivolume
+T2_L6_ParietSul_L not found in rawroivolume
+T2_L6_ParietSul_R not found in rawroivolume
+T2_L6_CinguSul_L not found in rawroivolume
+T2_L6_CinguSul_R not found in rawroivolume
+T2_L6_OcciptSul_L not found in rawroivolume
+T2_L6_OcciptSul_R not found in rawroivolume
+T2_L6_TempSul_L not found in rawroivolume
+T2_L6_TempSul_R not found in rawroivolume
+T2_L6_Caudate_tail_L not found in rawroivolume
+T2_L6_Fimbria_L not found in rawroivolume
+T2_L6_Caudate_tail_R not found in rawroivolume
+T2_L6_Fimbria_R not found in rawroivolume
+T2_L6_Chroid_LVetc_L not found in rawroivolume
+T2_L6_Chroid_LVetc_R not found in rawroivolume
+T2_L5_Fx_ST_L not found in rawroivolume
+T2_L5_Fx_ST_R not found in rawroivolume
+T2_L0_Brain not found in rawroivolume
+Elapsed time is 44.903490 seconds.
+getWholeBrainVolume
+Elapsed time is 44.937058 seconds.
+getPercentROIVolumes
+Elapsed time is 44.939814 seconds.
+getPercentROIVolumesZscoresv2
+T2_L6_SFG_L not found in rawroivolume
+T2_L6_SFG_R not found in rawroivolume
+T2_L6_SFG_PFC_L not found in rawroivolume
+T2_L6_SFG_PFC_R not found in rawroivolume
+T2_L6_SFG_pole_L not found in rawroivolume
+T2_L6_SFG_pole_R not found in rawroivolume
+T2_L6_MFG_L not found in rawroivolume
+T2_L6_MFG_R not found in rawroivolume
+T2_L6_MFG_DPFC_L not found in rawroivolume
+T2_L6_MFG_DPFC_R not found in rawroivolume
+T2_L6_IFG_opercularis_L not found in rawroivolume
+T2_L6_IFG_opercularis_R not found in rawroivolume
+T2_L6_IFG_orbitalis_L not found in rawroivolume
+T2_L6_IFG_orbitalis_R not found in rawroivolume
+T2_L6_IFG_triangularis_L not found in rawroivolume
+T2_L6_IFG_triangularis_R not found in rawroivolume
+T2_L6_LFOG_L not found in rawroivolume
+T2_L6_LFOG_R not found in rawroivolume
+T2_L6_MFOG_L not found in rawroivolume
+T2_L6_MFOG_R not found in rawroivolume
+T2_L6_RG_L not found in rawroivolume
+T2_L6_RG_R not found in rawroivolume
+T2_L6_PoCG_L not found in rawroivolume
+T2_L6_PoCG_R not found in rawroivolume
+T2_L6_PrCG_L not found in rawroivolume
+T2_L6_PrCG_R not found in rawroivolume
+T2_L6_SPG_L not found in rawroivolume
+T2_L6_SPG_R not found in rawroivolume
+T2_L6_SMG_L not found in rawroivolume
+T2_L6_SMG_R not found in rawroivolume
+T2_L6_AG_L not found in rawroivolume
+T2_L6_AG_R not found in rawroivolume
+T2_L6_PrCu_L not found in rawroivolume
+T2_L6_PrCu_R not found in rawroivolume
+T2_L6_STG_L not found in rawroivolume
+T2_L6_STG_R not found in rawroivolume
+T2_L6_STG_L_pole not found in rawroivolume
+T2_L6_STG_R_pole not found in rawroivolume
+T2_L6_MTG_L not found in rawroivolume
+T2_L6_MTG_R not found in rawroivolume
+T2_L6_MTG_L_pole not found in rawroivolume
+T2_L6_MTG_R_pole not found in rawroivolume
+T2_L6_ITG_L not found in rawroivolume
+T2_L6_ITG_R not found in rawroivolume
+T2_L6_PHG_L not found in rawroivolume
+T2_L6_PHG_R not found in rawroivolume
+T2_L6_ENT_L not found in rawroivolume
+T2_L6_ENT_R not found in rawroivolume
+T2_L6_FuG_L not found in rawroivolume
+T2_L6_FuG_R not found in rawroivolume
+T2_L6_SOG_L not found in rawroivolume
+T2_L6_SOG_R not found in rawroivolume
+T2_L6_MOG_L not found in rawroivolume
+T2_L6_MOG_R not found in rawroivolume
+T2_L6_IOG_L not found in rawroivolume
+T2_L6_IOG_R not found in rawroivolume
+T2_L6_Cu_L not found in rawroivolume
+T2_L6_Cu_R not found in rawroivolume
+T2_L6_LG_L not found in rawroivolume
+T2_L6_LG_R not found in rawroivolume
+T2_L6_rostral_ACC_L not found in rawroivolume
+T2_L6_rostral_ACC_R not found in rawroivolume
+T2_L6_subcallosal_ACC_L not found in rawroivolume
+T2_L6_subcallosal_ACC_R not found in rawroivolume
+T2_L6_subgenual_ACC_L not found in rawroivolume
+T2_L6_subgenual_ACC_R not found in rawroivolume
+T2_L6_dorsal_ACC_L not found in rawroivolume
+T2_L6_dorsal_ACC_R not found in rawroivolume
+T2_L6_PCC_L not found in rawroivolume
+T2_L6_PCC_R not found in rawroivolume
+T2_L6_Insula_L not found in rawroivolume
+T2_L6_Insula_R not found in rawroivolume
+T2_L6_Amyg_L not found in rawroivolume
+T2_L6_Amyg_R not found in rawroivolume
+T2_L6_Hippo_L not found in rawroivolume
+T2_L6_Hippo_R not found in rawroivolume
+T2_L6_Caud_L not found in rawroivolume
+T2_L6_Caud_R not found in rawroivolume
+T2_L6_Put_L not found in rawroivolume
+T2_L6_Put_R not found in rawroivolume
+T2_L6_GP_L not found in rawroivolume
+T2_L6_GP_R not found in rawroivolume
+T2_L6_Thalamus_L not found in rawroivolume
+T2_L6_Thalamus_R not found in rawroivolume
+T2_L6_HypoThalamus_L not found in rawroivolume
+T2_L6_HypoThalamus_R not found in rawroivolume
+T2_L6_BasalForebrain_L not found in rawroivolume
+T2_L6_BasalForebrain_R not found in rawroivolume
+T2_L6_NucAccumbens_L not found in rawroivolume
+T2_L6_NucAccumbens_R not found in rawroivolume
+T2_L6_RedNc_L not found in rawroivolume
+T2_L6_RedNc_R not found in rawroivolume
+T2_L6_Snigra_L not found in rawroivolume
+T2_L6_Snigra_R not found in rawroivolume
+T2_L6_CerebellumGM_R not found in rawroivolume
+T2_L6_CerebellumGM_L not found in rawroivolume
+T2_L6_CP_L not found in rawroivolume
+T2_L6_CP_R not found in rawroivolume
+T2_L6_Midbrain_L not found in rawroivolume
+T2_L6_Midbrain_R not found in rawroivolume
+T2_L6_CST_L not found in rawroivolume
+T2_L6_CST_R not found in rawroivolume
+T2_L6_SCP_L not found in rawroivolume
+T2_L6_SCP_R not found in rawroivolume
+T2_L6_MCP_L not found in rawroivolume
+T2_L6_MCP_R not found in rawroivolume
+T2_L6_PCT_L not found in rawroivolume
+T2_L6_PCT_R not found in rawroivolume
+T2_L6_ICP_L not found in rawroivolume
+T2_L6_ICP_R not found in rawroivolume
+T2_L6_ML_L not found in rawroivolume
+T2_L6_ML_R not found in rawroivolume
+T2_L6_Pons_L not found in rawroivolume
+T2_L6_Pons_R not found in rawroivolume
+T2_L6_Medulla_L not found in rawroivolume
+T2_L6_Medulla_R not found in rawroivolume
+T2_L6_ACR_L not found in rawroivolume
+T2_L6_ACR_R not found in rawroivolume
+T2_L6_SCR_L not found in rawroivolume
+T2_L6_SCR_R not found in rawroivolume
+T2_L6_PCR_L not found in rawroivolume
+T2_L6_PCR_R not found in rawroivolume
+T2_L6_GCC_L not found in rawroivolume
+T2_L6_GCC_R not found in rawroivolume
+T2_L6_BCC_L not found in rawroivolume
+T2_L6_BCC_R not found in rawroivolume
+T2_L6_SCC_L not found in rawroivolume
+T2_L6_SCC_R not found in rawroivolume
+T2_L6_PVWl_L not found in rawroivolume
+T2_L6_PVWl_R not found in rawroivolume
+T2_L6_ALIC_L not found in rawroivolume
+T2_L6_ALIC_R not found in rawroivolume
+T2_L6_PLIC_L not found in rawroivolume
+T2_L6_PLIC_R not found in rawroivolume
+T2_L6_RLIC_L not found in rawroivolume
+T2_L6_RLIC_R not found in rawroivolume
+T2_L6_EC_L not found in rawroivolume
+T2_L6_EC_R not found in rawroivolume
+T2_L6_CGC_L not found in rawroivolume
+T2_L6_CGC_R not found in rawroivolume
+T2_L6_CGH_L not found in rawroivolume
+T2_L6_CGH_R not found in rawroivolume
+T2_L6_Fx_ST_L not found in rawroivolume
+T2_L6_Fx_ST_R not found in rawroivolume
+T2_L6_Fx_L not found in rawroivolume
+T2_L6_Fx_R not found in rawroivolume
+T2_L6_IFO_L not found in rawroivolume
+T2_L6_IFO_R not found in rawroivolume
+T2_L6_PTR_L not found in rawroivolume
+T2_L6_PTR_R not found in rawroivolume
+T2_L6_SS_L not found in rawroivolume
+T2_L6_SS_R not found in rawroivolume
+T2_L6_SFO_L not found in rawroivolume
+T2_L6_SFO_R not found in rawroivolume
+T2_L6_SLF_L not found in rawroivolume
+T2_L6_SLF_R not found in rawroivolume
+T2_L6_Cl_L not found in rawroivolume
+T2_L6_Cl_R not found in rawroivolume
+T2_L6_Mammillary_R not found in rawroivolume
+T2_L6_Mammillary_L not found in rawroivolume
+T2_L6_OpticTract_L not found in rawroivolume
+T2_L6_OpticTract_R not found in rawroivolume
+T2_L6_LV_Frontal_L not found in rawroivolume
+T2_L6_LV_body_L not found in rawroivolume
+T2_L6_LV_atrium_L not found in rawroivolume
+T2_L6_LV_Occipital_L not found in rawroivolume
+T2_L6_LV_Inferior_L not found in rawroivolume
+T2_L6_LV_Frontal_R not found in rawroivolume
+T2_L6_LV_body_R not found in rawroivolume
+T2_L6_LV_atrium_R not found in rawroivolume
+T2_L6_LV_Occipital_R not found in rawroivolume
+T2_L6_LV_Inferior_R not found in rawroivolume
+T2_L6_III_and_IV_ventricle not found in rawroivolume
+T2_L6_PVWa_L not found in rawroivolume
+T2_L6_PVWa_R not found in rawroivolume
+T2_L6_PVWp_L not found in rawroivolume
+T2_L6_PVWp_R not found in rawroivolume
+T2_L6_SFWM_L not found in rawroivolume
+T2_L6_SFWM_R not found in rawroivolume
+T2_L6_SFWM_PFC_L not found in rawroivolume
+T2_L6_SFWM_PFC_R not found in rawroivolume
+T2_L6_SFWM_pole_L not found in rawroivolume
+T2_L6_SFWM_pole_R not found in rawroivolume
+T2_L6_MFWM_L not found in rawroivolume
+T2_L6_MFWM_R not found in rawroivolume
+T2_L6_MFWM_DPFC_L not found in rawroivolume
+T2_L6_MFWM_DPFC_R not found in rawroivolume
+T2_L6_IFWM_opercularis_L not found in rawroivolume
+T2_L6_IFWM_opercularis_R not found in rawroivolume
+T2_L6_IFWM_orbitalis_L not found in rawroivolume
+T2_L6_IFWM_orbitalis_R not found in rawroivolume
+T2_L6_IFWM_triangularis_L not found in rawroivolume
+T2_L6_IFWM_triangularis_R not found in rawroivolume
+T2_L6_LFOWM_L not found in rawroivolume
+T2_L6_LFOWM_R not found in rawroivolume
+T2_L6_MFOWM_L not found in rawroivolume
+T2_L6_MFOWM_R not found in rawroivolume
+T2_L6_RGWM_L not found in rawroivolume
+T2_L6_RGWM_R not found in rawroivolume
+T2_L6_PoCWM_L not found in rawroivolume
+T2_L6_PoCWM_R not found in rawroivolume
+T2_L6_PrCWM_L not found in rawroivolume
+T2_L6_PrCWM_R not found in rawroivolume
+T2_L6_SPWM_L not found in rawroivolume
+T2_L6_SPWM_R not found in rawroivolume
+T2_L6_SMWM_L not found in rawroivolume
+T2_L6_SMWM_R not found in rawroivolume
+T2_L6_AGWM_L not found in rawroivolume
+T2_L6_AGWM_R not found in rawroivolume
+T2_L6_PrCuWM_L not found in rawroivolume
+T2_L6_PrCuWM_R not found in rawroivolume
+T2_L6_STWM_L not found in rawroivolume
+T2_L6_STWM_R not found in rawroivolume
+T2_L6_STWM_L_pole not found in rawroivolume
+T2_L6_STWM_R_pole not found in rawroivolume
+T2_L6_MTWM_L not found in rawroivolume
+T2_L6_MTWM_R not found in rawroivolume
+T2_L6_MTWM_L_pole not found in rawroivolume
+T2_L6_MTWM_R_pole not found in rawroivolume
+T2_L6_ITWM_L not found in rawroivolume
+T2_L6_ITWM_R not found in rawroivolume
+T2_L6_FuWM_L not found in rawroivolume
+T2_L6_FuWM_R not found in rawroivolume
+T2_L6_SOWM_L not found in rawroivolume
+T2_L6_SOWM_R not found in rawroivolume
+T2_L6_MOWM_L not found in rawroivolume
+T2_L6_MOWM_R not found in rawroivolume
+T2_L6_IOWM_L not found in rawroivolume
+T2_L6_IOWM_R not found in rawroivolume
+T2_L6_CuWM_L not found in rawroivolume
+T2_L6_CuWM_R not found in rawroivolume
+T2_L6_LWM_L not found in rawroivolume
+T2_L6_LWM_R not found in rawroivolume
+T2_L6_rostralWM_ACC_L not found in rawroivolume
+T2_L6_rostralWM_ACC_R not found in rawroivolume
+T2_L6_subcallosalWM_ACC_L not found in rawroivolume
+T2_L6_subcallosalWM_ACC_R not found in rawroivolume
+T2_L6_subgenualWM_ACC_L not found in rawroivolume
+T2_L6_subgenualWM_ACC_R not found in rawroivolume
+T2_L6_dorsalWM_ACC_L not found in rawroivolume
+T2_L6_dorsalWM_ACC_R not found in rawroivolume
+T2_L6_PCCWM_L not found in rawroivolume
+T2_L6_PCCWM_R not found in rawroivolume
+T2_L6_CerebellumWM_R not found in rawroivolume
+T2_L6_CerebellumWM_L not found in rawroivolume
+T2_L6_CSF not found in rawroivolume
+T2_L6_SKULL1 not found in rawroivolume
+T2_L6_SKULL2 not found in rawroivolume
+T2_L6_SKULL3 not found in rawroivolume
+T2_L6_MCP_cb_L not found in rawroivolume
+T2_L6_MCP_cb_R not found in rawroivolume
+T2_L6_Bone_marrow not found in rawroivolume
+T2_L6_ICP_pons_L not found in rawroivolume
+T2_L6_ICP_pons_R not found in rawroivolume
+T2_L6_FrontSul_L not found in rawroivolume
+T2_L6_FrontSul_R not found in rawroivolume
+T2_L6_CentralSul_L not found in rawroivolume
+T2_L6_CentralSul_R not found in rawroivolume
+T2_L6_SylFrontSul_L not found in rawroivolume
+T2_L6_SylFrontSul_R not found in rawroivolume
+T2_L6_SylTempSul_L not found in rawroivolume
+T2_L6_SylTempSul_R not found in rawroivolume
+T2_L6_SylParieSul_L not found in rawroivolume
+T2_L6_SylParieSul_R not found in rawroivolume
+T2_L6_ParietSul_L not found in rawroivolume
+T2_L6_ParietSul_R not found in rawroivolume
+T2_L6_CinguSul_L not found in rawroivolume
+T2_L6_CinguSul_R not found in rawroivolume
+T2_L6_OcciptSul_L not found in rawroivolume
+T2_L6_OcciptSul_R not found in rawroivolume
+T2_L6_TempSul_L not found in rawroivolume
+T2_L6_TempSul_R not found in rawroivolume
+T2_L6_Caudate_tail_L not found in rawroivolume
+T2_L6_Fimbria_L not found in rawroivolume
+T2_L6_Caudate_tail_R not found in rawroivolume
+T2_L6_Fimbria_R not found in rawroivolume
+T2_L6_Chroid_LVetc_L not found in rawroivolume
+T2_L6_Chroid_LVetc_R not found in rawroivolume
+infinite zscore found in 279 T2_L5_SF_L
+infinite zscore found in 280 T2_L5_SF_R
+infinite zscore found in 281 T2_L5_SF_PFC_L
+infinite zscore found in 282 T2_L5_SF_PFC_R
+infinite zscore found in 283 T2_L5_SF_pole_L
+infinite zscore found in 284 T2_L5_SF_pole_R
+infinite zscore found in 285 T2_L5_MF_L
+infinite zscore found in 286 T2_L5_MF_R
+infinite zscore found in 287 T2_L5_MF_DPFC_L
+infinite zscore found in 288 T2_L5_MF_DPFC_R
+infinite zscore found in 289 T2_L5_IF_opercularis_L
+infinite zscore found in 290 T2_L5_IF_opercularis_R
+infinite zscore found in 291 T2_L5_IF_orbitalis_L
+infinite zscore found in 292 T2_L5_IF_orbitalis_R
+infinite zscore found in 293 T2_L5_IF_triangularis_L
+infinite zscore found in 294 T2_L5_IF_triangularis_R
+infinite zscore found in 295 T2_L5_LFO_L
+infinite zscore found in 296 T2_L5_LFO_R
+infinite zscore found in 297 T2_L5_MFO_L
+infinite zscore found in 298 T2_L5_MFO_R
+infinite zscore found in 299 T2_L5_R_L
+infinite zscore found in 300 T2_L5_R_R
+infinite zscore found in 301 T2_L5_PoC_L
+infinite zscore found in 302 T2_L5_PoC_R
+infinite zscore found in 303 T2_L5_PrC_L
+infinite zscore found in 304 T2_L5_PrC_R
+infinite zscore found in 305 T2_L5_SP_L
+infinite zscore found in 306 T2_L5_SP_R
+infinite zscore found in 307 T2_L5_SM_L
+infinite zscore found in 308 T2_L5_SM_R
+infinite zscore found in 309 T2_L5_A_L
+infinite zscore found in 310 T2_L5_A_R
+infinite zscore found in 311 T2_L5_PrCu_L
+infinite zscore found in 312 T2_L5_PrCu_R
+infinite zscore found in 313 T2_L5_ST_L
+infinite zscore found in 314 T2_L5_ST_R
+infinite zscore found in 315 T2_L5_ST_L_pole
+infinite zscore found in 316 T2_L5_ST_R_pole
+infinite zscore found in 317 T2_L5_MT_L
+infinite zscore found in 318 T2_L5_MT_R
+infinite zscore found in 319 T2_L5_MT_L_pole
+infinite zscore found in 320 T2_L5_MT_R_pole
+infinite zscore found in 321 T2_L5_IT_L
+infinite zscore found in 322 T2_L5_IT_R
+infinite zscore found in 323 T2_L5_PHG_L
+infinite zscore found in 324 T2_L5_PHG_R
+infinite zscore found in 325 T2_L5_ENT_L
+infinite zscore found in 326 T2_L5_ENT_R
+infinite zscore found in 327 T2_L5_Fu_L
+infinite zscore found in 328 T2_L5_Fu_R
+infinite zscore found in 329 T2_L5_SO_L
+infinite zscore found in 330 T2_L5_SO_R
+infinite zscore found in 331 T2_L5_MO_L
+infinite zscore found in 332 T2_L5_MO_R
+infinite zscore found in 333 T2_L5_IO_L
+infinite zscore found in 334 T2_L5_IO_R
+infinite zscore found in 335 T2_L5_Cu_L
+infinite zscore found in 336 T2_L5_Cu_R
+T2_L5_LG_L not found in rawroivolume
+T2_L5_LG_R not found in rawroivolume
+infinite zscore found in 339 T2_L5_rostral_ACC_L
+infinite zscore found in 340 T2_L5_rostral_ACC_R
+infinite zscore found in 341 T2_L5_subcallosal_ACC_L
+infinite zscore found in 342 T2_L5_subcallosal_ACC_R
+infinite zscore found in 343 T2_L5_subgenual_ACC_L
+infinite zscore found in 344 T2_L5_subgenual_ACC_R
+infinite zscore found in 345 T2_L5_dorsal_ACC_L
+infinite zscore found in 346 T2_L5_dorsal_ACC_R
+infinite zscore found in 347 T2_L5_PCC_L
+infinite zscore found in 348 T2_L5_PCC_R
+infinite zscore found in 349 T2_L5_Insula_L
+infinite zscore found in 350 T2_L5_Insula_R
+infinite zscore found in 351 T2_L5_Amyg_L
+infinite zscore found in 352 T2_L5_Amyg_R
+infinite zscore found in 353 T2_L5_Hippo_L
+infinite zscore found in 354 T2_L5_Hippo_R
+infinite zscore found in 355 T2_L5_Caud_L
+infinite zscore found in 356 T2_L5_Caud_R
+infinite zscore found in 357 T2_L5_Put_L
+infinite zscore found in 358 T2_L5_Put_R
+infinite zscore found in 359 T2_L5_GP_L
+infinite zscore found in 360 T2_L5_GP_R
+infinite zscore found in 361 T2_L5_Thalamus_L
+infinite zscore found in 362 T2_L5_Thalamus_R
+infinite zscore found in 363 T2_L5_HypoThalamus_L
+infinite zscore found in 364 T2_L5_HypoThalamus_R
+T2_L5_BasalForebrain_L not found in rawroivolume
+T2_L5_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 367 T2_L5_NucAccumbens_L
+infinite zscore found in 368 T2_L5_NucAccumbens_R
+infinite zscore found in 369 T2_L5_RedNc_L
+infinite zscore found in 370 T2_L5_RedNc_R
+infinite zscore found in 371 T2_L5_Snigra_L
+infinite zscore found in 372 T2_L5_Snigra_R
+infinite zscore found in 373 T2_L5_Cerebellum_R
+infinite zscore found in 374 T2_L5_Cerebellum_L
+infinite zscore found in 375 T2_L5_CP_L
+infinite zscore found in 376 T2_L5_CP_R
+infinite zscore found in 377 T2_L5_Midbrain_L
+infinite zscore found in 378 T2_L5_Midbrain_R
+infinite zscore found in 379 T2_L5_CST_L
+infinite zscore found in 380 T2_L5_CST_R
+infinite zscore found in 381 T2_L5_SCP_L
+infinite zscore found in 382 T2_L5_SCP_R
+infinite zscore found in 383 T2_L5_MCP_L
+infinite zscore found in 384 T2_L5_MCP_R
+infinite zscore found in 385 T2_L5_PCT_L
+infinite zscore found in 386 T2_L5_PCT_R
+infinite zscore found in 387 T2_L5_Medulla_L
+infinite zscore found in 388 T2_L5_Medulla_R
+infinite zscore found in 389 T2_L5_ML_L
+infinite zscore found in 390 T2_L5_ML_R
+infinite zscore found in 391 T2_L5_Pons_L
+infinite zscore found in 392 T2_L5_Pons_R
+infinite zscore found in 393 T2_L5_ACR_L
+infinite zscore found in 394 T2_L5_ACR_R
+infinite zscore found in 395 T2_L5_SCR_L
+infinite zscore found in 396 T2_L5_SCR_R
+infinite zscore found in 397 T2_L5_PCR_L
+infinite zscore found in 398 T2_L5_PCR_R
+infinite zscore found in 399 T2_L5_GCC_L
+infinite zscore found in 400 T2_L5_GCC_R
+infinite zscore found in 401 T2_L5_BCC_L
+infinite zscore found in 402 T2_L5_BCC_R
+infinite zscore found in 403 T2_L5_SCC_L
+infinite zscore found in 404 T2_L5_SCC_R
+T2_L5_PVWl_L not found in rawroivolume
+T2_L5_PVWl_R not found in rawroivolume
+infinite zscore found in 407 T2_L5_ALIC_L
+infinite zscore found in 408 T2_L5_ALIC_R
+infinite zscore found in 409 T2_L5_PLIC_L
+infinite zscore found in 410 T2_L5_PLIC_R
+infinite zscore found in 411 T2_L5_RLIC_L
+infinite zscore found in 412 T2_L5_RLIC_R
+infinite zscore found in 413 T2_L5_EC_L
+infinite zscore found in 414 T2_L5_EC_R
+infinite zscore found in 415 T2_L5_CGC_L
+infinite zscore found in 416 T2_L5_CGC_R
+infinite zscore found in 417 T2_L5_CGH_L
+infinite zscore found in 418 T2_L5_CGH_R
+T2_L5_Fx_ST_L not found in rawroivolume
+T2_L5_Fx_ST_R not found in rawroivolume
+infinite zscore found in 421 T2_L5_Fx_L
+infinite zscore found in 422 T2_L5_Fx_R
+infinite zscore found in 423 T2_L5_IFO_L
+infinite zscore found in 424 T2_L5_IFO_R
+infinite zscore found in 425 T2_L5_PTR_L
+infinite zscore found in 426 T2_L5_PTR_R
+infinite zscore found in 427 T2_L5_SS_L
+infinite zscore found in 428 T2_L5_SS_R
+infinite zscore found in 429 T2_L5_SFO_L
+infinite zscore found in 430 T2_L5_SFO_R
+infinite zscore found in 431 T2_L5_SLF_L
+infinite zscore found in 432 T2_L5_SLF_R
+infinite zscore found in 433 T2_L5_Cl_L
+infinite zscore found in 434 T2_L5_Cl_R
+infinite zscore found in 435 T2_L5_Mammillary_R
+infinite zscore found in 436 T2_L5_Mammillary_L
+infinite zscore found in 437 T2_L5_LV_Frontal_L
+infinite zscore found in 438 T2_L5_LV_body_L
+infinite zscore found in 439 T2_L5_LV_atrium_L
+infinite zscore found in 440 T2_L5_LV_Occipital_L
+T2_L5_LV_Inferior_L not found in rawroivolume
+infinite zscore found in 442 T2_L5_LV_Frontal_R
+infinite zscore found in 443 T2_L5_LV_body_R
+infinite zscore found in 444 T2_L5_LV_atrium_R
+infinite zscore found in 445 T2_L5_LV_Occipital_R
+T2_L5_LV_Inferior_R not found in rawroivolume
+infinite zscore found in 447 T2_L5_III_and_IV_ventricle
+T2_L5_PVWa_L not found in rawroivolume
+T2_L5_PVWa_R not found in rawroivolume
+infinite zscore found in 450 T2_L5_PVWp_L
+infinite zscore found in 451 T2_L5_PVWp_R
+infinite zscore found in 452 T2_L5_L_L
+infinite zscore found in 453 T2_L5_L_R
+infinite zscore found in 454 T2_L5_CerebellumWM_R
+infinite zscore found in 455 T2_L5_CerebellumWM_L
+infinite zscore found in 456 T2_L5_FrontSul_L
+infinite zscore found in 457 T2_L5_FrontSul_R
+infinite zscore found in 458 T2_L5_CentralSul_L
+infinite zscore found in 459 T2_L5_CentralSul_R
+T2_L5_SylAntInsularSul_L not found in rawroivolume
+T2_L5_SylAntInsularSul_R not found in rawroivolume
+T2_L5_SylPostInsularSul_L not found in rawroivolume
+T2_L5_SylPostInsularSul_R not found in rawroivolume
+T2_L5_SylExtSMG_L not found in rawroivolume
+T2_L5_SylExtSMG_R not found in rawroivolume
+infinite zscore found in 466 T2_L5_ParietSul_L
+infinite zscore found in 467 T2_L5_ParietSul_R
+infinite zscore found in 468 T2_L5_CinguSul_L
+infinite zscore found in 469 T2_L5_CinguSul_R
+infinite zscore found in 470 T2_L5_OcciptSul_L
+infinite zscore found in 471 T2_L5_OcciptSul_R
+infinite zscore found in 472 T2_L5_TempSul_L
+infinite zscore found in 473 T2_L5_TempSul_R
+T2_L5_Caudate_tail_L not found in rawroivolume
+T2_L5_Caudate_tail_R not found in rawroivolume
+T2_L5_Chroid_LVetc_L not found in rawroivolume
+T2_L5_Chroid_LVetc_R not found in rawroivolume
+infinite zscore found in 478 T2_L4_Frontal_L
+infinite zscore found in 479 T2_L4_Frontal_R
+infinite zscore found in 480 T2_L4_Parietal_L
+infinite zscore found in 481 T2_L4_Parietal_R
+infinite zscore found in 482 T2_L4_Temporal_L
+infinite zscore found in 483 T2_L4_Temporal_R
+infinite zscore found in 484 T2_L4_Limbic_L
+infinite zscore found in 485 T2_L4_Limbic_R
+infinite zscore found in 486 T2_L4_Occipital_L
+infinite zscore found in 487 T2_L4_Occipital_R
+infinite zscore found in 488 T2_L4_Cingulate_L
+infinite zscore found in 489 T2_L4_Cingulate_R
+infinite zscore found in 490 T2_L4_Insula_L
+infinite zscore found in 491 T2_L4_Insula_R
+infinite zscore found in 492 T2_L4_Striatum_L
+infinite zscore found in 493 T2_L4_Striatum_R
+infinite zscore found in 494 T2_L4_GP_L
+infinite zscore found in 495 T2_L4_GP_R
+infinite zscore found in 496 T2_L4_Thalamus_L
+infinite zscore found in 497 T2_L4_Thalamus_R
+T2_L4_BasalForebrain_L not found in rawroivolume
+T2_L4_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 500 T2_L4_midbrain_L
+infinite zscore found in 501 T2_L4_midbrain_R
+infinite zscore found in 502 T2_L4_Cerebellum_R
+infinite zscore found in 503 T2_L4_Cerebellum_L
+infinite zscore found in 504 T2_L4_Pons_L
+infinite zscore found in 505 T2_L4_Pons_R
+infinite zscore found in 506 T2_L4_Medulla_L
+infinite zscore found in 507 T2_L4_Medulla_R
+T2_L4_ant_DPWM_L not found in rawroivolume
+T2_L4_ant_DPWM_R not found in rawroivolume
+T2_L4_post_DPWM_L not found in rawroivolume
+T2_L4_post_DPWM_R not found in rawroivolume
+infinite zscore found in 512 T2_L4_CorpusCallosum_L
+infinite zscore found in 513 T2_L4_CorpusCallosum_R
+T2_L4_inf_DPWM_L not found in rawroivolume
+T2_L4_inf_DPWM_R not found in rawroivolume
+infinite zscore found in 516 T2_L4_InternalCapsule_L
+infinite zscore found in 517 T2_L4_InternalCapsule_R
+infinite zscore found in 518 T2_L4_LimbicWM_L
+infinite zscore found in 519 T2_L4_LimbicWM_R
+T2_L4_AnteriorLateralVentricle_L not found in rawroivolume
+infinite zscore found in 521 T2_L4_PosteriorLateralVentricle_L
+infinite zscore found in 522 T2_L4_InferiorLateralVentricle_L
+T2_L4_AnteriorLateralVentricle_R not found in rawroivolume
+infinite zscore found in 524 T2_L4_PosteriorLateralVentricle_R
+infinite zscore found in 525 T2_L4_InferiorLateralVentricle_R
+infinite zscore found in 526 T2_L4_IIIandIV_Ventricle
+infinite zscore found in 527 T2_L4_CerebellumWM_R
+infinite zscore found in 528 T2_L4_CerebellumWM_L
+infinite zscore found in 529 T2_L4_FrontSul_L
+infinite zscore found in 530 T2_L4_FrontSul_R
+infinite zscore found in 531 T2_L4_CentralSul_L
+infinite zscore found in 532 T2_L4_CentralSul_R
+T2_L4_SylAntInsularSul_L not found in rawroivolume
+T2_L4_SylAntInsularSul_R not found in rawroivolume
+T2_L4_SylPostInsularSul_L not found in rawroivolume
+T2_L4_SylPostInsularSul_R not found in rawroivolume
+T2_L4_SylExtSMG_L not found in rawroivolume
+T2_L4_SylExtSMG_R not found in rawroivolume
+infinite zscore found in 539 T2_L4_ParietSul_L
+infinite zscore found in 540 T2_L4_ParietSul_R
+infinite zscore found in 541 T2_L4_CinguSul_L
+infinite zscore found in 542 T2_L4_CinguSul_R
+infinite zscore found in 543 T2_L4_OcciptSul_L
+infinite zscore found in 544 T2_L4_OcciptSul_R
+infinite zscore found in 545 T2_L4_TempSul_L
+infinite zscore found in 546 T2_L4_TempSul_R
+infinite zscore found in 547 T2_L3_Frontal_L
+infinite zscore found in 548 T2_L3_Frontal_R
+infinite zscore found in 549 T2_L3_Parietal_L
+infinite zscore found in 550 T2_L3_Parietal_R
+infinite zscore found in 551 T2_L3_Temporal_L
+infinite zscore found in 552 T2_L3_Temporal_R
+infinite zscore found in 553 T2_L3_Limbic_L
+infinite zscore found in 554 T2_L3_Limbic_R
+infinite zscore found in 555 T2_L3_Occipital_L
+infinite zscore found in 556 T2_L3_Occipital_R
+infinite zscore found in 557 T2_L3_Insula_L
+infinite zscore found in 558 T2_L3_Insula_R
+infinite zscore found in 559 T2_L3_BasalGang_L
+infinite zscore found in 560 T2_L3_BasalGang_R
+infinite zscore found in 561 T2_L3_Thalamus_L
+infinite zscore found in 562 T2_L3_Thalamus_R
+T2_L3_BasalForebrain_L not found in rawroivolume
+T2_L3_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 565 T2_L3_midbrain_L
+infinite zscore found in 566 T2_L3_midbrain_R
+infinite zscore found in 567 T2_L3_Cerebellum_R
+infinite zscore found in 568 T2_L3_Cerebellum_L
+infinite zscore found in 569 T2_L3_Pons_L
+infinite zscore found in 570 T2_L3_Pons_R
+infinite zscore found in 571 T2_L3_Medulla_L
+infinite zscore found in 572 T2_L3_Medulla_R
+T2_L3_AnteriorWM_L not found in rawroivolume
+T2_L3_AnteriorWM_R not found in rawroivolume
+infinite zscore found in 575 T2_L3_PosteriorWM_L
+infinite zscore found in 576 T2_L3_PosteriorWM_R
+infinite zscore found in 577 T2_L3_CorpusCallosum_L
+infinite zscore found in 578 T2_L3_CorpusCallosum_R
+infinite zscore found in 579 T2_L3_InferiorWM_L
+infinite zscore found in 580 T2_L3_InferiorWM_R
+infinite zscore found in 581 T2_L3_LimbicWM_L
+infinite zscore found in 582 T2_L3_LimbicWM_R
+infinite zscore found in 583 T2_L3_LateralVentricle_L
+infinite zscore found in 584 T2_L3_LateralVentricle_R
+infinite zscore found in 585 T2_L3_IIIandIV_Ventricle
+infinite zscore found in 586 T2_L3_FrontSul_L
+infinite zscore found in 587 T2_L3_FrontSul_R
+infinite zscore found in 588 T2_L3_CentralSul_L
+infinite zscore found in 589 T2_L3_CentralSul_R
+infinite zscore found in 590 T2_L3_TempSul_L
+infinite zscore found in 591 T2_L3_TempSul_R
+infinite zscore found in 592 T2_L3_ParietSul_L
+infinite zscore found in 593 T2_L3_ParietSul_R
+infinite zscore found in 594 T2_L3_CinguSul_L
+infinite zscore found in 595 T2_L3_CinguSul_R
+infinite zscore found in 596 T2_L3_OcciptSul_L
+infinite zscore found in 597 T2_L3_OcciptSul_R
+infinite zscore found in 598 T2_L2_Hemisphere_L
+infinite zscore found in 599 T2_L2_Hemisphere_R
+infinite zscore found in 600 T2_L2_CerebralNucli_L
+infinite zscore found in 601 T2_L2_CerebralNucli_R
+infinite zscore found in 602 T2_L2_Thalamus_L
+infinite zscore found in 603 T2_L2_Thalamus_R
+T2_L2_BasalForebrain_L not found in rawroivolume
+T2_L2_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 606 T2_L2_midbrain
+infinite zscore found in 607 T2_L2_Cerebellum_R
+infinite zscore found in 608 T2_L2_Cerebellum_L
+infinite zscore found in 609 T2_L2_Brainstem_L
+infinite zscore found in 610 T2_L2_Brainstem_R
+infinite zscore found in 611 T2_L2_WhiteMatter_L
+infinite zscore found in 612 T2_L2_WhiteMatter_R
+infinite zscore found in 613 T2_L2_Ventricle
+infinite zscore found in 614 T2_L2_Sulcus_L
+infinite zscore found in 615 T2_L2_Sulcus_R
+infinite zscore found in 616 T2_L1_Hemisphere_L
+infinite zscore found in 617 T2_L1_Hemisphere_R
+infinite zscore found in 618 T2_L1_Brainstem
+infinite zscore found in 619 T2_L1_Cerebellum
+infinite zscore found in 620 T2_L1_CSF
+T2_L0_Brain not found in rawroivolume
+
+nametreearray = 
+
+1x621 struct array with fields:
+
+    id
+    name
+    level
+    idname
+    shortname
+    fullname
+    fullnameintextfile
+    firstappearintable
+    isleaf
+    roilabels
+    roiids
+    children
+    parent
+    isorphan
+    idsatlevels
+    volume
+    percentvolume
+    zscore
+    rgbcolor
+
+12
+T2_L6_OpticTract_L is an orphan roi
+T2_L6_OpticTract_R is an orphan roi
+T2_L6_CSF is an orphan roi
+T2_L6_SKULL1 is an orphan roi
+T2_L6_SKULL2 is an orphan roi
+T2_L6_SKULL3 is an orphan roi
+T2_L6_Bone_marrow is an orphan roi
+readrawvolumes
+reading type 1 level 1
+reading type 1 level 2
+reading type 1 level 3
+reading type 1 level 4
+number of faces before reduction: 8208
+number of faces after reduction: 4904
+mexx3dfacestring length of string is 81653
+reading type 1 level 5
+mexx3dverticesstring length of string is 62731
+32
+reading type 2 level 1
+reading type 2 level 2
+reading type 2 level 3
+reading type 2 level 4
+reading type 2 level 5
+T2_L6_SFG_L not found in rawroivolume
+T2_L6_SFG_R not found in rawroivolume
+T2_L6_SFG_PFC_L not found in rawroivolume
+T2_L6_SFG_PFC_R not found in rawroivolume
+T2_L6_SFG_pole_L not found in rawroivolume
+T2_L6_SFG_pole_R not found in rawroivolume
+T2_L6_MFG_L not found in rawroivolume
+T2_L6_MFG_R not found in rawroivolume
+T2_L6_MFG_DPFC_L not found in rawroivolume
+T2_L6_MFG_DPFC_R not found in rawroivolume
+T2_L6_IFG_opercularis_L not found in rawroivolume
+T2_L6_IFG_opercularis_R not found in rawroivolume
+T2_L6_IFG_orbitalis_L not found in rawroivolume
+T2_L6_IFG_orbitalis_R not found in rawroivolume
+T2_L6_IFG_triangularis_L not found in rawroivolume
+T2_L6_IFG_triangularis_R not found in rawroivolume
+T2_L6_LFOG_L not found in rawroivolume
+T2_L6_LFOG_R not found in rawroivolume
+T2_L6_MFOG_L not found in rawroivolume
+T2_L6_MFOG_R not found in rawroivolume
+T2_L6_RG_L not found in rawroivolume
+T2_L6_RG_R not found in rawroivolume
+T2_L6_PoCG_L not found in rawroivolume
+T2_L6_PoCG_R not found in rawroivolume
+T2_L6_PrCG_L not found in rawroivolume
+T2_L6_PrCG_R not found in rawroivolume
+T2_L6_SPG_L not found in rawroivolume
+T2_L6_SPG_R not found in rawroivolume
+T2_L6_SMG_L not found in rawroivolume
+T2_L6_SMG_R not found in rawroivolume
+T2_L6_AG_L not found in rawroivolume
+T2_L6_AG_R not found in rawroivolume
+T2_L6_PrCu_L not found in rawroivolume
+T2_L6_PrCu_R not found in rawroivolume
+T2_L6_STG_L not found in rawroivolume
+T2_L6_STG_R not found in rawroivolume
+T2_L6_STG_L_pole not found in rawroivolume
+T2_L6_STG_R_pole not found in rawroivolume
+T2_L6_MTG_L not found in rawroivolume
+T2_L6_MTG_R not found in rawroivolume
+T2_L6_MTG_L_pole not found in rawroivolume
+T2_L6_MTG_R_pole not found in rawroivolume
+T2_L6_ITG_L not found in rawroivolume
+T2_L6_ITG_R not found in rawroivolume
+T2_L6_PHG_L not found in rawroivolume
+T2_L6_PHG_R not found in rawroivolume
+T2_L6_ENT_L not found in rawroivolume
+T2_L6_ENT_R not found in rawroivolume
+T2_L6_FuG_L not found in rawroivolume
+T2_L6_FuG_R not found in rawroivolume
+T2_L6_SOG_L not found in rawroivolume
+T2_L6_SOG_R not found in rawroivolume
+T2_L6_MOG_L not found in rawroivolume
+T2_L6_MOG_R not found in rawroivolume
+T2_L6_IOG_L not found in rawroivolume
+T2_L6_IOG_R not found in rawroivolume
+T2_L6_Cu_L not found in rawroivolume
+T2_L6_Cu_R not found in rawroivolume
+T2_L6_LG_L not found in rawroivolume
+T2_L6_LG_R not found in rawroivolume
+T2_L6_rostral_ACC_L not found in rawroivolume
+T2_L6_rostral_ACC_R not found in rawroivolume
+T2_L6_subcallosal_ACC_L not found in rawroivolume
+T2_L6_subcallosal_ACC_R not found in rawroivolume
+T2_L6_subgenual_ACC_L not found in rawroivolume
+T2_L6_subgenual_ACC_R not found in rawroivolume
+T2_L6_dorsal_ACC_L not found in rawroivolume
+T2_L6_dorsal_ACC_R not found in rawroivolume
+T2_L6_PCC_L not found in rawroivolume
+T2_L6_PCC_R not found in rawroivolume
+T2_L6_Insula_L not found in rawroivolume
+T2_L6_Insula_R not found in rawroivolume
+T2_L6_Amyg_L not found in rawroivolume
+T2_L6_Amyg_R not found in rawroivolume
+T2_L6_Hippo_L not found in rawroivolume
+T2_L6_Hippo_R not found in rawroivolume
+T2_L6_Caud_L not found in rawroivolume
+T2_L6_Caud_R not found in rawroivolume
+T2_L6_Put_L not found in rawroivolume
+T2_L6_Put_R not found in rawroivolume
+T2_L6_GP_L not found in rawroivolume
+T2_L6_GP_R not found in rawroivolume
+T2_L6_Thalamus_L not found in rawroivolume
+T2_L6_Thalamus_R not found in rawroivolume
+T2_L6_HypoThalamus_L not found in rawroivolume
+T2_L6_HypoThalamus_R not found in rawroivolume
+T2_L6_BasalForebrain_L not found in rawroivolume
+T2_L6_BasalForebrain_R not found in rawroivolume
+T2_L6_NucAccumbens_L not found in rawroivolume
+T2_L6_NucAccumbens_R not found in rawroivolume
+T2_L6_RedNc_L not found in rawroivolume
+T2_L6_RedNc_R not found in rawroivolume
+T2_L6_Snigra_L not found in rawroivolume
+T2_L6_Snigra_R not found in rawroivolume
+T2_L6_CerebellumGM_R not found in rawroivolume
+T2_L6_CerebellumGM_L not found in rawroivolume
+T2_L6_CP_L not found in rawroivolume
+T2_L6_CP_R not found in rawroivolume
+T2_L6_Midbrain_L not found in rawroivolume
+T2_L6_Midbrain_R not found in rawroivolume
+T2_L6_CST_L not found in rawroivolume
+T2_L6_CST_R not found in rawroivolume
+T2_L6_SCP_L not found in rawroivolume
+T2_L6_SCP_R not found in rawroivolume
+T2_L6_MCP_L not found in rawroivolume
+T2_L6_MCP_R not found in rawroivolume
+T2_L6_PCT_L not found in rawroivolume
+T2_L6_PCT_R not found in rawroivolume
+T2_L6_ICP_L not found in rawroivolume
+T2_L6_ICP_R not found in rawroivolume
+T2_L6_ML_L not found in rawroivolume
+T2_L6_ML_R not found in rawroivolume
+T2_L6_Pons_L not found in rawroivolume
+T2_L6_Pons_R not found in rawroivolume
+T2_L6_Medulla_L not found in rawroivolume
+T2_L6_Medulla_R not found in rawroivolume
+T2_L6_ACR_L not found in rawroivolume
+T2_L6_ACR_R not found in rawroivolume
+T2_L6_SCR_L not found in rawroivolume
+T2_L6_SCR_R not found in rawroivolume
+T2_L6_PCR_L not found in rawroivolume
+T2_L6_PCR_R not found in rawroivolume
+T2_L6_GCC_L not found in rawroivolume
+T2_L6_GCC_R not found in rawroivolume
+T2_L6_BCC_L not found in rawroivolume
+T2_L6_BCC_R not found in rawroivolume
+T2_L6_SCC_L not found in rawroivolume
+T2_L6_SCC_R not found in rawroivolume
+T2_L6_PVWl_L not found in rawroivolume
+T2_L6_PVWl_R not found in rawroivolume
+T2_L6_ALIC_L not found in rawroivolume
+T2_L6_ALIC_R not found in rawroivolume
+T2_L6_PLIC_L not found in rawroivolume
+T2_L6_PLIC_R not found in rawroivolume
+T2_L6_RLIC_L not found in rawroivolume
+T2_L6_RLIC_R not found in rawroivolume
+T2_L6_EC_L not found in rawroivolume
+T2_L6_EC_R not found in rawroivolume
+T2_L6_CGC_L not found in rawroivolume
+T2_L6_CGC_R not found in rawroivolume
+T2_L6_CGH_L not found in rawroivolume
+T2_L6_CGH_R not found in rawroivolume
+T2_L6_Fx_ST_L not found in rawroivolume
+T2_L6_Fx_ST_R not found in rawroivolume
+T2_L6_Fx_L not found in rawroivolume
+T2_L6_Fx_R not found in rawroivolume
+T2_L6_IFO_L not found in rawroivolume
+T2_L6_IFO_R not found in rawroivolume
+T2_L6_PTR_L not found in rawroivolume
+T2_L6_PTR_R not found in rawroivolume
+T2_L6_SS_L not found in rawroivolume
+T2_L6_SS_R not found in rawroivolume
+T2_L6_SFO_L not found in rawroivolume
+T2_L6_SFO_R not found in rawroivolume
+T2_L6_SLF_L not found in rawroivolume
+T2_L6_SLF_R not found in rawroivolume
+T2_L6_Cl_L not found in rawroivolume
+T2_L6_Cl_R not found in rawroivolume
+T2_L6_Mammillary_R not found in rawroivolume
+T2_L6_Mammillary_L not found in rawroivolume
+T2_L6_OpticTract_L not found in rawroivolume
+T2_L6_OpticTract_R not found in rawroivolume
+T2_L6_LV_Frontal_L not found in rawroivolume
+T2_L6_LV_body_L not found in rawroivolume
+T2_L6_LV_atrium_L not found in rawroivolume
+T2_L6_LV_Occipital_L not found in rawroivolume
+T2_L6_LV_Inferior_L not found in rawroivolume
+T2_L6_LV_Frontal_R not found in rawroivolume
+T2_L6_LV_body_R not found in rawroivolume
+T2_L6_LV_atrium_R not found in rawroivolume
+T2_L6_LV_Occipital_R not found in rawroivolume
+T2_L6_LV_Inferior_R not found in rawroivolume
+T2_L6_III_and_IV_ventricle not found in rawroivolume
+T2_L6_PVWa_L not found in rawroivolume
+T2_L6_PVWa_R not found in rawroivolume
+T2_L6_PVWp_L not found in rawroivolume
+T2_L6_PVWp_R not found in rawroivolume
+T2_L6_SFWM_L not found in rawroivolume
+T2_L6_SFWM_R not found in rawroivolume
+T2_L6_SFWM_PFC_L not found in rawroivolume
+T2_L6_SFWM_PFC_R not found in rawroivolume
+T2_L6_SFWM_pole_L not found in rawroivolume
+T2_L6_SFWM_pole_R not found in rawroivolume
+T2_L6_MFWM_L not found in rawroivolume
+T2_L6_MFWM_R not found in rawroivolume
+T2_L6_MFWM_DPFC_L not found in rawroivolume
+T2_L6_MFWM_DPFC_R not found in rawroivolume
+T2_L6_IFWM_opercularis_L not found in rawroivolume
+T2_L6_IFWM_opercularis_R not found in rawroivolume
+T2_L6_IFWM_orbitalis_L not found in rawroivolume
+T2_L6_IFWM_orbitalis_R not found in rawroivolume
+T2_L6_IFWM_triangularis_L not found in rawroivolume
+T2_L6_IFWM_triangularis_R not found in rawroivolume
+T2_L6_LFOWM_L not found in rawroivolume
+T2_L6_LFOWM_R not found in rawroivolume
+T2_L6_MFOWM_L not found in rawroivolume
+T2_L6_MFOWM_R not found in rawroivolume
+T2_L6_RGWM_L not found in rawroivolume
+T2_L6_RGWM_R not found in rawroivolume
+T2_L6_PoCWM_L not found in rawroivolume
+T2_L6_PoCWM_R not found in rawroivolume
+T2_L6_PrCWM_L not found in rawroivolume
+T2_L6_PrCWM_R not found in rawroivolume
+T2_L6_SPWM_L not found in rawroivolume
+T2_L6_SPWM_R not found in rawroivolume
+T2_L6_SMWM_L not found in rawroivolume
+T2_L6_SMWM_R not found in rawroivolume
+T2_L6_AGWM_L not found in rawroivolume
+T2_L6_AGWM_R not found in rawroivolume
+T2_L6_PrCuWM_L not found in rawroivolume
+T2_L6_PrCuWM_R not found in rawroivolume
+T2_L6_STWM_L not found in rawroivolume
+T2_L6_STWM_R not found in rawroivolume
+T2_L6_STWM_L_pole not found in rawroivolume
+T2_L6_STWM_R_pole not found in rawroivolume
+T2_L6_MTWM_L not found in rawroivolume
+T2_L6_MTWM_R not found in rawroivolume
+T2_L6_MTWM_L_pole not found in rawroivolume
+T2_L6_MTWM_R_pole not found in rawroivolume
+T2_L6_ITWM_L not found in rawroivolume
+T2_L6_ITWM_R not found in rawroivolume
+T2_L6_FuWM_L not found in rawroivolume
+T2_L6_FuWM_R not found in rawroivolume
+T2_L6_SOWM_L not found in rawroivolume
+T2_L6_SOWM_R not found in rawroivolume
+T2_L6_MOWM_L not found in rawroivolume
+T2_L6_MOWM_R not found in rawroivolume
+T2_L6_IOWM_L not found in rawroivolume
+T2_L6_IOWM_R not found in rawroivolume
+T2_L6_CuWM_L not found in rawroivolume
+T2_L6_CuWM_R not found in rawroivolume
+T2_L6_LWM_L not found in rawroivolume
+T2_L6_LWM_R not found in rawroivolume
+T2_L6_rostralWM_ACC_L not found in rawroivolume
+T2_L6_rostralWM_ACC_R not found in rawroivolume
+T2_L6_subcallosalWM_ACC_L not found in rawroivolume
+T2_L6_subcallosalWM_ACC_R not found in rawroivolume
+T2_L6_subgenualWM_ACC_L not found in rawroivolume
+T2_L6_subgenualWM_ACC_R not found in rawroivolume
+T2_L6_dorsalWM_ACC_L not found in rawroivolume
+T2_L6_dorsalWM_ACC_R not found in rawroivolume
+T2_L6_PCCWM_L not found in rawroivolume
+T2_L6_PCCWM_R not found in rawroivolume
+T2_L6_CerebellumWM_R not found in rawroivolume
+T2_L6_CerebellumWM_L not found in rawroivolume
+T2_L6_CSF not found in rawroivolume
+T2_L6_SKULL1 not found in rawroivolume
+T2_L6_SKULL2 not found in rawroivolume
+T2_L6_SKULL3 not found in rawroivolume
+T2_L6_MCP_cb_L not found in rawroivolume
+T2_L6_MCP_cb_R not found in rawroivolume
+T2_L6_Bone_marrow not found in rawroivolume
+T2_L6_ICP_pons_L not found in rawroivolume
+T2_L6_ICP_pons_R not found in rawroivolume
+T2_L6_FrontSul_L not found in rawroivolume
+T2_L6_FrontSul_R not found in rawroivolume
+T2_L6_CentralSul_L not found in rawroivolume
+T2_L6_CentralSul_R not found in rawroivolume
+T2_L6_SylFrontSul_L not found in rawroivolume
+T2_L6_SylFrontSul_R not found in rawroivolume
+T2_L6_SylTempSul_L not found in rawroivolume
+T2_L6_SylTempSul_R not found in rawroivolume
+T2_L6_SylParieSul_L not found in rawroivolume
+T2_L6_SylParieSul_R not found in rawroivolume
+T2_L6_ParietSul_L not found in rawroivolume
+T2_L6_ParietSul_R not found in rawroivolume
+T2_L6_CinguSul_L not found in rawroivolume
+T2_L6_CinguSul_R not found in rawroivolume
+T2_L6_OcciptSul_L not found in rawroivolume
+T2_L6_OcciptSul_R not found in rawroivolume
+T2_L6_TempSul_L not found in rawroivolume
+T2_L6_TempSul_R not found in rawroivolume
+T2_L6_Caudate_tail_L not found in rawroivolume
+T2_L6_Fimbria_L not found in rawroivolume
+T2_L6_Caudate_tail_R not found in rawroivolume
+T2_L6_Fimbria_R not found in rawroivolume
+T2_L6_Chroid_LVetc_L not found in rawroivolume
+T2_L6_Chroid_LVetc_R not found in rawroivolume
+T2_L5_Fx_ST_L not found in rawroivolume
+T2_L5_Fx_ST_R not found in rawroivolume
+T2_L0_Brain not found in rawroivolume
+Elapsed time is 46.338015 seconds.
+getWholeBrainVolume
+Elapsed time is 46.371724 seconds.
+getPercentROIVolumes
+Elapsed time is 46.374423 seconds.
+getPercentROIVolumesZscoresv2
+T2_L6_SFG_L not found in rawroivolume
+T2_L6_SFG_R not found in rawroivolume
+T2_L6_SFG_PFC_L not found in rawroivolume
+T2_L6_SFG_PFC_R not found in rawroivolume
+T2_L6_SFG_pole_L not found in rawroivolume
+T2_L6_SFG_pole_R not found in rawroivolume
+T2_L6_MFG_L not found in rawroivolume
+T2_L6_MFG_R not found in rawroivolume
+T2_L6_MFG_DPFC_L not found in rawroivolume
+T2_L6_MFG_DPFC_R not found in rawroivolume
+T2_L6_IFG_opercularis_L not found in rawroivolume
+T2_L6_IFG_opercularis_R not found in rawroivolume
+T2_L6_IFG_orbitalis_L not found in rawroivolume
+T2_L6_IFG_orbitalis_R not found in rawroivolume
+T2_L6_IFG_triangularis_L not found in rawroivolume
+T2_L6_IFG_triangularis_R not found in rawroivolume
+T2_L6_LFOG_L not found in rawroivolume
+T2_L6_LFOG_R not found in rawroivolume
+T2_L6_MFOG_L not found in rawroivolume
+T2_L6_MFOG_R not found in rawroivolume
+T2_L6_RG_L not found in rawroivolume
+T2_L6_RG_R not found in rawroivolume
+T2_L6_PoCG_L not found in rawroivolume
+T2_L6_PoCG_R not found in rawroivolume
+T2_L6_PrCG_L not found in rawroivolume
+T2_L6_PrCG_R not found in rawroivolume
+T2_L6_SPG_L not found in rawroivolume
+T2_L6_SPG_R not found in rawroivolume
+T2_L6_SMG_L not found in rawroivolume
+T2_L6_SMG_R not found in rawroivolume
+T2_L6_AG_L not found in rawroivolume
+T2_L6_AG_R not found in rawroivolume
+T2_L6_PrCu_L not found in rawroivolume
+T2_L6_PrCu_R not found in rawroivolume
+T2_L6_STG_L not found in rawroivolume
+T2_L6_STG_R not found in rawroivolume
+T2_L6_STG_L_pole not found in rawroivolume
+T2_L6_STG_R_pole not found in rawroivolume
+T2_L6_MTG_L not found in rawroivolume
+T2_L6_MTG_R not found in rawroivolume
+T2_L6_MTG_L_pole not found in rawroivolume
+T2_L6_MTG_R_pole not found in rawroivolume
+T2_L6_ITG_L not found in rawroivolume
+T2_L6_ITG_R not found in rawroivolume
+T2_L6_PHG_L not found in rawroivolume
+T2_L6_PHG_R not found in rawroivolume
+T2_L6_ENT_L not found in rawroivolume
+T2_L6_ENT_R not found in rawroivolume
+T2_L6_FuG_L not found in rawroivolume
+T2_L6_FuG_R not found in rawroivolume
+T2_L6_SOG_L not found in rawroivolume
+T2_L6_SOG_R not found in rawroivolume
+T2_L6_MOG_L not found in rawroivolume
+T2_L6_MOG_R not found in rawroivolume
+T2_L6_IOG_L not found in rawroivolume
+T2_L6_IOG_R not found in rawroivolume
+T2_L6_Cu_L not found in rawroivolume
+T2_L6_Cu_R not found in rawroivolume
+T2_L6_LG_L not found in rawroivolume
+T2_L6_LG_R not found in rawroivolume
+T2_L6_rostral_ACC_L not found in rawroivolume
+T2_L6_rostral_ACC_R not found in rawroivolume
+T2_L6_subcallosal_ACC_L not found in rawroivolume
+T2_L6_subcallosal_ACC_R not found in rawroivolume
+T2_L6_subgenual_ACC_L not found in rawroivolume
+T2_L6_subgenual_ACC_R not found in rawroivolume
+T2_L6_dorsal_ACC_L not found in rawroivolume
+T2_L6_dorsal_ACC_R not found in rawroivolume
+T2_L6_PCC_L not found in rawroivolume
+T2_L6_PCC_R not found in rawroivolume
+T2_L6_Insula_L not found in rawroivolume
+T2_L6_Insula_R not found in rawroivolume
+T2_L6_Amyg_L not found in rawroivolume
+T2_L6_Amyg_R not found in rawroivolume
+T2_L6_Hippo_L not found in rawroivolume
+T2_L6_Hippo_R not found in rawroivolume
+T2_L6_Caud_L not found in rawroivolume
+T2_L6_Caud_R not found in rawroivolume
+T2_L6_Put_L not found in rawroivolume
+T2_L6_Put_R not found in rawroivolume
+T2_L6_GP_L not found in rawroivolume
+T2_L6_GP_R not found in rawroivolume
+T2_L6_Thalamus_L not found in rawroivolume
+T2_L6_Thalamus_R not found in rawroivolume
+T2_L6_HypoThalamus_L not found in rawroivolume
+T2_L6_HypoThalamus_R not found in rawroivolume
+T2_L6_BasalForebrain_L not found in rawroivolume
+T2_L6_BasalForebrain_R not found in rawroivolume
+T2_L6_NucAccumbens_L not found in rawroivolume
+T2_L6_NucAccumbens_R not found in rawroivolume
+T2_L6_RedNc_L not found in rawroivolume
+T2_L6_RedNc_R not found in rawroivolume
+T2_L6_Snigra_L not found in rawroivolume
+T2_L6_Snigra_R not found in rawroivolume
+T2_L6_CerebellumGM_R not found in rawroivolume
+T2_L6_CerebellumGM_L not found in rawroivolume
+T2_L6_CP_L not found in rawroivolume
+T2_L6_CP_R not found in rawroivolume
+T2_L6_Midbrain_L not found in rawroivolume
+T2_L6_Midbrain_R not found in rawroivolume
+T2_L6_CST_L not found in rawroivolume
+T2_L6_CST_R not found in rawroivolume
+T2_L6_SCP_L not found in rawroivolume
+T2_L6_SCP_R not found in rawroivolume
+T2_L6_MCP_L not found in rawroivolume
+T2_L6_MCP_R not found in rawroivolume
+T2_L6_PCT_L not found in rawroivolume
+T2_L6_PCT_R not found in rawroivolume
+T2_L6_ICP_L not found in rawroivolume
+T2_L6_ICP_R not found in rawroivolume
+T2_L6_ML_L not found in rawroivolume
+T2_L6_ML_R not found in rawroivolume
+T2_L6_Pons_L not found in rawroivolume
+T2_L6_Pons_R not found in rawroivolume
+T2_L6_Medulla_L not found in rawroivolume
+T2_L6_Medulla_R not found in rawroivolume
+T2_L6_ACR_L not found in rawroivolume
+T2_L6_ACR_R not found in rawroivolume
+T2_L6_SCR_L not found in rawroivolume
+T2_L6_SCR_R not found in rawroivolume
+T2_L6_PCR_L not found in rawroivolume
+T2_L6_PCR_R not found in rawroivolume
+T2_L6_GCC_L not found in rawroivolume
+T2_L6_GCC_R not found in rawroivolume
+T2_L6_BCC_L not found in rawroivolume
+T2_L6_BCC_R not found in rawroivolume
+T2_L6_SCC_L not found in rawroivolume
+T2_L6_SCC_R not found in rawroivolume
+T2_L6_PVWl_L not found in rawroivolume
+T2_L6_PVWl_R not found in rawroivolume
+T2_L6_ALIC_L not found in rawroivolume
+T2_L6_ALIC_R not found in rawroivolume
+T2_L6_PLIC_L not found in rawroivolume
+T2_L6_PLIC_R not found in rawroivolume
+T2_L6_RLIC_L not found in rawroivolume
+T2_L6_RLIC_R not found in rawroivolume
+T2_L6_EC_L not found in rawroivolume
+T2_L6_EC_R not found in rawroivolume
+T2_L6_CGC_L not found in rawroivolume
+T2_L6_CGC_R not found in rawroivolume
+T2_L6_CGH_L not found in rawroivolume
+T2_L6_CGH_R not found in rawroivolume
+T2_L6_Fx_ST_L not found in rawroivolume
+T2_L6_Fx_ST_R not found in rawroivolume
+T2_L6_Fx_L not found in rawroivolume
+T2_L6_Fx_R not found in rawroivolume
+T2_L6_IFO_L not found in rawroivolume
+T2_L6_IFO_R not found in rawroivolume
+T2_L6_PTR_L not found in rawroivolume
+T2_L6_PTR_R not found in rawroivolume
+T2_L6_SS_L not found in rawroivolume
+T2_L6_SS_R not found in rawroivolume
+T2_L6_SFO_L not found in rawroivolume
+T2_L6_SFO_R not found in rawroivolume
+T2_L6_SLF_L not found in rawroivolume
+T2_L6_SLF_R not found in rawroivolume
+T2_L6_Cl_L not found in rawroivolume
+T2_L6_Cl_R not found in rawroivolume
+T2_L6_Mammillary_R not found in rawroivolume
+T2_L6_Mammillary_L not found in rawroivolume
+T2_L6_OpticTract_L not found in rawroivolume
+T2_L6_OpticTract_R not found in rawroivolume
+T2_L6_LV_Frontal_L not found in rawroivolume
+T2_L6_LV_body_L not found in rawroivolume
+T2_L6_LV_atrium_L not found in rawroivolume
+T2_L6_LV_Occipital_L not found in rawroivolume
+T2_L6_LV_Inferior_L not found in rawroivolume
+T2_L6_LV_Frontal_R not found in rawroivolume
+T2_L6_LV_body_R not found in rawroivolume
+T2_L6_LV_atrium_R not found in rawroivolume
+T2_L6_LV_Occipital_R not found in rawroivolume
+T2_L6_LV_Inferior_R not found in rawroivolume
+T2_L6_III_and_IV_ventricle not found in rawroivolume
+T2_L6_PVWa_L not found in rawroivolume
+T2_L6_PVWa_R not found in rawroivolume
+T2_L6_PVWp_L not found in rawroivolume
+T2_L6_PVWp_R not found in rawroivolume
+T2_L6_SFWM_L not found in rawroivolume
+T2_L6_SFWM_R not found in rawroivolume
+T2_L6_SFWM_PFC_L not found in rawroivolume
+T2_L6_SFWM_PFC_R not found in rawroivolume
+T2_L6_SFWM_pole_L not found in rawroivolume
+T2_L6_SFWM_pole_R not found in rawroivolume
+T2_L6_MFWM_L not found in rawroivolume
+T2_L6_MFWM_R not found in rawroivolume
+T2_L6_MFWM_DPFC_L not found in rawroivolume
+T2_L6_MFWM_DPFC_R not found in rawroivolume
+T2_L6_IFWM_opercularis_L not found in rawroivolume
+T2_L6_IFWM_opercularis_R not found in rawroivolume
+T2_L6_IFWM_orbitalis_L not found in rawroivolume
+T2_L6_IFWM_orbitalis_R not found in rawroivolume
+T2_L6_IFWM_triangularis_L not found in rawroivolume
+T2_L6_IFWM_triangularis_R not found in rawroivolume
+T2_L6_LFOWM_L not found in rawroivolume
+T2_L6_LFOWM_R not found in rawroivolume
+T2_L6_MFOWM_L not found in rawroivolume
+T2_L6_MFOWM_R not found in rawroivolume
+T2_L6_RGWM_L not found in rawroivolume
+T2_L6_RGWM_R not found in rawroivolume
+T2_L6_PoCWM_L not found in rawroivolume
+T2_L6_PoCWM_R not found in rawroivolume
+T2_L6_PrCWM_L not found in rawroivolume
+T2_L6_PrCWM_R not found in rawroivolume
+T2_L6_SPWM_L not found in rawroivolume
+T2_L6_SPWM_R not found in rawroivolume
+T2_L6_SMWM_L not found in rawroivolume
+T2_L6_SMWM_R not found in rawroivolume
+T2_L6_AGWM_L not found in rawroivolume
+T2_L6_AGWM_R not found in rawroivolume
+T2_L6_PrCuWM_L not found in rawroivolume
+T2_L6_PrCuWM_R not found in rawroivolume
+T2_L6_STWM_L not found in rawroivolume
+T2_L6_STWM_R not found in rawroivolume
+T2_L6_STWM_L_pole not found in rawroivolume
+T2_L6_STWM_R_pole not found in rawroivolume
+T2_L6_MTWM_L not found in rawroivolume
+T2_L6_MTWM_R not found in rawroivolume
+T2_L6_MTWM_L_pole not found in rawroivolume
+T2_L6_MTWM_R_pole not found in rawroivolume
+T2_L6_ITWM_L not found in rawroivolume
+T2_L6_ITWM_R not found in rawroivolume
+T2_L6_FuWM_L not found in rawroivolume
+T2_L6_FuWM_R not found in rawroivolume
+T2_L6_SOWM_L not found in rawroivolume
+T2_L6_SOWM_R not found in rawroivolume
+T2_L6_MOWM_L not found in rawroivolume
+T2_L6_MOWM_R not found in rawroivolume
+T2_L6_IOWM_L not found in rawroivolume
+T2_L6_IOWM_R not found in rawroivolume
+T2_L6_CuWM_L not found in rawroivolume
+T2_L6_CuWM_R not found in rawroivolume
+T2_L6_LWM_L not found in rawroivolume
+T2_L6_LWM_R not found in rawroivolume
+T2_L6_rostralWM_ACC_L not found in rawroivolume
+T2_L6_rostralWM_ACC_R not found in rawroivolume
+T2_L6_subcallosalWM_ACC_L not found in rawroivolume
+T2_L6_subcallosalWM_ACC_R not found in rawroivolume
+T2_L6_subgenualWM_ACC_L not found in rawroivolume
+T2_L6_subgenualWM_ACC_R not found in rawroivolume
+T2_L6_dorsalWM_ACC_L not found in rawroivolume
+T2_L6_dorsalWM_ACC_R not found in rawroivolume
+T2_L6_PCCWM_L not found in rawroivolume
+T2_L6_PCCWM_R not found in rawroivolume
+T2_L6_CerebellumWM_R not found in rawroivolume
+T2_L6_CerebellumWM_L not found in rawroivolume
+T2_L6_CSF not found in rawroivolume
+T2_L6_SKULL1 not found in rawroivolume
+T2_L6_SKULL2 not found in rawroivolume
+T2_L6_SKULL3 not found in rawroivolume
+T2_L6_MCP_cb_L not found in rawroivolume
+T2_L6_MCP_cb_R not found in rawroivolume
+T2_L6_Bone_marrow not found in rawroivolume
+T2_L6_ICP_pons_L not found in rawroivolume
+T2_L6_ICP_pons_R not found in rawroivolume
+T2_L6_FrontSul_L not found in rawroivolume
+T2_L6_FrontSul_R not found in rawroivolume
+T2_L6_CentralSul_L not found in rawroivolume
+T2_L6_CentralSul_R not found in rawroivolume
+T2_L6_SylFrontSul_L not found in rawroivolume
+T2_L6_SylFrontSul_R not found in rawroivolume
+T2_L6_SylTempSul_L not found in rawroivolume
+T2_L6_SylTempSul_R not found in rawroivolume
+T2_L6_SylParieSul_L not found in rawroivolume
+T2_L6_SylParieSul_R not found in rawroivolume
+T2_L6_ParietSul_L not found in rawroivolume
+T2_L6_ParietSul_R not found in rawroivolume
+T2_L6_CinguSul_L not found in rawroivolume
+T2_L6_CinguSul_R not found in rawroivolume
+T2_L6_OcciptSul_L not found in rawroivolume
+T2_L6_OcciptSul_R not found in rawroivolume
+T2_L6_TempSul_L not found in rawroivolume
+T2_L6_TempSul_R not found in rawroivolume
+T2_L6_Caudate_tail_L not found in rawroivolume
+T2_L6_Fimbria_L not found in rawroivolume
+T2_L6_Caudate_tail_R not found in rawroivolume
+T2_L6_Fimbria_R not found in rawroivolume
+T2_L6_Chroid_LVetc_L not found in rawroivolume
+T2_L6_Chroid_LVetc_R not found in rawroivolume
+infinite zscore found in 279 T2_L5_SF_L
+infinite zscore found in 280 T2_L5_SF_R
+infinite zscore found in 281 T2_L5_SF_PFC_L
+infinite zscore found in 282 T2_L5_SF_PFC_R
+infinite zscore found in 283 T2_L5_SF_pole_L
+infinite zscore found in 284 T2_L5_SF_pole_R
+infinite zscore found in 285 T2_L5_MF_L
+infinite zscore found in 286 T2_L5_MF_R
+infinite zscore found in 287 T2_L5_MF_DPFC_L
+infinite zscore found in 288 T2_L5_MF_DPFC_R
+infinite zscore found in 289 T2_L5_IF_opercularis_L
+infinite zscore found in 290 T2_L5_IF_opercularis_R
+infinite zscore found in 291 T2_L5_IF_orbitalis_L
+infinite zscore found in 292 T2_L5_IF_orbitalis_R
+infinite zscore found in 293 T2_L5_IF_triangularis_L
+infinite zscore found in 294 T2_L5_IF_triangularis_R
+infinite zscore found in 295 T2_L5_LFO_L
+infinite zscore found in 296 T2_L5_LFO_R
+infinite zscore found in 297 T2_L5_MFO_L
+infinite zscore found in 298 T2_L5_MFO_R
+infinite zscore found in 299 T2_L5_R_L
+infinite zscore found in 300 T2_L5_R_R
+infinite zscore found in 301 T2_L5_PoC_L
+infinite zscore found in 302 T2_L5_PoC_R
+infinite zscore found in 303 T2_L5_PrC_L
+infinite zscore found in 304 T2_L5_PrC_R
+infinite zscore found in 305 T2_L5_SP_L
+infinite zscore found in 306 T2_L5_SP_R
+infinite zscore found in 307 T2_L5_SM_L
+infinite zscore found in 308 T2_L5_SM_R
+infinite zscore found in 309 T2_L5_A_L
+infinite zscore found in 310 T2_L5_A_R
+infinite zscore found in 311 T2_L5_PrCu_L
+infinite zscore found in 312 T2_L5_PrCu_R
+infinite zscore found in 313 T2_L5_ST_L
+infinite zscore found in 314 T2_L5_ST_R
+infinite zscore found in 315 T2_L5_ST_L_pole
+infinite zscore found in 316 T2_L5_ST_R_pole
+infinite zscore found in 317 T2_L5_MT_L
+infinite zscore found in 318 T2_L5_MT_R
+infinite zscore found in 319 T2_L5_MT_L_pole
+infinite zscore found in 320 T2_L5_MT_R_pole
+infinite zscore found in 321 T2_L5_IT_L
+infinite zscore found in 322 T2_L5_IT_R
+infinite zscore found in 323 T2_L5_PHG_L
+infinite zscore found in 324 T2_L5_PHG_R
+infinite zscore found in 325 T2_L5_ENT_L
+infinite zscore found in 326 T2_L5_ENT_R
+infinite zscore found in 327 T2_L5_Fu_L
+infinite zscore found in 328 T2_L5_Fu_R
+infinite zscore found in 329 T2_L5_SO_L
+infinite zscore found in 330 T2_L5_SO_R
+infinite zscore found in 331 T2_L5_MO_L
+infinite zscore found in 332 T2_L5_MO_R
+infinite zscore found in 333 T2_L5_IO_L
+infinite zscore found in 334 T2_L5_IO_R
+infinite zscore found in 335 T2_L5_Cu_L
+infinite zscore found in 336 T2_L5_Cu_R
+T2_L5_LG_L not found in rawroivolume
+T2_L5_LG_R not found in rawroivolume
+infinite zscore found in 339 T2_L5_rostral_ACC_L
+infinite zscore found in 340 T2_L5_rostral_ACC_R
+infinite zscore found in 341 T2_L5_subcallosal_ACC_L
+infinite zscore found in 342 T2_L5_subcallosal_ACC_R
+infinite zscore found in 343 T2_L5_subgenual_ACC_L
+infinite zscore found in 344 T2_L5_subgenual_ACC_R
+infinite zscore found in 345 T2_L5_dorsal_ACC_L
+infinite zscore found in 346 T2_L5_dorsal_ACC_R
+infinite zscore found in 347 T2_L5_PCC_L
+infinite zscore found in 348 T2_L5_PCC_R
+infinite zscore found in 349 T2_L5_Insula_L
+infinite zscore found in 350 T2_L5_Insula_R
+infinite zscore found in 351 T2_L5_Amyg_L
+infinite zscore found in 352 T2_L5_Amyg_R
+infinite zscore found in 353 T2_L5_Hippo_L
+infinite zscore found in 354 T2_L5_Hippo_R
+infinite zscore found in 355 T2_L5_Caud_L
+infinite zscore found in 356 T2_L5_Caud_R
+infinite zscore found in 357 T2_L5_Put_L
+infinite zscore found in 358 T2_L5_Put_R
+infinite zscore found in 359 T2_L5_GP_L
+infinite zscore found in 360 T2_L5_GP_R
+infinite zscore found in 361 T2_L5_Thalamus_L
+infinite zscore found in 362 T2_L5_Thalamus_R
+infinite zscore found in 363 T2_L5_HypoThalamus_L
+infinite zscore found in 364 T2_L5_HypoThalamus_R
+T2_L5_BasalForebrain_L not found in rawroivolume
+T2_L5_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 367 T2_L5_NucAccumbens_L
+infinite zscore found in 368 T2_L5_NucAccumbens_R
+infinite zscore found in 369 T2_L5_RedNc_L
+infinite zscore found in 370 T2_L5_RedNc_R
+infinite zscore found in 371 T2_L5_Snigra_L
+infinite zscore found in 372 T2_L5_Snigra_R
+infinite zscore found in 373 T2_L5_Cerebellum_R
+infinite zscore found in 374 T2_L5_Cerebellum_L
+infinite zscore found in 375 T2_L5_CP_L
+infinite zscore found in 376 T2_L5_CP_R
+infinite zscore found in 377 T2_L5_Midbrain_L
+infinite zscore found in 378 T2_L5_Midbrain_R
+infinite zscore found in 379 T2_L5_CST_L
+infinite zscore found in 380 T2_L5_CST_R
+infinite zscore found in 381 T2_L5_SCP_L
+infinite zscore found in 382 T2_L5_SCP_R
+infinite zscore found in 383 T2_L5_MCP_L
+infinite zscore found in 384 T2_L5_MCP_R
+infinite zscore found in 385 T2_L5_PCT_L
+infinite zscore found in 386 T2_L5_PCT_R
+infinite zscore found in 387 T2_L5_Medulla_L
+infinite zscore found in 388 T2_L5_Medulla_R
+infinite zscore found in 389 T2_L5_ML_L
+infinite zscore found in 390 T2_L5_ML_R
+infinite zscore found in 391 T2_L5_Pons_L
+infinite zscore found in 392 T2_L5_Pons_R
+infinite zscore found in 393 T2_L5_ACR_L
+infinite zscore found in 394 T2_L5_ACR_R
+infinite zscore found in 395 T2_L5_SCR_L
+infinite zscore found in 396 T2_L5_SCR_R
+infinite zscore found in 397 T2_L5_PCR_L
+infinite zscore found in 398 T2_L5_PCR_R
+infinite zscore found in 399 T2_L5_GCC_L
+infinite zscore found in 400 T2_L5_GCC_R
+infinite zscore found in 401 T2_L5_BCC_L
+infinite zscore found in 402 T2_L5_BCC_R
+infinite zscore found in 403 T2_L5_SCC_L
+infinite zscore found in 404 T2_L5_SCC_R
+T2_L5_PVWl_L not found in rawroivolume
+T2_L5_PVWl_R not found in rawroivolume
+infinite zscore found in 407 T2_L5_ALIC_L
+infinite zscore found in 408 T2_L5_ALIC_R
+infinite zscore found in 409 T2_L5_PLIC_L
+infinite zscore found in 410 T2_L5_PLIC_R
+infinite zscore found in 411 T2_L5_RLIC_L
+infinite zscore found in 412 T2_L5_RLIC_R
+infinite zscore found in 413 T2_L5_EC_L
+infinite zscore found in 414 T2_L5_EC_R
+infinite zscore found in 415 T2_L5_CGC_L
+infinite zscore found in 416 T2_L5_CGC_R
+infinite zscore found in 417 T2_L5_CGH_L
+infinite zscore found in 418 T2_L5_CGH_R
+T2_L5_Fx_ST_L not found in rawroivolume
+T2_L5_Fx_ST_R not found in rawroivolume
+infinite zscore found in 421 T2_L5_Fx_L
+infinite zscore found in 422 T2_L5_Fx_R
+infinite zscore found in 423 T2_L5_IFO_L
+infinite zscore found in 424 T2_L5_IFO_R
+infinite zscore found in 425 T2_L5_PTR_L
+infinite zscore found in 426 T2_L5_PTR_R
+infinite zscore found in 427 T2_L5_SS_L
+infinite zscore found in 428 T2_L5_SS_R
+infinite zscore found in 429 T2_L5_SFO_L
+infinite zscore found in 430 T2_L5_SFO_R
+infinite zscore found in 431 T2_L5_SLF_L
+infinite zscore found in 432 T2_L5_SLF_R
+infinite zscore found in 433 T2_L5_Cl_L
+infinite zscore found in 434 T2_L5_Cl_R
+infinite zscore found in 435 T2_L5_Mammillary_R
+infinite zscore found in 436 T2_L5_Mammillary_L
+infinite zscore found in 437 T2_L5_LV_Frontal_L
+infinite zscore found in 438 T2_L5_LV_body_L
+infinite zscore found in 439 T2_L5_LV_atrium_L
+infinite zscore found in 440 T2_L5_LV_Occipital_L
+T2_L5_LV_Inferior_L not found in rawroivolume
+infinite zscore found in 442 T2_L5_LV_Frontal_R
+infinite zscore found in 443 T2_L5_LV_body_R
+infinite zscore found in 444 T2_L5_LV_atrium_R
+infinite zscore found in 445 T2_L5_LV_Occipital_R
+T2_L5_LV_Inferior_R not found in rawroivolume
+infinite zscore found in 447 T2_L5_III_and_IV_ventricle
+T2_L5_PVWa_L not found in rawroivolume
+T2_L5_PVWa_R not found in rawroivolume
+infinite zscore found in 450 T2_L5_PVWp_L
+infinite zscore found in 451 T2_L5_PVWp_R
+infinite zscore found in 452 T2_L5_L_L
+infinite zscore found in 453 T2_L5_L_R
+infinite zscore found in 454 T2_L5_CerebellumWM_R
+infinite zscore found in 455 T2_L5_CerebellumWM_L
+infinite zscore found in 456 T2_L5_FrontSul_L
+infinite zscore found in 457 T2_L5_FrontSul_R
+infinite zscore found in 458 T2_L5_CentralSul_L
+infinite zscore found in 459 T2_L5_CentralSul_R
+T2_L5_SylAntInsularSul_L not found in rawroivolume
+T2_L5_SylAntInsularSul_R not found in rawroivolume
+T2_L5_SylPostInsularSul_L not found in rawroivolume
+T2_L5_SylPostInsularSul_R not found in rawroivolume
+T2_L5_SylExtSMG_L not found in rawroivolume
+T2_L5_SylExtSMG_R not found in rawroivolume
+infinite zscore found in 466 T2_L5_ParietSul_L
+infinite zscore found in 467 T2_L5_ParietSul_R
+infinite zscore found in 468 T2_L5_CinguSul_L
+infinite zscore found in 469 T2_L5_CinguSul_R
+infinite zscore found in 470 T2_L5_OcciptSul_L
+infinite zscore found in 471 T2_L5_OcciptSul_R
+infinite zscore found in 472 T2_L5_TempSul_L
+infinite zscore found in 473 T2_L5_TempSul_R
+T2_L5_Caudate_tail_L not found in rawroivolume
+T2_L5_Caudate_tail_R not found in rawroivolume
+T2_L5_Chroid_LVetc_L not found in rawroivolume
+T2_L5_Chroid_LVetc_R not found in rawroivolume
+infinite zscore found in 478 T2_L4_Frontal_L
+infinite zscore found in 479 T2_L4_Frontal_R
+infinite zscore found in 480 T2_L4_Parietal_L
+infinite zscore found in 481 T2_L4_Parietal_R
+infinite zscore found in 482 T2_L4_Temporal_L
+infinite zscore found in 483 T2_L4_Temporal_R
+infinite zscore found in 484 T2_L4_Limbic_L
+infinite zscore found in 485 T2_L4_Limbic_R
+infinite zscore found in 486 T2_L4_Occipital_L
+infinite zscore found in 487 T2_L4_Occipital_R
+infinite zscore found in 488 T2_L4_Cingulate_L
+infinite zscore found in 489 T2_L4_Cingulate_R
+infinite zscore found in 490 T2_L4_Insula_L
+infinite zscore found in 491 T2_L4_Insula_R
+infinite zscore found in 492 T2_L4_Striatum_L
+infinite zscore found in 493 T2_L4_Striatum_R
+infinite zscore found in 494 T2_L4_GP_L
+infinite zscore found in 495 T2_L4_GP_R
+infinite zscore found in 496 T2_L4_Thalamus_L
+infinite zscore found in 497 T2_L4_Thalamus_R
+T2_L4_BasalForebrain_L not found in rawroivolume
+T2_L4_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 500 T2_L4_midbrain_L
+infinite zscore found in 501 T2_L4_midbrain_R
+infinite zscore found in 502 T2_L4_Cerebellum_R
+infinite zscore found in 503 T2_L4_Cerebellum_L
+infinite zscore found in 504 T2_L4_Pons_L
+infinite zscore found in 505 T2_L4_Pons_R
+infinite zscore found in 506 T2_L4_Medulla_L
+infinite zscore found in 507 T2_L4_Medulla_R
+T2_L4_ant_DPWM_L not found in rawroivolume
+T2_L4_ant_DPWM_R not found in rawroivolume
+T2_L4_post_DPWM_L not found in rawroivolume
+T2_L4_post_DPWM_R not found in rawroivolume
+infinite zscore found in 512 T2_L4_CorpusCallosum_L
+infinite zscore found in 513 T2_L4_CorpusCallosum_R
+T2_L4_inf_DPWM_L not found in rawroivolume
+T2_L4_inf_DPWM_R not found in rawroivolume
+infinite zscore found in 516 T2_L4_InternalCapsule_L
+infinite zscore found in 517 T2_L4_InternalCapsule_R
+infinite zscore found in 518 T2_L4_LimbicWM_L
+infinite zscore found in 519 T2_L4_LimbicWM_R
+T2_L4_AnteriorLateralVentricle_L not found in rawroivolume
+infinite zscore found in 521 T2_L4_PosteriorLateralVentricle_L
+infinite zscore found in 522 T2_L4_InferiorLateralVentricle_L
+T2_L4_AnteriorLateralVentricle_R not found in rawroivolume
+infinite zscore found in 524 T2_L4_PosteriorLateralVentricle_R
+infinite zscore found in 525 T2_L4_InferiorLateralVentricle_R
+infinite zscore found in 526 T2_L4_IIIandIV_Ventricle
+infinite zscore found in 527 T2_L4_CerebellumWM_R
+infinite zscore found in 528 T2_L4_CerebellumWM_L
+infinite zscore found in 529 T2_L4_FrontSul_L
+infinite zscore found in 530 T2_L4_FrontSul_R
+infinite zscore found in 531 T2_L4_CentralSul_L
+infinite zscore found in 532 T2_L4_CentralSul_R
+T2_L4_SylAntInsularSul_L not found in rawroivolume
+T2_L4_SylAntInsularSul_R not found in rawroivolume
+T2_L4_SylPostInsularSul_L not found in rawroivolume
+T2_L4_SylPostInsularSul_R not found in rawroivolume
+T2_L4_SylExtSMG_L not found in rawroivolume
+T2_L4_SylExtSMG_R not found in rawroivolume
+infinite zscore found in 539 T2_L4_ParietSul_L
+infinite zscore found in 540 T2_L4_ParietSul_R
+infinite zscore found in 541 T2_L4_CinguSul_L
+infinite zscore found in 542 T2_L4_CinguSul_R
+infinite zscore found in 543 T2_L4_OcciptSul_L
+infinite zscore found in 544 T2_L4_OcciptSul_R
+infinite zscore found in 545 T2_L4_TempSul_L
+infinite zscore found in 546 T2_L4_TempSul_R
+infinite zscore found in 547 T2_L3_Frontal_L
+infinite zscore found in 548 T2_L3_Frontal_R
+infinite zscore found in 549 T2_L3_Parietal_L
+infinite zscore found in 550 T2_L3_Parietal_R
+infinite zscore found in 551 T2_L3_Temporal_L
+infinite zscore found in 552 T2_L3_Temporal_R
+infinite zscore found in 553 T2_L3_Limbic_L
+infinite zscore found in 554 T2_L3_Limbic_R
+infinite zscore found in 555 T2_L3_Occipital_L
+infinite zscore found in 556 T2_L3_Occipital_R
+infinite zscore found in 557 T2_L3_Insula_L
+infinite zscore found in 558 T2_L3_Insula_R
+infinite zscore found in 559 T2_L3_BasalGang_L
+infinite zscore found in 560 T2_L3_BasalGang_R
+infinite zscore found in 561 T2_L3_Thalamus_L
+infinite zscore found in 562 T2_L3_Thalamus_R
+T2_L3_BasalForebrain_L not found in rawroivolume
+T2_L3_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 565 T2_L3_midbrain_L
+infinite zscore found in 566 T2_L3_midbrain_R
+infinite zscore found in 567 T2_L3_Cerebellum_R
+infinite zscore found in 568 T2_L3_Cerebellum_L
+infinite zscore found in 569 T2_L3_Pons_L
+infinite zscore found in 570 T2_L3_Pons_R
+infinite zscore found in 571 T2_L3_Medulla_L
+infinite zscore found in 572 T2_L3_Medulla_R
+T2_L3_AnteriorWM_L not found in rawroivolume
+T2_L3_AnteriorWM_R not found in rawroivolume
+infinite zscore found in 575 T2_L3_PosteriorWM_L
+infinite zscore found in 576 T2_L3_PosteriorWM_R
+infinite zscore found in 577 T2_L3_CorpusCallosum_L
+infinite zscore found in 578 T2_L3_CorpusCallosum_R
+infinite zscore found in 579 T2_L3_InferiorWM_L
+infinite zscore found in 580 T2_L3_InferiorWM_R
+infinite zscore found in 581 T2_L3_LimbicWM_L
+infinite zscore found in 582 T2_L3_LimbicWM_R
+infinite zscore found in 583 T2_L3_LateralVentricle_L
+infinite zscore found in 584 T2_L3_LateralVentricle_R
+infinite zscore found in 585 T2_L3_IIIandIV_Ventricle
+infinite zscore found in 586 T2_L3_FrontSul_L
+infinite zscore found in 587 T2_L3_FrontSul_R
+infinite zscore found in 588 T2_L3_CentralSul_L
+infinite zscore found in 589 T2_L3_CentralSul_R
+infinite zscore found in 590 T2_L3_TempSul_L
+infinite zscore found in 591 T2_L3_TempSul_R
+infinite zscore found in 592 T2_L3_ParietSul_L
+infinite zscore found in 593 T2_L3_ParietSul_R
+infinite zscore found in 594 T2_L3_CinguSul_L
+infinite zscore found in 595 T2_L3_CinguSul_R
+infinite zscore found in 596 T2_L3_OcciptSul_L
+infinite zscore found in 597 T2_L3_OcciptSul_R
+infinite zscore found in 598 T2_L2_Hemisphere_L
+infinite zscore found in 599 T2_L2_Hemisphere_R
+infinite zscore found in 600 T2_L2_CerebralNucli_L
+infinite zscore found in 601 T2_L2_CerebralNucli_R
+infinite zscore found in 602 T2_L2_Thalamus_L
+infinite zscore found in 603 T2_L2_Thalamus_R
+T2_L2_BasalForebrain_L not found in rawroivolume
+T2_L2_BasalForebrain_R not found in rawroivolume
+infinite zscore found in 606 T2_L2_midbrain
+infinite zscore found in 607 T2_L2_Cerebellum_R
+infinite zscore found in 608 T2_L2_Cerebellum_L
+infinite zscore found in 609 T2_L2_Brainstem_L
+infinite zscore found in 610 T2_L2_Brainstem_R
+infinite zscore found in 611 T2_L2_WhiteMatter_L
+infinite zscore found in 612 T2_L2_WhiteMatter_R
+infinite zscore found in 613 T2_L2_Ventricle
+infinite zscore found in 614 T2_L2_Sulcus_L
+infinite zscore found in 615 T2_L2_Sulcus_R
+infinite zscore found in 616 T2_L1_Hemisphere_L
+infinite zscore found in 617 T2_L1_Hemisphere_R
+infinite zscore found in 618 T2_L1_Brainstem
+infinite zscore found in 619 T2_L1_Cerebellum
+infinite zscore found in 620 T2_L1_CSF
+T2_L0_Brain not found in rawroivolume
+
+nametreearray = 
+
+1x621 struct array with fields:
+
+    id
+    name
+    level
+    idname
+    shortname
+    fullname
+    fullnameintextfile
+    firstappearintable
+    isleaf
+    roilabels
+    roiids
+    children
+    parent
+    isorphan
+    idsatlevels
+    volume
+    percentvolume
+    zscore
+    rgbcolor
+
+11
+number of faces before reduction: 22668
+number of faces after reduction: 3692
+mexx3dfacestring length of string is 59807
+mexx3dverticesstring length of string is 48101
+52
+number of faces before reduction: 8740
+number of faces after reduction: 4954
+mexx3dfacestring length of string is 82529
+mexx3dverticesstring length of string is 60961
+31
+number of faces before reduction: 7444
+number of faces after reduction: 4788
+mexx3dfacestring length of string is 79533
+mexx3dverticesstring length of string is 62446
+72
+number of faces before reduction: 16332
+number of faces after reduction: 4452
+mexx3dfacestring length of string is 73634
+mexx3dverticesstring length of string is 56051
+51
+number of faces before reduction: 13364
+number of faces after reduction: 4796
+mexx3dfacestring length of string is 79696
+mexx3dverticesstring length of string is 62649
+92
+number of faces before reduction: 8692
+number of faces after reduction: 4950
+mexx3dfacestring length of string is 82475
+mexx3dverticesstring length of string is 62184
+71
+number of faces before reduction: 920
+number of faces after reduction: 912
+mexx3dfacestring length of string is 13027
+mexx3dverticesstring length of string is 12288
+112
+number of faces before reduction: 14028
+number of faces after reduction: 4726
+mexx3dfacestring length of string is 78411
+mexx3dverticesstring length of string is 59230
+91
+number of faces before reduction: 2356
+number of faces after reduction: 2232
+mexx3dfacestring length of string is 33536
+mexx3dverticesstring length of string is 30187
+132
+number of faces before reduction: 852
+number of faces after reduction: 844
+mexx3dfacestring length of string is 12006
+mexx3dverticesstring length of string is 10933
+111
+number of faces before reduction: 4808
+number of faces after reduction: 3904
+mexx3dfacestring length of string is 63631
+mexx3dverticesstring length of string is 50569
+152
+number of faces before reduction: 2112
+number of faces after reduction: 2020
+mexx3dfacestring length of string is 29717
+mexx3dverticesstring length of string is 26350
+131
+number of faces before reduction: 7680
+number of faces after reduction: 4830
+mexx3dfacestring length of string is 80296
+mexx3dverticesstring length of string is 64858
+172
+number of faces before reduction: 4796
+number of faces after reduction: 3898
+mexx3dfacestring length of string is 63526
+mexx3dverticesstring length of string is 48544
+151
+number of faces before reduction: 3996
+number of faces after reduction: 3444
+mexx3dfacestring length of string is 55348
+mexx3dverticesstring length of string is 45970
+192
+number of faces before reduction: 6484
+number of faces after reduction: 4564
+mexx3dfacestring length of string is 75525
+mexx3dverticesstring length of string is 59300
+171
+number of faces before reduction: 5680
+number of faces after reduction: 4294
+mexx3dfacestring length of string is 70657
+mexx3dverticesstring length of string is 53554
+212
+number of faces before reduction: 1240
+number of faces after reduction: 1220
+mexx3dfacestring length of string is 17655
+mexx3dverticesstring length of string is 16687
+191
+number of faces before reduction: 16008
+number of faces after reduction: 4492
+mexx3dfacestring length of string is 74337
+mexx3dverticesstring length of string is 58225
+232
+number of faces before reduction: 4712
+number of faces after reduction: 3854
+mexx3dfacestring length of string is 62735
+mexx3dverticesstring length of string is 50155
+211
+number of faces before reduction: 10572
+number of faces after reduction: 4992
+mexx3dfacestring length of string is 83196
+mexx3dverticesstring length of string is 65209
+252
+number of faces before reduction: 8500
+number of faces after reduction: 4934
+mexx3dfacestring length of string is 82152
+mexx3dverticesstring length of string is 64299
+231
+number of faces before reduction: 102464
+number of faces before reduction: 7600
+number of faces after reduction: 4816
+mexx3dfacestring length of string is 80045
+mexx3dverticesstring length of string is 64550
+251
+number of faces after reduction: 10246
+mexx3dfacestring length of string is 177621
+mexx3dverticesstring length of string is 139226
+272
+number of faces before reduction: 3628
+number of faces after reduction: 3206
+mexx3dfacestring length of string is 51075
+mexx3dverticesstring length of string is 43390
+271
+number of faces before reduction: 8340
+number of faces after reduction: 4918
+mexx3dfacestring length of string is 82014
+mexx3dverticesstring length of string is 66241
+292
+number of faces before reduction: 10748
+number of faces after reduction: 4986
+mexx3dfacestring length of string is 83355
+mexx3dverticesstring length of string is 65338
+291
+number of faces before reduction: 6536
+number of faces after reduction: 4578
+mexx3dfacestring length of string is 75748
+mexx3dverticesstring length of string is 59567
+312
+number of faces before reduction: 7080
+number of faces after reduction: 4716
+mexx3dfacestring length of string is 78250
+mexx3dverticesstring length of string is 59001
+311
+number of faces before reduction: 15436
+number of faces after reduction: 4562
+mexx3dfacestring length of string is 75467
+mexx3dverticesstring length of string is 59336
+332
+number of faces before reduction: 14352
+number of faces after reduction: 4690
+mexx3dfacestring length of string is 77790
+mexx3dverticesstring length of string is 58850
+331
+number of faces before reduction: 22624
+number of faces after reduction: 3696
+mexx3dfacestring length of string is 59854
+mexx3dverticesstring length of string is 49068
+352
+number of faces before reduction: 24240
+number of faces after reduction: 3524
+mexx3dfacestring length of string is 56760
+mexx3dverticesstring length of string is 44933
+351
+number of faces before reduction: 3044
+number of faces after reduction: 2784
+mexx3dfacestring length of string is 43483
+mexx3dverticesstring length of string is 36297
+372
+number of faces before reduction: 2916
+number of faces after reduction: 2686
+mexx3dfacestring length of string is 41712
+mexx3dverticesstring length of string is 33626
+371
+number of faces before reduction: 808
+number of faces after reduction: 802
+mexx3dfacestring length of string is 11375
+mexx3dverticesstring length of string is 10487
+392
+number of faces before reduction: 964
+number of faces after reduction: 954
+mexx3dfacestring length of string is 13660
+mexx3dverticesstring length of string is 12056
+391
+number of faces before reduction: 2480
+number of faces after reduction: 2336
+mexx3dfacestring length of string is 35388
+mexx3dverticesstring length of string is 31134
+412
+number of faces before reduction: 1268
+number of faces after reduction: 1246
+mexx3dfacestring length of string is 18039
+mexx3dverticesstring length of string is 16356
+411
+number of faces before reduction: 4344
+number of faces after reduction: 3654
+mexx3dfacestring length of string is 59119
+mexx3dverticesstring length of string is 49053
+432
+number of faces before reduction: 4332
+number of faces after reduction: 3646
+mexx3dfacestring length of string is 58984
+mexx3dverticesstring length of string is 47191
+431
+number of faces before reduction: 12284
+number of faces after reduction: 4896
+mexx3dfacestring length of string is 81466
+mexx3dverticesstring length of string is 62967
+452
+number of faces before reduction: 10752
+number of faces after reduction: 4986
+mexx3dfacestring length of string is 83102
+mexx3dverticesstring length of string is 61598
+451
+number of faces before reduction: 10572
+number of faces after reduction: 4992
+mexx3dfacestring length of string is 83196
+mexx3dverticesstring length of string is 65209
+472
+number of faces before reduction: 3116
+number of faces after reduction: 2840
+mexx3dfacestring length of string is 44538
+mexx3dverticesstring length of string is 38116
+471
+number of faces before reduction: 10748
+number of faces after reduction: 4986
+mexx3dfacestring length of string is 83355
+mexx3dverticesstring length of string is 65338
+492
+number of faces before reduction: 13272
+number of faces after reduction: 4806
+mexx3dfacestring length of string is 80135
+mexx3dverticesstring length of string is 64865
+491
+number of faces before reduction: 16180
+number of faces after reduction: 4472
+mexx3dfacestring length of string is 73892
+mexx3dverticesstring length of string is 57118
+512
+number of faces before reduction: 13364
+number of faces after reduction: 4796
+mexx3dfacestring length of string is 79696
+mexx3dverticesstring length of string is 62649
+511
+number of faces before reduction: 19240
+number of faces after reduction: 4092
+mexx3dfacestring length of string is 67020
+mexx3dverticesstring length of string is 50997
+532
+number of faces before reduction: 6852
+number of faces after reduction: 4662
+mexx3dfacestring length of string is 77268
+mexx3dverticesstring length of string is 60660
+531
+number of faces before reduction: 8488
+number of faces after reduction: 4932
+mexx3dfacestring length of string is 82119
+mexx3dverticesstring length of string is 63216
+552
+number of faces before reduction: 9388
+number of faces after reduction: 4990
+mexx3dfacestring length of string is 83178
+mexx3dverticesstring length of string is 61359
+551
+number of faces before reduction: 63320
+number of faces after reduction: 6332
+mexx3dfacestring length of string is 107311
+mexx3dverticesstring length of string is 84426
+572
+number of faces before reduction: 63712
+number of faces after reduction: 6370
+mexx3dfacestring length of string is 108070
+mexx3dverticesstring length of string is 81853
+571
+number of faces before reduction: 4068
+number of faces after reduction: 3490
+mexx3dfacestring length of string is 56191
+mexx3dverticesstring length of string is 47229
+592
+number of faces before reduction: 3964
+number of faces after reduction: 3424
+mexx3dfacestring length of string is 55000
+mexx3dverticesstring length of string is 45100
+591
+number of faces before reduction: 31500
+number of faces after reduction: 3150
+mexx3dfacestring length of string is 50170
+mexx3dverticesstring length of string is 39974
+612
+number of faces before reduction: 18824
+number of faces after reduction: 4142
+mexx3dfacestring length of string is 68103
+mexx3dverticesstring length of string is 55572
+611
+number of faces before reduction: 82476
+number of faces before reduction: 81120
+number of faces after reduction: 8246
+mexx3dfacestring length of string is 141751
+mexx3dverticesstring length of string is 107050
+
+j =
+
+    12
+
+
+j =
+
+    32
+
+
+j =
+
+    52
+
+number of faces after reduction: 8112
+mexx3dfacestring length of string is 139347
+mexx3dverticesstring length of string is 101539
+
+j =
+
+    11
+
+
+j =
+
+    31
+
+
+j =
+
+    51
+
+
+j =
+
+    72
+
+
+j =
+
+    71
+
+
+j =
+
+    92
+
+
+j =
+
+    91
+
+
+j =
+
+   112
+
+
+j =
+
+   111
+
+
+j =
+
+   132
+
+
+j =
+
+   152
+
+
+j =
+
+   172
+
+
+j =
+
+    12
+
+
+j =
+
+    32
+
+
+j =
+
+   131
+
+
+j =
+
+    52
+
+
+j =
+
+   151
+
+
+j =
+
+   171
+
+
+j =
+
+    11
+
+
+j =
+
+    31
+
+
+j =
+
+    51
+
+
+j =
+
+    72
+
+
+j =
+
+    71
+
+
+j =
+
+    92
+
+
+j =
+
+    91
+
+
+j =
+
+   112
+
+
+j =
+
+   111
+
+
+j =
+
+   132
+
+
+j =
+
+   152
+
+
+j =
+
+   131
+
+
+j =
+
+   172
+
+
+j =
+
+    12
+
+
+j =
+
+    32
+
+
+j =
+
+    52
+
+
+j =
+
+   151
+
+
+j =
+
+    72
+
+
+j =
+
+   171
+
+
+j =
+
+    11
+
+
+j =
+
+    31
+
+
+j =
+
+    51
+
+
+j =
+
+    92
+
+
+j =
+
+    71
+
+
+j =
+
+    91
+
+
+j =
+
+   112
+
+
+j =
+
+   111
+
+
+j =
+
+   132
+
+
+j =
+
+   131
+
+
+j =
+
+   152
+
+
+j =
+
+   172
+
+
+j =
+
+   151
+
+
+j =
+
+   192
+
+
+j =
+
+   212
+
+Elapsed time is 80.357021 seconds.
+finished!
+
+j =
+
+   171
+
+
+j =
+
+   191
+
+
+j =
+
+   211
+
+Elapsed time is 80.743745 seconds.
+finished!
+0
+3
+0
+3

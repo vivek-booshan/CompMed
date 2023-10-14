@@ -1,0 +1,19 @@
+#!/bin/bash          
+#                    
+
+/work/00303/tg455757/stampede2/M1_101214/scripts_070218/AIR_registration_2pass.pl /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/00_target/target.img /work/00303/tg455757/stampede2/M1_101214/atlassets/MNI/JHU_MNI_T1.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni 0 2 2 0
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_normalization2float3 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.img
+
+cp /work/00303/tg455757/stampede2/M1_101214/atlassets/MNI/JHU_MNI_T1.hdr /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.hdr
+
+cd /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/02_inhomogcorrection
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_normalization2float3 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.img
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/N4BiasFieldCorrection -d 3 -i /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.img -o [ target.img, target_BF.img ]
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.hdr /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/02_inhomogcorrection/target.hdr
+
+cd /scratch/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered
+

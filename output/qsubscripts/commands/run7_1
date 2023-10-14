@@ -1,0 +1,9 @@
+#!/bin/bash          
+#                    
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration/02_air_lddmm/atlas*/4_deformations/*.*
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/02_air_lddmm/atlas*/4_deformations/*.*
+

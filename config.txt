@@ -1,0 +1,11 @@
+CascadingOption=B
+Steps=3
+alpha=0.01
+timesteps=2
+alpha=0.005
+timesteps=2
+alpha=0.002
+timesteps=2
+verbose=true
+ResolutionScalingFactor=0.5
+UseMediator=0

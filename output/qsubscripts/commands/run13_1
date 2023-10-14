@@ -1,0 +1,47 @@
+#!/bin/bash          
+#                    
+
+rm -f /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/00_target/*.img
+
+rm -f /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/00_target/*.hdr
+
+rm -f /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/*.img
+
+rm -f /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/*.hdr
+
+rm -f /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/02_inhomogcorrection/*.img
+
+rm -f /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/02_inhomogcorrection/*.hdr
+
+rm -f /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration/*.img
+
+rm -f /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration/*.hdr
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/07_masking
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05n_inhomogcorrection
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/02_inhomogcorrection
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/00_target
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04a_masking
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni_old
+
+rm -f -R /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04c_masking
+

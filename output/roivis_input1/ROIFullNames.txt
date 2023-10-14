@@ -1,0 +1,257 @@
+SFG_L	SUPERIOR FRONTAL GYRUS (posterior segment) left
+SFG_R	SUPERIOR FRONTAL GYRUS (posterior segment) right
+SFG_PFC_L	Superior frontal gyrus (prefrontal cortex) left
+SFG_PFC_R	Superior frontal gyrus (prefrontal cortex) right
+SFG_pole_L	superior frontal gyrus (frontal pole) left
+SFG_pole_R	superior frontal gyrus (frontal pole) right
+MFG_L	MIDDLE FRONTAL GYRUS (posterior segment) left
+MFG_R	MIDDLE FRONTAL GYRUS  (posterior segment) right
+MFG_DPFC_L	Middle frontal gyrus (dorsal prefrontal cortex) left
+MFG_DPFC_R	Middle frontal gyrus (dorsal prefrontal cortex) right
+IFG_opercularis_L	inferior frontal gyrus pars opercularis left
+IFG_opercularis_R	inferior frontal gyrus pars opercularis right
+IFG_orbitalis_L	inferior frontal gyrus pars orbitralis left
+IFG_orbitalis_R	inferior frontal gyrus pars orbitralis right
+IFG_triangularis_L	inferior frontal gyrus pars triangularis left
+IFG_triangularis_R	inferior frontal gyrus pars triangularis right
+LFOG_L	LATERAL FRONTO-ORBITAL GYRUS left
+LFOG_R	LATERAL FRONTO-ORBITAL GYRUS right
+MFOG_L	MIDDLE FRONTO-ORBITAL GYRUS left
+MFOG_R	MIDDLE FRONTO-ORBITAL GYRUS right
+RG_L	GYRUS RECTUS left
+RG_R	GYRUS RECTUS right
+PoCG_L	POSTCENTRAL GYRUS left
+PoCG_R	POSTCENTRAL GYRUS right
+PrCG_L	PRECENTRAL GYRUS left
+PrCG_R	PRECENTRAL GYRUS right
+SPG_L	SUPERIOR PARIETAL GYRUS left
+SPG_R	SUPERIOR PARIETAL GYRUS right
+SMG_L	SUPRAMARGINAL GYRUS left
+SMG_R	SUPRAMARGINAL GYRUS right
+AG_L	ANGULAR GYRUS left
+AG_R	ANGULAR GYRUS right
+PrCu_L	PRE-CUNEUS left
+PrCu_R	PRE-CUNEUS right
+STG_L	SUPERIOR TEMPORAL GYRUS left
+STG_R	SUPERIOR TEMPORAL GYRUS right
+STG_L_pole	Pole of SUPERIOR TEMPORAL GYRUS left
+STG_R_pole	Pole of SUPERIOR TEMPORAL GYRUS right 
+MTG_L	MIDDLE TEMPORAL GYRUS left
+MTG_R	MIDDLE TEMPORAL GYRUS right
+MTG_L_pole	Pole of MIDDLE TEMPORAL GYRUS left
+MTG_R_pole	Pole of MIDDLE TEMPORAL GYRUS right
+ITG_L	INFERIOR TEMPORAL GYRUS left
+ITG_R	INFERIOR TEMPORAL GYRUS right
+PHG_L	PARAHIPPOCAMPAL GYRUS left
+PHG_R	PARAHIPPOCAMPAL GYRUS right
+ENT_L	ENTORHINAL AREA left
+ENT_R	ENTORHINAL AREA right
+FuG_L	FUSIFORM GYRUS left
+FuG_R	FUSIFORM GYRUS right
+SOG_L	SUPERIOR OCCIPITAL GYRUS left
+SOG_R	SUPERIOR OCCIPITAL GYRUS right
+MOG_L	MIDDLE OCCIPITAL GYRUS left
+MOG_R	MIDDLE OCCIPITAL GYRUS right
+IOG_L	INFERIOR OCCIPITAL GYRUS left
+IOG_R	INFERIOR OCCIPITAL GYRUS right
+Cu_L	CUNEUS left
+Cu_R	CUNEUS right
+LG_L	LINGUAL GYRUS left
+LG_R	LINGUAL GYRUS right
+rostral_ACC_L	rostral anterior cingulate gyrus left
+rostral_ACC_R	rostral anterior cingulate gyrus right
+subcallosal_ACC_L	subcallosal anterior cingulate gyrus left
+subcallosal_ACC_R	subcallosal anterior cingulate gyrus right
+subgenual_ACC_L	subgenual anterior cingulate gyrus left
+subgenual_ACC_R	subgenual anterior cingulate gyrus right
+dorsal_ACC_L	dorsal anterior cingulate gyrus left
+dorsal_ACC_R	dorsal anterior cingulate gyrus right
+PCC_L	posterior cingulate gyrus left
+PCC_R	posterior cingulate gyrus right
+Ins_L	INSULAR left
+Ins_R	INSULAR right
+Amyg_L	AMYGDALA left
+Amyg_R	AMYGDALA right
+Hippo_L	HIPPOCAMPUS left
+Hippo_R	HIPPOCAMPUS right
+Caud_L	CAUDATE NUCLEUS left
+Caud_R	CAUDATE NUCLEUS right
+Put_L	PUTAMEN left
+Put_R	PUTAMEN right
+GP_L	GLOBUS PALLIDUS left
+GP_R	GLOBUS PALLIDUS right
+Thalamus_L	THALAMUS left
+Thalamus_R	THALAMUS right
+HypoThalamus_L	Hypothalamus left
+HypoThalamus_R	Hypothalamus right
+Mynert_L	Nucleus innominata of Mynert left
+Mynert_R	Nucleus innominata of Mynert right
+NucAccumbens_L	Nucleus accumbens left
+NucAccumbens_R	Nucleus accumbens right
+RedNc_L	Red Nucleus left
+RedNc_R	Red Nucleus right
+Snigra_L	Substancia Nigra left
+Snigra_R	Substancia Nigra right
+CerebellumGM_R	CEREBELLUM right
+CerebellumGM_L	CEREBELLUM left
+CP_L	Cerebral peduncle left
+CP_R	Cerebral peduncle right
+Midbrain_L	MIDBRAIN left
+Midbrain_R	MIDBRAIN right
+CST_L	Corticospinal tract left
+CST_R	Corticospinal tract right
+SCP_L	Superior cerebellar peduncle left
+SCP_R	Superior cerebellar peduncle right
+MCP_L	Middle cerebellar peduncle left
+MCP_R	Middle cerebellar peduncle right
+PCT_L	Pontine crossing tract (a part of MCP) left
+PCT_R	Pontine crossing tract (a part of MCP) right
+ICP_L	Inferior cerebellar peduncle left
+ICP_R	Inferior cerebellar peduncle right
+ML_L	Medial lemniscus left
+ML_R	Medial lemniscus right
+Pons_L	PONS left
+Pons_R	PONS right
+Medulla_L	MEDULLA left
+Medulla_R	MEDULLA right
+ACR_L	Anterior corona radiata left
+ACR_R	Anterior corona radiata right
+SCR_L	Superior corona radiata left
+SCR_R	Superior corona radiata right
+PCR_L	Posterior corona radiata left
+PCR_R	Posterior corona radiata right
+GCC_L	Genu of corpus callosum left
+GCC_R	Genu of corpus callosum right
+BCC_L	Body of corpus callosum left
+BCC_R	Body of corpus callosum right
+SCC_L	Splenium of corpus callosum left
+SCC_R	Splenium of corpus callosum right
+TAP_L	Tapatum left
+TAP_R	Tapatum right
+ALIC_L	Anterior limb of internal capsule left
+ALIC_R	Anterior limb of internal capsule right
+PLIC_L	Posterior limb of internal capsule left
+PLIC_R	Posterior limb of internal capsule right
+RLIC_L	Retrolenticular part of internal capsule left
+RLIC_R	Retrolenticular part of internal capsule right
+EC_L	External capsule left
+EC_R	External capsule right
+CGC_L	Cingulum (cingulate gyrus) left
+CGC_R	Cingulum (cingulate gyrus) right
+CGH_L	Cingulum (hippocampus) left
+CGH_R	Cingulum (hippocampus) right
+Fx/ST_L	Fornix (cres) / Stria terminalis (can not be resolved with current resolution) left
+Fx/ST_R	Fornix (cres) / Stria terminalis (can not be resolved with current resolution) right
+Fx_L	Fornix (column and body of fornix) left
+Fx_R	Fornix (column and body of fornix) right
+IFO_L	Inferior fronto-occipital fasciculus left
+IFO_R	Inferior fronto-occipital fasciculus right
+PTR_L	Posterior thalamic radiation (include optic radiation) left
+PTR_R	Posterior thalamic radiation (include optic radiation) right
+SS_L	Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus) left
+SS_R	Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus) right
+SFO_L	Superior fronto-occipital fasciculus (could be a part of anterior internal capsule) left
+SFO_R	Superior fronto-occipital fasciculus (could be a part of anterior internal capsule) right
+SLF_L	Superior longitudinal fasciculus left
+SLF_R	Superior longitudinal fasciculus right
+UNC_L	Uncinate fasciculus left
+UNC_R	Uncinate fasciculus right
+AnsaLenticularis_L	Ansa lenticularis left
+AnsaLenticularis_R	Ansa lenticularis right
+AnteriorCom_L	Anterior commissure left
+AnteriorCom_R	Anterior commissure right
+LenticularFasc_L	Lenticular fasciclus left
+LenticularFasc_R	Lenticular fasciclus right
+OlfactoryRadiation_L	olfactory radiation  left
+OlfactoryRadiation_R	olfactory radiation   right
+Mammillary_R	Mammillary body left
+Mammillary_L	Mammillary body right
+OpticTract_L	Optic tract left
+OpticTract_R	Optic tract right
+LV_Frontal_L	lateral ventricle_frontal left
+LV_body_L	lateral ventricle_body left
+LV_atrium_L	lateral ventricle_atrium left
+LV_Occipital_L	lateral ventricle_occipital left
+LV_Temporal_L	lateral ventricle_temporal left
+LV_Frontal_R	lateral ventricle_frontal right
+LV_body_R	lateral ventricle_body right
+LV_atrium_R	lateral ventricle_atrium right
+LV_Occipital_R	lateral ventricle_occipital right
+LV_Temporal_R	lateral ventricle_temporal right
+III_and_IV_ventricle	III and IV ventricle
+PVWf_L	Periventricular White Matter frontal left
+PVWf_R	Periventricular White Matter frontal right
+PVWp_L	Periventricular White Matter posterior left
+PVWp_R	Periventricular White Matter posterior right
+SFWM_L	SUPERIOR FRONTAL WM (posterior segment) left
+SFWM_R	SUPERIOR FRONTAL WM (posterior segment) right
+SFWM_PFC_L	Superior frontal WM (prefrontal cortex) left
+SFWM_PFC_R	Superior frontal WM (prefrontal cortex) right
+SFWM_pole_L	superior frontal WM (frontal pole) left
+SFWM_pole_R	superior frontal WM (frontal pole) right
+MFWM_L	MIDDLE FRONTAL WM (posterior segment) left
+MFWM_R	MIDDLE FRONTAL WM  (posterior segment) right
+MFWM_DPFC_L	Middle frontal WM (dorsal prefrontal cortex) left
+MFWM_DPFC_R	Middle frontal WM (dorsal prefrontal cortex) right
+IFWM_opercularis_L	inferior frontal WM pars opercularis left
+IFWM_opercularis_R	inferior frontal WM pars opercularis right
+IFWM_orbitalis_L	inferior frontal WM pars orbitralis left
+IFWM_orbitalis_R	inferior frontal WM pars orbitralis right
+IFWM_triangularis_L	inferior frontal WM pars triangularis left
+IFWM_triangularis_R	inferior frontal WM pars triangularis right
+LFOWM_L	LATERAL FRONTO-ORBITAL WM left
+LFOWM_R	LATERAL FRONTO-ORBITAL WM right
+MFOWM_L	MIDDLE FRONTO-ORBITAL WM left
+MFOWM_R	MIDDLE FRONTO-ORBITAL WM right
+RGWM_L	WM RECTUS left
+RGWM_R	WM RECTUS right
+PoCWM_L	POSTCENTRAL WM left
+PoCWM_R	POSTCENTRAL WM right
+PrCWM_L	PRECENTRAL WM left
+PrCWM_R	PRECENTRAL WM right
+SPWM_L	SUPERIOR PARIETAL WM left
+SPWM_R	SUPERIOR PARIETAL WM right
+SMWM_L	SUPRAMARGINAL WM left
+SMWM_R	SUPRAMARGINAL WM right
+AWM_L	ANGULAR WM left
+AWM_R	ANGULAR WM right
+PrCuWM_L	PRE-CUNEUS WM left
+PrCuWM_R	PRE-CUNEUS WM right
+STWM_L	SUPERIOR TEMPORAL WM left
+STWM_R	SUPERIOR TEMPORAL WM right
+STWM_L_pole	Pole of SUPERIOR TEMPORAL WM left
+STWM_R_pole	Pole of SUPERIOR TEMPORAL WM right 
+MTWM_L	MIDDLE TEMPORAL WM left
+MTWM_R	MIDDLE TEMPORAL WM right
+MTWM_L_pole	Pole of MIDDLE TEMPORAL WM left
+MTWM_R_pole	Pole of MIDDLE TEMPORAL WM right
+ITWM_L	INFERIOR TEMPORAL WM left
+ITWM_R	INFERIOR TEMPORAL WM right
+FuWM_L	FUSIFORM WM left
+FuWM_R	FUSIFORM WM right
+SOWM_L	SUPERIOR OCCIPITAL WM left
+SOWM_R	SUPERIOR OCCIPITAL WM right
+MOWM_L	MIDDLE OCCIPITAL WM left
+MOWM_R	MIDDLE OCCIPITAL WM right
+IOWM_L	INFERIOR OCCIPITAL WM left
+IOWM_R	INFERIOR OCCIPITAL WM right
+CuWM_L	CUNEUS WM left
+CuWM_R	CUNEUS WM right
+LWM_L	LINGUAL WM left
+LWM_R	LINGUAL WM right
+rostralWM_ACC_L	rostral anterior cingulate WM left
+rostralWM_ACC_R	rostral anterior cingulate WM right
+subcallosalWM_ACC_L	subcallosal anterior cingulate WM left
+subcallosalWM_ACC_R	subcallosal anterior cingulate WM right
+subgenualWM_ACC_L	subgenual anterior cingulate WM left
+subgenualWM_ACC_R	subgenual anterior cingulate WM right
+dorsalWM_ACC_L	dorsal anterior cingulate WM left
+dorsalWM_ACC_R	dorsal anterior cingulate WM right
+PCCWM_L	posterior cingulate WM left
+PCCWM_R	posterior cingulate WM right
+CerebellumWM_R	cerebellum WM right
+CerebellumWM_L	cerebellum WM left
+CSF	Peripheral CSF
+SKULL1	
+SKULL2	
+SKULL3	

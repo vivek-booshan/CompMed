@@ -1,0 +1,146 @@
+#!/bin/bash                        			
+#                                  			
+#SBATCH -o /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/log/job_all		
+#SBATCH -e /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/log/job_error		
+#SBATCH --job-name=run_daeff36b		
+#SBATCH -p parallel			
+#SBATCH --exclusive			
+#SBATCH --time=6:0:0			
+#SBATCH -N 1			
+#SBATCH --ntasks-per-node=1		
+#SBATCH --cpus-per-task=24			
+PBS_NODEFILE=$1                                                     
+                                   			
+OUTPUT_FOLDER=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases       			
+commands_dir=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands         			
+start_dir=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/start					
+finish_dir=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/finish					
+done_dir=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/done					
+PARALLEL_NUMBER=1   	
+NODE_SELECTION_FILE=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/node_selection_file.txt       		
+                                   			
+jobdetailsfile=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/jobdetails.txt		              	
+echo "SLURM_JOB_ID             = $SLURM_JOB_ID"
+echo "SLURM_SUBMIT_DIR         = $SLURM_SUBMIT_DIR"
+echo "SLURM_SUBMIT_HOST        = $SLURM_SUBMIT_HOST"
+echo "SLURM_JOB_NODELIST       = $SLURM_JOB_NODELIST"
+echo "SLURM_ARRAY_TASK_ID      = $$SLURM_ARRAY_TASK_ID"
+
+echo "SLURM_CPUS_ON_NODE       = $SLURM_CPUS_ON_NODE"
+echo "SLURM_DISTRIBUTION       = $SLURM_DISTRIBUTION"
+echo "SLURM_GTIDS              = $SLURM_GTIDS"
+echo "SLURM_JOB_CPUS_PER_NODE  = $SLURM_JOB_CPUS_PER_NODE"
+echo "SLURM_JOB_NAME           = $SLURM_JOB_NAME"
+echo "SLURM_JOB_NUM_NODES      = $SLURM_JOB_NUM_NODES"
+echo "SLURM_NODE_ALIASES       = $SLURM_NODE_ALIASES"
+echo "SLURM_LOCALID            = $SLURM_LOCALID"
+echo "SLURM_NODEID             = $SLURM_NODEID"
+echo "SLURMD_NODENAME          = $SLURMD_NODENAME"
+echo "SLURM_NTASKS             = $SLURM_NTASKS"
+echo "SLURM_NTASKS_PER_CORE    = $SLURM_NTASKS_PER_CORE"
+echo "SLURM_NTASKS_PER_NODE    = $SLURM_NTASKS_PER_NODE"
+echo "SLURM_PROFILE            = $SLURM_PROFILE"
+echo "SLURM_TASKS_PER_NODE     = $SLURM_TASKS_PER_NODE"
+echo "SLURM_TASK_PID           = $SLURM_TASK_PID"
+echo "  "
+
+
+
+
+
+temp1=`date +%s`
+echo "jobcomputation_start_stampede2a_seconds=$temp1" >> $jobdetailsfile
+temp1=`date -u`
+echo "jobcomputation_start_stampede2a_utc=$temp1" >> $jobdetailsfile
+
+cd $commands_dir
+nodelistfile=$OUTPUT_FOLDER/nodelistfile.txt
+totaltimefile=$OUTPUT_FOLDER/totaltime.txt
+`scontrol show hostnames $SLURM_JOB_NODELIST > $nodelistfile`
+
+pql_content=( `cat $nodelistfile`)
+pql_length=${#pql_content[@]}
+nodeindex_content=( `cat $NODE_SELECTION_FILE`)
+
+pql_length1=$(($pql_length/1))
+hostname0=`hostname`
+echo "master name = hostname0"
+
+STARTTIME0=$(date +%s)
+if [ $pql_length1 -eq $PARALLEL_NUMBER ]; then
+
+        iii=1
+ 	 while [  $iii -le $pql_length1 ]; do
+                jjj=$(($iii-1))
+                hostname1=${pql_content[$jjj]}
+		scriptname1="$commands_dir/qrun${iii}"
+                echo "$iii $jjj $hostname1 $scriptname1"
+                echo "srun -lN1 -n1 -r $jjj $scriptname1"
+                srun -lN1 -n1 -r $jjj $scriptname1 &
+                let iii=iii+1
+        done
+        wait
+else
+        echo "Something is wrong, not all the requested nodes are given"
+fi
+
+
+
+#if [ $pql_length1 -eq $PARALLEL_NUMBER ]; then
+#
+#        iii=1
+#        while [  $iii -le $pql_length1 ]; do
+#                jjj=$(($iii-1))
+#                nodeindex=${nodeindex_content[$jjj]}
+#                kkk=$(($nodeindex*1-1))
+#                hostname1=${pql_content[$kkk]}
+#
+#if [[ "$hostname0" != "$hostname1" ]]; then
+#                scriptname1="$commands_dir/qrun${iii}_remotewrapper"
+#                ssh $hostname1 $scriptname1 &
+#                scriptname1="$commands_dir/qrun${iii}"
+#		srun -n 1 -N 1-1 --exclusive $scriptname1 &
+#else
+#                scriptname1="$commands_dir/qrun${iii}"
+#		scriptname2=$scriptname1
+#fi
+#                echo "$iii $jjj $nodeindex $kkk $hostname0 $hostname1 $scriptname1 "
+#                let iii=iii+1
+#        done
+#
+#		srun -n 1 -N 1-1 --exclusive $scriptname2 &
+##	$scriptname2
+#        wait
+#
+#else
+#
+#	echo "Something is wrong, not all the requested nodes are given"
+#
+#fi
+
+
+ENDTIME0=$(date +%s)
+DIFFTIME0=$(($ENDTIME0 - $STARTTIME0))
+TOTALTIME=$DIFFTIME0
+echo TOTALTIME=$TOTALTIME
+echo $TOTALTIME > $totaltimefile
+
+temp1=`date +%s`
+echo "jobcomputation_end_stampede2a_seconds=$temp1" >> $jobdetailsfile
+temp1=`date -u`
+echo "jobcomputation_end_stampede2a_utc=$temp1" >> $jobdetailsfile
+
+temp1=`date +%s`
+echo "jobqueuesubmission_end_stampede2a_seconds=$temp1" >> $jobdetailsfile
+temp1=`date -u`
+echo "jobqueuesubmission_end_stampede2a_utc=$temp1" >> $jobdetailsfile
+echo "jobstate_stampede2a=finished" >> $jobdetailsfile
+
+
+
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/check_output_files
+wait
+
+mv $start_dir/s* $done_dir/							
+mv $finish_dir/f* $done_dir/							
+sleep 10							

@@ -1,0 +1,174 @@
+BIN_DIRECTORY              : /work/00303/tg455757/stampede2/M1_101214/scripts/BIN
+SCRIPTS_DIRECTORY          : /work/00303/tg455757/stampede2/M1_101214/scripts_070218
+AIR_BIN_DIRECTORY          : /work/00303/tg455757/stampede2/M1_101214/scripts/AIRBIN
+
+
+
+Number of input arguments = 
+	15
+Parameters = 
+	0 = 1
+	1 = 2
+	2 = 0
+	3 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/1_14_MNI.img
+	4 = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/02_inhomogcorrection/target.img
+	5 = 1
+	6 = 1
+	7 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/1_14_7L.img
+	8 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/FT5L/FT5l_114.img
+	9 = /tmp/target/03_registration/02_air_lddmm/atlas_5
+	10 = 2
+	11 = 0
+	12 = 2
+	13 = 0.5
+	14 = 1
+
+*************************************************
+*********************STEP1***********************
+*************************************************
+
+CHANNEL NUMBER        (CN)           = 1
+TEMPLATE LABEL NUMBER (LN1)          = 2
+TARGET LABEL NUMBER   (LN2)          = 0
+channel 1:
+	template     = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/1_14_MNI.img
+	target       = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/02_inhomogcorrection/target.img
+	histmatching = 1
+	imagetype    = 1
+
+template label 1 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/1_14_7L.img
+template label 2 = /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/FT5L/FT5l_114.img
+
+No target label to be transformed
+
+output path                          = /tmp/target/03_registration/02_air_lddmm/atlas_5
+lddmm_cascading_iteration_type       = 2
+lddmm_cascading_iteration_number (K) = 0
+air resolution                       = 2
+lddmm resolution scaling factor      = 0.5
+create ldat file true                = 1
+
+
+1_14_MNI.img
+/work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014
+1_14_MNI
+
+target.img
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/02_inhomogcorrection
+target
+
+1_14_7L.img
+/work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014
+1_14_7L
+
+FT5l_114.img
+/work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/FT5L
+FT5l_114
+
+*************************************************
+*********************STEP2***********************
+*************************************************
+
+CREATING OUTPUT TEMPORARY DIRECTORY AND COPYING FILES
+
+*************************************************
+*********************STEP3***********************
+*************************************************
+
+HISTOGRAM MATCHING
+
+
+INPUTS TO THE PROGRAM
+0> /work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_histmatch5
+1> 0_origdata/1_14_MNI.img
+2> 0_origdata/target.img
+3> 1_histmatch/1_14_MNI.img
+4> 1_histmatch/target.img
+5> 1024
+6> 3
+7> 0
+8> 1
+9> 1_histmatch/1_14_MNI.hist
+10> 1_histmatch/target.hist
+11> 1_histmatch/1_14_MNI_h.hist
+12> 1_histmatch/target_h.hist
+
+
+inputfile1      	0_origdata/1_14_MNI.img
+inputfile2      	0_origdata/target.img
+outputfile1     	1_histmatch/1_14_MNI.img
+outputfile2     	1_histmatch/target.img
+Nbins           	1024
+sigma           	3
+median filterradius 	0
+matchhistogram  	1
+inputfile1_hist 	1_histmatch/1_14_MNI.hist
+inputfile2_hist 	1_histmatch/target.hist
+outputfile1_hist	1_histmatch/1_14_MNI_h.hist
+outputfile2_hist	1_histmatch/target_h.hist
+
+
+*****READING INPUT IMAGES AND ALLOCATING ARRAYS*****
+image 1 size and pixel info
+181	217	181
+1	1	1
+image 2 size and pixel info
+181	217	181
+1	1	1
+Image-1 max-min values:		306		0
+Image-2 max-min values:		1785.57		0
+Error between histograms=	0.058824
+Image-1 max-min values:		306		0
+Image-2 max-min values:		1785.57		0
+Error between histograms=	0.058824
+*****MATCHING HISTOGRAMS*****
+gaussian filtering
+Image-1 max-min values:		254.875		0
+Image-2 max-min values:		255		0
+Error between histograms=	0.00132313
+*****IMAGES ARE BEING SAVED*****
+
+ Inside AnalyzeImage::saveAnalyzeImageData() 
+ File 1_histmatch/1_14_MNI.img opened successfully 
+ size_of_data_in_bytes = 28436548
+ Inside AnalyzeImage::saveAnalyzeImageData() 
+ File 1_histmatch/target.img opened successfully 
+ size_of_data_in_bytes = 28436548
+181	217	181
+181	217	181
+1	1	1
+1	1	1
+*****TOTAL RUNNING TIME*****
+2.27854
+
+
+
+*************************************************
+*********************STEP4***********************
+*************************************************
+
+NO AIR CALCULATIONS
+
+INPUT TEMPLATE IMAGE SIZE AND RESOLUTION
+181	217	181	
+1	1	1	
+INPUT TARGET IMAGE SIZE AND RESOLUTION
+181	217	181	
+1	1	1	
+*************************************************
+*********************STEP5***********************
+*************************************************
+
+NO LDDMM CALCULATIONS
+
+/work/00303/tg455757/stampede2/M1_101214/scripts_070218/mm_lddmm1n.pl 1 2_air/1_14_MNI.img 1_histmatch/target.img 1 3_lddmm 0
+*************************************************
+*********************STEP6***********************
+*************************************************
+
+DEFORMATIONS
+
+
+...Completed
+Total running time is 38 seconds
+

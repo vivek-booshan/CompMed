@@ -1,0 +1,61 @@
+#                                  
+#!/bin/bash                        
+#                                  
+sleep 10                           
+FILE_ERROR=0           		
+filename1=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/M1_lfseg_1.img                             
+if [ ! -f $filename1 ]; then                             
+FILE_ERROR=1           		
+fi		                        
+filename1=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/M1_lfseg_1_MNI.img                             
+if [ ! -f $filename1 ]; then                             
+FILE_ERROR=1           		
+fi		                        
+filename1=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/M1_lfseg_2.img                             
+if [ ! -f $filename1 ]; then                             
+FILE_ERROR=1           		
+fi		                        
+filename1=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/M1_lfseg_2_MNI.img                             
+if [ ! -f $filename1 ]; then                             
+FILE_ERROR=1           		
+fi		                        
+filename1=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/target.img                             
+if [ ! -f $filename1 ]; then                             
+FILE_ERROR=1           		
+fi		                        
+filename1=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/target_MNI.img                             
+if [ ! -f $filename1 ]; then                             
+FILE_ERROR=1           		
+fi		                        
+filename1=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/target_SS.img                             
+if [ ! -f $filename1 ]; then                             
+FILE_ERROR=1           		
+fi		                        
+filename1=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/target_MNI_SS.img                             
+if [ ! -f $filename1 ]; then                             
+FILE_ERROR=1           		
+fi		                        
+filename1=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/M1_lfseg_2_corrected_stats.txt                             
+if [ ! -f $filename1 ]; then                             
+FILE_ERROR=1           		
+fi		                        
+filename1=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/M1_lfseg_2_stats.txt                             
+if [ ! -f $filename1 ]; then                             
+FILE_ERROR=1           		
+fi		                        
+filename1=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/M1_lfseg_2_MNI_stats.txt                             
+if [ ! -f $filename1 ]; then                             
+FILE_ERROR=1           		
+fi		                        
+filename1=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/multilevel_lookup_table.txt                             
+if [ ! -f $filename1 ]; then                             
+FILE_ERROR=1           		
+fi		                        
+if [ $FILE_ERROR = 1 ]; then                             
+echo 4 > /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/error                             
+echo "Output files are not created" >> /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/error                             
+else				
+echo "YES" > /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/success                             
+rm -f /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/error                             
+/work/00303/tg455757/stampede2/M1_101214/scripts_070218/update_commandline_log.sh /work/00303/tg455757/stampede2/M1_101214/scripts_070218/../ M121 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases                             
+fi                                 

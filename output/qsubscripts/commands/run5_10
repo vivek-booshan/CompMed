@@ -1,0 +1,18 @@
+#!/bin/bash          
+#                    
+#!/bin/bash
+mkdir -p /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/02_air_lddmm/atlas_10/0_origdata
+mkdir -p /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/02_air_lddmm/atlas_10/1_histmatch
+mkdir -p /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/02_air_lddmm/atlas_10/4_deformations
+#!/bin/bash	    
+#		    
+/work/00303/tg455757/stampede2/M1_101214/scripts_070218/AIR_LDDMM_ver07.pl 2 2 0 /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/GSK_NC_800010.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection/target.img 1 1 /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/800010_LV.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection/M1_lfseg_1_LV.img 0 0 /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/800010_7L.img /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/FT5L/FT5l_GSK_NC_800010.img /tmp/target/06_registration/02_air_lddmm/atlas_10 2 1 0.01 2 2 0.5 1 /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/800010_bmask.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1_bmask.img
+cp -R /tmp/target/06_registration/02_air_lddmm/atlas_10/0_origdata/*.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/02_air_lddmm/atlas_10/0_origdata/
+cp -R /tmp/target/06_registration/02_air_lddmm/atlas_10/0_origdata/*.hdr /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/02_air_lddmm/atlas_10/0_origdata/
+cp -R /tmp/target/06_registration/02_air_lddmm/atlas_10/1_histmatch/*.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/02_air_lddmm/atlas_10/1_histmatch/
+cp -R /tmp/target/06_registration/02_air_lddmm/atlas_10/1_histmatch/*.hdr /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/02_air_lddmm/atlas_10/1_histmatch/
+cp -R /tmp/target/06_registration/02_air_lddmm/atlas_10/4_deformations/*  /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/02_air_lddmm/atlas_10/4_deformations/
+rm -fr /tmp/target/06_registration/02_air_lddmm/atlas_10/1_histmatch/
+rm -fr /tmp/target/06_registration/02_air_lddmm/atlas_10/4_deformations/
+rm -fr /tmp/target/06_registration/02_air_lddmm/atlas_10/3_lddmm/
+

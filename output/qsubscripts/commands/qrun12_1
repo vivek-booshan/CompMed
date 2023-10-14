@@ -1,0 +1,50 @@
+#                                  
+#!/bin/bash                        
+#                                  
+STARTTIME0=$(date +%s)
+				
+start_dir=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/start		
+finish_dir=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/finish		
+					
+					
+level_no=11			
+PARALLEL_NUMBER=6	
+START=6			
+if [ $level_no -gt 0 ]; then
+
+
+echo START = $START
+echo waiting $PARALLEL_NUMBER parallel jobs to finish
+
+ttt=_
+
+sleep 1
+i=1
+while true
+do
+	FINISH="`ls $finish_dir/f$level_no$ttt* | wc -l | cut -d' ' -f1`"
+	n=$((i%10))
+	if [ $n = 0 ]; then
+		echo $i $START $FINISH
+        fi
+	if [ "$START" = "$FINISH" ]; then
+		break
+	fi
+	let i=i+1
+	sleep 1
+done
+
+
+fi
+
+sleep 1
+date >  /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/start/s12_1			
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/run12_1 > /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/log/logrun12_1	
+wait				
+touch /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/finish/f12_1			
+date >  /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/finish/f12_1		
+date >> /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/start/s12_1			
+ENDTIME0=$(date +%s)				
+DIFFTIME0=$(($ENDTIME0 - $STARTTIME0))				
+TOTALTIME=$DIFFTIME0				
+echo TOTALTIME=$TOTALTIME				

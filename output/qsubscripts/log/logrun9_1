@@ -1,0 +1,88 @@
+
+INPUTS TO THE PROGRAM
+0> /work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_calc_arbitration_ver03
+1> 10
+2> /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/01_preprocessing/arbitration_filelist_1.txt
+3> /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/M1_lfseg_1.img
+4> /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/M1_mvseg_1.img
+5> 0.65
+6> 7
+7> /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/01_preprocessing/gmm_param_fname_1.txt
+8> 3
+
+Number of atlases            :  10
+Arbitration_filelist_fname   :  /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/01_preprocessing/arbitration_filelist_1.txt
+Arbitration_output_imgname   :  /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/M1_lfseg_1.img
+Majorvote_output_imgname     :  /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/M1_mvseg_1.img
+samelabelprob                :  0.65
+ICMiterationnumber1          :  7
+gmm_param_fname              :  /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/01_preprocessing/gmm_param_fname_1.txt
+arbitration_type             :  3
+Image dimensions             :  181	217	181
+labelnumbers	7	7	7	7	7	7	7	7	7	7	
+Number of labels             :  7
+Loading label stats from ldat data
+	0.004612 seconds
+28205903	22642632	24022267	22559725	22381993	22011330	30206560	22456415	22631829	24148741	
+Approximate memory usage
+ldat_memory_usage            :  0.898791 Gb
+t1_img_memory_usage          :  0.556156 Gb
+label_img_memory_usage       :  0.278078 Gb
+Loading all img data
+...PARALLEL LOADING ...
+	0.463872 seconds
+Calculating the ROI boundaries 
+	0.133084 seconds
+ldat_memory_usage            :  1.26628 Gb
+
+1	181	217	181	7109137	0	0	0	180	216	180	
+2	140	180	181	4561200	20	18	0	159	197	180	
+3	145	193	181	5065285	17	14	0	161	206	180	
+4	89	142	118	1491284	44	38	0	132	179	117	
+5	181	217	181	7109137	0	0	0	180	216	180	
+6	181	217	181	7109137	0	0	0	180	216	180	
+7	104	126	118	1546272	39	42	16	142	167	133	
+
+4
+Loading ldat data
+can1can1
+	0.713158 seconds
+Calculating probability for each ROI and for each atlas
+	0.294457 seconds
+Allocating the probability array of each ROI
+	0.205491 seconds
+Calculating the probability array of each ROI by label fusion
+	4.23168 seconds
+Deleting arrays that will not be used
+	0.014781 seconds
+ICM calculations
+	ICM iteration 1
+73711	3.63608e+07	3.63517e+07
+	ICM iteration 2
+10739	3.63628e+07	3.63608e+07
+	ICM iteration 3
+2402	3.63636e+07	3.63628e+07
+	ICM iteration 4
+694	3.63638e+07	3.63636e+07
+	ICM iteration 5
+271	3.6364e+07	3.63638e+07
+	ICM iteration 6
+104	3.6364e+07	3.6364e+07
+	ICM iteration 7
+38	3.6364e+07	3.6364e+07
+	ICM mode calculation
+0	3.63638e+07	3.63638e+07
+	2.94226 seconds
+Saving output files
+ Inside AnalyzeImage::saveAnalyzeImageData() 
+ File /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/M1_lfseg_1.img opened successfully 
+ size_of_data_in_bytes = 14218274
+ Inside AnalyzeImage::saveAnalyzeImageData() 
+ File /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/M1_mvseg_1.img opened successfully 
+ size_of_data_in_bytes = 14218274
+	0.081318 seconds
+
+Total running time (in seconds): 
+9.24218
+
+

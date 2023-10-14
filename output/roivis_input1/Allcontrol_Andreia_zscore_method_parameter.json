@@ -1,0 +1,7490 @@
+[
+	{
+		"roiname": "Telencephalon_L",
+		"roiidname": "T1_L1_Telencephalon_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.01041289215,
+			"fitcoef1": -0.0125022898,
+			"fitcoef2": 0.4232715768
+		}
+	},
+	{
+		"roiname": "Telencephalon_R",
+		"roiidname": "T1_L1_Telencephalon_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.01065150927,
+			"fitcoef1": -0.01520204109,
+			"fitcoef2": 0.4377401387
+		}
+	},
+	{
+		"roiname": "Diencephalon_L",
+		"roiidname": "T1_L1_Diencephalon_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004669998984,
+			"fitcoef1": -0.0006072172795,
+			"fitcoef2": 0.00884503984
+		}
+	},
+	{
+		"roiname": "Diencephalon_R",
+		"roiidname": "T1_L1_Diencephalon_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004853943628,
+			"fitcoef1": -0.0007315028101,
+			"fitcoef2": 0.009369271509
+		}
+	},
+	{
+		"roiname": "Mesencephalon",
+		"roiidname": "T1_L1_Mesencephalon",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006853435271,
+			"fitcoef1": -0.0004716098714,
+			"fitcoef2": 0.009750977703
+		}
+	},
+	{
+		"roiname": "Metencephalon",
+		"roiidname": "T1_L1_Metencephalon",
+		"fittingmodelparameter": {
+			"msdpred": 0.00867140835,
+			"fitcoef1": -0.0009704690859,
+			"fitcoef2": 0.1125968647
+		}
+	},
+	{
+		"roiname": "Myelencephalon",
+		"roiidname": "T1_L1_Myelencephalon",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004401976193,
+			"fitcoef1": 8.53337825e-005,
+			"fitcoef2": 0.003475845252
+		}
+	},
+	{
+		"roiname": "CSF",
+		"roiidname": "T1_L1_CSF",
+		"fittingmodelparameter": {
+			"msdpred": 0.02060370191,
+			"fitcoef1": 0.03039945347,
+			"fitcoef2": -0.005047698922
+		}
+	},
+	{
+		"roiname": "CerebralCortex_L",
+		"roiidname": "T1_L2_CerebralCortex_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.007090615901,
+			"fitcoef1": -0.008499528768,
+			"fitcoef2": 0.2275406217
+		}
+	},
+	{
+		"roiname": "CerebralCortex_R",
+		"roiidname": "T1_L2_CerebralCortex_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.007305509269,
+			"fitcoef1": -0.01053873834,
+			"fitcoef2": 0.2381715807
+		}
+	},
+	{
+		"roiname": "CerebralNucli_L",
+		"roiidname": "T1_L2_CerebralNucli_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006644058198,
+			"fitcoef1": -0.000489269057,
+			"fitcoef2": 0.01051536606
+		}
+	},
+	{
+		"roiname": "CerebralNucli_R",
+		"roiidname": "T1_L2_CerebralNucli_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006962362646,
+			"fitcoef1": -0.000581497809,
+			"fitcoef2": 0.01152918468
+		}
+	},
+	{
+		"roiname": "Thalamus_L",
+		"roiidname": "T1_L2_Thalamus_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003458031914,
+			"fitcoef1": -0.0005075525058,
+			"fitcoef2": 0.006150520598
+		}
+	},
+	{
+		"roiname": "Thalamus_R",
+		"roiidname": "T1_L2_Thalamus_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000375412898,
+			"fitcoef1": -0.0006152895253,
+			"fitcoef2": 0.006680509977
+		}
+	},
+	{
+		"roiname": "BasalForbrain_L",
+		"roiidname": "T1_L2_BasalForbrain_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001786410946,
+			"fitcoef1": -9.961332767e-005,
+			"fitcoef2": 0.002694556766
+		}
+	},
+	{
+		"roiname": "BasalForbrain_R",
+		"roiidname": "T1_L2_BasalForbrain_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001643662592,
+			"fitcoef1": -0.0001160609978,
+			"fitcoef2": 0.002688433507
+		}
+	},
+	{
+		"roiname": "Mesencephalon_L",
+		"roiidname": "T1_L2_Mesencephalon_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003518030372,
+			"fitcoef1": -0.0002241671152,
+			"fitcoef2": 0.00485783857
+		}
+	},
+	{
+		"roiname": "Mesencephalon_R",
+		"roiidname": "T1_L2_Mesencephalon_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003441767548,
+			"fitcoef1": -0.0002474688586,
+			"fitcoef2": 0.004893486861
+		}
+	},
+	{
+		"roiname": "Metencephalon_R",
+		"roiidname": "T1_L2_Metencephalon_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.004384805367,
+			"fitcoef1": -0.0003206536334,
+			"fitcoef2": 0.05567624149
+		}
+	},
+	{
+		"roiname": "Metencephalon_L",
+		"roiidname": "T1_L2_Metencephalon_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.004448848734,
+			"fitcoef1": -0.0006493945661,
+			"fitcoef2": 0.05691894222
+		}
+	},
+	{
+		"roiname": "Myelencephalon_L",
+		"roiidname": "T1_L2_Myelencephalon_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002294899779,
+			"fitcoef1": 5.318780961e-006,
+			"fitcoef2": 0.001808626236
+		}
+	},
+	{
+		"roiname": "Myelencephalon_R",
+		"roiidname": "T1_L2_Myelencephalon_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002336018593,
+			"fitcoef1": 8.009521624e-005,
+			"fitcoef2": 0.001667118261
+		}
+	},
+	{
+		"roiname": "WhiteMatter_L",
+		"roiidname": "T1_L2_WhiteMatter_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.006560171075,
+			"fitcoef1": -0.003514394634,
+			"fitcoef2": 0.1852196014
+		}
+	},
+	{
+		"roiname": "WhiteMatter_R",
+		"roiidname": "T1_L2_WhiteMatter_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.006290566193,
+			"fitcoef1": -0.00408110596,
+			"fitcoef2": 0.1880369966
+		}
+	},
+	{
+		"roiname": "Ventricle",
+		"roiidname": "T1_L2_Ventricle",
+		"fittingmodelparameter": {
+			"msdpred": 0.01139089511,
+			"fitcoef1": 0.01939776659,
+			"fitcoef2": -0.05111495477
+		}
+	},
+	{
+		"roiname": "Sulcus_L",
+		"roiidname": "T1_L2_Sulcus_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.007765636912,
+			"fitcoef1": 0.005064763075,
+			"fitcoef2": 0.02734430282
+		}
+	},
+	{
+		"roiname": "Sulcus_R",
+		"roiidname": "T1_L2_Sulcus_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.007482580248,
+			"fitcoef1": 0.005937051456,
+			"fitcoef2": 0.0187228804
+		}
+	},
+	{
+		"roiname": "Frontal_L",
+		"roiidname": "T1_L3_Frontal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003395259701,
+			"fitcoef1": -0.002576164868,
+			"fitcoef2": 0.07194946824
+		}
+	},
+	{
+		"roiname": "Frontal_R",
+		"roiidname": "T1_L3_Frontal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.003375290834,
+			"fitcoef1": -0.003678959881,
+			"fitcoef2": 0.07713318144
+		}
+	},
+	{
+		"roiname": "Parietal_L",
+		"roiidname": "T1_L3_Parietal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.002110965246,
+			"fitcoef1": -0.001819801294,
+			"fitcoef2": 0.03931413878
+		}
+	},
+	{
+		"roiname": "Parietal_R",
+		"roiidname": "T1_L3_Parietal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002358731964,
+			"fitcoef1": -0.001517152228,
+			"fitcoef2": 0.04014964623
+		}
+	},
+	{
+		"roiname": "Temporal_L",
+		"roiidname": "T1_L3_Temporal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.002837863529,
+			"fitcoef1": -0.002599869022,
+			"fitcoef2": 0.05656118845
+		}
+	},
+	{
+		"roiname": "Temporal_R",
+		"roiidname": "T1_L3_Temporal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002802543179,
+			"fitcoef1": -0.00361367917,
+			"fitcoef2": 0.06012426873
+		}
+	},
+	{
+		"roiname": "Limbic_L",
+		"roiidname": "T1_L3_Limbic_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00109497187,
+			"fitcoef1": -0.0009884193213,
+			"fitcoef2": 0.02534134831
+		}
+	},
+	{
+		"roiname": "Limbic_R",
+		"roiidname": "T1_L3_Limbic_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001187178012,
+			"fitcoef1": -0.001530652026,
+			"fitcoef2": 0.02883893981
+		}
+	},
+	{
+		"roiname": "Occipital_L",
+		"roiidname": "T1_L3_Occipital_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.002105415938,
+			"fitcoef1": -2.134527538e-005,
+			"fitcoef2": 0.02873073871
+		}
+	},
+	{
+		"roiname": "Occipital_R",
+		"roiidname": "T1_L3_Occipital_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002008207256,
+			"fitcoef1": 0.0002196111528,
+			"fitcoef2": 0.02656170288
+		}
+	},
+	{
+		"roiname": "Insula_L",
+		"roiidname": "T1_L3_Insula_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004306305216,
+			"fitcoef1": -0.0005003374037,
+			"fitcoef2": 0.006861812451
+		}
+	},
+	{
+		"roiname": "Insula_R",
+		"roiidname": "T1_L3_Insula_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004480980189,
+			"fitcoef1": -0.0005312991454,
+			"fitcoef2": 0.007231519189
+		}
+	},
+	{
+		"roiname": "BasalGang_L",
+		"roiidname": "T1_L3_BasalGang_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006548992175,
+			"fitcoef1": -0.0004819627325,
+			"fitcoef2": 0.009294785847
+		}
+	},
+	{
+		"roiname": "BasalGang_R",
+		"roiidname": "T1_L3_BasalGang_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000674862894,
+			"fitcoef1": -0.0004673078598,
+			"fitcoef2": 0.009659322974
+		}
+	},
+	{
+		"roiname": "Thalamus_L",
+		"roiidname": "T1_L3_Thalamus_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003458031914,
+			"fitcoef1": -0.0005075525058,
+			"fitcoef2": 0.006150520598
+		}
+	},
+	{
+		"roiname": "Thalamus_R",
+		"roiidname": "T1_L3_Thalamus_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000375412898,
+			"fitcoef1": -0.0006152895253,
+			"fitcoef2": 0.006680509977
+		}
+	},
+	{
+		"roiname": "BasalForbrain_L",
+		"roiidname": "T1_L3_BasalForbrain_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001786410946,
+			"fitcoef1": -9.961332767e-005,
+			"fitcoef2": 0.002694556766
+		}
+	},
+	{
+		"roiname": "BasalForbrain_R",
+		"roiidname": "T1_L3_BasalForbrain_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001643662592,
+			"fitcoef1": -0.0001160609978,
+			"fitcoef2": 0.002688433507
+		}
+	},
+	{
+		"roiname": "midbrain_L",
+		"roiidname": "T1_L3_midbrain_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003518030372,
+			"fitcoef1": -0.0002241671152,
+			"fitcoef2": 0.00485783857
+		}
+	},
+	{
+		"roiname": "midbrain_R",
+		"roiidname": "T1_L3_midbrain_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003441767548,
+			"fitcoef1": -0.0002474688586,
+			"fitcoef2": 0.004893486861
+		}
+	},
+	{
+		"roiname": "Cerebellum_R",
+		"roiidname": "T1_L3_Cerebellum_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.004085265171,
+			"fitcoef1": -0.0005918192398,
+			"fitcoef2": 0.04977322429
+		}
+	},
+	{
+		"roiname": "Cerebellum_L",
+		"roiidname": "T1_L3_Cerebellum_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.004117790176,
+			"fitcoef1": -0.0008045462679,
+			"fitcoef2": 0.05119204144
+		}
+	},
+	{
+		"roiname": "Pons_L",
+		"roiidname": "T1_L3_Pons_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006246976447,
+			"fitcoef1": 0.0001551980759,
+			"fitcoef2": 0.005727015083
+		}
+	},
+	{
+		"roiname": "Pons_R",
+		"roiidname": "T1_L3_Pons_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006721320434,
+			"fitcoef1": 0.0002712227998,
+			"fitcoef2": 0.005902988768
+		}
+	},
+	{
+		"roiname": "Medulla_L",
+		"roiidname": "T1_L3_Medulla_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002294899779,
+			"fitcoef1": 5.318780961e-006,
+			"fitcoef2": 0.001808626236
+		}
+	},
+	{
+		"roiname": "Medulla_R",
+		"roiidname": "T1_L3_Medulla_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002336018593,
+			"fitcoef1": 8.009521624e-005,
+			"fitcoef2": 0.001667118261
+		}
+	},
+	{
+		"roiname": "FrontalWM_L",
+		"roiidname": "T1_L3_FrontalWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00421828094,
+			"fitcoef1": -0.003654250822,
+			"fitcoef2": 0.07508581972
+		}
+	},
+	{
+		"roiname": "FrontalWM_R",
+		"roiidname": "T1_L3_FrontalWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.003995322691,
+			"fitcoef1": -0.003995927148,
+			"fitcoef2": 0.07783064683
+		}
+	},
+	{
+		"roiname": "PosteriorWM_L",
+		"roiidname": "T1_L3_PosteriorWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003022070993,
+			"fitcoef1": 0.0005879591632,
+			"fitcoef2": 0.04924117312
+		}
+	},
+	{
+		"roiname": "PosteriorWM_R",
+		"roiidname": "T1_L3_PosteriorWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002987706641,
+			"fitcoef1": 0.0003144727597,
+			"fitcoef2": 0.04996876311
+		}
+	},
+	{
+		"roiname": "CorpusCallosum_L",
+		"roiidname": "T1_L3_CorpusCallosum_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00096754042,
+			"fitcoef1": 0.0007116786644,
+			"fitcoef2": 0.006820140279
+		}
+	},
+	{
+		"roiname": "CorpusCallosum_R",
+		"roiidname": "T1_L3_CorpusCallosum_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001020857248,
+			"fitcoef1": 0.0008325176529,
+			"fitcoef2": 0.006587613351
+		}
+	},
+	{
+		"roiname": "InferiorWM_L",
+		"roiidname": "T1_L3_InferiorWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00152270086,
+			"fitcoef1": -0.0006176626716,
+			"fitcoef2": 0.04313706827
+		}
+	},
+	{
+		"roiname": "InferiorWM_R",
+		"roiidname": "T1_L3_InferiorWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001575612337,
+			"fitcoef1": -0.0008810856897,
+			"fitcoef2": 0.04384071253
+		}
+	},
+	{
+		"roiname": "LimbicWM_L",
+		"roiidname": "T1_L3_LimbicWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006042649523,
+			"fitcoef1": -0.0005421897083,
+			"fitcoef2": 0.01093668693
+		}
+	},
+	{
+		"roiname": "LimbicWM_R",
+		"roiidname": "T1_L3_LimbicWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005583449756,
+			"fitcoef1": -0.0003509391491,
+			"fitcoef2": 0.00980963199
+		}
+	},
+	{
+		"roiname": "LateralVentricle_L",
+		"roiidname": "T1_L3_LateralVentricle_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.005222738302,
+			"fitcoef1": 0.008929546674,
+			"fitcoef2": -0.02419672504
+		}
+	},
+	{
+		"roiname": "LateralVentricle_R",
+		"roiidname": "T1_L3_LateralVentricle_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.005829793011,
+			"fitcoef1": 0.009359059566,
+			"fitcoef2": -0.02602474912
+		}
+	},
+	{
+		"roiname": "IIIandIV_Ventricle",
+		"roiidname": "T1_L3_IIIandIV_Ventricle",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008008134643,
+			"fitcoef1": 0.001109220758,
+			"fitcoef2": -0.0008932305714
+		}
+	},
+	{
+		"roiname": "FrontSul_L",
+		"roiidname": "T1_L3_FrontSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003237654054,
+			"fitcoef1": -0.001144153929,
+			"fitcoef2": 0.02612276593
+		}
+	},
+	{
+		"roiname": "FrontSul_R",
+		"roiidname": "T1_L3_FrontSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002415422303,
+			"fitcoef1": -0.0004530644739,
+			"fitcoef2": 0.01891449194
+		}
+	},
+	{
+		"roiname": "CentralSul_L",
+		"roiidname": "T1_L3_CentralSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006160731009,
+			"fitcoef1": 0.0007811026645,
+			"fitcoef2": -0.0005416837723
+		}
+	},
+	{
+		"roiname": "CentralSul_R",
+		"roiidname": "T1_L3_CentralSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006037052754,
+			"fitcoef1": 0.0008345937221,
+			"fitcoef2": -0.0008124070926
+		}
+	},
+	{
+		"roiname": "SylvianSul_L",
+		"roiidname": "T1_L3_SylvianSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00186764465,
+			"fitcoef1": 0.00273209194,
+			"fitcoef2": -0.004838340055
+		}
+	},
+	{
+		"roiname": "SylvianSul_R",
+		"roiidname": "T1_L3_SylvianSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001713510726,
+			"fitcoef1": 0.002845611845,
+			"fitcoef2": -0.005837984608
+		}
+	},
+	{
+		"roiname": "ParietSul_L",
+		"roiidname": "T1_L3_ParietSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001935531868,
+			"fitcoef1": 0.0006273145901,
+			"fitcoef2": 0.006139381534
+		}
+	},
+	{
+		"roiname": "ParietSul_R",
+		"roiidname": "T1_L3_ParietSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.00220390646,
+			"fitcoef1": 0.0005675918723,
+			"fitcoef2": 0.006741439683
+		}
+	},
+	{
+		"roiname": "CinguSul_L",
+		"roiidname": "T1_L3_CinguSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001039400767,
+			"fitcoef1": 0.0005717714303,
+			"fitcoef2": 0.001570587064
+		}
+	},
+	{
+		"roiname": "CinguSul_R",
+		"roiidname": "T1_L3_CinguSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009766167369,
+			"fitcoef1": 0.0006646549009,
+			"fitcoef2": 0.0007942274806
+		}
+	},
+	{
+		"roiname": "OcciptSul_L",
+		"roiidname": "T1_L3_OcciptSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00103739105,
+			"fitcoef1": 0.001079774691,
+			"fitcoef2": -0.001586289406
+		}
+	},
+	{
+		"roiname": "OcciptSul_R",
+		"roiidname": "T1_L3_OcciptSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001104250684,
+			"fitcoef1": 0.001062151512,
+			"fitcoef2": -0.001228063989
+		}
+	},
+	{
+		"roiname": "TempSul_L",
+		"roiidname": "T1_L3_TempSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008327086001,
+			"fitcoef1": 0.000417326051,
+			"fitcoef2": 0.0004773724565
+		}
+	},
+	{
+		"roiname": "TempSul_R",
+		"roiidname": "T1_L3_TempSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006974270803,
+			"fitcoef1": 0.0004157953359,
+			"fitcoef2": 0.0001515502717
+		}
+	},
+	{
+		"roiname": "SFG_L",
+		"roiidname": "T1_L4_SFG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001369128955,
+			"fitcoef1": 1.243877473e-005,
+			"fitcoef2": 0.01709804065
+		}
+	},
+	{
+		"roiname": "SFG_R",
+		"roiidname": "T1_L4_SFG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001243795382,
+			"fitcoef1": -8.127353345e-005,
+			"fitcoef2": 0.0168065255
+		}
+	},
+	{
+		"roiname": "MFG_L",
+		"roiidname": "T1_L4_MFG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001685967819,
+			"fitcoef1": -0.0006041967266,
+			"fitcoef2": 0.01832307414
+		}
+	},
+	{
+		"roiname": "MFG_R",
+		"roiidname": "T1_L4_MFG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001892075197,
+			"fitcoef1": -0.001440904229,
+			"fitcoef2": 0.02269855451
+		}
+	},
+	{
+		"roiname": "IFG_L",
+		"roiidname": "T1_L4_IFG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007611641784,
+			"fitcoef1": -0.00071890715,
+			"fitcoef2": 0.01084359717
+		}
+	},
+	{
+		"roiname": "IFG_R",
+		"roiidname": "T1_L4_IFG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006635292213,
+			"fitcoef1": -0.0005061438831,
+			"fitcoef2": 0.009050004369
+		}
+	},
+	{
+		"roiname": "OG_L",
+		"roiidname": "T1_L4_OG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004670778818,
+			"fitcoef1": -0.0003718535283,
+			"fitcoef2": 0.008345172936
+		}
+	},
+	{
+		"roiname": "OG_R",
+		"roiidname": "T1_L4_OG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005113806262,
+			"fitcoef1": -0.0004956698717,
+			"fitcoef2": 0.00855324618
+		}
+	},
+	{
+		"roiname": "RG_L",
+		"roiidname": "T1_L4_RG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003880678722,
+			"fitcoef1": -0.0004895310902,
+			"fitcoef2": 0.005783522251
+		}
+	},
+	{
+		"roiname": "RG_R",
+		"roiidname": "T1_L4_RG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003879713406,
+			"fitcoef1": -0.00051192741,
+			"fitcoef2": 0.005978901236
+		}
+	},
+	{
+		"roiname": "PoCG_L",
+		"roiidname": "T1_L4_PoCG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008681157549,
+			"fitcoef1": -0.0004026555764,
+			"fitcoef2": 0.01019944864
+		}
+	},
+	{
+		"roiname": "PoCG_R",
+		"roiidname": "T1_L4_PoCG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007998908516,
+			"fitcoef1": -0.0002809121305,
+			"fitcoef2": 0.009524077517
+		}
+	},
+	{
+		"roiname": "PrCG_L",
+		"roiidname": "T1_L4_PrCG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009698764823,
+			"fitcoef1": -0.000404157899,
+			"fitcoef2": 0.01155732315
+		}
+	},
+	{
+		"roiname": "PrCG_R",
+		"roiidname": "T1_L4_PrCG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009888646438,
+			"fitcoef1": -0.0006427241287,
+			"fitcoef2": 0.01404593404
+		}
+	},
+	{
+		"roiname": "SPG_L",
+		"roiidname": "T1_L4_SPG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007674234168,
+			"fitcoef1": -0.0002464894865,
+			"fitcoef2": 0.00726675168
+		}
+	},
+	{
+		"roiname": "SPG_R",
+		"roiidname": "T1_L4_SPG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007502214562,
+			"fitcoef1": 0.0001360870368,
+			"fitcoef2": 0.004729594257
+		}
+	},
+	{
+		"roiname": "SMG_L",
+		"roiidname": "T1_L4_SMG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007999522622,
+			"fitcoef1": -0.0008894708546,
+			"fitcoef2": 0.01018502036
+		}
+	},
+	{
+		"roiname": "SMG_R",
+		"roiidname": "T1_L4_SMG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008409155616,
+			"fitcoef1": -0.0005900476806,
+			"fitcoef2": 0.009193301047
+		}
+	},
+	{
+		"roiname": "AG_L",
+		"roiidname": "T1_L4_AG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006812153688,
+			"fitcoef1": 4.799364546e-005,
+			"fitcoef2": 0.005273019385
+		}
+	},
+	{
+		"roiname": "AG_R",
+		"roiidname": "T1_L4_AG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001007797441,
+			"fitcoef1": -0.0003417719297,
+			"fitcoef2": 0.0102241669
+		}
+	},
+	{
+		"roiname": "PrCu_L",
+		"roiidname": "T1_L4_PrCu_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006366966826,
+			"fitcoef1": -0.0003289911679,
+			"fitcoef2": 0.006390075507
+		}
+	},
+	{
+		"roiname": "PrCu_R",
+		"roiidname": "T1_L4_PrCu_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.00059809429,
+			"fitcoef1": -0.0004402339516,
+			"fitcoef2": 0.006478354946
+		}
+	},
+	{
+		"roiname": "STG_L",
+		"roiidname": "T1_L4_STG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001104344406,
+			"fitcoef1": -0.001007416168,
+			"fitcoef2": 0.01672857382
+		}
+	},
+	{
+		"roiname": "STG_R",
+		"roiidname": "T1_L4_STG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001122527046,
+			"fitcoef1": -0.001436504758,
+			"fitcoef2": 0.01823749266
+		}
+	},
+	{
+		"roiname": "MTG_L",
+		"roiidname": "T1_L4_MTG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001282977486,
+			"fitcoef1": -8.437279772e-005,
+			"fitcoef2": 0.0135187616
+		}
+	},
+	{
+		"roiname": "MTG_R",
+		"roiidname": "T1_L4_MTG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001137949333,
+			"fitcoef1": -0.0007765561282,
+			"fitcoef2": 0.01523535321
+		}
+	},
+	{
+		"roiname": "ITG_L",
+		"roiidname": "T1_L4_ITG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000936958689,
+			"fitcoef1": -0.0008299005466,
+			"fitcoef2": 0.01221920087
+		}
+	},
+	{
+		"roiname": "ITG_R",
+		"roiidname": "T1_L4_ITG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001001679634,
+			"fitcoef1": -0.0007025613362,
+			"fitcoef2": 0.01282916249
+		}
+	},
+	{
+		"roiname": "Limbic_L",
+		"roiidname": "T1_L4_Limbic_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002060479739,
+			"fitcoef1": 5.611018193e-005,
+			"fitcoef2": 0.001306440955
+		}
+	},
+	{
+		"roiname": "Limbic_R",
+		"roiidname": "T1_L4_Limbic_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002607856005,
+			"fitcoef1": -3.950422118e-005,
+			"fitcoef2": 0.002065998417
+		}
+	},
+	{
+		"roiname": "Temporal_L",
+		"roiidname": "T1_L4_Temporal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000688086123,
+			"fitcoef1": -0.0006780506805,
+			"fitcoef2": 0.01409482506
+		}
+	},
+	{
+		"roiname": "Temporal_R",
+		"roiidname": "T1_L4_Temporal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007710803365,
+			"fitcoef1": -0.0006977299658,
+			"fitcoef2": 0.0138216868
+		}
+	},
+	{
+		"roiname": "Occipital_L",
+		"roiidname": "T1_L4_Occipital_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.002105415938,
+			"fitcoef1": -2.134527538e-005,
+			"fitcoef2": 0.02873073871
+		}
+	},
+	{
+		"roiname": "Occipital_R",
+		"roiidname": "T1_L4_Occipital_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002008207256,
+			"fitcoef1": 0.0002196111528,
+			"fitcoef2": 0.02656170288
+		}
+	},
+	{
+		"roiname": "Cingulate_L",
+		"roiidname": "T1_L4_Cingulate_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001026349144,
+			"fitcoef1": -0.000997322336,
+			"fitcoef2": 0.02006225384
+		}
+	},
+	{
+		"roiname": "Cingulate_R",
+		"roiidname": "T1_L4_Cingulate_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001052714915,
+			"fitcoef1": -0.001246089591,
+			"fitcoef2": 0.02168022443
+		}
+	},
+	{
+		"roiname": "Insula_L",
+		"roiidname": "T1_L4_Insula_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004306305216,
+			"fitcoef1": -0.0005003374037,
+			"fitcoef2": 0.006861812451
+		}
+	},
+	{
+		"roiname": "Insula_R",
+		"roiidname": "T1_L4_Insula_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004480980189,
+			"fitcoef1": -0.0005312991454,
+			"fitcoef2": 0.007231519189
+		}
+	},
+	{
+		"roiname": "Amyg_L",
+		"roiidname": "T1_L4_Amyg_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001191503949,
+			"fitcoef1": -7.130314077e-006,
+			"fitcoef2": 0.001220123475
+		}
+	},
+	{
+		"roiname": "Amyg_R",
+		"roiidname": "T1_L4_Amyg_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000130439606,
+			"fitcoef1": -0.0001142223554,
+			"fitcoef2": 0.001870183641
+		}
+	},
+	{
+		"roiname": "Hippo_L",
+		"roiidname": "T1_L4_Hippo_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001838746672,
+			"fitcoef1": -3.99359745e-005,
+			"fitcoef2": 0.002752710234
+		}
+	},
+	{
+		"roiname": "Hippo_R",
+		"roiidname": "T1_L4_Hippo_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002560879376,
+			"fitcoef1": -0.0001305612106,
+			"fitcoef2": 0.003222120714
+		}
+	},
+	{
+		"roiname": "Caud_L",
+		"roiidname": "T1_L4_Caud_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003178184405,
+			"fitcoef1": 9.549604151e-005,
+			"fitcoef2": 0.002252882894
+		}
+	},
+	{
+		"roiname": "Caud_R",
+		"roiidname": "T1_L4_Caud_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003428249914,
+			"fitcoef1": 0.0001251161775,
+			"fitcoef2": 0.002178221829
+		}
+	},
+	{
+		"roiname": "Put_L",
+		"roiidname": "T1_L4_Put_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003610468863,
+			"fitcoef1": -0.0003962439699,
+			"fitcoef2": 0.004709137973
+		}
+	},
+	{
+		"roiname": "Put_R",
+		"roiidname": "T1_L4_Put_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000369427876,
+			"fitcoef1": -0.0004240767269,
+			"fitcoef2": 0.005025569131
+		}
+	},
+	{
+		"roiname": "GP_L",
+		"roiidname": "T1_L4_GP_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001341392284,
+			"fitcoef1": -0.000124088985,
+			"fitcoef2": 0.001613855866
+		}
+	},
+	{
+		"roiname": "GP_R",
+		"roiidname": "T1_L4_GP_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001224885783,
+			"fitcoef1": -0.0001154678432,
+			"fitcoef2": 0.001657357505
+		}
+	},
+	{
+		"roiname": "Thalamus_L",
+		"roiidname": "T1_L4_Thalamus_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003458031914,
+			"fitcoef1": -0.0005075525058,
+			"fitcoef2": 0.006150520598
+		}
+	},
+	{
+		"roiname": "Thalamus_R",
+		"roiidname": "T1_L4_Thalamus_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000375412898,
+			"fitcoef1": -0.0006152895253,
+			"fitcoef2": 0.006680509977
+		}
+	},
+	{
+		"roiname": "BasalForbrain_L",
+		"roiidname": "T1_L4_BasalForbrain_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002339540165,
+			"fitcoef1": -0.0001566888705,
+			"fitcoef2": 0.003413760251
+		}
+	},
+	{
+		"roiname": "BasalForbrain_R",
+		"roiidname": "T1_L4_BasalForbrain_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002135812986,
+			"fitcoef1": -0.0001687935029,
+			"fitcoef2": 0.003486421307
+		}
+	},
+	{
+		"roiname": "midbrain_L",
+		"roiidname": "T1_L4_midbrain_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003518030372,
+			"fitcoef1": -0.0002241671152,
+			"fitcoef2": 0.00485783857
+		}
+	},
+	{
+		"roiname": "midbrain_R",
+		"roiidname": "T1_L4_midbrain_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003441767548,
+			"fitcoef1": -0.0002474688586,
+			"fitcoef2": 0.004893486861
+		}
+	},
+	{
+		"roiname": "Cerebellum_R",
+		"roiidname": "T1_L4_Cerebellum_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.003339095464,
+			"fitcoef1": -0.0004684575894,
+			"fitcoef2": 0.03999656463
+		}
+	},
+	{
+		"roiname": "Cerebellum_L",
+		"roiidname": "T1_L4_Cerebellum_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003390455199,
+			"fitcoef1": -0.0008213336641,
+			"fitcoef2": 0.04201998709
+		}
+	},
+	{
+		"roiname": "Pons_L",
+		"roiidname": "T1_L4_Pons_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006246976447,
+			"fitcoef1": 0.0001551980759,
+			"fitcoef2": 0.005727015083
+		}
+	},
+	{
+		"roiname": "Pons_R",
+		"roiidname": "T1_L4_Pons_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006721320434,
+			"fitcoef1": 0.0002712227998,
+			"fitcoef2": 0.005902988768
+		}
+	},
+	{
+		"roiname": "Medulla_L",
+		"roiidname": "T1_L4_Medulla_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002294899779,
+			"fitcoef1": 5.318780961e-006,
+			"fitcoef2": 0.001808626236
+		}
+	},
+	{
+		"roiname": "Medulla_R",
+		"roiidname": "T1_L4_Medulla_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002336018593,
+			"fitcoef1": 8.009521624e-005,
+			"fitcoef2": 0.001667118261
+		}
+	},
+	{
+		"roiname": "CoreFrontalWM_L",
+		"roiidname": "T1_L4_CoreFrontalWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.002257481246,
+			"fitcoef1": -0.003018684745,
+			"fitcoef2": 0.03341912636
+		}
+	},
+	{
+		"roiname": "CoreFrontalWM_R",
+		"roiidname": "T1_L4_CoreFrontalWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002011941899,
+			"fitcoef1": -0.003196617686,
+			"fitcoef2": 0.03357225011
+		}
+	},
+	{
+		"roiname": "CorePosteriorWM_L",
+		"roiidname": "T1_L4_CorePosteriorWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000499602847,
+			"fitcoef1": -0.0002743039719,
+			"fitcoef2": 0.005221827738
+		}
+	},
+	{
+		"roiname": "CorePosteriorWM_R",
+		"roiidname": "T1_L4_CorePosteriorWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004315944027,
+			"fitcoef1": -0.0001544621271,
+			"fitcoef2": 0.004010561074
+		}
+	},
+	{
+		"roiname": "GCC_L",
+		"roiidname": "T1_L4_GCC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002304813209,
+			"fitcoef1": 1.461873564e-006,
+			"fitcoef2": 0.001871229063
+		}
+	},
+	{
+		"roiname": "GCC_R",
+		"roiidname": "T1_L4_GCC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002512712579,
+			"fitcoef1": 7.88242376e-005,
+			"fitcoef2": 0.001715115672
+		}
+	},
+	{
+		"roiname": "BCC_L",
+		"roiidname": "T1_L4_BCC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003846584888,
+			"fitcoef1": 0.0004629357445,
+			"fitcoef2": 0.001368135414
+		}
+	},
+	{
+		"roiname": "BCC_R",
+		"roiidname": "T1_L4_BCC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000424508602,
+			"fitcoef1": 0.0005135762915,
+			"fitcoef2": 0.001193540841
+		}
+	},
+	{
+		"roiname": "SCC_L",
+		"roiidname": "T1_L4_SCC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005476469894,
+			"fitcoef1": 0.0002474471542,
+			"fitcoef2": 0.003580626394
+		}
+	},
+	{
+		"roiname": "SCC_R",
+		"roiidname": "T1_L4_SCC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005433184157,
+			"fitcoef1": 0.0002402363932,
+			"fitcoef2": 0.003678943291
+		}
+	},
+	{
+		"roiname": "PV_HI_posterior_L",
+		"roiidname": "T1_L4_PV_HI_posterior_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003282722865,
+			"fitcoef1": 0.0004690407326,
+			"fitcoef2": -0.001037585915
+		}
+	},
+	{
+		"roiname": "PV_HI_posterior_R",
+		"roiidname": "T1_L4_PV_HI_posterior_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003039829108,
+			"fitcoef1": 0.0004301110074,
+			"fitcoef2": -0.0009392368531
+		}
+	},
+	{
+		"roiname": "ALIC_L",
+		"roiidname": "T1_L4_ALIC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001829036172,
+			"fitcoef1": 7.099022857e-005,
+			"fitcoef2": 0.001582973447
+		}
+	},
+	{
+		"roiname": "ALIC_R",
+		"roiidname": "T1_L4_ALIC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001625712778,
+			"fitcoef1": 7.63126536e-005,
+			"fitcoef2": 0.001545043293
+		}
+	},
+	{
+		"roiname": "PLIC_L",
+		"roiidname": "T1_L4_PLIC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001900632619,
+			"fitcoef1": -0.0002471351344,
+			"fitcoef2": 0.003352741925
+		}
+	},
+	{
+		"roiname": "PLIC_R",
+		"roiidname": "T1_L4_PLIC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001748058383,
+			"fitcoef1": -0.0002618830528,
+			"fitcoef2": 0.003284425688
+		}
+	},
+	{
+		"roiname": "CoreInferiorWM_L",
+		"roiidname": "T1_L4_CoreInferiorWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008269963333,
+			"fitcoef1": -0.000423633598,
+			"fitcoef2": 0.01710299642
+		}
+	},
+	{
+		"roiname": "CoreInferiorWM_R",
+		"roiidname": "T1_L4_CoreInferiorWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007610113488,
+			"fitcoef1": -0.0002319624526,
+			"fitcoef2": 0.01498241436
+		}
+	},
+	{
+		"roiname": "CGC_L",
+		"roiidname": "T1_L4_CGC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002346348895,
+			"fitcoef1": -0.0001966464433,
+			"fitcoef2": 0.002832918099
+		}
+	},
+	{
+		"roiname": "CGC_R",
+		"roiidname": "T1_L4_CGC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002647701428,
+			"fitcoef1": -0.0001329226268,
+			"fitcoef2": 0.002742579016
+		}
+	},
+	{
+		"roiname": "CGH_L",
+		"roiidname": "T1_L4_CGH_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001634492818,
+			"fitcoef1": -3.656933798e-005,
+			"fitcoef2": 0.001313702067
+		}
+	},
+	{
+		"roiname": "CGH_R",
+		"roiidname": "T1_L4_CGH_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001422193666,
+			"fitcoef1": -6.721433295e-006,
+			"fitcoef2": 0.001208624312
+		}
+	},
+	{
+		"roiname": "Fx_ST_L",
+		"roiidname": "T1_L4_Fx_ST_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001038903716,
+			"fitcoef1": -0.0001470865481,
+			"fitcoef2": 0.001652424317
+		}
+	},
+	{
+		"roiname": "Fx_ST_R",
+		"roiidname": "T1_L4_Fx_ST_R",
+		"fittingmodelparameter": {
+			"msdpred": 9.151295789e-005,
+			"fitcoef1": -0.0001134970157,
+			"fitcoef2": 0.001521045068
+		}
+	},
+	{
+		"roiname": "Fx_L",
+		"roiidname": "T1_L4_Fx_L",
+		"fittingmodelparameter": {
+			"msdpred": 7.088340749e-005,
+			"fitcoef1": 8.157159643e-005,
+			"fitcoef2": 0.0001506721879
+		}
+	},
+	{
+		"roiname": "Fx_R",
+		"roiidname": "T1_L4_Fx_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001098420806,
+			"fitcoef1": 7.94030526e-005,
+			"fitcoef2": 0.0003137359745
+		}
+	},
+	{
+		"roiname": "PeripheralParietalWM_L",
+		"roiidname": "T1_L4_PeripheralParietalWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.002062672405,
+			"fitcoef1": -0.0006289050987,
+			"fitcoef2": 0.02904089688
+		}
+	},
+	{
+		"roiname": "PeripheralParietalWM_R",
+		"roiidname": "T1_L4_PeripheralParietalWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002072695501,
+			"fitcoef1": -0.000729248301,
+			"fitcoef2": 0.03017046869
+		}
+	},
+	{
+		"roiname": "FrontalLateralVentricle_L",
+		"roiidname": "T1_L4_FrontalLateralVentricle_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003785017726,
+			"fitcoef1": 0.006574961338,
+			"fitcoef2": -0.018306113
+		}
+	},
+	{
+		"roiname": "PosteriorLateralVentricle_L",
+		"roiidname": "T1_L4_PosteriorLateralVentricle_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001376426951,
+			"fitcoef1": 0.001875797312,
+			"fitcoef2": -0.004992581341
+		}
+	},
+	{
+		"roiname": "InferiorLateralVentricle_L",
+		"roiidname": "T1_L4_InferiorLateralVentricle_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003824179505,
+			"fitcoef1": 0.0004789936444,
+			"fitcoef2": -0.0008983836107
+		}
+	},
+	{
+		"roiname": "FrontalLateralVentricle_R",
+		"roiidname": "T1_L4_FrontalLateralVentricle_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.004180589936,
+			"fitcoef1": 0.006872723224,
+			"fitcoef2": -0.01950476011
+		}
+	},
+	{
+		"roiname": "PosteriorLateralVentricle_R",
+		"roiidname": "T1_L4_PosteriorLateralVentricle_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001430768766,
+			"fitcoef1": 0.00194348097,
+			"fitcoef2": -0.005413480539
+		}
+	},
+	{
+		"roiname": "InferiorLateralVentricle_R",
+		"roiidname": "T1_L4_InferiorLateralVentricle_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004886406086,
+			"fitcoef1": 0.0005429350536,
+			"fitcoef2": -0.001106408596
+		}
+	},
+	{
+		"roiname": "IIIandIV_Ventricle",
+		"roiidname": "T1_L4_IIIandIV_Ventricle",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008008134643,
+			"fitcoef1": 0.001109220758,
+			"fitcoef2": -0.0008932305714
+		}
+	},
+	{
+		"roiname": "PV_HI_front_L",
+		"roiidname": "T1_L4_PV_HI_front_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003881982206,
+			"fitcoef1": 0.0005193067703,
+			"fitcoef2": -0.0009427794234
+		}
+	},
+	{
+		"roiname": "PV_HI_front_R",
+		"roiidname": "T1_L4_PV_HI_front_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003992529979,
+			"fitcoef1": 0.0004250500705,
+			"fitcoef2": -0.0006218296545
+		}
+	},
+	{
+		"roiname": "PeripheralFrontalWM_L",
+		"roiidname": "T1_L4_PeripheralFrontalWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.002545215099,
+			"fitcoef1": -0.001154552753,
+			"fitcoef2": 0.04260864074
+		}
+	},
+	{
+		"roiname": "PeripheralFrontalWM_R",
+		"roiidname": "T1_L4_PeripheralFrontalWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002683477246,
+			"fitcoef1": -0.001233188466,
+			"fitcoef2": 0.04491128806
+		}
+	},
+	{
+		"roiname": "PeripheralTemporalWM_L",
+		"roiidname": "T1_L4_PeripheralTemporalWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001111808267,
+			"fitcoef1": -0.0002996601584,
+			"fitcoef2": 0.02185811073
+		}
+	},
+	{
+		"roiname": "PeripheralTemporalWM_R",
+		"roiidname": "T1_L4_PeripheralTemporalWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001267604894,
+			"fitcoef1": -0.0007102666273,
+			"fitcoef2": 0.0247258028
+		}
+	},
+	{
+		"roiname": "PeripheralOccipitalWM_L",
+		"roiidname": "T1_L4_PeripheralOccipitalWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001430280865,
+			"fitcoef1": 0.001304494356,
+			"fitcoef2": 0.01525532467
+		}
+	},
+	{
+		"roiname": "PeripheralOccipitalWM_R",
+		"roiidname": "T1_L4_PeripheralOccipitalWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001456307849,
+			"fitcoef1": 0.001015131542,
+			"fitcoef2": 0.01602999487
+		}
+	},
+	{
+		"roiname": "PeripheralLimbicWM_L",
+		"roiidname": "T1_L4_PeripheralLimbicWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003710011757,
+			"fitcoef1": -0.0002480484223,
+			"fitcoef2": 0.005002253269
+		}
+	},
+	{
+		"roiname": "PeripheralLimbicWM_R",
+		"roiidname": "T1_L4_PeripheralLimbicWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000308774498,
+			"fitcoef1": -0.000187597527,
+			"fitcoef2": 0.004059311494
+		}
+	},
+	{
+		"roiname": "CerebellumWM_R",
+		"roiidname": "T1_L4_CerebellumWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009086709592,
+			"fitcoef1": -0.0001233206331,
+			"fitcoef2": 0.009776809371
+		}
+	},
+	{
+		"roiname": "CerebellumWM_L",
+		"roiidname": "T1_L4_CerebellumWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009027498393,
+			"fitcoef1": 1.680109268e-005,
+			"fitcoef2": 0.009172245543
+		}
+	},
+	{
+		"roiname": "marrow",
+		"roiidname": "T1_L4_marrow",
+		"fittingmodelparameter": {
+			"msdpred": 0,
+			"fitcoef1": -0,
+			"fitcoef2": -0
+		}
+	},
+	{
+		"roiname": "FrontSul_L",
+		"roiidname": "T1_L4_FrontSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003237654054,
+			"fitcoef1": -0.001144153929,
+			"fitcoef2": 0.02612276593
+		}
+	},
+	{
+		"roiname": "FrontSul_R",
+		"roiidname": "T1_L4_FrontSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002415422303,
+			"fitcoef1": -0.0004530644739,
+			"fitcoef2": 0.01891449194
+		}
+	},
+	{
+		"roiname": "CentralSul_L",
+		"roiidname": "T1_L4_CentralSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006160731009,
+			"fitcoef1": 0.0007811026645,
+			"fitcoef2": -0.0005416837723
+		}
+	},
+	{
+		"roiname": "CentralSul_R",
+		"roiidname": "T1_L4_CentralSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006037052754,
+			"fitcoef1": 0.0008345937221,
+			"fitcoef2": -0.0008124070926
+		}
+	},
+	{
+		"roiname": "SylFrontSul_L",
+		"roiidname": "T1_L4_SylFrontSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009343044218,
+			"fitcoef1": 0.001140450066,
+			"fitcoef2": -0.002144053963
+		}
+	},
+	{
+		"roiname": "SylFrontSul_R",
+		"roiidname": "T1_L4_SylFrontSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008415871096,
+			"fitcoef1": 0.001249247288,
+			"fitcoef2": -0.00264064932
+		}
+	},
+	{
+		"roiname": "SylTempSul_L",
+		"roiidname": "T1_L4_SylTempSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008796251213,
+			"fitcoef1": 0.001437076096,
+			"fitcoef2": -0.002450492882
+		}
+	},
+	{
+		"roiname": "SylTempSul_R",
+		"roiidname": "T1_L4_SylTempSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007969426819,
+			"fitcoef1": 0.001409251463,
+			"fitcoef2": -0.002772036683
+		}
+	},
+	{
+		"roiname": "SylParieSul_L",
+		"roiidname": "T1_L4_SylParieSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000199383192,
+			"fitcoef1": 0.0001541032368,
+			"fitcoef2": -0.000242012448
+		}
+	},
+	{
+		"roiname": "SylParieSul_R",
+		"roiidname": "T1_L4_SylParieSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002148209948,
+			"fitcoef1": 0.0001872829932,
+			"fitcoef2": -0.0004254793811
+		}
+	},
+	{
+		"roiname": "ParietSul_L",
+		"roiidname": "T1_L4_ParietSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001935531868,
+			"fitcoef1": 0.0006273145901,
+			"fitcoef2": 0.006139381534
+		}
+	},
+	{
+		"roiname": "ParietSul_R",
+		"roiidname": "T1_L4_ParietSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.00220390646,
+			"fitcoef1": 0.0005675918723,
+			"fitcoef2": 0.006741439683
+		}
+	},
+	{
+		"roiname": "CinguSul_L",
+		"roiidname": "T1_L4_CinguSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001039400767,
+			"fitcoef1": 0.0005717714303,
+			"fitcoef2": 0.001570587064
+		}
+	},
+	{
+		"roiname": "CinguSul_R",
+		"roiidname": "T1_L4_CinguSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009766167369,
+			"fitcoef1": 0.0006646549009,
+			"fitcoef2": 0.0007942274806
+		}
+	},
+	{
+		"roiname": "OcciptSul_L",
+		"roiidname": "T1_L4_OcciptSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00103739105,
+			"fitcoef1": 0.001079774691,
+			"fitcoef2": -0.001586289406
+		}
+	},
+	{
+		"roiname": "OcciptSul_R",
+		"roiidname": "T1_L4_OcciptSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001104250684,
+			"fitcoef1": 0.001062151512,
+			"fitcoef2": -0.001228063989
+		}
+	},
+	{
+		"roiname": "TempSul_L",
+		"roiidname": "T1_L4_TempSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008327086001,
+			"fitcoef1": 0.000417326051,
+			"fitcoef2": 0.0004773724565
+		}
+	},
+	{
+		"roiname": "TempSul_R",
+		"roiidname": "T1_L4_TempSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006974270803,
+			"fitcoef1": 0.0004157953359,
+			"fitcoef2": 0.0001515502717
+		}
+	},
+	{
+		"roiname": "SFG_L",
+		"roiidname": "T1_L5_SFG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007968732665,
+			"fitcoef1": 3.616647496e-005,
+			"fitcoef2": 0.007741580983
+		}
+	},
+	{
+		"roiname": "SFG_R",
+		"roiidname": "T1_L5_SFG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007753046627,
+			"fitcoef1": 0.0003910156995,
+			"fitcoef2": 0.005111233045
+		}
+	},
+	{
+		"roiname": "SFG_PFC_L",
+		"roiidname": "T1_L5_SFG_PFC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008182447287,
+			"fitcoef1": -0.0001079532754,
+			"fitcoef2": 0.0078774154
+		}
+	},
+	{
+		"roiname": "SFG_PFC_R",
+		"roiidname": "T1_L5_SFG_PFC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007247054382,
+			"fitcoef1": -0.000350997522,
+			"fitcoef2": 0.008426521164
+		}
+	},
+	{
+		"roiname": "SFG_pole_L",
+		"roiidname": "T1_L5_SFG_pole_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002564285883,
+			"fitcoef1": 8.445310126e-005,
+			"fitcoef2": 0.00147863748
+		}
+	},
+	{
+		"roiname": "SFG_pole_R",
+		"roiidname": "T1_L5_SFG_pole_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003445914505,
+			"fitcoef1": -0.0001211946053,
+			"fitcoef2": 0.003268822104
+		}
+	},
+	{
+		"roiname": "MFG_L",
+		"roiidname": "T1_L5_MFG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007608273099,
+			"fitcoef1": -0.000105618729,
+			"fitcoef2": 0.007090790984
+		}
+	},
+	{
+		"roiname": "MFG_R",
+		"roiidname": "T1_L5_MFG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008507985125,
+			"fitcoef1": -0.0003064332127,
+			"fitcoef2": 0.00814978575
+		}
+	},
+	{
+		"roiname": "MFG_DPFC_L",
+		"roiidname": "T1_L5_MFG_DPFC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001246092197,
+			"fitcoef1": -0.000498479671,
+			"fitcoef2": 0.01123212233
+		}
+	},
+	{
+		"roiname": "MFG_DPFC_R",
+		"roiidname": "T1_L5_MFG_DPFC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001306371082,
+			"fitcoef1": -0.001134539066,
+			"fitcoef2": 0.01454927919
+		}
+	},
+	{
+		"roiname": "IFG_opercularis_L",
+		"roiidname": "T1_L5_IFG_opercularis_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003346738623,
+			"fitcoef1": -0.0002765075063,
+			"fitcoef2": 0.00373239364
+		}
+	},
+	{
+		"roiname": "IFG_opercularis_R",
+		"roiidname": "T1_L5_IFG_opercularis_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003527137429,
+			"fitcoef1": -0.0002043304186,
+			"fitcoef2": 0.003232166027
+		}
+	},
+	{
+		"roiname": "IFG_orbitalis_L",
+		"roiidname": "T1_L5_IFG_orbitalis_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000336901719,
+			"fitcoef1": -0.0002881007879,
+			"fitcoef2": 0.003945910965
+		}
+	},
+	{
+		"roiname": "IFG_orbitalis_R",
+		"roiidname": "T1_L5_IFG_orbitalis_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003046760094,
+			"fitcoef1": -9.141172906e-005,
+			"fitcoef2": 0.002667507689
+		}
+	},
+	{
+		"roiname": "IFG_triangularis_L",
+		"roiidname": "T1_L5_IFG_triangularis_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003818343357,
+			"fitcoef1": -0.0001541758085,
+			"fitcoef2": 0.003165289528
+		}
+	},
+	{
+		"roiname": "IFG_triangularis_R",
+		"roiidname": "T1_L5_IFG_triangularis_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003381721441,
+			"fitcoef1": -0.0002103370303,
+			"fitcoef2": 0.003150524402
+		}
+	},
+	{
+		"roiname": "LFOG_L",
+		"roiidname": "T1_L5_LFOG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003400373541,
+			"fitcoef1": -0.00028180777,
+			"fitcoef2": 0.004664890356
+		}
+	},
+	{
+		"roiname": "LFOG_R",
+		"roiidname": "T1_L5_LFOG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000341532841,
+			"fitcoef1": -0.0003111172669,
+			"fitcoef2": 0.004712185641
+		}
+	},
+	{
+		"roiname": "MFOG_L",
+		"roiidname": "T1_L5_MFOG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002831497537,
+			"fitcoef1": -8.998659067e-005,
+			"fitcoef2": 0.003680316319
+		}
+	},
+	{
+		"roiname": "MFOG_R",
+		"roiidname": "T1_L5_MFOG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002697893685,
+			"fitcoef1": -0.0001844379668,
+			"fitcoef2": 0.003840784812
+		}
+	},
+	{
+		"roiname": "RG_L",
+		"roiidname": "T1_L5_RG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003880678722,
+			"fitcoef1": -0.0004895310902,
+			"fitcoef2": 0.005783522251
+		}
+	},
+	{
+		"roiname": "RG_R",
+		"roiidname": "T1_L5_RG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003879713406,
+			"fitcoef1": -0.00051192741,
+			"fitcoef2": 0.005978901236
+		}
+	},
+	{
+		"roiname": "PoCG_L",
+		"roiidname": "T1_L5_PoCG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008681157549,
+			"fitcoef1": -0.0004026555764,
+			"fitcoef2": 0.01019944864
+		}
+	},
+	{
+		"roiname": "PoCG_R",
+		"roiidname": "T1_L5_PoCG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007998908516,
+			"fitcoef1": -0.0002809121305,
+			"fitcoef2": 0.009524077517
+		}
+	},
+	{
+		"roiname": "PrCG_L",
+		"roiidname": "T1_L5_PrCG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009698764823,
+			"fitcoef1": -0.000404157899,
+			"fitcoef2": 0.01155732315
+		}
+	},
+	{
+		"roiname": "PrCG_R",
+		"roiidname": "T1_L5_PrCG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009888646438,
+			"fitcoef1": -0.0006427241287,
+			"fitcoef2": 0.01404593404
+		}
+	},
+	{
+		"roiname": "SPG_L",
+		"roiidname": "T1_L5_SPG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007674234168,
+			"fitcoef1": -0.0002464894865,
+			"fitcoef2": 0.00726675168
+		}
+	},
+	{
+		"roiname": "SPG_R",
+		"roiidname": "T1_L5_SPG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007502214562,
+			"fitcoef1": 0.0001360870368,
+			"fitcoef2": 0.004729594257
+		}
+	},
+	{
+		"roiname": "SMG_L",
+		"roiidname": "T1_L5_SMG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007999522622,
+			"fitcoef1": -0.0008894708546,
+			"fitcoef2": 0.01018502036
+		}
+	},
+	{
+		"roiname": "SMG_R",
+		"roiidname": "T1_L5_SMG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008409155616,
+			"fitcoef1": -0.0005900476806,
+			"fitcoef2": 0.009193301047
+		}
+	},
+	{
+		"roiname": "AG_L",
+		"roiidname": "T1_L5_AG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006812153688,
+			"fitcoef1": 4.799364546e-005,
+			"fitcoef2": 0.005273019385
+		}
+	},
+	{
+		"roiname": "AG_R",
+		"roiidname": "T1_L5_AG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001007797441,
+			"fitcoef1": -0.0003417719297,
+			"fitcoef2": 0.0102241669
+		}
+	},
+	{
+		"roiname": "PrCu_L",
+		"roiidname": "T1_L5_PrCu_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006366966826,
+			"fitcoef1": -0.0003289911679,
+			"fitcoef2": 0.006390075507
+		}
+	},
+	{
+		"roiname": "PrCu_R",
+		"roiidname": "T1_L5_PrCu_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.00059809429,
+			"fitcoef1": -0.0004402339516,
+			"fitcoef2": 0.006478354946
+		}
+	},
+	{
+		"roiname": "STG_L",
+		"roiidname": "T1_L5_STG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000880526988,
+			"fitcoef1": -0.000761034855,
+			"fitcoef2": 0.01212482906
+		}
+	},
+	{
+		"roiname": "STG_R",
+		"roiidname": "T1_L5_STG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009252458053,
+			"fitcoef1": -0.001117063876,
+			"fitcoef2": 0.01326615806
+		}
+	},
+	{
+		"roiname": "STG_L_pole",
+		"roiidname": "T1_L5_STG_L_pole",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004230353721,
+			"fitcoef1": -0.0002462803431,
+			"fitcoef2": 0.004603588848
+		}
+	},
+	{
+		"roiname": "STG_R_pole",
+		"roiidname": "T1_L5_STG_R_pole",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004239417775,
+			"fitcoef1": -0.0003194717614,
+			"fitcoef2": 0.00497167049
+		}
+	},
+	{
+		"roiname": "MTG_L",
+		"roiidname": "T1_L5_MTG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001208598208,
+			"fitcoef1": -0.0002772557582,
+			"fitcoef2": 0.01264817435
+		}
+	},
+	{
+		"roiname": "MTG_R",
+		"roiidname": "T1_L5_MTG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001006246597,
+			"fitcoef1": -0.0007870299319,
+			"fitcoef2": 0.01349426468
+		}
+	},
+	{
+		"roiname": "MTG_L_pole",
+		"roiidname": "T1_L5_MTG_L_pole",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003332302459,
+			"fitcoef1": 0.0001930183475,
+			"fitcoef2": 0.000870330251
+		}
+	},
+	{
+		"roiname": "MTG_R_pole",
+		"roiidname": "T1_L5_MTG_R_pole",
+		"fittingmodelparameter": {
+			"msdpred": 0.000382345615,
+			"fitcoef1": 1.055621449e-005,
+			"fitcoef2": 0.001741021955
+		}
+	},
+	{
+		"roiname": "ITG_L",
+		"roiidname": "T1_L5_ITG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000936958689,
+			"fitcoef1": -0.0008299005466,
+			"fitcoef2": 0.01221920087
+		}
+	},
+	{
+		"roiname": "ITG_R",
+		"roiidname": "T1_L5_ITG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001001679634,
+			"fitcoef1": -0.0007025613362,
+			"fitcoef2": 0.01282916249
+		}
+	},
+	{
+		"roiname": "PHG_L",
+		"roiidname": "T1_L5_PHG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001165403243,
+			"fitcoef1": 3.499059651e-006,
+			"fitcoef2": 0.0008508768623
+		}
+	},
+	{
+		"roiname": "PHG_R",
+		"roiidname": "T1_L5_PHG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000133105515,
+			"fitcoef1": -5.623092609e-005,
+			"fitcoef2": 0.001216528193
+		}
+	},
+	{
+		"roiname": "ENT_L",
+		"roiidname": "T1_L5_ENT_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001166652459,
+			"fitcoef1": 5.270947308e-005,
+			"fitcoef2": 0.0004554235604
+		}
+	},
+	{
+		"roiname": "ENT_R",
+		"roiidname": "T1_L5_ENT_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001586423541,
+			"fitcoef1": 1.675615354e-005,
+			"fitcoef2": 0.0008496092279
+		}
+	},
+	{
+		"roiname": "FuG_L",
+		"roiidname": "T1_L5_FuG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000688086123,
+			"fitcoef1": -0.0006780506805,
+			"fitcoef2": 0.01409482506
+		}
+	},
+	{
+		"roiname": "FuG_R",
+		"roiidname": "T1_L5_FuG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007710803365,
+			"fitcoef1": -0.0006977299658,
+			"fitcoef2": 0.0138216868
+		}
+	},
+	{
+		"roiname": "SOG_L",
+		"roiidname": "T1_L5_SOG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003701704265,
+			"fitcoef1": -0.0001286415858,
+			"fitcoef2": 0.002692641857
+		}
+	},
+	{
+		"roiname": "SOG_R",
+		"roiidname": "T1_L5_SOG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003329675202,
+			"fitcoef1": -0.0001707574706,
+			"fitcoef2": 0.002716081613
+		}
+	},
+	{
+		"roiname": "MOG_L",
+		"roiidname": "T1_L5_MOG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001467378896,
+			"fitcoef1": -9.120738155e-006,
+			"fitcoef2": 0.01211854804
+		}
+	},
+	{
+		"roiname": "MOG_R",
+		"roiidname": "T1_L5_MOG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001267065249,
+			"fitcoef1": 0.0006660490107,
+			"fitcoef2": 0.008621740712
+		}
+	},
+	{
+		"roiname": "IOG_L",
+		"roiidname": "T1_L5_IOG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000491979343,
+			"fitcoef1": 0.0001993543997,
+			"fitcoef2": 0.00252070139
+		}
+	},
+	{
+		"roiname": "IOG_R",
+		"roiidname": "T1_L5_IOG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006485032542,
+			"fitcoef1": 0.0005753143345,
+			"fitcoef2": 0.001962810506
+		}
+	},
+	{
+		"roiname": "Cu_L",
+		"roiidname": "T1_L5_Cu_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006598174085,
+			"fitcoef1": -0.0002279334846,
+			"fitcoef2": 0.005835070426
+		}
+	},
+	{
+		"roiname": "Cu_R",
+		"roiidname": "T1_L5_Cu_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005443494465,
+			"fitcoef1": -0.0005180341901,
+			"fitcoef2": 0.006168669335
+		}
+	},
+	{
+		"roiname": "LG_L",
+		"roiidname": "T1_L5_LG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006171717136,
+			"fitcoef1": 0.0001453296049,
+			"fitcoef2": 0.005563406015
+		}
+	},
+	{
+		"roiname": "LG_R",
+		"roiidname": "T1_L5_LG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005361200346,
+			"fitcoef1": -0.0003325546274,
+			"fitcoef2": 0.007091692131
+		}
+	},
+	{
+		"roiname": "rostral_ACC_L",
+		"roiidname": "T1_L5_rostral_ACC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002066549305,
+			"fitcoef1": -0.0003036621799,
+			"fitcoef2": 0.002826047618
+		}
+	},
+	{
+		"roiname": "rostral_ACC_R",
+		"roiidname": "T1_L5_rostral_ACC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002752909301,
+			"fitcoef1": -0.0003299163571,
+			"fitcoef2": 0.003058042693
+		}
+	},
+	{
+		"roiname": "subcallosal_ACC_L",
+		"roiidname": "T1_L5_subcallosal_ACC_L",
+		"fittingmodelparameter": {
+			"msdpred": 5.40623721e-005,
+			"fitcoef1": 7.891356444e-006,
+			"fitcoef2": 0.0002267592243
+		}
+	},
+	{
+		"roiname": "subcallosal_ACC_R",
+		"roiidname": "T1_L5_subcallosal_ACC_R",
+		"fittingmodelparameter": {
+			"msdpred": 5.753916306e-005,
+			"fitcoef1": -2.161623615e-005,
+			"fitcoef2": 0.0004552553931
+		}
+	},
+	{
+		"roiname": "subgenual_ACC_L",
+		"roiidname": "T1_L5_subgenual_ACC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001409914368,
+			"fitcoef1": 1.438697449e-005,
+			"fitcoef2": 0.001272047374
+		}
+	},
+	{
+		"roiname": "subgenual_ACC_R",
+		"roiidname": "T1_L5_subgenual_ACC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001381070224,
+			"fitcoef1": 7.393102805e-005,
+			"fitcoef2": 0.0009226537578
+		}
+	},
+	{
+		"roiname": "dorsal_ACC_L",
+		"roiidname": "T1_L5_dorsal_ACC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006668390155,
+			"fitcoef1": -0.0004636538119,
+			"fitcoef2": 0.009589753727
+		}
+	},
+	{
+		"roiname": "dorsal_ACC_R",
+		"roiidname": "T1_L5_dorsal_ACC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005886059238,
+			"fitcoef1": -0.0005731538456,
+			"fitcoef2": 0.009710945752
+		}
+	},
+	{
+		"roiname": "PCC_L",
+		"roiidname": "T1_L5_PCC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005557755861,
+			"fitcoef1": -0.000251959248,
+			"fitcoef2": 0.006147294435
+		}
+	},
+	{
+		"roiname": "PCC_R",
+		"roiidname": "T1_L5_PCC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006174809008,
+			"fitcoef1": -0.0003952601385,
+			"fitcoef2": 0.007533940538
+		}
+	},
+	{
+		"roiname": "Insula_L",
+		"roiidname": "T1_L5_Insula_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004306305216,
+			"fitcoef1": -0.0005003374037,
+			"fitcoef2": 0.006861812451
+		}
+	},
+	{
+		"roiname": "Insula_R",
+		"roiidname": "T1_L5_Insula_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004480980189,
+			"fitcoef1": -0.0005312991454,
+			"fitcoef2": 0.007231519189
+		}
+	},
+	{
+		"roiname": "Amyg_L",
+		"roiidname": "T1_L5_Amyg_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001191503949,
+			"fitcoef1": -7.130314077e-006,
+			"fitcoef2": 0.001220123475
+		}
+	},
+	{
+		"roiname": "Amyg_R",
+		"roiidname": "T1_L5_Amyg_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000130439606,
+			"fitcoef1": -0.0001142223554,
+			"fitcoef2": 0.001870183641
+		}
+	},
+	{
+		"roiname": "Hippo_L",
+		"roiidname": "T1_L5_Hippo_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001829472358,
+			"fitcoef1": -4.081885869e-005,
+			"fitcoef2": 0.002748896284
+		}
+	},
+	{
+		"roiname": "Hippo_R",
+		"roiidname": "T1_L5_Hippo_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002555509608,
+			"fitcoef1": -0.0001315316167,
+			"fitcoef2": 0.003221051487
+		}
+	},
+	{
+		"roiname": "Caud_L",
+		"roiidname": "T1_L5_Caud_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003178184405,
+			"fitcoef1": 9.549604151e-005,
+			"fitcoef2": 0.002252882894
+		}
+	},
+	{
+		"roiname": "Caud_R",
+		"roiidname": "T1_L5_Caud_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003428249914,
+			"fitcoef1": 0.0001251161775,
+			"fitcoef2": 0.002178221829
+		}
+	},
+	{
+		"roiname": "Put_L",
+		"roiidname": "T1_L5_Put_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003610468863,
+			"fitcoef1": -0.0003962439699,
+			"fitcoef2": 0.004709137973
+		}
+	},
+	{
+		"roiname": "Put_R",
+		"roiidname": "T1_L5_Put_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000369427876,
+			"fitcoef1": -0.0004240767269,
+			"fitcoef2": 0.005025569131
+		}
+	},
+	{
+		"roiname": "GP_L",
+		"roiidname": "T1_L5_GP_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001341392284,
+			"fitcoef1": -0.000124088985,
+			"fitcoef2": 0.001613855866
+		}
+	},
+	{
+		"roiname": "GP_R",
+		"roiidname": "T1_L5_GP_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001224885783,
+			"fitcoef1": -0.0001154678432,
+			"fitcoef2": 0.001657357505
+		}
+	},
+	{
+		"roiname": "Thalamus_L",
+		"roiidname": "T1_L5_Thalamus_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003458031914,
+			"fitcoef1": -0.0005075525058,
+			"fitcoef2": 0.006150520598
+		}
+	},
+	{
+		"roiname": "Thalamus_R",
+		"roiidname": "T1_L5_Thalamus_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000375412898,
+			"fitcoef1": -0.0006152895253,
+			"fitcoef2": 0.006680509977
+		}
+	},
+	{
+		"roiname": "HypoThalamus_L",
+		"roiidname": "T1_L5_HypoThalamus_L",
+		"fittingmodelparameter": {
+			"msdpred": 4.478973798e-005,
+			"fitcoef1": -1.236304917e-005,
+			"fitcoef2": 0.000499345561
+		}
+	},
+	{
+		"roiname": "HypoThalamus_R",
+		"roiidname": "T1_L5_HypoThalamus_R",
+		"fittingmodelparameter": {
+			"msdpred": 5.266227119e-005,
+			"fitcoef1": -1.832727179e-005,
+			"fitcoef2": 0.0005997146872
+		}
+	},
+	{
+		"roiname": "Mynert_L",
+		"roiidname": "T1_L5_Mynert_L",
+		"fittingmodelparameter": {
+			"msdpred": 4.613210701e-005,
+			"fitcoef1": -4.062358606e-006,
+			"fitcoef2": 0.0002721742473
+		}
+	},
+	{
+		"roiname": "Mynert_R",
+		"roiidname": "T1_L5_Mynert_R",
+		"fittingmodelparameter": {
+			"msdpred": 4.804819363e-005,
+			"fitcoef1": 6.102755021e-006,
+			"fitcoef2": 0.0002186257058
+		}
+	},
+	{
+		"roiname": "NucAccumbens_L",
+		"roiidname": "T1_L5_NucAccumbens_L",
+		"fittingmodelparameter": {
+			"msdpred": 7.383466502e-005,
+			"fitcoef1": -5.69248591e-005,
+			"fitcoef2": 0.0007188515242
+		}
+	},
+	{
+		"roiname": "NucAccumbens_R",
+		"roiidname": "T1_L5_NucAccumbens_R",
+		"fittingmodelparameter": {
+			"msdpred": 7.245276475e-005,
+			"fitcoef1": -5.261529788e-005,
+			"fitcoef2": 0.0007978287679
+		}
+	},
+	{
+		"roiname": "RedNc_L",
+		"roiidname": "T1_L5_RedNc_L",
+		"fittingmodelparameter": {
+			"msdpred": 4.115907157e-005,
+			"fitcoef1": -1.294171788e-005,
+			"fitcoef2": 0.0002912639059
+		}
+	},
+	{
+		"roiname": "RedNc_R",
+		"roiidname": "T1_L5_RedNc_R",
+		"fittingmodelparameter": {
+			"msdpred": 4.178988849e-005,
+			"fitcoef1": -2.169878885e-005,
+			"fitcoef2": 0.0003590158246
+		}
+	},
+	{
+		"roiname": "Snigra_L",
+		"roiidname": "T1_L5_Snigra_L",
+		"fittingmodelparameter": {
+			"msdpred": 3.732764311e-005,
+			"fitcoef1": -3.655942467e-005,
+			"fitcoef2": 0.0004011516535
+		}
+	},
+	{
+		"roiname": "Snigra_R",
+		"roiidname": "T1_L5_Snigra_R",
+		"fittingmodelparameter": {
+			"msdpred": 3.265405347e-005,
+			"fitcoef1": -3.507440966e-005,
+			"fitcoef2": 0.0003403495967
+		}
+	},
+	{
+		"roiname": "CerebellumGM_R",
+		"roiidname": "T1_L5_CerebellumGM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.003339095464,
+			"fitcoef1": -0.0004684575894,
+			"fitcoef2": 0.03999656463
+		}
+	},
+	{
+		"roiname": "CerebellumGM_L",
+		"roiidname": "T1_L5_CerebellumGM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003390455199,
+			"fitcoef1": -0.0008213336641,
+			"fitcoef2": 0.04201998709
+		}
+	},
+	{
+		"roiname": "CP_L",
+		"roiidname": "T1_L5_CP_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001565317941,
+			"fitcoef1": -0.0001065070251,
+			"fitcoef2": 0.002023251789
+		}
+	},
+	{
+		"roiname": "CP_R",
+		"roiidname": "T1_L5_CP_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001486740396,
+			"fitcoef1": -0.0001222478713,
+			"fitcoef2": 0.002116419076
+		}
+	},
+	{
+		"roiname": "Midbrain_L",
+		"roiidname": "T1_L5_Midbrain_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001814534801,
+			"fitcoef1": -6.78710961e-005,
+			"fitcoef2": 0.002141724621
+		}
+	},
+	{
+		"roiname": "Midbrain_R",
+		"roiidname": "T1_L5_Midbrain_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001761612784,
+			"fitcoef1": -6.830987547e-005,
+			"fitcoef2": 0.002077921021
+		}
+	},
+	{
+		"roiname": "CST_L",
+		"roiidname": "T1_L5_CST_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001730384503,
+			"fitcoef1": 9.941598542e-005,
+			"fitcoef2": 0.0008563691273
+		}
+	},
+	{
+		"roiname": "CST_R",
+		"roiidname": "T1_L5_CST_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001593991352,
+			"fitcoef1": 0.0001075605731,
+			"fitcoef2": 0.0007375753303
+		}
+	},
+	{
+		"roiname": "SCP_L",
+		"roiidname": "T1_L5_SCP_L",
+		"fittingmodelparameter": {
+			"msdpred": 6.358214549e-005,
+			"fitcoef1": -9.716825574e-006,
+			"fitcoef2": 0.0007119018942
+		}
+	},
+	{
+		"roiname": "SCP_R",
+		"roiidname": "T1_L5_SCP_R",
+		"fittingmodelparameter": {
+			"msdpred": 6.811168563e-005,
+			"fitcoef1": -1.123266857e-005,
+			"fitcoef2": 0.0007750364951
+		}
+	},
+	{
+		"roiname": "MCP_L",
+		"roiidname": "T1_L5_MCP_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002822371088,
+			"fitcoef1": 3.721408706e-006,
+			"fitcoef2": 0.00254095979
+		}
+	},
+	{
+		"roiname": "MCP_R",
+		"roiidname": "T1_L5_MCP_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002946423841,
+			"fitcoef1": 5.662993516e-005,
+			"fitcoef2": 0.002568827917
+		}
+	},
+	{
+		"roiname": "PCT_L",
+		"roiidname": "T1_L5_PCT_L",
+		"fittingmodelparameter": {
+			"msdpred": 9.246222945e-005,
+			"fitcoef1": 2.377735685e-005,
+			"fitcoef2": 0.0005707744288
+		}
+	},
+	{
+		"roiname": "PCT_R",
+		"roiidname": "T1_L5_PCT_R",
+		"fittingmodelparameter": {
+			"msdpred": 9.918709486e-005,
+			"fitcoef1": 4.522866049e-005,
+			"fitcoef2": 0.0005080097395
+		}
+	},
+	{
+		"roiname": "ICP_L",
+		"roiidname": "T1_L5_ICP_L",
+		"fittingmodelparameter": {
+			"msdpred": 8.356118049e-005,
+			"fitcoef1": 1.777249551e-005,
+			"fitcoef2": 0.0004979334947
+		}
+	},
+	{
+		"roiname": "ICP_R",
+		"roiidname": "T1_L5_ICP_R",
+		"fittingmodelparameter": {
+			"msdpred": 9.581319543e-005,
+			"fitcoef1": 1.494495053e-005,
+			"fitcoef2": 0.0005588404705
+		}
+	},
+	{
+		"roiname": "ML_L",
+		"roiidname": "T1_L5_ML_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001103523676,
+			"fitcoef1": 3.976400896e-005,
+			"fitcoef2": 0.0004294190902
+		}
+	},
+	{
+		"roiname": "ML_R",
+		"roiidname": "T1_L5_ML_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001255527152,
+			"fitcoef1": 5.678593631e-005,
+			"fitcoef2": 0.0004816028841
+		}
+	},
+	{
+		"roiname": "Pons_L",
+		"roiidname": "T1_L5_Pons_L",
+		"fittingmodelparameter": {
+			"msdpred": 3.556515911e-005,
+			"fitcoef1": 2.739101792e-006,
+			"fitcoef2": 0.0001972640831
+		}
+	},
+	{
+		"roiname": "Pons_R",
+		"roiidname": "T1_L5_Pons_R",
+		"fittingmodelparameter": {
+			"msdpred": 7.658964568e-005,
+			"fitcoef1": 1.496403167e-005,
+			"fitcoef2": 0.0004015112673
+		}
+	},
+	{
+		"roiname": "Medulla_L",
+		"roiidname": "T1_L5_Medulla_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001789165877,
+			"fitcoef1": -1.236144479e-005,
+			"fitcoef2": 0.001310582245
+		}
+	},
+	{
+		"roiname": "Medulla_R",
+		"roiidname": "T1_L5_Medulla_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001688611298,
+			"fitcoef1": 6.523332657e-005,
+			"fitcoef2": 0.001108188856
+		}
+	},
+	{
+		"roiname": "ACR_L",
+		"roiidname": "T1_L5_ACR_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009798791116,
+			"fitcoef1": -0.001590760048,
+			"fitcoef2": 0.01565544456
+		}
+	},
+	{
+		"roiname": "ACR_R",
+		"roiidname": "T1_L5_ACR_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009810115126,
+			"fitcoef1": -0.001860488185,
+			"fitcoef2": 0.01669830993
+		}
+	},
+	{
+		"roiname": "SCR_L",
+		"roiidname": "T1_L5_SCR_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001573135269,
+			"fitcoef1": -0.001444506832,
+			"fitcoef2": 0.017582898
+		}
+	},
+	{
+		"roiname": "SCR_R",
+		"roiidname": "T1_L5_SCR_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001319850273,
+			"fitcoef1": -0.001353200477,
+			"fitcoef2": 0.01674641648
+		}
+	},
+	{
+		"roiname": "PCR_L",
+		"roiidname": "T1_L5_PCR_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000499602847,
+			"fitcoef1": -0.0002743039719,
+			"fitcoef2": 0.005221827738
+		}
+	},
+	{
+		"roiname": "PCR_R",
+		"roiidname": "T1_L5_PCR_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004315944027,
+			"fitcoef1": -0.0001544621271,
+			"fitcoef2": 0.004010561074
+		}
+	},
+	{
+		"roiname": "GCC_L",
+		"roiidname": "T1_L5_GCC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002304813209,
+			"fitcoef1": 1.461873564e-006,
+			"fitcoef2": 0.001871229063
+		}
+	},
+	{
+		"roiname": "GCC_R",
+		"roiidname": "T1_L5_GCC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002512712579,
+			"fitcoef1": 7.88242376e-005,
+			"fitcoef2": 0.001715115672
+		}
+	},
+	{
+		"roiname": "BCC_L",
+		"roiidname": "T1_L5_BCC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003846584888,
+			"fitcoef1": 0.0004629357445,
+			"fitcoef2": 0.001368135414
+		}
+	},
+	{
+		"roiname": "BCC_R",
+		"roiidname": "T1_L5_BCC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000424508602,
+			"fitcoef1": 0.0005135762915,
+			"fitcoef2": 0.001193540841
+		}
+	},
+	{
+		"roiname": "SCC_L",
+		"roiidname": "T1_L5_SCC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005476469894,
+			"fitcoef1": 0.0002474471542,
+			"fitcoef2": 0.003580626394
+		}
+	},
+	{
+		"roiname": "SCC_R",
+		"roiidname": "T1_L5_SCC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005433184157,
+			"fitcoef1": 0.0002402363932,
+			"fitcoef2": 0.003678943291
+		}
+	},
+	{
+		"roiname": "pvwpl_L",
+		"roiidname": "T1_L5_pvwpl_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002391408738,
+			"fitcoef1": 0.0002767938137,
+			"fitcoef2": -0.0007411272185
+		}
+	},
+	{
+		"roiname": "Pvwpl_R",
+		"roiidname": "T1_L5_Pvwpl_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002044348746,
+			"fitcoef1": 0.0002470761622,
+			"fitcoef2": -0.000697497362
+		}
+	},
+	{
+		"roiname": "ALIC_L",
+		"roiidname": "T1_L5_ALIC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001829036172,
+			"fitcoef1": 7.099022857e-005,
+			"fitcoef2": 0.001582973447
+		}
+	},
+	{
+		"roiname": "ALIC_R",
+		"roiidname": "T1_L5_ALIC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001625712778,
+			"fitcoef1": 7.63126536e-005,
+			"fitcoef2": 0.001545043293
+		}
+	},
+	{
+		"roiname": "PLIC_L",
+		"roiidname": "T1_L5_PLIC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001900632619,
+			"fitcoef1": -0.0002471351344,
+			"fitcoef2": 0.003352741925
+		}
+	},
+	{
+		"roiname": "PLIC_R",
+		"roiidname": "T1_L5_PLIC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001748058383,
+			"fitcoef1": -0.0002618830528,
+			"fitcoef2": 0.003284425688
+		}
+	},
+	{
+		"roiname": "RLIC_L",
+		"roiidname": "T1_L5_RLIC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001805409418,
+			"fitcoef1": -0.0001788057534,
+			"fitcoef2": 0.002904395657
+		}
+	},
+	{
+		"roiname": "RLIC_R",
+		"roiidname": "T1_L5_RLIC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002031531408,
+			"fitcoef1": -1.676347733e-005,
+			"fitcoef2": 0.002418896979
+		}
+	},
+	{
+		"roiname": "EC_L",
+		"roiidname": "T1_L5_EC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002170771341,
+			"fitcoef1": -9.960742471e-005,
+			"fitcoef2": 0.002907006621
+		}
+	},
+	{
+		"roiname": "EC_R",
+		"roiidname": "T1_L5_EC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002305069587,
+			"fitcoef1": -7.441767533e-005,
+			"fitcoef2": 0.002833845368
+		}
+	},
+	{
+		"roiname": "CGC_L",
+		"roiidname": "T1_L5_CGC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002346348895,
+			"fitcoef1": -0.0001966464433,
+			"fitcoef2": 0.002832918099
+		}
+	},
+	{
+		"roiname": "CGC_R",
+		"roiidname": "T1_L5_CGC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002647701428,
+			"fitcoef1": -0.0001329226268,
+			"fitcoef2": 0.002742579016
+		}
+	},
+	{
+		"roiname": "CGH_L",
+		"roiidname": "T1_L5_CGH_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001634492818,
+			"fitcoef1": -3.656933798e-005,
+			"fitcoef2": 0.001313702067
+		}
+	},
+	{
+		"roiname": "CGH_R",
+		"roiidname": "T1_L5_CGH_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001422193666,
+			"fitcoef1": -6.721433295e-006,
+			"fitcoef2": 0.001208624312
+		}
+	},
+	{
+		"roiname": "Fx_ST_L",
+		"roiidname": "T1_L5_Fx_ST_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001038903716,
+			"fitcoef1": -0.0001470865481,
+			"fitcoef2": 0.001652424317
+		}
+	},
+	{
+		"roiname": "Fx_ST_R",
+		"roiidname": "T1_L5_Fx_ST_R",
+		"fittingmodelparameter": {
+			"msdpred": 9.151295789e-005,
+			"fitcoef1": -0.0001134970157,
+			"fitcoef2": 0.001521045068
+		}
+	},
+	{
+		"roiname": "Fx_L",
+		"roiidname": "T1_L5_Fx_L",
+		"fittingmodelparameter": {
+			"msdpred": 7.088340749e-005,
+			"fitcoef1": 8.157159643e-005,
+			"fitcoef2": 0.0001506721879
+		}
+	},
+	{
+		"roiname": "Fx_R",
+		"roiidname": "T1_L5_Fx_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001098420806,
+			"fitcoef1": 7.94030526e-005,
+			"fitcoef2": 0.0003137359745
+		}
+	},
+	{
+		"roiname": "IFO_L",
+		"roiidname": "T1_L5_IFO_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001842726614,
+			"fitcoef1": 1.846164417e-005,
+			"fitcoef2": 0.001451684489
+		}
+	},
+	{
+		"roiname": "IFO_R",
+		"roiidname": "T1_L5_IFO_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002039923015,
+			"fitcoef1": -2.563566242e-005,
+			"fitcoef2": 0.001692986144
+		}
+	},
+	{
+		"roiname": "PTR_L",
+		"roiidname": "T1_L5_PTR_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000513124936,
+			"fitcoef1": 6.388586108e-005,
+			"fitcoef2": 0.006323364936
+		}
+	},
+	{
+		"roiname": "PTR_R",
+		"roiidname": "T1_L5_PTR_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004153208705,
+			"fitcoef1": 8.707897358e-005,
+			"fitcoef2": 0.004215739394
+		}
+	},
+	{
+		"roiname": "SS_L",
+		"roiidname": "T1_L5_SS_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002511916406,
+			"fitcoef1": -0.0002273974263,
+			"fitcoef2": 0.003516843475
+		}
+	},
+	{
+		"roiname": "SS_R",
+		"roiidname": "T1_L5_SS_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002527629294,
+			"fitcoef1": -0.0002018821809,
+			"fitcoef2": 0.003820581742
+		}
+	},
+	{
+		"roiname": "SFO_L",
+		"roiidname": "T1_L5_SFO_L",
+		"fittingmodelparameter": {
+			"msdpred": 4.848925894e-005,
+			"fitcoef1": 1.675208172e-005,
+			"fitcoef2": 0.0001805816256
+		}
+	},
+	{
+		"roiname": "SFO_R",
+		"roiidname": "T1_L5_SFO_R",
+		"fittingmodelparameter": {
+			"msdpred": 4.582427386e-005,
+			"fitcoef1": 1.723383024e-005,
+			"fitcoef2": 0.0001273453697
+		}
+	},
+	{
+		"roiname": "SLF_L",
+		"roiidname": "T1_L5_SLF_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007035984431,
+			"fitcoef1": -0.001081559008,
+			"fitcoef2": 0.009523589647
+		}
+	},
+	{
+		"roiname": "SLF_R",
+		"roiidname": "T1_L5_SLF_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008564475015,
+			"fitcoef1": -0.001315652544,
+			"fitcoef2": 0.01144089842
+		}
+	},
+	{
+		"roiname": "Cl_L",
+		"roiidname": "T1_L5_Cl_L",
+		"fittingmodelparameter": {
+			"msdpred": 4.402153128e-005,
+			"fitcoef1": -2.473651766e-005,
+			"fitcoef2": 0.0003933849578
+		}
+	},
+	{
+		"roiname": "Cl_R",
+		"roiidname": "T1_L5_Cl_R",
+		"fittingmodelparameter": {
+			"msdpred": 4.024917199e-005,
+			"fitcoef1": -4.703577483e-005,
+			"fitcoef2": 0.000511276671
+		}
+	},
+	{
+		"roiname": "AnsaLenticularis_L",
+		"roiidname": "T1_L5_AnsaLenticularis_L",
+		"fittingmodelparameter": {
+			"msdpred": 4.980260652e-005,
+			"fitcoef1": -3.525292578e-005,
+			"fitcoef2": 0.0005824469191
+		}
+	},
+	{
+		"roiname": "AnsaLenticularis_R",
+		"roiidname": "T1_L5_AnsaLenticularis_R",
+		"fittingmodelparameter": {
+			"msdpred": 5.123902004e-005,
+			"fitcoef1": -3.067365339e-005,
+			"fitcoef2": 0.0005346995251
+		}
+	},
+	{
+		"roiname": "AnteriorCom_L",
+		"roiidname": "T1_L5_AnteriorCom_L",
+		"fittingmodelparameter": {
+			"msdpred": 2.612318611e-005,
+			"fitcoef1": -5.53712863e-006,
+			"fitcoef2": 0.0002306903626
+		}
+	},
+	{
+		"roiname": "AnteriorCom_R",
+		"roiidname": "T1_L5_AnteriorCom_R",
+		"fittingmodelparameter": {
+			"msdpred": 2.588383955e-005,
+			"fitcoef1": -1.582733434e-005,
+			"fitcoef2": 0.0002451037261
+		}
+	},
+	{
+		"roiname": "LenticularFasc_L",
+		"roiidname": "T1_L5_LenticularFasc_L",
+		"fittingmodelparameter": {
+			"msdpred": 5.294509964e-005,
+			"fitcoef1": -9.307542979e-006,
+			"fitcoef2": 0.0005523991949
+		}
+	},
+	{
+		"roiname": "LenticularFasc_R",
+		"roiidname": "T1_L5_LenticularFasc_R",
+		"fittingmodelparameter": {
+			"msdpred": 4.291010174e-005,
+			"fitcoef1": -7.719934217e-006,
+			"fitcoef2": 0.0004467706744
+		}
+	},
+	{
+		"roiname": "OlfactoryRadiation_L",
+		"roiidname": "T1_L5_OlfactoryRadiation_L",
+		"fittingmodelparameter": {
+			"msdpred": 1.237209924e-005,
+			"fitcoef1": -2.800811493e-006,
+			"fitcoef2": 6.517741758e-005
+		}
+	},
+	{
+		"roiname": "OlfactoryRadiation_R",
+		"roiidname": "T1_L5_OlfactoryRadiation_R",
+		"fittingmodelparameter": {
+			"msdpred": 1.423853582e-005,
+			"fitcoef1": -2.87607589e-006,
+			"fitcoef2": 6.281038765e-005
+		}
+	},
+	{
+		"roiname": "Mammillary_R",
+		"roiidname": "T1_L5_Mammillary_R",
+		"fittingmodelparameter": {
+			"msdpred": 1.054210286e-005,
+			"fitcoef1": -4.390101944e-006,
+			"fitcoef2": 8.747678982e-005
+		}
+	},
+	{
+		"roiname": "Mammillary_L",
+		"roiidname": "T1_L5_Mammillary_L",
+		"fittingmodelparameter": {
+			"msdpred": 1.26220941e-005,
+			"fitcoef1": -5.862413241e-006,
+			"fitcoef2": 0.0001010166601
+		}
+	},
+	{
+		"roiname": "OpticTract_L",
+		"roiidname": "T1_L5_OpticTract_L",
+		"fittingmodelparameter": {
+			"msdpred": 0,
+			"fitcoef1": -0,
+			"fitcoef2": -0
+		}
+	},
+	{
+		"roiname": "OpticTract_R",
+		"roiidname": "T1_L5_OpticTract_R",
+		"fittingmodelparameter": {
+			"msdpred": 0,
+			"fitcoef1": -0,
+			"fitcoef2": -0
+		}
+	},
+	{
+		"roiname": "LV_Frontal_L",
+		"roiidname": "T1_L5_LV_Frontal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001894868527,
+			"fitcoef1": 0.003414811861,
+			"fitcoef2": -0.009485385072
+		}
+	},
+	{
+		"roiname": "LV_body_L",
+		"roiidname": "T1_L5_LV_body_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001981019895,
+			"fitcoef1": 0.00302309965,
+			"fitcoef2": -0.008541976179
+		}
+	},
+	{
+		"roiname": "LV_atrium_L",
+		"roiidname": "T1_L5_LV_atrium_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00117505364,
+			"fitcoef1": 0.00162285965,
+			"fitcoef2": -0.004460935307
+		}
+	},
+	{
+		"roiname": "LV_Occipital_L",
+		"roiidname": "T1_L5_LV_Occipital_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002671074808,
+			"fitcoef1": 0.000252949475,
+			"fitcoef2": -0.0005314181868
+		}
+	},
+	{
+		"roiname": "LV_Temporal_L",
+		"roiidname": "T1_L5_LV_Temporal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003824179505,
+			"fitcoef1": 0.0004789936444,
+			"fitcoef2": -0.0008983836107
+		}
+	},
+	{
+		"roiname": "LV_Frontal_R",
+		"roiidname": "T1_L5_LV_Frontal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002119417495,
+			"fitcoef1": 0.003674292021,
+			"fitcoef2": -0.01042714864
+		}
+	},
+	{
+		"roiname": "LV_body_R",
+		"roiidname": "T1_L5_LV_body_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002165400117,
+			"fitcoef1": 0.003058945332,
+			"fitcoef2": -0.008779581325
+		}
+	},
+	{
+		"roiname": "LV_atrium_R",
+		"roiidname": "T1_L5_LV_atrium_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001313156129,
+			"fitcoef1": 0.001741512354,
+			"fitcoef2": -0.004938602908
+		}
+	},
+	{
+		"roiname": "LV_Occipital_R",
+		"roiidname": "T1_L5_LV_Occipital_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000171278652,
+			"fitcoef1": 0.0002019865043,
+			"fitcoef2": -0.0004746896258
+		}
+	},
+	{
+		"roiname": "LV_Temporal_R",
+		"roiidname": "T1_L5_LV_Temporal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004886406086,
+			"fitcoef1": 0.0005429350536,
+			"fitcoef2": -0.001106408596
+		}
+	},
+	{
+		"roiname": "III_and_IV_ventricle",
+		"roiidname": "T1_L5_III_and_IV_ventricle",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008008134643,
+			"fitcoef1": 0.001109220758,
+			"fitcoef2": -0.0008932305714
+		}
+	},
+	{
+		"roiname": "PVWf_L",
+		"roiidname": "T1_L5_PVWf_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003881982206,
+			"fitcoef1": 0.0005193067703,
+			"fitcoef2": -0.0009427794234
+		}
+	},
+	{
+		"roiname": "PVWf_R",
+		"roiidname": "T1_L5_PVWf_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003992529979,
+			"fitcoef1": 0.0004250500705,
+			"fitcoef2": -0.0006218296545
+		}
+	},
+	{
+		"roiname": "PVWp_L",
+		"roiidname": "T1_L5_PVWp_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001154879976,
+			"fitcoef1": 0.0001870166499,
+			"fitcoef2": -0.0002775462656
+		}
+	},
+	{
+		"roiname": "PVWp_R",
+		"roiidname": "T1_L5_PVWp_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000126513436,
+			"fitcoef1": 0.0001817948561,
+			"fitcoef2": -0.000238234351
+		}
+	},
+	{
+		"roiname": "SFWM_L",
+		"roiidname": "T1_L5_SFWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000757741969,
+			"fitcoef1": -0.0001800019501,
+			"fitcoef2": 0.006570271209
+		}
+	},
+	{
+		"roiname": "SFWM_R",
+		"roiidname": "T1_L5_SFWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007918142292,
+			"fitcoef1": -0.0001517615345,
+			"fitcoef2": 0.006755410456
+		}
+	},
+	{
+		"roiname": "SFWM_PFC_L",
+		"roiidname": "T1_L5_SFWM_PFC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000551450663,
+			"fitcoef1": -0.0007030694566,
+			"fitcoef2": 0.007974311198
+		}
+	},
+	{
+		"roiname": "SFWM_PFC_R",
+		"roiidname": "T1_L5_SFWM_PFC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006327080396,
+			"fitcoef1": -0.0008691541345,
+			"fitcoef2": 0.008858691519
+		}
+	},
+	{
+		"roiname": "SFWM_pole_L",
+		"roiidname": "T1_L5_SFWM_pole_L",
+		"fittingmodelparameter": {
+			"msdpred": 5.394243473e-005,
+			"fitcoef1": 2.429440116e-005,
+			"fitcoef2": 0.0001298038187
+		}
+	},
+	{
+		"roiname": "SFWM_pole_R",
+		"roiidname": "T1_L5_SFWM_pole_R",
+		"fittingmodelparameter": {
+			"msdpred": 8.470543165e-005,
+			"fitcoef1": -1.289953949e-005,
+			"fitcoef2": 0.0004114369909
+		}
+	},
+	{
+		"roiname": "MFWM_L",
+		"roiidname": "T1_L5_MFWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005936594477,
+			"fitcoef1": -0.000392636326,
+			"fitcoef2": 0.005959900437
+		}
+	},
+	{
+		"roiname": "MFWM_R",
+		"roiidname": "T1_L5_MFWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005909178254,
+			"fitcoef1": -0.0004274921683,
+			"fitcoef2": 0.006056637581
+		}
+	},
+	{
+		"roiname": "MFWM_DPFC_L",
+		"roiidname": "T1_L5_MFWM_DPFC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003162305965,
+			"fitcoef1": -0.0002432038408,
+			"fitcoef2": 0.003069146548
+		}
+	},
+	{
+		"roiname": "MFWM_DPFC_R",
+		"roiidname": "T1_L5_MFWM_DPFC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003801338581,
+			"fitcoef1": -0.0004245683213,
+			"fitcoef2": 0.004237128159
+		}
+	},
+	{
+		"roiname": "IFWM_opercularis_L",
+		"roiidname": "T1_L5_IFWM_opercularis_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002355449361,
+			"fitcoef1": -1.915961582e-005,
+			"fitcoef2": 0.001528360141
+		}
+	},
+	{
+		"roiname": "IFWM_opercularis_R",
+		"roiidname": "T1_L5_IFWM_opercularis_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002974798236,
+			"fitcoef1": -8.215171447e-005,
+			"fitcoef2": 0.00201146281
+		}
+	},
+	{
+		"roiname": "IFWM_orbitalis_L",
+		"roiidname": "T1_L5_IFWM_orbitalis_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002712217602,
+			"fitcoef1": -0.000110421943,
+			"fitcoef2": 0.002312692874
+		}
+	},
+	{
+		"roiname": "IFWM_orbitalis_R",
+		"roiidname": "T1_L5_IFWM_orbitalis_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002388302646,
+			"fitcoef1": -2.034449692e-007,
+			"fitcoef2": 0.001780565195
+		}
+	},
+	{
+		"roiname": "IFWM_triangularis_L",
+		"roiidname": "T1_L5_IFWM_triangularis_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000344321172,
+			"fitcoef1": -0.0003845913697,
+			"fitcoef2": 0.003781516586
+		}
+	},
+	{
+		"roiname": "IFWM_triangularis_R",
+		"roiidname": "T1_L5_IFWM_triangularis_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002711098612,
+			"fitcoef1": -0.0001526111161,
+			"fitcoef2": 0.002217855915
+		}
+	},
+	{
+		"roiname": "LFOWM_L",
+		"roiidname": "T1_L5_LFOWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000194839319,
+			"fitcoef1": -6.238786356e-005,
+			"fitcoef2": 0.001721280722
+		}
+	},
+	{
+		"roiname": "LFOWM_R",
+		"roiidname": "T1_L5_LFOWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002000127471,
+			"fitcoef1": 2.936882241e-005,
+			"fitcoef2": 0.001284438451
+		}
+	},
+	{
+		"roiname": "MFOWM_L",
+		"roiidname": "T1_L5_MFOWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002427840244,
+			"fitcoef1": 1.381427396e-005,
+			"fitcoef2": 0.001584548013
+		}
+	},
+	{
+		"roiname": "MFOWM_R",
+		"roiidname": "T1_L5_MFOWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001976717204,
+			"fitcoef1": 2.035876774e-005,
+			"fitcoef2": 0.00125080091
+		}
+	},
+	{
+		"roiname": "RGWM_L",
+		"roiidname": "T1_L5_RGWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002989908462,
+			"fitcoef1": -0.0001141740413,
+			"fitcoef2": 0.001977991259
+		}
+	},
+	{
+		"roiname": "RGWM_R",
+		"roiidname": "T1_L5_RGWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003339123349,
+			"fitcoef1": -0.0001384488807,
+			"fitcoef2": 0.002480189424
+		}
+	},
+	{
+		"roiname": "PoCWM_L",
+		"roiidname": "T1_L5_PoCWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009737887787,
+			"fitcoef1": 0.0005505078133,
+			"fitcoef2": 0.005565030558
+		}
+	},
+	{
+		"roiname": "PoCWM_R",
+		"roiidname": "T1_L5_PoCWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000851721735,
+			"fitcoef1": 0.0007664519935,
+			"fitcoef2": 0.004515604542
+		}
+	},
+	{
+		"roiname": "PrCWM_L",
+		"roiidname": "T1_L5_PrCWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001216311426,
+			"fitcoef1": 0.001017442332,
+			"fitcoef2": 0.005999557609
+		}
+	},
+	{
+		"roiname": "PrCWM_R",
+		"roiidname": "T1_L5_PrCWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.00113414172,
+			"fitcoef1": 0.0009746662405,
+			"fitcoef2": 0.007574076188
+		}
+	},
+	{
+		"roiname": "SPWM_L",
+		"roiidname": "T1_L5_SPWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008546954962,
+			"fitcoef1": -0.0003691476797,
+			"fitcoef2": 0.007930572341
+		}
+	},
+	{
+		"roiname": "SPWM_R",
+		"roiidname": "T1_L5_SPWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008439569058,
+			"fitcoef1": -0.0004435461473,
+			"fitcoef2": 0.007763888821
+		}
+	},
+	{
+		"roiname": "SMWM_L",
+		"roiidname": "T1_L5_SMWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004159846716,
+			"fitcoef1": -9.208708161e-005,
+			"fitcoef2": 0.003174428165
+		}
+	},
+	{
+		"roiname": "SMWM_R",
+		"roiidname": "T1_L5_SMWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003915791534,
+			"fitcoef1": -2.465520839e-005,
+			"fitcoef2": 0.003091656304
+		}
+	},
+	{
+		"roiname": "AWM_L",
+		"roiidname": "T1_L5_AWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003938181876,
+			"fitcoef1": 0.0002119657275,
+			"fitcoef2": 0.001436419061
+		}
+	},
+	{
+		"roiname": "AWM_R",
+		"roiidname": "T1_L5_AWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003637877636,
+			"fitcoef1": 7.693404338e-005,
+			"fitcoef2": 0.002300103073
+		}
+	},
+	{
+		"roiname": "PrCuWM_L",
+		"roiidname": "T1_L5_PrCuWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002884078319,
+			"fitcoef1": 0.0001516246882,
+			"fitcoef2": 0.001411152518
+		}
+	},
+	{
+		"roiname": "PrCuWM_R",
+		"roiidname": "T1_L5_PrCuWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002646494662,
+			"fitcoef1": 0.0002114427608,
+			"fitcoef2": 0.001058607736
+		}
+	},
+	{
+		"roiname": "STWM_L",
+		"roiidname": "T1_L5_STWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005658534446,
+			"fitcoef1": 0.0001713453104,
+			"fitcoef2": 0.005552771583
+		}
+	},
+	{
+		"roiname": "STWM_R",
+		"roiidname": "T1_L5_STWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006812583932,
+			"fitcoef1": -1.926035e-005,
+			"fitcoef2": 0.006695620434
+		}
+	},
+	{
+		"roiname": "STWM_L_pole",
+		"roiidname": "T1_L5_STWM_L_pole",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001848402046,
+			"fitcoef1": 0.0002002512653,
+			"fitcoef2": 0.0003420642342
+		}
+	},
+	{
+		"roiname": "STWM_R_pole",
+		"roiidname": "T1_L5_STWM_R_pole",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001982680194,
+			"fitcoef1": 0.0002242528868,
+			"fitcoef2": 0.000278844761
+		}
+	},
+	{
+		"roiname": "MTWM_L",
+		"roiidname": "T1_L5_MTWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005202872653,
+			"fitcoef1": -0.000559498783,
+			"fitcoef2": 0.007921214179
+		}
+	},
+	{
+		"roiname": "MTWM_R",
+		"roiidname": "T1_L5_MTWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005163798637,
+			"fitcoef1": -0.0007508706416,
+			"fitcoef2": 0.008858651165
+		}
+	},
+	{
+		"roiname": "MTWM_L_pole",
+		"roiidname": "T1_L5_MTWM_L_pole",
+		"fittingmodelparameter": {
+			"msdpred": 0.000185144652,
+			"fitcoef1": 0.0001225051492,
+			"fitcoef2": 0.0003643467647
+		}
+	},
+	{
+		"roiname": "MTWM_R_pole",
+		"roiidname": "T1_L5_MTWM_R_pole",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002035994517,
+			"fitcoef1": 8.61137758e-005,
+			"fitcoef2": 0.0005187804274
+		}
+	},
+	{
+		"roiname": "ITWM_L",
+		"roiidname": "T1_L5_ITWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004078937297,
+			"fitcoef1": -0.0002404905826,
+			"fitcoef2": 0.004419991722
+		}
+	},
+	{
+		"roiname": "ITWM_R",
+		"roiidname": "T1_L5_ITWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004013021398,
+			"fitcoef1": -0.000214525603,
+			"fitcoef2": 0.004440478242
+		}
+	},
+	{
+		"roiname": "FuWM_L",
+		"roiidname": "T1_L5_FuWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004141072465,
+			"fitcoef1": 6.617946129e-006,
+			"fitcoef2": 0.003257321758
+		}
+	},
+	{
+		"roiname": "FuWM_R",
+		"roiidname": "T1_L5_FuWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004353280589,
+			"fitcoef1": -2.265779974e-005,
+			"fitcoef2": 0.003874793356
+		}
+	},
+	{
+		"roiname": "SOWM_L",
+		"roiidname": "T1_L5_SOWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003258287543,
+			"fitcoef1": -4.3922884e-005,
+			"fitcoef2": 0.002602967832
+		}
+	},
+	{
+		"roiname": "SOWM_R",
+		"roiidname": "T1_L5_SOWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004321737353,
+			"fitcoef1": -5.731534935e-006,
+			"fitcoef2": 0.003137873757
+		}
+	},
+	{
+		"roiname": "MOWM_L",
+		"roiidname": "T1_L5_MOWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009704026505,
+			"fitcoef1": 0.000380321051,
+			"fitcoef2": 0.006234698039
+		}
+	},
+	{
+		"roiname": "MOWM_R",
+		"roiidname": "T1_L5_MOWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008974643884,
+			"fitcoef1": 0.0005421289469,
+			"fitcoef2": 0.005472453325
+		}
+	},
+	{
+		"roiname": "IOWM_L",
+		"roiidname": "T1_L5_IOWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002156620336,
+			"fitcoef1": 7.662756697e-005,
+			"fitcoef2": 0.00105089904
+		}
+	},
+	{
+		"roiname": "IOWM_R",
+		"roiidname": "T1_L5_IOWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003056679425,
+			"fitcoef1": 6.698633701e-005,
+			"fitcoef2": 0.001761309014
+		}
+	},
+	{
+		"roiname": "CuWM_L",
+		"roiidname": "T1_L5_CuWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005419223855,
+			"fitcoef1": 0.0003707171222,
+			"fitcoef2": 0.002319608746
+		}
+	},
+	{
+		"roiname": "CuWM_R",
+		"roiidname": "T1_L5_CuWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003735380092,
+			"fitcoef1": 0.0001912807439,
+			"fitcoef2": 0.001896640444
+		}
+	},
+	{
+		"roiname": "LWM_L",
+		"roiidname": "T1_L5_LWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000561054508,
+			"fitcoef1": 0.0005207544107,
+			"fitcoef2": 0.003048088611
+		}
+	},
+	{
+		"roiname": "LWM_R",
+		"roiidname": "T1_L5_LWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005737722158,
+			"fitcoef1": 0.000220614008,
+			"fitcoef2": 0.003762068109
+		}
+	},
+	{
+		"roiname": "rostralWM_ACC_L",
+		"roiidname": "T1_L5_rostralWM_ACC_L",
+		"fittingmodelparameter": {
+			"msdpred": 5.571612182e-005,
+			"fitcoef1": -2.120075902e-006,
+			"fitcoef2": 0.0001055361398
+		}
+	},
+	{
+		"roiname": "rostralWM_ACC_R",
+		"roiidname": "T1_L5_rostralWM_ACC_R",
+		"fittingmodelparameter": {
+			"msdpred": 2.206342755e-006,
+			"fitcoef1": -9.115427962e-007,
+			"fitcoef2": 5.162023712e-006
+		}
+	},
+	{
+		"roiname": "subcallosalWM_ACC_L",
+		"roiidname": "T1_L5_subcallosalWM_ACC_L",
+		"fittingmodelparameter": {
+			"msdpred": 2.456425635e-005,
+			"fitcoef1": -8.730249995e-006,
+			"fitcoef2": 0.000102385784
+		}
+	},
+	{
+		"roiname": "subcallosalWM_ACC_R",
+		"roiidname": "T1_L5_subcallosalWM_ACC_R",
+		"fittingmodelparameter": {
+			"msdpred": 2.869004692e-005,
+			"fitcoef1": -7.526252609e-006,
+			"fitcoef2": 0.0001032546376
+		}
+	},
+	{
+		"roiname": "subgenualWM_ACC_L",
+		"roiidname": "T1_L5_subgenualWM_ACC_L",
+		"fittingmodelparameter": {
+			"msdpred": 4.297244895e-005,
+			"fitcoef1": 9.812248721e-006,
+			"fitcoef2": 0.0001532844112
+		}
+	},
+	{
+		"roiname": "subgenualWM_ACC_R",
+		"roiidname": "T1_L5_subgenualWM_ACC_R",
+		"fittingmodelparameter": {
+			"msdpred": 2.677101824e-005,
+			"fitcoef1": 3.276761021e-007,
+			"fitcoef2": 0.0001025698564
+		}
+	},
+	{
+		"roiname": "dorsalWM_ACC_L",
+		"roiidname": "T1_L5_dorsalWM_ACC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00018411661,
+			"fitcoef1": -7.905422025e-005,
+			"fitcoef2": 0.001703056671
+		}
+	},
+	{
+		"roiname": "dorsalWM_ACC_R",
+		"roiidname": "T1_L5_dorsalWM_ACC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001239417223,
+			"fitcoef1": -9.895386803e-006,
+			"fitcoef2": 0.0009150490587
+		}
+	},
+	{
+		"roiname": "PCCWM_L",
+		"roiidname": "T1_L5_PCCWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002557386432,
+			"fitcoef1": -0.0001711013726,
+			"fitcoef2": 0.002950057536
+		}
+	},
+	{
+		"roiname": "PCCWM_R",
+		"roiidname": "T1_L5_PCCWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002588000315,
+			"fitcoef1": -0.000169592291,
+			"fitcoef2": 0.002933761341
+		}
+	},
+	{
+		"roiname": "CerebellumWM_R",
+		"roiidname": "T1_L5_CerebellumWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008141686258,
+			"fitcoef1": -7.895741772e-005,
+			"fitcoef2": 0.007759753917
+		}
+	},
+	{
+		"roiname": "CerebellumWM_L",
+		"roiidname": "T1_L5_CerebellumWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000821777927,
+			"fitcoef1": 7.095554512e-005,
+			"fitcoef2": 0.006928298442
+		}
+	},
+	{
+		"roiname": "CSF",
+		"roiidname": "T1_L5_CSF",
+		"fittingmodelparameter": {
+			"msdpred": 0,
+			"fitcoef1": -0,
+			"fitcoef2": -0
+		}
+	},
+	{
+		"roiname": "SKULL1",
+		"roiidname": "T1_L5_SKULL1",
+		"fittingmodelparameter": {
+			"msdpred": 0,
+			"fitcoef1": -0,
+			"fitcoef2": -0
+		}
+	},
+	{
+		"roiname": "SKULL2",
+		"roiidname": "T1_L5_SKULL2",
+		"fittingmodelparameter": {
+			"msdpred": 0,
+			"fitcoef1": -0,
+			"fitcoef2": -0
+		}
+	},
+	{
+		"roiname": "SKULL3",
+		"roiidname": "T1_L5_SKULL3",
+		"fittingmodelparameter": {
+			"msdpred": 0,
+			"fitcoef1": -0,
+			"fitcoef2": -0
+		}
+	},
+	{
+		"roiname": "MCP_cb_L",
+		"roiidname": "T1_L5_MCP_cb_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003315930132,
+			"fitcoef1": -5.406310353e-005,
+			"fitcoef2": 0.002243797722
+		}
+	},
+	{
+		"roiname": "MCP_cb_R",
+		"roiidname": "T1_L5_MCP_cb_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003148398861,
+			"fitcoef1": -4.430479179e-005,
+			"fitcoef2": 0.002017069943
+		}
+	},
+	{
+		"roiname": "Bone",
+		"roiidname": "T1_L5_Bone",
+		"fittingmodelparameter": {
+			"msdpred": 0,
+			"fitcoef1": -0,
+			"fitcoef2": -0
+		}
+	},
+	{
+		"roiname": "ICP_pons_L",
+		"roiidname": "T1_L5_ICP_pons_L",
+		"fittingmodelparameter": {
+			"msdpred": 5.234103237e-005,
+			"fitcoef1": -5.00617309e-006,
+			"fitcoef2": 0.0004229273664
+		}
+	},
+	{
+		"roiname": "ICP_pons_R",
+		"roiidname": "T1_L5_ICP_pons_R",
+		"fittingmodelparameter": {
+			"msdpred": 5.11437012e-005,
+			"fitcoef1": 1.608124002e-006,
+			"fitcoef2": 0.0004305432636
+		}
+	},
+	{
+		"roiname": "FrontSul_L",
+		"roiidname": "T1_L5_FrontSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003237654054,
+			"fitcoef1": -0.001144153929,
+			"fitcoef2": 0.02612276593
+		}
+	},
+	{
+		"roiname": "FrontSul_R",
+		"roiidname": "T1_L5_FrontSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002415422303,
+			"fitcoef1": -0.0004530644739,
+			"fitcoef2": 0.01891449194
+		}
+	},
+	{
+		"roiname": "CentralSul_L",
+		"roiidname": "T1_L5_CentralSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006160731009,
+			"fitcoef1": 0.0007811026645,
+			"fitcoef2": -0.0005416837723
+		}
+	},
+	{
+		"roiname": "CentralSul_R",
+		"roiidname": "T1_L5_CentralSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006037052754,
+			"fitcoef1": 0.0008345937221,
+			"fitcoef2": -0.0008124070926
+		}
+	},
+	{
+		"roiname": "SylFrontSul_L",
+		"roiidname": "T1_L5_SylFrontSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009343044218,
+			"fitcoef1": 0.001140450066,
+			"fitcoef2": -0.002144053963
+		}
+	},
+	{
+		"roiname": "SylFrontSul_R",
+		"roiidname": "T1_L5_SylFrontSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008415871096,
+			"fitcoef1": 0.001249247288,
+			"fitcoef2": -0.00264064932
+		}
+	},
+	{
+		"roiname": "SylTempSul_L",
+		"roiidname": "T1_L5_SylTempSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008796251213,
+			"fitcoef1": 0.001437076096,
+			"fitcoef2": -0.002450492882
+		}
+	},
+	{
+		"roiname": "SylTempSul_R",
+		"roiidname": "T1_L5_SylTempSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007969426819,
+			"fitcoef1": 0.001409251463,
+			"fitcoef2": -0.002772036683
+		}
+	},
+	{
+		"roiname": "SylParieSul_L",
+		"roiidname": "T1_L5_SylParieSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000199383192,
+			"fitcoef1": 0.0001541032368,
+			"fitcoef2": -0.000242012448
+		}
+	},
+	{
+		"roiname": "SylParieSul_R",
+		"roiidname": "T1_L5_SylParieSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002148209948,
+			"fitcoef1": 0.0001872829932,
+			"fitcoef2": -0.0004254793811
+		}
+	},
+	{
+		"roiname": "ParietSul_L",
+		"roiidname": "T1_L5_ParietSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001935531868,
+			"fitcoef1": 0.0006273145901,
+			"fitcoef2": 0.006139381534
+		}
+	},
+	{
+		"roiname": "ParietSul_R",
+		"roiidname": "T1_L5_ParietSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.00220390646,
+			"fitcoef1": 0.0005675918723,
+			"fitcoef2": 0.006741439683
+		}
+	},
+	{
+		"roiname": "CinguSul_L",
+		"roiidname": "T1_L5_CinguSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001039400767,
+			"fitcoef1": 0.0005717714303,
+			"fitcoef2": 0.001570587064
+		}
+	},
+	{
+		"roiname": "CinguSul_R",
+		"roiidname": "T1_L5_CinguSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009766167369,
+			"fitcoef1": 0.0006646549009,
+			"fitcoef2": 0.0007942274806
+		}
+	},
+	{
+		"roiname": "OcciptSul_L",
+		"roiidname": "T1_L5_OcciptSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00103739105,
+			"fitcoef1": 0.001079774691,
+			"fitcoef2": -0.001586289406
+		}
+	},
+	{
+		"roiname": "OcciptSul_R",
+		"roiidname": "T1_L5_OcciptSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001104250684,
+			"fitcoef1": 0.001062151512,
+			"fitcoef2": -0.001228063989
+		}
+	},
+	{
+		"roiname": "TempSul_L",
+		"roiidname": "T1_L5_TempSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008327086001,
+			"fitcoef1": 0.000417326051,
+			"fitcoef2": 0.0004773724565
+		}
+	},
+	{
+		"roiname": "TempSul_R",
+		"roiidname": "T1_L5_TempSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006974270803,
+			"fitcoef1": 0.0004157953359,
+			"fitcoef2": 0.0001515502717
+		}
+	},
+	{
+		"roiname": "Caudate_tail_L",
+		"roiidname": "T1_L5_Caudate_tail_L",
+		"fittingmodelparameter": {
+			"msdpred": 0,
+			"fitcoef1": -0,
+			"fitcoef2": -0
+		}
+	},
+	{
+		"roiname": "Fimbria_L",
+		"roiidname": "T1_L5_Fimbria_L",
+		"fittingmodelparameter": {
+			"msdpred": 9.402864025e-006,
+			"fitcoef1": 5.139126332e-007,
+			"fitcoef2": 5.046157575e-006
+		}
+	},
+	{
+		"roiname": "Caudate_tail_R",
+		"roiidname": "T1_L5_Caudate_tail_R",
+		"fittingmodelparameter": {
+			"msdpred": 0,
+			"fitcoef1": -0,
+			"fitcoef2": -0
+		}
+	},
+	{
+		"roiname": "Fimbria_R",
+		"roiidname": "T1_L5_Fimbria_R",
+		"fittingmodelparameter": {
+			"msdpred": 6.952494248e-006,
+			"fitcoef1": 8.316542019e-007,
+			"fitcoef2": 1.464349806e-006
+		}
+	},
+	{
+		"roiname": "Chroid_LV_body_L",
+		"roiidname": "T1_L5_Chroid_LV_body_L",
+		"fittingmodelparameter": {
+			"msdpred": 8.048732621e-005,
+			"fitcoef1": 0.0001371788025,
+			"fitcoef2": -0.0002788012709
+		}
+	},
+	{
+		"roiname": "Chroid_LV_body_R",
+		"roiidname": "T1_L5_Chroid_LV_body_R",
+		"fittingmodelparameter": {
+			"msdpred": 7.842066405e-005,
+			"fitcoef1": 0.0001396608689,
+			"fitcoef2": -0.0002982462386
+		}
+	},
+	{
+		"roiname": "Hemisphere_L",
+		"roiidname": "T2_L1_Hemisphere_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.01030854577,
+			"fitcoef1": -0.01311049399,
+			"fitcoef2": 0.4321202457
+		}
+	},
+	{
+		"roiname": "Hemisphere_R",
+		"roiidname": "T2_L1_Hemisphere_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.01054502424,
+			"fitcoef1": -0.01593304187,
+			"fitcoef2": 0.4471067322
+		}
+	},
+	{
+		"roiname": "Brainstem",
+		"roiidname": "T2_L1_Brainstem",
+		"fittingmodelparameter": {
+			"msdpred": 0.001997702717,
+			"fitcoef1": 3.994575767e-005,
+			"fitcoef2": 0.02485691977
+		}
+	},
+	{
+		"roiname": "Cerebellum",
+		"roiidname": "T2_L1_Cerebellum",
+		"fittingmodelparameter": {
+			"msdpred": 0.008031230695,
+			"fitcoef1": -0.001396549339,
+			"fitcoef2": 0.100965826
+		}
+	},
+	{
+		"roiname": "CSF",
+		"roiidname": "T2_L1_CSF",
+		"fittingmodelparameter": {
+			"msdpred": 0.02057109146,
+			"fitcoef1": 0.03025936194,
+			"fitcoef2": -0.004747569696
+		}
+	},
+	{
+		"roiname": "Hemisphere_L",
+		"roiidname": "T2_L2_Hemisphere_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.009504877014,
+			"fitcoef1": -0.008444479328,
+			"fitcoef2": 0.331780615
+		}
+	},
+	{
+		"roiname": "Hemisphere_R",
+		"roiidname": "T2_L2_Hemisphere_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.01011741634,
+			"fitcoef1": -0.01106751263,
+			"fitcoef2": 0.3466237395
+		}
+	},
+	{
+		"roiname": "CerebralNucli_L",
+		"roiidname": "T2_L2_CerebralNucli_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006644058198,
+			"fitcoef1": -0.000489269057,
+			"fitcoef2": 0.01051536606
+		}
+	},
+	{
+		"roiname": "CerebralNucli_R",
+		"roiidname": "T2_L2_CerebralNucli_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006962362646,
+			"fitcoef1": -0.000581497809,
+			"fitcoef2": 0.01152918468
+		}
+	},
+	{
+		"roiname": "Thalamus_L",
+		"roiidname": "T2_L2_Thalamus_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003458031914,
+			"fitcoef1": -0.0005075525058,
+			"fitcoef2": 0.006150520598
+		}
+	},
+	{
+		"roiname": "Thalamus_R",
+		"roiidname": "T2_L2_Thalamus_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000375412898,
+			"fitcoef1": -0.0006152895253,
+			"fitcoef2": 0.006680509977
+		}
+	},
+	{
+		"roiname": "BasalForbrain_L",
+		"roiidname": "T2_L2_BasalForbrain_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001786410946,
+			"fitcoef1": -9.961332767e-005,
+			"fitcoef2": 0.002694556766
+		}
+	},
+	{
+		"roiname": "BasalForbrain_R",
+		"roiidname": "T2_L2_BasalForbrain_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001643662592,
+			"fitcoef1": -0.0001160609978,
+			"fitcoef2": 0.002688433507
+		}
+	},
+	{
+		"roiname": "midbrain",
+		"roiidname": "T2_L2_midbrain",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006853435271,
+			"fitcoef1": -0.0004716098714,
+			"fitcoef2": 0.009750977703
+		}
+	},
+	{
+		"roiname": "Cerebellum_R",
+		"roiidname": "T2_L2_Cerebellum_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.004085265171,
+			"fitcoef1": -0.0005918192398,
+			"fitcoef2": 0.04977322429
+		}
+	},
+	{
+		"roiname": "Cerebellum_L",
+		"roiidname": "T2_L2_Cerebellum_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.004117790176,
+			"fitcoef1": -0.0008045462679,
+			"fitcoef2": 0.05119204144
+		}
+	},
+	{
+		"roiname": "Brainstem_L",
+		"roiidname": "T2_L2_Brainstem_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007253362675,
+			"fitcoef1": 0.0001605424207,
+			"fitcoef2": 0.007535341828
+		}
+	},
+	{
+		"roiname": "Brainstem_R",
+		"roiidname": "T2_L2_Brainstem_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007746634075,
+			"fitcoef1": 0.0003512969984,
+			"fitcoef2": 0.007569962469
+		}
+	},
+	{
+		"roiname": "WhiteMatter_L",
+		"roiidname": "T2_L2_WhiteMatter_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003765035848,
+			"fitcoef1": -0.003569061792,
+			"fitcoef2": 0.0809781489
+		}
+	},
+	{
+		"roiname": "WhiteMatter_R",
+		"roiidname": "T2_L2_WhiteMatter_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.003688280812,
+			"fitcoef1": -0.003551312335,
+			"fitcoef2": 0.07958083914
+		}
+	},
+	{
+		"roiname": "Ventricle",
+		"roiidname": "T2_L2_Ventricle",
+		"fittingmodelparameter": {
+			"msdpred": 0.01139089511,
+			"fitcoef1": 0.01939776659,
+			"fitcoef2": -0.05111495477
+		}
+	},
+	{
+		"roiname": "Sulcus_L",
+		"roiidname": "T2_L2_Sulcus_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.007765636912,
+			"fitcoef1": 0.005064763075,
+			"fitcoef2": 0.02734430282
+		}
+	},
+	{
+		"roiname": "Sulcus_R",
+		"roiidname": "T2_L2_Sulcus_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.007482580248,
+			"fitcoef1": 0.005937051456,
+			"fitcoef2": 0.0187228804
+		}
+	},
+	{
+		"roiname": "Frontal_L",
+		"roiidname": "T2_L3_Frontal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.005253389689,
+			"fitcoef1": -0.003730990864,
+			"fitcoef2": 0.1145588766
+		}
+	},
+	{
+		"roiname": "Frontal_R",
+		"roiidname": "T2_L3_Frontal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.005422559108,
+			"fitcoef1": -0.004912788511,
+			"fitcoef2": 0.1220467605
+		}
+	},
+	{
+		"roiname": "Parietal_L",
+		"roiidname": "T2_L3_Parietal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003521923394,
+			"fitcoef1": -0.002448829986,
+			"fitcoef2": 0.06835530223
+		}
+	},
+	{
+		"roiname": "Parietal_R",
+		"roiidname": "T2_L3_Parietal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.003880051689,
+			"fitcoef1": -0.002246328777,
+			"fitcoef2": 0.07031961095
+		}
+	},
+	{
+		"roiname": "Temporal_L",
+		"roiidname": "T2_L3_Temporal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003578243945,
+			"fitcoef1": -0.002899555001,
+			"fitcoef2": 0.07841907863
+		}
+	},
+	{
+		"roiname": "Temporal_R",
+		"roiidname": "T2_L3_Temporal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.003760060089,
+			"fitcoef1": -0.004324044506,
+			"fitcoef2": 0.08485021455
+		}
+	},
+	{
+		"roiname": "Limbic_L",
+		"roiidname": "T2_L3_Limbic_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001214349897,
+			"fitcoef1": -0.001236573558,
+			"fitcoef2": 0.03034380776
+		}
+	},
+	{
+		"roiname": "Limbic_R",
+		"roiidname": "T2_L3_Limbic_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001267825572,
+			"fitcoef1": -0.00171821342,
+			"fitcoef2": 0.03289788574
+		}
+	},
+	{
+		"roiname": "Occipital_L",
+		"roiidname": "T2_L3_Occipital_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003254714487,
+			"fitcoef1": 0.001282880658,
+			"fitcoef2": 0.04398689871
+		}
+	},
+	{
+		"roiname": "Occipital_R",
+		"roiidname": "T2_L3_Occipital_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.003263964528,
+			"fitcoef1": 0.001234697198,
+			"fitcoef2": 0.04259157511
+		}
+	},
+	{
+		"roiname": "Insula_L",
+		"roiidname": "T2_L3_Insula_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004306305216,
+			"fitcoef1": -0.0005003374037,
+			"fitcoef2": 0.006861812451
+		}
+	},
+	{
+		"roiname": "Insula_R",
+		"roiidname": "T2_L3_Insula_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004480980189,
+			"fitcoef1": -0.0005312991454,
+			"fitcoef2": 0.007231519189
+		}
+	},
+	{
+		"roiname": "BasalGang_L",
+		"roiidname": "T2_L3_BasalGang_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006548992175,
+			"fitcoef1": -0.0004819627325,
+			"fitcoef2": 0.009294785847
+		}
+	},
+	{
+		"roiname": "BasalGang_R",
+		"roiidname": "T2_L3_BasalGang_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000674862894,
+			"fitcoef1": -0.0004673078598,
+			"fitcoef2": 0.009659322974
+		}
+	},
+	{
+		"roiname": "Thalamus_L",
+		"roiidname": "T2_L3_Thalamus_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003458031914,
+			"fitcoef1": -0.0005075525058,
+			"fitcoef2": 0.006150520598
+		}
+	},
+	{
+		"roiname": "Thalamus_R",
+		"roiidname": "T2_L3_Thalamus_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000375412898,
+			"fitcoef1": -0.0006152895253,
+			"fitcoef2": 0.006680509977
+		}
+	},
+	{
+		"roiname": "BasalForbrain_L",
+		"roiidname": "T2_L3_BasalForbrain_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001786410946,
+			"fitcoef1": -9.961332767e-005,
+			"fitcoef2": 0.002694556766
+		}
+	},
+	{
+		"roiname": "BasalForbrain_R",
+		"roiidname": "T2_L3_BasalForbrain_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001643662592,
+			"fitcoef1": -0.0001160609978,
+			"fitcoef2": 0.002688433507
+		}
+	},
+	{
+		"roiname": "midbrain_L",
+		"roiidname": "T2_L3_midbrain_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003518030372,
+			"fitcoef1": -0.0002241671152,
+			"fitcoef2": 0.00485783857
+		}
+	},
+	{
+		"roiname": "midbrain_R",
+		"roiidname": "T2_L3_midbrain_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003441767548,
+			"fitcoef1": -0.0002474688586,
+			"fitcoef2": 0.004893486861
+		}
+	},
+	{
+		"roiname": "Cerebellum_R",
+		"roiidname": "T2_L3_Cerebellum_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.004085265171,
+			"fitcoef1": -0.0005918192398,
+			"fitcoef2": 0.04977322429
+		}
+	},
+	{
+		"roiname": "Cerebellum_L",
+		"roiidname": "T2_L3_Cerebellum_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.004117790176,
+			"fitcoef1": -0.0008045462679,
+			"fitcoef2": 0.05119204144
+		}
+	},
+	{
+		"roiname": "Pons_L",
+		"roiidname": "T2_L3_Pons_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006246976447,
+			"fitcoef1": 0.0001551980759,
+			"fitcoef2": 0.005727015083
+		}
+	},
+	{
+		"roiname": "Pons_R",
+		"roiidname": "T2_L3_Pons_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006721320434,
+			"fitcoef1": 0.0002712227998,
+			"fitcoef2": 0.005902988768
+		}
+	},
+	{
+		"roiname": "Medulla_L",
+		"roiidname": "T2_L3_Medulla_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002294899779,
+			"fitcoef1": 5.318780961e-006,
+			"fitcoef2": 0.001808626236
+		}
+	},
+	{
+		"roiname": "Medulla_R",
+		"roiidname": "T2_L3_Medulla_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002336018593,
+			"fitcoef1": 8.009521624e-005,
+			"fitcoef2": 0.001667118261
+		}
+	},
+	{
+		"roiname": "FrontalWM_L",
+		"roiidname": "T2_L3_FrontalWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.002172466822,
+			"fitcoef1": -0.002499513031,
+			"fitcoef2": 0.03247665735
+		}
+	},
+	{
+		"roiname": "FrontalWM_R",
+		"roiidname": "T2_L3_FrontalWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001939843649,
+			"fitcoef1": -0.002762846611,
+			"fitcoef2": 0.03292002654
+		}
+	},
+	{
+		"roiname": "PosteriorWM_L",
+		"roiidname": "T2_L3_PosteriorWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004908379666,
+			"fitcoef1": -8.739007074e-005,
+			"fitcoef2": 0.004944437395
+		}
+	},
+	{
+		"roiname": "PosteriorWM_R",
+		"roiidname": "T2_L3_PosteriorWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000437891524,
+			"fitcoef1": 2.852386678e-005,
+			"fitcoef2": 0.003768998478
+		}
+	},
+	{
+		"roiname": "CorpusCallosum_L",
+		"roiidname": "T2_L3_CorpusCallosum_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00096754042,
+			"fitcoef1": 0.0007116786644,
+			"fitcoef2": 0.006820140279
+		}
+	},
+	{
+		"roiname": "CorpusCallosum_R",
+		"roiidname": "T2_L3_CorpusCallosum_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001020857248,
+			"fitcoef1": 0.0008325176529,
+			"fitcoef2": 0.006587613351
+		}
+	},
+	{
+		"roiname": "InferiorWM_L",
+		"roiidname": "T2_L3_InferiorWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009800813185,
+			"fitcoef1": -0.0003178945439,
+			"fitcoef2": 0.02127879685
+		}
+	},
+	{
+		"roiname": "InferiorWM_R",
+		"roiidname": "T2_L3_InferiorWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009184812847,
+			"fitcoef1": -0.000170539054,
+			"fitcoef2": 0.01911398947
+		}
+	},
+	{
+		"roiname": "LimbicWM_L",
+		"roiidname": "T2_L3_LimbicWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003462658667,
+			"fitcoef1": -0.0002941120779,
+			"fitcoef2": 0.005934530055
+		}
+	},
+	{
+		"roiname": "LimbicWM_R",
+		"roiidname": "T2_L3_LimbicWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003864766143,
+			"fitcoef1": -0.0001632050862,
+			"fitcoef2": 0.005750013351
+		}
+	},
+	{
+		"roiname": "LateralVentricle_L",
+		"roiidname": "T2_L3_LateralVentricle_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.005222738302,
+			"fitcoef1": 0.008929546674,
+			"fitcoef2": -0.02419672504
+		}
+	},
+	{
+		"roiname": "LateralVentricle_R",
+		"roiidname": "T2_L3_LateralVentricle_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.005829793011,
+			"fitcoef1": 0.009359059566,
+			"fitcoef2": -0.02602474912
+		}
+	},
+	{
+		"roiname": "IIIandIV_Ventricle",
+		"roiidname": "T2_L3_IIIandIV_Ventricle",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008008134643,
+			"fitcoef1": 0.001109220758,
+			"fitcoef2": -0.0008932305714
+		}
+	},
+	{
+		"roiname": "FrontSul_L",
+		"roiidname": "T2_L3_FrontSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003592802554,
+			"fitcoef1": -3.814111648e-006,
+			"fitcoef2": 0.02397893364
+		}
+	},
+	{
+		"roiname": "FrontSul_R",
+		"roiidname": "T2_L3_FrontSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002789247375,
+			"fitcoef1": 0.0007960561763,
+			"fitcoef2": 0.01627406033
+		}
+	},
+	{
+		"roiname": "CentralSul_L",
+		"roiidname": "T2_L3_CentralSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006160731009,
+			"fitcoef1": 0.0007811026645,
+			"fitcoef2": -0.0005416837723
+		}
+	},
+	{
+		"roiname": "CentralSul_R",
+		"roiidname": "T2_L3_CentralSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006037052754,
+			"fitcoef1": 0.0008345937221,
+			"fitcoef2": -0.0008124070926
+		}
+	},
+	{
+		"roiname": "TempSul_L",
+		"roiidname": "T2_L3_TempSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001543156432,
+			"fitcoef1": 0.001854206683,
+			"fitcoef2": -0.001972558993
+		}
+	},
+	{
+		"roiname": "TempSul_R",
+		"roiidname": "T2_L3_TempSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001355721286,
+			"fitcoef1": 0.001824889031,
+			"fitcoef2": -0.002620092969
+		}
+	},
+	{
+		"roiname": "ParietSul_L",
+		"roiidname": "T2_L3_ParietSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001999125376,
+			"fitcoef1": 0.0007821274794,
+			"fitcoef2": 0.005894882355
+		}
+	},
+	{
+		"roiname": "ParietSul_R",
+		"roiidname": "T2_L3_ParietSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002275269866,
+			"fitcoef1": 0.0007546877518,
+			"fitcoef2": 0.006316450557
+		}
+	},
+	{
+		"roiname": "CinguSul_L",
+		"roiidname": "T2_L3_CinguSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001039400767,
+			"fitcoef1": 0.0005717714303,
+			"fitcoef2": 0.001570587064
+		}
+	},
+	{
+		"roiname": "CinguSul_R",
+		"roiidname": "T2_L3_CinguSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009766167369,
+			"fitcoef1": 0.0006646549009,
+			"fitcoef2": 0.0007942274806
+		}
+	},
+	{
+		"roiname": "OcciptSul_L",
+		"roiidname": "T2_L3_OcciptSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00103739105,
+			"fitcoef1": 0.001079774691,
+			"fitcoef2": -0.001586289406
+		}
+	},
+	{
+		"roiname": "OcciptSul_R",
+		"roiidname": "T2_L3_OcciptSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001104250684,
+			"fitcoef1": 0.001062151512,
+			"fitcoef2": -0.001228063989
+		}
+	},
+	{
+		"roiname": "Frontal_L",
+		"roiidname": "T2_L4_Frontal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.005253389689,
+			"fitcoef1": -0.003730990864,
+			"fitcoef2": 0.1145588766
+		}
+	},
+	{
+		"roiname": "Frontal_R",
+		"roiidname": "T2_L4_Frontal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.005422559108,
+			"fitcoef1": -0.004912788511,
+			"fitcoef2": 0.1220467605
+		}
+	},
+	{
+		"roiname": "Parietal_L",
+		"roiidname": "T2_L4_Parietal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003521923394,
+			"fitcoef1": -0.002448829986,
+			"fitcoef2": 0.06835530223
+		}
+	},
+	{
+		"roiname": "Parietal_R",
+		"roiidname": "T2_L4_Parietal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.003880051689,
+			"fitcoef1": -0.002246328777,
+			"fitcoef2": 0.07031961095
+		}
+	},
+	{
+		"roiname": "Temporal_L",
+		"roiidname": "T2_L4_Temporal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003578243945,
+			"fitcoef1": -0.002899555001,
+			"fitcoef2": 0.07841907863
+		}
+	},
+	{
+		"roiname": "Temporal_R",
+		"roiidname": "T2_L4_Temporal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.003760060089,
+			"fitcoef1": -0.004324044506,
+			"fitcoef2": 0.08485021455
+		}
+	},
+	{
+		"roiname": "Limbic_L",
+		"roiidname": "T2_L4_Limbic_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005358260516,
+			"fitcoef1": -0.0002391819184,
+			"fitcoef2": 0.01028150708
+		}
+	},
+	{
+		"roiname": "Limbic_R",
+		"roiidname": "T2_L4_Limbic_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005337647259,
+			"fitcoef1": -0.0004722035023,
+			"fitcoef2": 0.0112182457
+		}
+	},
+	{
+		"roiname": "Occipital_L",
+		"roiidname": "T2_L4_Occipital_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003254714487,
+			"fitcoef1": 0.001282880658,
+			"fitcoef2": 0.04398689871
+		}
+	},
+	{
+		"roiname": "Occipital_R",
+		"roiidname": "T2_L4_Occipital_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.003263964528,
+			"fitcoef1": 0.001234697198,
+			"fitcoef2": 0.04259157511
+		}
+	},
+	{
+		"roiname": "Cingulate_L",
+		"roiidname": "T2_L4_Cingulate_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001026349144,
+			"fitcoef1": -0.000997322336,
+			"fitcoef2": 0.02006225384
+		}
+	},
+	{
+		"roiname": "Cingulate_R",
+		"roiidname": "T2_L4_Cingulate_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001052714915,
+			"fitcoef1": -0.001246089591,
+			"fitcoef2": 0.02168022443
+		}
+	},
+	{
+		"roiname": "Insula_L",
+		"roiidname": "T2_L4_Insula_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004306305216,
+			"fitcoef1": -0.0005003374037,
+			"fitcoef2": 0.006861812451
+		}
+	},
+	{
+		"roiname": "Insula_R",
+		"roiidname": "T2_L4_Insula_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004480980189,
+			"fitcoef1": -0.0005312991454,
+			"fitcoef2": 0.007231519189
+		}
+	},
+	{
+		"roiname": "Striatum_L",
+		"roiidname": "T2_L4_Striatum_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005752129973,
+			"fitcoef1": -0.0003579285616,
+			"fitcoef2": 0.007681383685
+		}
+	},
+	{
+		"roiname": "Striatum_R",
+		"roiidname": "T2_L4_Striatum_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000608036677,
+			"fitcoef1": -0.000351644133,
+			"fitcoef2": 0.008001408009
+		}
+	},
+	{
+		"roiname": "GP_L",
+		"roiidname": "T2_L4_GP_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001341392284,
+			"fitcoef1": -0.000124088985,
+			"fitcoef2": 0.001613855866
+		}
+	},
+	{
+		"roiname": "GP_R",
+		"roiidname": "T2_L4_GP_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001224885783,
+			"fitcoef1": -0.0001154678432,
+			"fitcoef2": 0.001657357505
+		}
+	},
+	{
+		"roiname": "Thalamus_L",
+		"roiidname": "T2_L4_Thalamus_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003458031914,
+			"fitcoef1": -0.0005075525058,
+			"fitcoef2": 0.006150520598
+		}
+	},
+	{
+		"roiname": "Thalamus_R",
+		"roiidname": "T2_L4_Thalamus_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000375412898,
+			"fitcoef1": -0.0006152895253,
+			"fitcoef2": 0.006680509977
+		}
+	},
+	{
+		"roiname": "BasalForbrain_L",
+		"roiidname": "T2_L4_BasalForbrain_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001786410946,
+			"fitcoef1": -9.961332767e-005,
+			"fitcoef2": 0.002694556766
+		}
+	},
+	{
+		"roiname": "BasalForbrain_R",
+		"roiidname": "T2_L4_BasalForbrain_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001643662592,
+			"fitcoef1": -0.0001160609978,
+			"fitcoef2": 0.002688433507
+		}
+	},
+	{
+		"roiname": "midbrain_L",
+		"roiidname": "T2_L4_midbrain_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003518030372,
+			"fitcoef1": -0.0002241671152,
+			"fitcoef2": 0.00485783857
+		}
+	},
+	{
+		"roiname": "midbrain_R",
+		"roiidname": "T2_L4_midbrain_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003441767548,
+			"fitcoef1": -0.0002474688586,
+			"fitcoef2": 0.004893486861
+		}
+	},
+	{
+		"roiname": "Cerebellum_R",
+		"roiidname": "T2_L4_Cerebellum_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.003339095464,
+			"fitcoef1": -0.0004684575894,
+			"fitcoef2": 0.03999656463
+		}
+	},
+	{
+		"roiname": "Cerebellum_L",
+		"roiidname": "T2_L4_Cerebellum_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003390455199,
+			"fitcoef1": -0.0008213336641,
+			"fitcoef2": 0.04201998709
+		}
+	},
+	{
+		"roiname": "Pons_L",
+		"roiidname": "T2_L4_Pons_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006246976447,
+			"fitcoef1": 0.0001551980759,
+			"fitcoef2": 0.005727015083
+		}
+	},
+	{
+		"roiname": "Pons_R",
+		"roiidname": "T2_L4_Pons_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006721320434,
+			"fitcoef1": 0.0002712227998,
+			"fitcoef2": 0.005902988768
+		}
+	},
+	{
+		"roiname": "Medulla_L",
+		"roiidname": "T2_L4_Medulla_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002294899779,
+			"fitcoef1": 5.318780961e-006,
+			"fitcoef2": 0.001808626236
+		}
+	},
+	{
+		"roiname": "Medulla_R",
+		"roiidname": "T2_L4_Medulla_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002336018593,
+			"fitcoef1": 8.009521624e-005,
+			"fitcoef2": 0.001667118261
+		}
+	},
+	{
+		"roiname": "CoreFrontalWM_L",
+		"roiidname": "T2_L4_CoreFrontalWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.002134051515,
+			"fitcoef1": -0.002312427041,
+			"fitcoef2": 0.03219858115
+		}
+	},
+	{
+		"roiname": "CoreFrontalWM_R",
+		"roiidname": "T2_L4_CoreFrontalWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001894838065,
+			"fitcoef1": -0.002579767782,
+			"fitcoef2": 0.0326781381
+		}
+	},
+	{
+		"roiname": "CorePosteriorWM_L",
+		"roiidname": "T2_L4_CorePosteriorWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000499602847,
+			"fitcoef1": -0.0002743039719,
+			"fitcoef2": 0.005221827738
+		}
+	},
+	{
+		"roiname": "CorePosteriorWM_R",
+		"roiidname": "T2_L4_CorePosteriorWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004315944027,
+			"fitcoef1": -0.0001544621271,
+			"fitcoef2": 0.004010561074
+		}
+	},
+	{
+		"roiname": "CorpusCallosum_L",
+		"roiidname": "T2_L4_CorpusCallosum_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00096754042,
+			"fitcoef1": 0.0007116786644,
+			"fitcoef2": 0.006820140279
+		}
+	},
+	{
+		"roiname": "CorpusCallosum_R",
+		"roiidname": "T2_L4_CorpusCallosum_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001020857248,
+			"fitcoef1": 0.0008325176529,
+			"fitcoef2": 0.006587613351
+		}
+	},
+	{
+		"roiname": "CoreInferiorWM_L",
+		"roiidname": "T2_L4_CoreInferiorWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008228359886,
+			"fitcoef1": -0.0001416631433,
+			"fitcoef2": 0.01634313555
+		}
+	},
+	{
+		"roiname": "CoreInferiorWM_R",
+		"roiidname": "T2_L4_CoreInferiorWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007834655091,
+			"fitcoef1": 1.517154495e-005,
+			"fitcoef2": 0.01428447408
+		}
+	},
+	{
+		"roiname": "InternalCapsule_L",
+		"roiidname": "T2_L4_InternalCapsule_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003159300325,
+			"fitcoef1": -0.0001761777992,
+			"fitcoef2": 0.004935610995
+		}
+	},
+	{
+		"roiname": "InternalCapsule_R",
+		"roiidname": "T2_L4_InternalCapsule_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002929022192,
+			"fitcoef1": -0.0001854975556,
+			"fitcoef2": 0.004828924428
+		}
+	},
+	{
+		"roiname": "LimbicWM_L",
+		"roiidname": "T2_L4_LimbicWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003462658667,
+			"fitcoef1": -0.0002941120779,
+			"fitcoef2": 0.005934530055
+		}
+	},
+	{
+		"roiname": "LimbicWM_R",
+		"roiidname": "T2_L4_LimbicWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003864766143,
+			"fitcoef1": -0.0001632050862,
+			"fitcoef2": 0.005750013351
+		}
+	},
+	{
+		"roiname": "FrontalLateralVentricle_L",
+		"roiidname": "T2_L4_FrontalLateralVentricle_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003785017726,
+			"fitcoef1": 0.006574961338,
+			"fitcoef2": -0.018306113
+		}
+	},
+	{
+		"roiname": "PosteriorLateralVentricle_L",
+		"roiidname": "T2_L4_PosteriorLateralVentricle_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001376426951,
+			"fitcoef1": 0.001875797312,
+			"fitcoef2": -0.004992581341
+		}
+	},
+	{
+		"roiname": "InferiorLateralVentricle_L",
+		"roiidname": "T2_L4_InferiorLateralVentricle_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003824179505,
+			"fitcoef1": 0.0004789936444,
+			"fitcoef2": -0.0008983836107
+		}
+	},
+	{
+		"roiname": "FrontalLateralVentricle_R",
+		"roiidname": "T2_L4_FrontalLateralVentricle_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.004180589936,
+			"fitcoef1": 0.006872723224,
+			"fitcoef2": -0.01950476011
+		}
+	},
+	{
+		"roiname": "PosteriorLateralVentricle_R",
+		"roiidname": "T2_L4_PosteriorLateralVentricle_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001430768766,
+			"fitcoef1": 0.00194348097,
+			"fitcoef2": -0.005413480539
+		}
+	},
+	{
+		"roiname": "InferiorLateralVentricle_R",
+		"roiidname": "T2_L4_InferiorLateralVentricle_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004886406086,
+			"fitcoef1": 0.0005429350536,
+			"fitcoef2": -0.001106408596
+		}
+	},
+	{
+		"roiname": "IIIandIV_Ventricle",
+		"roiidname": "T2_L4_IIIandIV_Ventricle",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008008134643,
+			"fitcoef1": 0.001109220758,
+			"fitcoef2": -0.0008932305714
+		}
+	},
+	{
+		"roiname": "CerebellumWM_R",
+		"roiidname": "T2_L4_CerebellumWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009086709592,
+			"fitcoef1": -0.0001233206331,
+			"fitcoef2": 0.009776809371
+		}
+	},
+	{
+		"roiname": "CerebellumWM_L",
+		"roiidname": "T2_L4_CerebellumWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009027498393,
+			"fitcoef1": 1.680109268e-005,
+			"fitcoef2": 0.009172245543
+		}
+	},
+	{
+		"roiname": "FrontSul_L",
+		"roiidname": "T2_L4_FrontSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003237654054,
+			"fitcoef1": -0.001144153929,
+			"fitcoef2": 0.02612276593
+		}
+	},
+	{
+		"roiname": "FrontSul_R",
+		"roiidname": "T2_L4_FrontSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002415422303,
+			"fitcoef1": -0.0004530644739,
+			"fitcoef2": 0.01891449194
+		}
+	},
+	{
+		"roiname": "CentralSul_L",
+		"roiidname": "T2_L4_CentralSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006160731009,
+			"fitcoef1": 0.0007811026645,
+			"fitcoef2": -0.0005416837723
+		}
+	},
+	{
+		"roiname": "CentralSul_R",
+		"roiidname": "T2_L4_CentralSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006037052754,
+			"fitcoef1": 0.0008345937221,
+			"fitcoef2": -0.0008124070926
+		}
+	},
+	{
+		"roiname": "SylFrontSul_L",
+		"roiidname": "T2_L4_SylFrontSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009343044218,
+			"fitcoef1": 0.001140450066,
+			"fitcoef2": -0.002144053963
+		}
+	},
+	{
+		"roiname": "SylFrontSul_R",
+		"roiidname": "T2_L4_SylFrontSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008415871096,
+			"fitcoef1": 0.001249247288,
+			"fitcoef2": -0.00264064932
+		}
+	},
+	{
+		"roiname": "SylTempSul_L",
+		"roiidname": "T2_L4_SylTempSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008796251213,
+			"fitcoef1": 0.001437076096,
+			"fitcoef2": -0.002450492882
+		}
+	},
+	{
+		"roiname": "SylTempSul_R",
+		"roiidname": "T2_L4_SylTempSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007969426819,
+			"fitcoef1": 0.001409251463,
+			"fitcoef2": -0.002772036683
+		}
+	},
+	{
+		"roiname": "SylParieSul_L",
+		"roiidname": "T2_L4_SylParieSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000199383192,
+			"fitcoef1": 0.0001541032368,
+			"fitcoef2": -0.000242012448
+		}
+	},
+	{
+		"roiname": "SylParieSul_R",
+		"roiidname": "T2_L4_SylParieSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002148209948,
+			"fitcoef1": 0.0001872829932,
+			"fitcoef2": -0.0004254793811
+		}
+	},
+	{
+		"roiname": "ParietSul_L",
+		"roiidname": "T2_L4_ParietSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001935531868,
+			"fitcoef1": 0.0006273145901,
+			"fitcoef2": 0.006139381534
+		}
+	},
+	{
+		"roiname": "ParietSul_R",
+		"roiidname": "T2_L4_ParietSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.00220390646,
+			"fitcoef1": 0.0005675918723,
+			"fitcoef2": 0.006741439683
+		}
+	},
+	{
+		"roiname": "CinguSul_L",
+		"roiidname": "T2_L4_CinguSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001039400767,
+			"fitcoef1": 0.0005717714303,
+			"fitcoef2": 0.001570587064
+		}
+	},
+	{
+		"roiname": "CinguSul_R",
+		"roiidname": "T2_L4_CinguSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009766167369,
+			"fitcoef1": 0.0006646549009,
+			"fitcoef2": 0.0007942274806
+		}
+	},
+	{
+		"roiname": "OcciptSul_L",
+		"roiidname": "T2_L4_OcciptSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00103739105,
+			"fitcoef1": 0.001079774691,
+			"fitcoef2": -0.001586289406
+		}
+	},
+	{
+		"roiname": "OcciptSul_R",
+		"roiidname": "T2_L4_OcciptSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001104250684,
+			"fitcoef1": 0.001062151512,
+			"fitcoef2": -0.001228063989
+		}
+	},
+	{
+		"roiname": "TempSul_L",
+		"roiidname": "T2_L4_TempSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008327086001,
+			"fitcoef1": 0.000417326051,
+			"fitcoef2": 0.0004773724565
+		}
+	},
+	{
+		"roiname": "TempSul_R",
+		"roiidname": "T2_L4_TempSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006974270803,
+			"fitcoef1": 0.0004157953359,
+			"fitcoef2": 0.0001515502717
+		}
+	},
+	{
+		"roiname": "SF_L",
+		"roiidname": "T2_L5_SF_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001310539844,
+			"fitcoef1": -0.0001439936375,
+			"fitcoef2": 0.01431229354
+		}
+	},
+	{
+		"roiname": "SF_R",
+		"roiidname": "T2_L5_SF_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001184954575,
+			"fitcoef1": 0.0002391447254,
+			"fitcoef2": 0.01186686223
+		}
+	},
+	{
+		"roiname": "SF_PFC_L",
+		"roiidname": "T2_L5_SF_PFC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001224740542,
+			"fitcoef1": -0.0008111532176,
+			"fitcoef2": 0.01585195741
+		}
+	},
+	{
+		"roiname": "SF_PFC_R",
+		"roiidname": "T2_L5_SF_PFC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001221111512,
+			"fitcoef1": -0.001220334719,
+			"fitcoef2": 0.01728573126
+		}
+	},
+	{
+		"roiname": "SF_pole_L",
+		"roiidname": "T2_L5_SF_pole_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002815907563,
+			"fitcoef1": 0.0001086448695,
+			"fitcoef2": 0.001608641286
+		}
+	},
+	{
+		"roiname": "SF_pole_R",
+		"roiidname": "T2_L5_SF_pole_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000388493089,
+			"fitcoef1": -0.0001316786467,
+			"fitcoef2": 0.003672242091
+		}
+	},
+	{
+		"roiname": "MF_L",
+		"roiidname": "T2_L5_MF_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00119393775,
+			"fitcoef1": -0.0004982952181,
+			"fitcoef2": 0.01305062526
+		}
+	},
+	{
+		"roiname": "MF_R",
+		"roiidname": "T2_L5_MF_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001306979321,
+			"fitcoef1": -0.0007338966916,
+			"fitcoef2": 0.01420604063
+		}
+	},
+	{
+		"roiname": "MF_DPFC_L",
+		"roiidname": "T2_L5_MF_DPFC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001429989035,
+			"fitcoef1": -0.0007416828835,
+			"fitcoef2": 0.0143009997
+		}
+	},
+	{
+		"roiname": "MF_DPFC_R",
+		"roiidname": "T2_L5_MF_DPFC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001586442178,
+			"fitcoef1": -0.001559289377,
+			"fitcoef2": 0.01878686076
+		}
+	},
+	{
+		"roiname": "IF_opercularis_L",
+		"roiidname": "T2_L5_IF_opercularis_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005370424397,
+			"fitcoef1": -0.0002958077209,
+			"fitcoef2": 0.005261108555
+		}
+	},
+	{
+		"roiname": "IF_opercularis_R",
+		"roiidname": "T2_L5_IF_opercularis_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005925064118,
+			"fitcoef1": -0.0002865378139,
+			"fitcoef2": 0.005243608225
+		}
+	},
+	{
+		"roiname": "IF_orbitalis_L",
+		"roiidname": "T2_L5_IF_orbitalis_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005279503419,
+			"fitcoef1": -0.0003985018947,
+			"fitcoef2": 0.006258320139
+		}
+	},
+	{
+		"roiname": "IF_orbitalis_R",
+		"roiidname": "T2_L5_IF_orbitalis_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004877712301,
+			"fitcoef1": -9.167239471e-005,
+			"fitcoef2": 0.004448060838
+		}
+	},
+	{
+		"roiname": "IF_triangularis_L",
+		"roiidname": "T2_L5_IF_triangularis_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006490378615,
+			"fitcoef1": -0.0005387715246,
+			"fitcoef2": 0.006946599319
+		}
+	},
+	{
+		"roiname": "IF_triangularis_R",
+		"roiidname": "T2_L5_IF_triangularis_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000567230267,
+			"fitcoef1": -0.0003629655581,
+			"fitcoef2": 0.00536819464
+		}
+	},
+	{
+		"roiname": "LFO_L",
+		"roiidname": "T2_L5_LFO_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004796197077,
+			"fitcoef1": -0.0003443145984,
+			"fitcoef2": 0.006386438482
+		}
+	},
+	{
+		"roiname": "LFO_R",
+		"roiidname": "T2_L5_LFO_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004692652236,
+			"fitcoef1": -0.0002818541659,
+			"fitcoef2": 0.00599684957
+		}
+	},
+	{
+		"roiname": "MFO_L",
+		"roiidname": "T2_L5_MFO_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004386180078,
+			"fitcoef1": -7.631429072e-005,
+			"fitcoef2": 0.005265180154
+		}
+	},
+	{
+		"roiname": "MFO_R",
+		"roiidname": "T2_L5_MFO_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003841024694,
+			"fitcoef1": -0.0001642167475,
+			"fitcoef2": 0.005091948506
+		}
+	},
+	{
+		"roiname": "R_L",
+		"roiidname": "T2_L5_R_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005385116122,
+			"fitcoef1": -0.0006037056841,
+			"fitcoef2": 0.007761298954
+		}
+	},
+	{
+		"roiname": "R_R",
+		"roiidname": "T2_L5_R_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000561681576,
+			"fitcoef1": -0.0006504104754,
+			"fitcoef2": 0.008458999654
+		}
+	},
+	{
+		"roiname": "PoC_L",
+		"roiidname": "T2_L5_PoC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001468074464,
+			"fitcoef1": 0.0001478560678,
+			"fitcoef2": 0.01576420303
+		}
+	},
+	{
+		"roiname": "PoC_R",
+		"roiidname": "T2_L5_PoC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001307449733,
+			"fitcoef1": 0.0004853878068,
+			"fitcoef2": 0.0140400594
+		}
+	},
+	{
+		"roiname": "PrC_L",
+		"roiidname": "T2_L5_PrC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001708562361,
+			"fitcoef1": 0.0006132814835,
+			"fitcoef2": 0.01755662781
+		}
+	},
+	{
+		"roiname": "PrC_R",
+		"roiidname": "T2_L5_PrC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001649524534,
+			"fitcoef1": 0.0003319695293,
+			"fitcoef2": 0.02161969928
+		}
+	},
+	{
+		"roiname": "SP_L",
+		"roiidname": "T2_L5_SP_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001425272341,
+			"fitcoef1": -0.0006156797299,
+			"fitcoef2": 0.01519727324
+		}
+	},
+	{
+		"roiname": "SP_R",
+		"roiidname": "T2_L5_SP_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001375857877,
+			"fitcoef1": -0.0003074437003,
+			"fitcoef2": 0.01249320076
+		}
+	},
+	{
+		"roiname": "SM_L",
+		"roiidname": "T2_L5_SM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001109266187,
+			"fitcoef1": -0.0009816208862,
+			"fitcoef2": 0.01335948303
+		}
+	},
+	{
+		"roiname": "SM_R",
+		"roiidname": "T2_L5_SM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001114180062,
+			"fitcoef1": -0.000614758351,
+			"fitcoef2": 0.01228494843
+		}
+	},
+	{
+		"roiname": "A_L",
+		"roiidname": "T2_L5_A_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009594141519,
+			"fitcoef1": 0.0002598051141,
+			"fitcoef2": 0.006709869033
+		}
+	},
+	{
+		"roiname": "A_R",
+		"roiidname": "T2_L5_A_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001212965827,
+			"fitcoef1": -0.0002649142693,
+			"fitcoef2": 0.01252437553
+		}
+	},
+	{
+		"roiname": "PrCu_L",
+		"roiidname": "T2_L5_PrCu_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008085252238,
+			"fitcoef1": -0.0001773715865,
+			"fitcoef2": 0.007801029098
+		}
+	},
+	{
+		"roiname": "PrCu_R",
+		"roiidname": "T2_L5_PrCu_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000782788332,
+			"fitcoef1": -0.0002287952374,
+			"fitcoef2": 0.007536756138
+		}
+	},
+	{
+		"roiname": "ST_L",
+		"roiidname": "T2_L5_ST_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001273008214,
+			"fitcoef1": -0.0005897234114,
+			"fitcoef2": 0.01767748663
+		}
+	},
+	{
+		"roiname": "ST_R",
+		"roiidname": "T2_L5_ST_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001478444892,
+			"fitcoef1": -0.001136397329,
+			"fitcoef2": 0.01996184486
+		}
+	},
+	{
+		"roiname": "ST_L_pole",
+		"roiidname": "T2_L5_ST_L_pole",
+		"fittingmodelparameter": {
+			"msdpred": 0.000526047072,
+			"fitcoef1": -4.618015196e-005,
+			"fitcoef2": 0.004946015973
+		}
+	},
+	{
+		"roiname": "ST_R_pole",
+		"roiidname": "T2_L5_ST_R_pole",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005524862374,
+			"fitcoef1": -9.522882579e-005,
+			"fitcoef2": 0.00525030398
+		}
+	},
+	{
+		"roiname": "MT_L",
+		"roiidname": "T2_L5_MT_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00153697836,
+			"fitcoef1": -0.0008367630807,
+			"fitcoef2": 0.02056912747
+		}
+	},
+	{
+		"roiname": "MT_R",
+		"roiidname": "T2_L5_MT_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001338627027,
+			"fitcoef1": -0.001537991541,
+			"fitcoef2": 0.02235304534
+		}
+	},
+	{
+		"roiname": "MT_L_pole",
+		"roiidname": "T2_L5_MT_L_pole",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004642957084,
+			"fitcoef1": 0.0003154527376,
+			"fitcoef2": 0.001234747736
+		}
+	},
+	{
+		"roiname": "MT_R_pole",
+		"roiidname": "T2_L5_MT_R_pole",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005317700576,
+			"fitcoef1": 8.348783855e-005,
+			"fitcoef2": 0.002318835633
+		}
+	},
+	{
+		"roiname": "IT_L",
+		"roiidname": "T2_L5_IT_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001194837586,
+			"fitcoef1": -0.001070654523,
+			"fitcoef2": 0.01663997886
+		}
+	},
+	{
+		"roiname": "IT_R",
+		"roiidname": "T2_L5_IT_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001280770876,
+			"fitcoef1": -0.00091722254,
+			"fitcoef2": 0.01726990888
+		}
+	},
+	{
+		"roiname": "PHG_L",
+		"roiidname": "T2_L5_PHG_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001165403243,
+			"fitcoef1": 3.499059651e-006,
+			"fitcoef2": 0.0008508768623
+		}
+	},
+	{
+		"roiname": "PHG_R",
+		"roiidname": "T2_L5_PHG_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000133105515,
+			"fitcoef1": -5.623092609e-005,
+			"fitcoef2": 0.001216528193
+		}
+	},
+	{
+		"roiname": "ENT_L",
+		"roiidname": "T2_L5_ENT_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001166652459,
+			"fitcoef1": 5.270947308e-005,
+			"fitcoef2": 0.0004554235604
+		}
+	},
+	{
+		"roiname": "ENT_R",
+		"roiidname": "T2_L5_ENT_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001586423541,
+			"fitcoef1": 1.675615354e-005,
+			"fitcoef2": 0.0008496092279
+		}
+	},
+	{
+		"roiname": "Fu_L",
+		"roiidname": "T2_L5_Fu_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000907485701,
+			"fitcoef1": -0.0006714883522,
+			"fitcoef2": 0.01735206654
+		}
+	},
+	{
+		"roiname": "Fu_R",
+		"roiidname": "T2_L5_Fu_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001011396178,
+			"fitcoef1": -0.0007203008955,
+			"fitcoef2": 0.01769583031
+		}
+	},
+	{
+		"roiname": "SO_L",
+		"roiidname": "T2_L5_SO_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006226493954,
+			"fitcoef1": -0.0001725212358,
+			"fitcoef2": 0.005295195471
+		}
+	},
+	{
+		"roiname": "SO_R",
+		"roiidname": "T2_L5_SO_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006879724438,
+			"fitcoef1": -0.0001765145177,
+			"fitcoef2": 0.005853801224
+		}
+	},
+	{
+		"roiname": "MO_L",
+		"roiidname": "T2_L5_MO_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00224175486,
+			"fitcoef1": 0.0003711726994,
+			"fitcoef2": 0.01835304381
+		}
+	},
+	{
+		"roiname": "MO_R",
+		"roiidname": "T2_L5_MO_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002007232579,
+			"fitcoef1": 0.001208115587,
+			"fitcoef2": 0.01409423203
+		}
+	},
+	{
+		"roiname": "IO_L",
+		"roiidname": "T2_L5_IO_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006495695215,
+			"fitcoef1": 0.0002759134412,
+			"fitcoef2": 0.003571662085
+		}
+	},
+	{
+		"roiname": "IO_R",
+		"roiidname": "T2_L5_IO_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008716164231,
+			"fitcoef1": 0.0006422389885,
+			"fitcoef2": 0.003724115151
+		}
+	},
+	{
+		"roiname": "Cu_L",
+		"roiidname": "T2_L5_Cu_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001020569104,
+			"fitcoef1": 0.0001426708778,
+			"fitcoef2": 0.008154875416
+		}
+	},
+	{
+		"roiname": "Cu_R",
+		"roiidname": "T2_L5_Cu_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007761088355,
+			"fitcoef1": -0.0003268711121,
+			"fitcoef2": 0.00806552127
+		}
+	},
+	{
+		"roiname": "L_L",
+		"roiidname": "T2_L5_L_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009501839479,
+			"fitcoef1": 0.0006661604669,
+			"fitcoef2": 0.008610940012
+		}
+	},
+	{
+		"roiname": "L_R",
+		"roiidname": "T2_L5_L_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008987552521,
+			"fitcoef1": -0.000111895606,
+			"fitcoef2": 0.01085334616
+		}
+	},
+	{
+		"roiname": "rostral_ACC_L",
+		"roiidname": "T2_L5_rostral_ACC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002318804823,
+			"fitcoef1": -0.0003044050215,
+			"fitcoef2": 0.002926417493
+		}
+	},
+	{
+		"roiname": "rostral_ACC_R",
+		"roiidname": "T2_L5_rostral_ACC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002758661351,
+			"fitcoef1": -0.0003305343568,
+			"fitcoef2": 0.003062261644
+		}
+	},
+	{
+		"roiname": "subcallosal_ACC_L",
+		"roiidname": "T2_L5_subcallosal_ACC_L",
+		"fittingmodelparameter": {
+			"msdpred": 6.950151968e-005,
+			"fitcoef1": 9.741210446e-007,
+			"fitcoef2": 0.0003225632792
+		}
+	},
+	{
+		"roiname": "subcallosal_ACC_R",
+		"roiidname": "T2_L5_subcallosal_ACC_R",
+		"fittingmodelparameter": {
+			"msdpred": 7.460946398e-005,
+			"fitcoef1": -2.982872336e-005,
+			"fitcoef2": 0.0005588040454
+		}
+	},
+	{
+		"roiname": "subgenual_ACC_L",
+		"roiidname": "T2_L5_subgenual_ACC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001537402513,
+			"fitcoef1": 2.409661712e-005,
+			"fitcoef2": 0.001425526825
+		}
+	},
+	{
+		"roiname": "subgenual_ACC_R",
+		"roiidname": "T2_L5_subgenual_ACC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001440089709,
+			"fitcoef1": 7.4280863e-005,
+			"fitcoef2": 0.001024855153
+		}
+	},
+	{
+		"roiname": "dorsal_ACC_L",
+		"roiidname": "T2_L5_dorsal_ACC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000703515323,
+			"fitcoef1": -0.0005428934384,
+			"fitcoef2": 0.01129331688
+		}
+	},
+	{
+		"roiname": "dorsal_ACC_R",
+		"roiidname": "T2_L5_dorsal_ACC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006142949559,
+			"fitcoef1": -0.0005830903314,
+			"fitcoef2": 0.01062594842
+		}
+	},
+	{
+		"roiname": "PCC_L",
+		"roiidname": "T2_L5_PCC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007171146134,
+			"fitcoef1": -0.000423020219,
+			"fitcoef2": 0.009096948583
+		}
+	},
+	{
+		"roiname": "PCC_R",
+		"roiidname": "T2_L5_PCC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007858076281,
+			"fitcoef1": -0.0005649180919,
+			"fitcoef2": 0.0104677477
+		}
+	},
+	{
+		"roiname": "Insula_L",
+		"roiidname": "T2_L5_Insula_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004306305216,
+			"fitcoef1": -0.0005003374037,
+			"fitcoef2": 0.006861812451
+		}
+	},
+	{
+		"roiname": "Insula_R",
+		"roiidname": "T2_L5_Insula_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004480980189,
+			"fitcoef1": -0.0005312991454,
+			"fitcoef2": 0.007231519189
+		}
+	},
+	{
+		"roiname": "Amyg_L",
+		"roiidname": "T2_L5_Amyg_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001191503949,
+			"fitcoef1": -7.130314077e-006,
+			"fitcoef2": 0.001220123475
+		}
+	},
+	{
+		"roiname": "Amyg_R",
+		"roiidname": "T2_L5_Amyg_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000130439606,
+			"fitcoef1": -0.0001142223554,
+			"fitcoef2": 0.001870183641
+		}
+	},
+	{
+		"roiname": "Hippo_L",
+		"roiidname": "T2_L5_Hippo_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001838746672,
+			"fitcoef1": -3.99359745e-005,
+			"fitcoef2": 0.002752710234
+		}
+	},
+	{
+		"roiname": "Hippo_R",
+		"roiidname": "T2_L5_Hippo_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002560879376,
+			"fitcoef1": -0.0001305612106,
+			"fitcoef2": 0.003222120714
+		}
+	},
+	{
+		"roiname": "Caud_L",
+		"roiidname": "T2_L5_Caud_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003178184405,
+			"fitcoef1": 9.549604151e-005,
+			"fitcoef2": 0.002252882894
+		}
+	},
+	{
+		"roiname": "Caud_R",
+		"roiidname": "T2_L5_Caud_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003428249914,
+			"fitcoef1": 0.0001251161775,
+			"fitcoef2": 0.002178221829
+		}
+	},
+	{
+		"roiname": "Put_L",
+		"roiidname": "T2_L5_Put_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003610468863,
+			"fitcoef1": -0.0003962439699,
+			"fitcoef2": 0.004709137973
+		}
+	},
+	{
+		"roiname": "Put_R",
+		"roiidname": "T2_L5_Put_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000369427876,
+			"fitcoef1": -0.0004240767269,
+			"fitcoef2": 0.005025569131
+		}
+	},
+	{
+		"roiname": "GP_L",
+		"roiidname": "T2_L5_GP_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001341392284,
+			"fitcoef1": -0.000124088985,
+			"fitcoef2": 0.001613855866
+		}
+	},
+	{
+		"roiname": "GP_R",
+		"roiidname": "T2_L5_GP_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001224885783,
+			"fitcoef1": -0.0001154678432,
+			"fitcoef2": 0.001657357505
+		}
+	},
+	{
+		"roiname": "Thalamus_L",
+		"roiidname": "T2_L5_Thalamus_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003458031914,
+			"fitcoef1": -0.0005075525058,
+			"fitcoef2": 0.006150520598
+		}
+	},
+	{
+		"roiname": "Thalamus_R",
+		"roiidname": "T2_L5_Thalamus_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000375412898,
+			"fitcoef1": -0.0006152895253,
+			"fitcoef2": 0.006680509977
+		}
+	},
+	{
+		"roiname": "HypoThalamus_L",
+		"roiidname": "T2_L5_HypoThalamus_L",
+		"fittingmodelparameter": {
+			"msdpred": 4.478973798e-005,
+			"fitcoef1": -1.236304917e-005,
+			"fitcoef2": 0.000499345561
+		}
+	},
+	{
+		"roiname": "HypoThalamus_R",
+		"roiidname": "T2_L5_HypoThalamus_R",
+		"fittingmodelparameter": {
+			"msdpred": 5.266227119e-005,
+			"fitcoef1": -1.832727179e-005,
+			"fitcoef2": 0.0005997146872
+		}
+	},
+	{
+		"roiname": "AnsaLenticularis_L",
+		"roiidname": "T2_L5_AnsaLenticularis_L",
+		"fittingmodelparameter": {
+			"msdpred": 9.251636265e-005,
+			"fitcoef1": -4.763135028e-005,
+			"fitcoef2": 0.001150178912
+		}
+	},
+	{
+		"roiname": "AnsaLenticularis_R",
+		"roiidname": "T2_L5_AnsaLenticularis_R",
+		"fittingmodelparameter": {
+			"msdpred": 9.156429516e-005,
+			"fitcoef1": -3.842206649e-005,
+			"fitcoef2": 0.001043367902
+		}
+	},
+	{
+		"roiname": "NucAccumbens_L",
+		"roiidname": "T2_L5_NucAccumbens_L",
+		"fittingmodelparameter": {
+			"msdpred": 7.383466502e-005,
+			"fitcoef1": -5.69248591e-005,
+			"fitcoef2": 0.0007188515242
+		}
+	},
+	{
+		"roiname": "NucAccumbens_R",
+		"roiidname": "T2_L5_NucAccumbens_R",
+		"fittingmodelparameter": {
+			"msdpred": 7.245276475e-005,
+			"fitcoef1": -5.261529788e-005,
+			"fitcoef2": 0.0007978287679
+		}
+	},
+	{
+		"roiname": "RedNc_L",
+		"roiidname": "T2_L5_RedNc_L",
+		"fittingmodelparameter": {
+			"msdpred": 4.115907157e-005,
+			"fitcoef1": -1.294171788e-005,
+			"fitcoef2": 0.0002912639059
+		}
+	},
+	{
+		"roiname": "RedNc_R",
+		"roiidname": "T2_L5_RedNc_R",
+		"fittingmodelparameter": {
+			"msdpred": 4.178988849e-005,
+			"fitcoef1": -2.169878885e-005,
+			"fitcoef2": 0.0003590158246
+		}
+	},
+	{
+		"roiname": "Snigra_L",
+		"roiidname": "T2_L5_Snigra_L",
+		"fittingmodelparameter": {
+			"msdpred": 3.732764311e-005,
+			"fitcoef1": -3.655942467e-005,
+			"fitcoef2": 0.0004011516535
+		}
+	},
+	{
+		"roiname": "Snigra_R",
+		"roiidname": "T2_L5_Snigra_R",
+		"fittingmodelparameter": {
+			"msdpred": 3.265405347e-005,
+			"fitcoef1": -3.507440966e-005,
+			"fitcoef2": 0.0003403495967
+		}
+	},
+	{
+		"roiname": "Cerebellum_R",
+		"roiidname": "T2_L5_Cerebellum_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.003339095464,
+			"fitcoef1": -0.0004684575894,
+			"fitcoef2": 0.03999656463
+		}
+	},
+	{
+		"roiname": "Cerebellum_L",
+		"roiidname": "T2_L5_Cerebellum_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003390455199,
+			"fitcoef1": -0.0008213336641,
+			"fitcoef2": 0.04201998709
+		}
+	},
+	{
+		"roiname": "CP_L",
+		"roiidname": "T2_L5_CP_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001565317941,
+			"fitcoef1": -0.0001065070251,
+			"fitcoef2": 0.002023251789
+		}
+	},
+	{
+		"roiname": "CP_R",
+		"roiidname": "T2_L5_CP_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001486740396,
+			"fitcoef1": -0.0001222478713,
+			"fitcoef2": 0.002116419076
+		}
+	},
+	{
+		"roiname": "Midbrain_L",
+		"roiidname": "T2_L5_Midbrain_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001814534801,
+			"fitcoef1": -6.78710961e-005,
+			"fitcoef2": 0.002141724621
+		}
+	},
+	{
+		"roiname": "Midbrain_R",
+		"roiidname": "T2_L5_Midbrain_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001761612784,
+			"fitcoef1": -6.830987547e-005,
+			"fitcoef2": 0.002077921021
+		}
+	},
+	{
+		"roiname": "CST_L",
+		"roiidname": "T2_L5_CST_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001730384503,
+			"fitcoef1": 9.941598542e-005,
+			"fitcoef2": 0.0008563691273
+		}
+	},
+	{
+		"roiname": "CST_R",
+		"roiidname": "T2_L5_CST_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001593991352,
+			"fitcoef1": 0.0001075605731,
+			"fitcoef2": 0.0007375753303
+		}
+	},
+	{
+		"roiname": "SCP_L",
+		"roiidname": "T2_L5_SCP_L",
+		"fittingmodelparameter": {
+			"msdpred": 6.358214549e-005,
+			"fitcoef1": -9.716825574e-006,
+			"fitcoef2": 0.0007119018942
+		}
+	},
+	{
+		"roiname": "SCP_R",
+		"roiidname": "T2_L5_SCP_R",
+		"fittingmodelparameter": {
+			"msdpred": 6.811168563e-005,
+			"fitcoef1": -1.123266857e-005,
+			"fitcoef2": 0.0007750364951
+		}
+	},
+	{
+		"roiname": "MCP_L",
+		"roiidname": "T2_L5_MCP_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002822371088,
+			"fitcoef1": 3.721408706e-006,
+			"fitcoef2": 0.00254095979
+		}
+	},
+	{
+		"roiname": "MCP_R",
+		"roiidname": "T2_L5_MCP_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002946423841,
+			"fitcoef1": 5.662993516e-005,
+			"fitcoef2": 0.002568827917
+		}
+	},
+	{
+		"roiname": "PCT_L",
+		"roiidname": "T2_L5_PCT_L",
+		"fittingmodelparameter": {
+			"msdpred": 9.246222945e-005,
+			"fitcoef1": 2.377735685e-005,
+			"fitcoef2": 0.0005707744288
+		}
+	},
+	{
+		"roiname": "PCT_R",
+		"roiidname": "T2_L5_PCT_R",
+		"fittingmodelparameter": {
+			"msdpred": 9.918709486e-005,
+			"fitcoef1": 4.522866049e-005,
+			"fitcoef2": 0.0005080097395
+		}
+	},
+	{
+		"roiname": "Medulla_L",
+		"roiidname": "T2_L5_Medulla_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002294899779,
+			"fitcoef1": 5.318780961e-006,
+			"fitcoef2": 0.001808626236
+		}
+	},
+	{
+		"roiname": "Medulla_R",
+		"roiidname": "T2_L5_Medulla_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002336018593,
+			"fitcoef1": 8.009521624e-005,
+			"fitcoef2": 0.001667118261
+		}
+	},
+	{
+		"roiname": "ML_L",
+		"roiidname": "T2_L5_ML_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001478049618,
+			"fitcoef1": 3.463157467e-005,
+			"fitcoef2": 0.0008526468176
+		}
+	},
+	{
+		"roiname": "ML_R",
+		"roiidname": "T2_L5_ML_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001510834025,
+			"fitcoef1": 5.834207827e-005,
+			"fitcoef2": 0.000912132744
+		}
+	},
+	{
+		"roiname": "Pons_L",
+		"roiidname": "T2_L5_Pons_L",
+		"fittingmodelparameter": {
+			"msdpred": 3.556515911e-005,
+			"fitcoef1": 2.739101792e-006,
+			"fitcoef2": 0.0001972640831
+		}
+	},
+	{
+		"roiname": "Pons_R",
+		"roiidname": "T2_L5_Pons_R",
+		"fittingmodelparameter": {
+			"msdpred": 7.658964568e-005,
+			"fitcoef1": 1.496403167e-005,
+			"fitcoef2": 0.0004015112673
+		}
+	},
+	{
+		"roiname": "ACR_L",
+		"roiidname": "T2_L5_ACR_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009798791116,
+			"fitcoef1": -0.001590760048,
+			"fitcoef2": 0.01565544456
+		}
+	},
+	{
+		"roiname": "ACR_R",
+		"roiidname": "T2_L5_ACR_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009810115126,
+			"fitcoef1": -0.001860488185,
+			"fitcoef2": 0.01669830993
+		}
+	},
+	{
+		"roiname": "SCR_L",
+		"roiidname": "T2_L5_SCR_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001573135269,
+			"fitcoef1": -0.001444506832,
+			"fitcoef2": 0.017582898
+		}
+	},
+	{
+		"roiname": "SCR_R",
+		"roiidname": "T2_L5_SCR_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001319850273,
+			"fitcoef1": -0.001353200477,
+			"fitcoef2": 0.01674641648
+		}
+	},
+	{
+		"roiname": "PCR_L",
+		"roiidname": "T2_L5_PCR_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000499602847,
+			"fitcoef1": -0.0002743039719,
+			"fitcoef2": 0.005221827738
+		}
+	},
+	{
+		"roiname": "PCR_R",
+		"roiidname": "T2_L5_PCR_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004315944027,
+			"fitcoef1": -0.0001544621271,
+			"fitcoef2": 0.004010561074
+		}
+	},
+	{
+		"roiname": "GCC_L",
+		"roiidname": "T2_L5_GCC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002304813209,
+			"fitcoef1": 1.461873564e-006,
+			"fitcoef2": 0.001871229063
+		}
+	},
+	{
+		"roiname": "GCC_R",
+		"roiidname": "T2_L5_GCC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002512712579,
+			"fitcoef1": 7.88242376e-005,
+			"fitcoef2": 0.001715115672
+		}
+	},
+	{
+		"roiname": "BCC_L",
+		"roiidname": "T2_L5_BCC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003846584888,
+			"fitcoef1": 0.0004629357445,
+			"fitcoef2": 0.001368135414
+		}
+	},
+	{
+		"roiname": "BCC_R",
+		"roiidname": "T2_L5_BCC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000424508602,
+			"fitcoef1": 0.0005135762915,
+			"fitcoef2": 0.001193540841
+		}
+	},
+	{
+		"roiname": "SCC_L",
+		"roiidname": "T2_L5_SCC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005476469894,
+			"fitcoef1": 0.0002474471542,
+			"fitcoef2": 0.003580626394
+		}
+	},
+	{
+		"roiname": "SCC_R",
+		"roiidname": "T2_L5_SCC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0005433184157,
+			"fitcoef1": 0.0002402363932,
+			"fitcoef2": 0.003678943291
+		}
+	},
+	{
+		"roiname": "TAP_L",
+		"roiidname": "T2_L5_TAP_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002391408738,
+			"fitcoef1": 0.0002767938137,
+			"fitcoef2": -0.0007411272185
+		}
+	},
+	{
+		"roiname": "TAP_R",
+		"roiidname": "T2_L5_TAP_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002044348746,
+			"fitcoef1": 0.0002470761622,
+			"fitcoef2": -0.000697497362
+		}
+	},
+	{
+		"roiname": "ALIC_L",
+		"roiidname": "T2_L5_ALIC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001829036172,
+			"fitcoef1": 7.099022857e-005,
+			"fitcoef2": 0.001582973447
+		}
+	},
+	{
+		"roiname": "ALIC_R",
+		"roiidname": "T2_L5_ALIC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001625712778,
+			"fitcoef1": 7.63126536e-005,
+			"fitcoef2": 0.001545043293
+		}
+	},
+	{
+		"roiname": "PLIC_L",
+		"roiidname": "T2_L5_PLIC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001900632619,
+			"fitcoef1": -0.0002471351344,
+			"fitcoef2": 0.003352741925
+		}
+	},
+	{
+		"roiname": "PLIC_R",
+		"roiidname": "T2_L5_PLIC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001748058383,
+			"fitcoef1": -0.0002618830528,
+			"fitcoef2": 0.003284425688
+		}
+	},
+	{
+		"roiname": "RLIC_L",
+		"roiidname": "T2_L5_RLIC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001805409418,
+			"fitcoef1": -0.0001788057534,
+			"fitcoef2": 0.002904395657
+		}
+	},
+	{
+		"roiname": "RLIC_R",
+		"roiidname": "T2_L5_RLIC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002031531408,
+			"fitcoef1": -1.676347733e-005,
+			"fitcoef2": 0.002418896979
+		}
+	},
+	{
+		"roiname": "EC_L",
+		"roiidname": "T2_L5_EC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002170771341,
+			"fitcoef1": -9.960742471e-005,
+			"fitcoef2": 0.002907006621
+		}
+	},
+	{
+		"roiname": "EC_R",
+		"roiidname": "T2_L5_EC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002305069587,
+			"fitcoef1": -7.441767533e-005,
+			"fitcoef2": 0.002833845368
+		}
+	},
+	{
+		"roiname": "CGC_L",
+		"roiidname": "T2_L5_CGC_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002346348895,
+			"fitcoef1": -0.0001966464433,
+			"fitcoef2": 0.002832918099
+		}
+	},
+	{
+		"roiname": "CGC_R",
+		"roiidname": "T2_L5_CGC_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002647701428,
+			"fitcoef1": -0.0001329226268,
+			"fitcoef2": 0.002742579016
+		}
+	},
+	{
+		"roiname": "CGH_L",
+		"roiidname": "T2_L5_CGH_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001634492818,
+			"fitcoef1": -3.656933798e-005,
+			"fitcoef2": 0.001313702067
+		}
+	},
+	{
+		"roiname": "CGH_R",
+		"roiidname": "T2_L5_CGH_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001422193666,
+			"fitcoef1": -6.721433295e-006,
+			"fitcoef2": 0.001208624312
+		}
+	},
+	{
+		"roiname": "Fx_ST_L",
+		"roiidname": "T2_L5_Fx_ST_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001038903716,
+			"fitcoef1": -0.0001470865481,
+			"fitcoef2": 0.001652424317
+		}
+	},
+	{
+		"roiname": "Fx_ST_R",
+		"roiidname": "T2_L5_Fx_ST_R",
+		"fittingmodelparameter": {
+			"msdpred": 9.151295789e-005,
+			"fitcoef1": -0.0001134970157,
+			"fitcoef2": 0.001521045068
+		}
+	},
+	{
+		"roiname": "Fx_L",
+		"roiidname": "T2_L5_Fx_L",
+		"fittingmodelparameter": {
+			"msdpred": 7.088340749e-005,
+			"fitcoef1": 8.157159643e-005,
+			"fitcoef2": 0.0001506721879
+		}
+	},
+	{
+		"roiname": "Fx_R",
+		"roiidname": "T2_L5_Fx_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001098420806,
+			"fitcoef1": 7.94030526e-005,
+			"fitcoef2": 0.0003137359745
+		}
+	},
+	{
+		"roiname": "IFO_L",
+		"roiidname": "T2_L5_IFO_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001842726614,
+			"fitcoef1": 1.846164417e-005,
+			"fitcoef2": 0.001451684489
+		}
+	},
+	{
+		"roiname": "IFO_R",
+		"roiidname": "T2_L5_IFO_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002039923015,
+			"fitcoef1": -2.563566242e-005,
+			"fitcoef2": 0.001692986144
+		}
+	},
+	{
+		"roiname": "PTR_L",
+		"roiidname": "T2_L5_PTR_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000513124936,
+			"fitcoef1": 6.388586108e-005,
+			"fitcoef2": 0.006323364936
+		}
+	},
+	{
+		"roiname": "PTR_R",
+		"roiidname": "T2_L5_PTR_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004153208705,
+			"fitcoef1": 8.707897358e-005,
+			"fitcoef2": 0.004215739394
+		}
+	},
+	{
+		"roiname": "SS_L",
+		"roiidname": "T2_L5_SS_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002511916406,
+			"fitcoef1": -0.0002273974263,
+			"fitcoef2": 0.003516843475
+		}
+	},
+	{
+		"roiname": "SS_R",
+		"roiidname": "T2_L5_SS_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002527629294,
+			"fitcoef1": -0.0002018821809,
+			"fitcoef2": 0.003820581742
+		}
+	},
+	{
+		"roiname": "SFO_L",
+		"roiidname": "T2_L5_SFO_L",
+		"fittingmodelparameter": {
+			"msdpred": 4.848925894e-005,
+			"fitcoef1": 1.675208172e-005,
+			"fitcoef2": 0.0001805816256
+		}
+	},
+	{
+		"roiname": "SFO_R",
+		"roiidname": "T2_L5_SFO_R",
+		"fittingmodelparameter": {
+			"msdpred": 4.582427386e-005,
+			"fitcoef1": 1.723383024e-005,
+			"fitcoef2": 0.0001273453697
+		}
+	},
+	{
+		"roiname": "SLF_L",
+		"roiidname": "T2_L5_SLF_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007035984431,
+			"fitcoef1": -0.001081559008,
+			"fitcoef2": 0.009523589647
+		}
+	},
+	{
+		"roiname": "SLF_R",
+		"roiidname": "T2_L5_SLF_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008564475015,
+			"fitcoef1": -0.001315652544,
+			"fitcoef2": 0.01144089842
+		}
+	},
+	{
+		"roiname": "Cl_L",
+		"roiidname": "T2_L5_Cl_L",
+		"fittingmodelparameter": {
+			"msdpred": 4.402153128e-005,
+			"fitcoef1": -2.473651766e-005,
+			"fitcoef2": 0.0003933849578
+		}
+	},
+	{
+		"roiname": "Cl_R",
+		"roiidname": "T2_L5_Cl_R",
+		"fittingmodelparameter": {
+			"msdpred": 4.024917199e-005,
+			"fitcoef1": -4.703577483e-005,
+			"fitcoef2": 0.000511276671
+		}
+	},
+	{
+		"roiname": "LenticularFasc_L",
+		"roiidname": "T2_L5_LenticularFasc_L",
+		"fittingmodelparameter": {
+			"msdpred": 5.294509964e-005,
+			"fitcoef1": -9.307542979e-006,
+			"fitcoef2": 0.0005523991949
+		}
+	},
+	{
+		"roiname": "LenticularFasc_R",
+		"roiidname": "T2_L5_LenticularFasc_R",
+		"fittingmodelparameter": {
+			"msdpred": 4.291010174e-005,
+			"fitcoef1": -7.719934217e-006,
+			"fitcoef2": 0.0004467706744
+		}
+	},
+	{
+		"roiname": "Mammillary_R",
+		"roiidname": "T2_L5_Mammillary_R",
+		"fittingmodelparameter": {
+			"msdpred": 1.054210286e-005,
+			"fitcoef1": -4.390101944e-006,
+			"fitcoef2": 8.747678982e-005
+		}
+	},
+	{
+		"roiname": "Mammillary_L",
+		"roiidname": "T2_L5_Mammillary_L",
+		"fittingmodelparameter": {
+			"msdpred": 1.26220941e-005,
+			"fitcoef1": -5.862413241e-006,
+			"fitcoef2": 0.0001010166601
+		}
+	},
+	{
+		"roiname": "LV_Frontal_L",
+		"roiidname": "T2_L5_LV_Frontal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001894868527,
+			"fitcoef1": 0.003414811861,
+			"fitcoef2": -0.009485385072
+		}
+	},
+	{
+		"roiname": "LV_body_L",
+		"roiidname": "T2_L5_LV_body_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001981019895,
+			"fitcoef1": 0.00302309965,
+			"fitcoef2": -0.008541976179
+		}
+	},
+	{
+		"roiname": "LV_atrium_L",
+		"roiidname": "T2_L5_LV_atrium_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00117505364,
+			"fitcoef1": 0.00162285965,
+			"fitcoef2": -0.004460935307
+		}
+	},
+	{
+		"roiname": "LV_Occipital_L",
+		"roiidname": "T2_L5_LV_Occipital_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002671074808,
+			"fitcoef1": 0.000252949475,
+			"fitcoef2": -0.0005314181868
+		}
+	},
+	{
+		"roiname": "LV_Temporal_L",
+		"roiidname": "T2_L5_LV_Temporal_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003824179505,
+			"fitcoef1": 0.0004789936444,
+			"fitcoef2": -0.0008983836107
+		}
+	},
+	{
+		"roiname": "LV_Frontal_R",
+		"roiidname": "T2_L5_LV_Frontal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002119417495,
+			"fitcoef1": 0.003674292021,
+			"fitcoef2": -0.01042714864
+		}
+	},
+	{
+		"roiname": "LV_body_R",
+		"roiidname": "T2_L5_LV_body_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002165400117,
+			"fitcoef1": 0.003058945332,
+			"fitcoef2": -0.008779581325
+		}
+	},
+	{
+		"roiname": "LV_atrium_R",
+		"roiidname": "T2_L5_LV_atrium_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001313156129,
+			"fitcoef1": 0.001741512354,
+			"fitcoef2": -0.004938602908
+		}
+	},
+	{
+		"roiname": "LV_Occipital_R",
+		"roiidname": "T2_L5_LV_Occipital_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000171278652,
+			"fitcoef1": 0.0002019865043,
+			"fitcoef2": -0.0004746896258
+		}
+	},
+	{
+		"roiname": "LV_Temporal_R",
+		"roiidname": "T2_L5_LV_Temporal_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0004886406086,
+			"fitcoef1": 0.0005429350536,
+			"fitcoef2": -0.001106408596
+		}
+	},
+	{
+		"roiname": "III_and_IV_ventricle",
+		"roiidname": "T2_L5_III_and_IV_ventricle",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008008134643,
+			"fitcoef1": 0.001109220758,
+			"fitcoef2": -0.0008932305714
+		}
+	},
+	{
+		"roiname": "PVWf_L",
+		"roiidname": "T2_L5_PVWf_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003881982206,
+			"fitcoef1": 0.0005193067703,
+			"fitcoef2": -0.0009427794234
+		}
+	},
+	{
+		"roiname": "PVWf_R",
+		"roiidname": "T2_L5_PVWf_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0003992529979,
+			"fitcoef1": 0.0004250500705,
+			"fitcoef2": -0.0006218296545
+		}
+	},
+	{
+		"roiname": "PVWp_L",
+		"roiidname": "T2_L5_PVWp_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0001154879976,
+			"fitcoef1": 0.0001870166499,
+			"fitcoef2": -0.0002775462656
+		}
+	},
+	{
+		"roiname": "PVWp_R",
+		"roiidname": "T2_L5_PVWp_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.000126513436,
+			"fitcoef1": 0.0001817948561,
+			"fitcoef2": -0.000238234351
+		}
+	},
+	{
+		"roiname": "CerebellumWM_R",
+		"roiidname": "T2_L5_CerebellumWM_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009086709592,
+			"fitcoef1": -0.0001233206331,
+			"fitcoef2": 0.009776809371
+		}
+	},
+	{
+		"roiname": "CerebellumWM_L",
+		"roiidname": "T2_L5_CerebellumWM_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009027498393,
+			"fitcoef1": 1.680109268e-005,
+			"fitcoef2": 0.009172245543
+		}
+	},
+	{
+		"roiname": "FrontSul_L",
+		"roiidname": "T2_L5_FrontSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.003237654054,
+			"fitcoef1": -0.001144153929,
+			"fitcoef2": 0.02612276593
+		}
+	},
+	{
+		"roiname": "FrontSul_R",
+		"roiidname": "T2_L5_FrontSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.002415422303,
+			"fitcoef1": -0.0004530644739,
+			"fitcoef2": 0.01891449194
+		}
+	},
+	{
+		"roiname": "CentralSul_L",
+		"roiidname": "T2_L5_CentralSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006160731009,
+			"fitcoef1": 0.0007811026645,
+			"fitcoef2": -0.0005416837723
+		}
+	},
+	{
+		"roiname": "CentralSul_R",
+		"roiidname": "T2_L5_CentralSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006037052754,
+			"fitcoef1": 0.0008345937221,
+			"fitcoef2": -0.0008124070926
+		}
+	},
+	{
+		"roiname": "SylFrontSul_L",
+		"roiidname": "T2_L5_SylFrontSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009343044218,
+			"fitcoef1": 0.001140450066,
+			"fitcoef2": -0.002144053963
+		}
+	},
+	{
+		"roiname": "SylFrontSul_R",
+		"roiidname": "T2_L5_SylFrontSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008415871096,
+			"fitcoef1": 0.001249247288,
+			"fitcoef2": -0.00264064932
+		}
+	},
+	{
+		"roiname": "SylTempSul_L",
+		"roiidname": "T2_L5_SylTempSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008796251213,
+			"fitcoef1": 0.001437076096,
+			"fitcoef2": -0.002450492882
+		}
+	},
+	{
+		"roiname": "SylTempSul_R",
+		"roiidname": "T2_L5_SylTempSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0007969426819,
+			"fitcoef1": 0.001409251463,
+			"fitcoef2": -0.002772036683
+		}
+	},
+	{
+		"roiname": "SylParieSul_L",
+		"roiidname": "T2_L5_SylParieSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.000199383192,
+			"fitcoef1": 0.0001541032368,
+			"fitcoef2": -0.000242012448
+		}
+	},
+	{
+		"roiname": "SylParieSul_R",
+		"roiidname": "T2_L5_SylParieSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0002148209948,
+			"fitcoef1": 0.0001872829932,
+			"fitcoef2": -0.0004254793811
+		}
+	},
+	{
+		"roiname": "ParietSul_L",
+		"roiidname": "T2_L5_ParietSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001935531868,
+			"fitcoef1": 0.0006273145901,
+			"fitcoef2": 0.006139381534
+		}
+	},
+	{
+		"roiname": "ParietSul_R",
+		"roiidname": "T2_L5_ParietSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.00220390646,
+			"fitcoef1": 0.0005675918723,
+			"fitcoef2": 0.006741439683
+		}
+	},
+	{
+		"roiname": "CinguSul_L",
+		"roiidname": "T2_L5_CinguSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.001039400767,
+			"fitcoef1": 0.0005717714303,
+			"fitcoef2": 0.001570587064
+		}
+	},
+	{
+		"roiname": "CinguSul_R",
+		"roiidname": "T2_L5_CinguSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0009766167369,
+			"fitcoef1": 0.0006646549009,
+			"fitcoef2": 0.0007942274806
+		}
+	},
+	{
+		"roiname": "OcciptSul_L",
+		"roiidname": "T2_L5_OcciptSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.00103739105,
+			"fitcoef1": 0.001079774691,
+			"fitcoef2": -0.001586289406
+		}
+	},
+	{
+		"roiname": "OcciptSul_R",
+		"roiidname": "T2_L5_OcciptSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.001104250684,
+			"fitcoef1": 0.001062151512,
+			"fitcoef2": -0.001228063989
+		}
+	},
+	{
+		"roiname": "TempSul_L",
+		"roiidname": "T2_L5_TempSul_L",
+		"fittingmodelparameter": {
+			"msdpred": 0.0008327086001,
+			"fitcoef1": 0.000417326051,
+			"fitcoef2": 0.0004773724565
+		}
+	},
+	{
+		"roiname": "TempSul_R",
+		"roiidname": "T2_L5_TempSul_R",
+		"fittingmodelparameter": {
+			"msdpred": 0.0006974270803,
+			"fitcoef1": 0.0004157953359,
+			"fitcoef2": 0.0001515502717
+		}
+	},
+	{
+		"roiname": "Chroid_LV_body_L",
+		"roiidname": "T2_L5_Chroid_LV_body_L",
+		"fittingmodelparameter": {
+			"msdpred": 8.048732621e-005,
+			"fitcoef1": 0.0001371788025,
+			"fitcoef2": -0.0002788012709
+		}
+	},
+	{
+		"roiname": "Chroid_LV_body_R",
+		"roiidname": "T2_L5_Chroid_LV_body_R",
+		"fittingmodelparameter": {
+			"msdpred": 7.842066405e-005,
+			"fitcoef1": 0.0001396608689,
+			"fitcoef2": -0.0002982462386
+		}
+	}
+]
