@@ -1,0 +1,18 @@
+roifn = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/M1_lfseg_2_MNI.img
+t1fn = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/target_MNI.img
+lutfn = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/multilevel_lookup_table.txt
+fullnamefile = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/roivis_input1/ROIFullNames.txt
+colorfile = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/roivis_input1/GreenRed.txt
+demographyjson = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/roivis_input1/demography.json
+% leave it as subject for user submitted
+roicolorencoding = zscore
+zscoremethod = subject
+% zscore method parameters
+roivolumezscoremodelparameterjson = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/roivis_input1/Allcontrol_Andreia_zscore_method_parameter.json
+roivolumefile = /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/M1_lfseg_2_MNI_stats.txt
+% writing output files
+writeimages = 1
+% on/off generating 3d surfaces
+writesurfaces = 1
+% on/off generating 2d contours
+writecontours = 1

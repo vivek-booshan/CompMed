@@ -1,0 +1,15 @@
+#!/bin/bash          
+#                    
+#!/bin/bash
+mkdir -p /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration/02_air_lddmm/atlas_8/1_histmatch
+mkdir -p /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration/02_air_lddmm/atlas_8/4_deformations
+#!/bin/bash	    
+#		    
+/work/00303/tg455757/stampede2/M1_101214/scripts_070218/AIR_LDDMM_ver07a.pl 1 2 0 /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/GSK_AD_800070.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/02_inhomogcorrection/target.img 1 1 /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/800070_7L.img /work/00303/tg455757/stampede2/M1_101214/atlassets/atlassetupdate_083014/FT5L/FT5l_GSK_AD_800070.img /tmp/target/03_registration/02_air_lddmm/atlas_8 2 0 2 0.5 1
+cp -R /tmp/target/03_registration/02_air_lddmm/atlas_8/1_histmatch/*.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration/02_air_lddmm/atlas_8/1_histmatch/
+cp -R /tmp/target/03_registration/02_air_lddmm/atlas_8/1_histmatch/*.hdr /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration/02_air_lddmm/atlas_8/1_histmatch/
+cp -R /tmp/target/03_registration/02_air_lddmm/atlas_8/4_deformations/*  /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration/02_air_lddmm/atlas_8/4_deformations/
+rm -fr /tmp/target/03_registration/02_air_lddmm/atlas_8/1_histmatch/
+rm -fr /tmp/target/03_registration/02_air_lddmm/atlas_8/4_deformations/
+rm -fr /tmp/target/03_registration/02_air_lddmm/atlas_8/3_lddmm/
+

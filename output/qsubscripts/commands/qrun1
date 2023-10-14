@@ -1,0 +1,144 @@
+#!/bin/bash                        
+#                                  
+hostname				
+STARTTIME0=$(date +%s)
+				
+CN=16                      
+CN1=24	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun1_1&                             
+wait
+
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun2_1&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun2_2&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun2_3&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun2_4&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun2_5&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun2_6&                             
+wait
+
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun3_1&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun3_2&                             
+wait
+
+CN1=24	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun4_1&                             
+wait
+
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun5_1&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun5_2&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun5_3&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun5_4&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun5_5&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun5_6&                             
+wait
+
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun6_1&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun6_2&                             
+wait
+
+CN1=24	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun7_1&                             
+wait
+
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun8_1&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun8_2&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun8_3&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun8_4&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun8_5&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun8_6&                             
+wait
+
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun9_1&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun9_2&                             
+wait
+
+CN1=24	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun10_1&                             
+wait
+
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun11_1&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun11_2&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun11_3&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun11_4&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun11_5&                             
+CN1=16	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun11_6&                             
+wait
+
+CN1=24	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun12_1&                             
+wait
+
+CN1=24	                       
+export OMP_NUM_THREADS=$CN1                             
+/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/qsubscripts/commands/qrun13_1&                             
+wait
+
+ENDTIME0=$(date +%s)				
+DIFFTIME0=$(($ENDTIME0 - $STARTTIME0))				
+TOTALTIME=$DIFFTIME0				
+echo TOTALTIME1=$TOTALTIME				

@@ -1,0 +1,57 @@
+#!/bin/bash          
+#                    
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/M1_lfseg_1.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/M1_lfseg_1_MNI.img
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/M1_lfseg_1.hdr /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/M1_lfseg_1_MNI.hdr
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_apply_AIR_tform1 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/M1_lfseg_1.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/M1_lfseg_1.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/matrix_air.txt 2 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.imgsize 2
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_change_res_info /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/M1_lfseg_1.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/M1_lfseg_1.img 1 1 1
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/M1_lfseg_2.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/M1_lfseg_2_MNI.img
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/M1_lfseg_2.hdr /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/M1_lfseg_2_MNI.hdr
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_apply_AIR_tform1 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06n_registration/M1_lfseg_2.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/M1_lfseg_2.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/matrix_air.txt 2 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.imgsize 2
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_change_res_info /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/M1_lfseg_2.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/M1_lfseg_2.img 1 1 1
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/02_air_lddmm/atlas_1/1_histmatch/target.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/target_MNI.img
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.hdr /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/target_MNI.hdr
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/00_target/target.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/target.img
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/00_target/target.hdr /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/target.hdr
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_treshold_ver003 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/M1_lfseg_1_MNI.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/07_masking/M1_lfseg_1_MNI_bmask.img 4 4
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_treshold_ver003 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/M1_lfseg_1.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/07_masking/M1_lfseg_1_bmask.img 4 4
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_mask /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/target_MNI.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/07_masking/M1_lfseg_1_MNI_bmask.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/target_MNI_SS.img
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_mask /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/target.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/07_masking/M1_lfseg_1_bmask.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/target_SS.img
+
+cd /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_update_voxel_value M1_lfseg_2_MNI.img M1_lfseg_2_MNI.img 0 0 0 286
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/GetMultilevelRoiStatistics M1_lfseg_2_MNI_stats.txt M1_lfseg_2_MNI.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/MultilevelUnskull_v5T1Fusion5k_latest.txt 181 217 181 1 1 1 axial positive -s target_MNI.img float
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_update_voxel_value M1_lfseg_2.img M1_lfseg_2.img 0 0 0 286
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/GetMultilevelRoiStatistics M1_lfseg_2_stats.txt M1_lfseg_2.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/MultilevelUnskull_v5T1Fusion5k_latest.txt 181 217 181 1 1 1 axial positive -s target.img float
+
+/work/00303/tg455757/stampede2/M1_101214/scripts_070218/scale_pixels_in_statsfile.pl M1_lfseg_2_stats.txt M1_lfseg_2_corrected_stats.txt target.img 1
+
+mv /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/08_output/* /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/matrix_air.txt /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/matrix_air.txt
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/convert_AIR_FLIRT_tform /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/matrix_air.txt 1 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/matrix.txt 2
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.imgsize /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/target.imgsize
+
+mkdir -p /tmp/target/roivis_output1
+

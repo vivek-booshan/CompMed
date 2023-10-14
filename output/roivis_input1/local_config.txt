@@ -1,0 +1,19 @@
+version					ver02
+copydatafolder				copydata
+roifn
+t1fn
+lutfn
+fullnamefile				ROIFullNames.txt
+colorfile				GreenRed.txt
+roicolorencoding                        zscore
+zscoremethod				subject
+roivolumezscoremodelparameterjson 	Allcontrol_Andreia_zscore_method_parameter.json
+roivolumefile
+writeimages 				1
+writesurfaces 				1
+writecontours 				1
+wrapscript				wrapROIsVisualizationv7_parallel_121614
+runscript				run_wrapROIs7_parallel.sh
+demographyjson 	demography.json
+healfile1 	HealPlusPercentStatsTreeTypeIexport
+healfile2 	HealPlusPercentStatsTreeTypeIIexport

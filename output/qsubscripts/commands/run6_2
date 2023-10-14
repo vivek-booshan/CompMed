@@ -1,0 +1,7 @@
+#!/bin/bash          
+#                    
+#!/bin/bash	    
+#		    
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_calc_arbitration_ver03 10 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/01_preprocessing/arbitration_filelist_2.txt /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/M1_lfseg_2.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/M1_mvseg_2.img 0.65 7 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/06_registration/01_preprocessing/gmm_param_fname_2.txt 3
+

@@ -1,0 +1,29 @@
+#!/bin/bash          
+#                    
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/JHU_MNI_T1.imgsize /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/mni.imgsize
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration/M1_lfseg_1.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1.img
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration/M1_lfseg_1.hdr /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1.hdr
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration/M1_lfseg_2.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_2.img
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/03_registration/M1_lfseg_2.hdr /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_2.hdr
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_treshold_ver003 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1_WMmask.img 2 5
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_ROI_extract_ver001 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection/M1_lfseg_1_LV.img 1 4 255
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/IMG_create_brain_mask_001 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1.img /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1_bmask.img
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1_bmask.hdr /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1_WMmask.hdr
+
+cd /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection
+
+/work/00303/tg455757/stampede2/M1_101214/scripts/BIN/N4BiasFieldCorrection -d 3 -i /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.img -o [ target.img, target_BF.img ] -w /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/04_masking/M1_lfseg_1_WMmask.img
+
+cp /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/01_target2mni/target.hdr /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/05_inhomogcorrection/target.hdr
+
+cd /scratch/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered
+

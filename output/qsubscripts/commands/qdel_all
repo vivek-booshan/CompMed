@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+jobid=
+jobdetailsfile=/home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/jobdetails.txt
+scancel $jobid
+temp1=`date +%s`
+echo "jobqueuesubmission_end_stampede2a_seconds=$temp1" >> $jobdetailsfile
+temp1=`date -u`
+echo "jobqueuesubmission_end_stampede2a_utc=$temp1" >> $jobdetailsfile
+echo "jobstate_stampede2a=cancelled" >> $jobdetailsfile

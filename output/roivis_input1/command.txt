@@ -1,0 +1,1 @@
+/work/00303/tg455757/stampede2/M1_101214/scripts/ROIVIS/ver02/run_wrapROIs7_parallel.sh /work/00303/tg455757/stampede2/M1_101214/scripts/MTLAB2/v81 /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/roivis_input1/roivis_config.txt /home1/02684/lddmmpro/process_queue/daeff36ba38bba9534eeb1e9e0c6b72b/registered/allAtlases/roivis_output1
