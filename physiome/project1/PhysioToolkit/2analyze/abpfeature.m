@@ -42,8 +42,8 @@ end
 MinDomain(MinDomain<1) = 1;  % Error protection
 MaxDomain(MaxDomain<1) = 1;
 
-[P_dias Dindex]  = min(abp(MinDomain),[],2);
-[P_sys  Sindex]  = max(abp(MaxDomain),[],2);
+[P_dias, Dindex]  = min(abp(MinDomain),[],2);
+[P_sys,  Sindex]  = max(abp(MaxDomain),[],2);
 
 DiasTime         = MinDomain(sub2ind(size(MinDomain),(1:BeatQty)',Dindex));
 SysTime          = MaxDomain(sub2ind(size(MaxDomain),(1:BeatQty)',Sindex));
