@@ -126,31 +126,30 @@ CO_idxs = find(T.CO ~= 0);
 time_range = 1:43200;
 timehr_range = time_range/3600;
 
+subplot(4, 1, 1);
 % k_A = estimate of A / true A
 k_CO = CO(CO_idxs(1)) / T.CO(CO_idxs(1));
-k_PP = FEA(CO_idxs(1), 5) / (T.ABPSys(CO_idxs(1)) + T.ABPDias(CO_idxs(1)));
-k_MAP = FEA(CO_idxs(1), 6) / (T.ABPMean(CO_idxs(1)));
-k_HR = FEA(CO_idxs(1), 7) / T.HR(CO_idxs(1));
-
-subplot(4, 1, 1); hold on;
-plot(timehr_range, CO(time_range) / k_CO, 'r');
+plot(timehr_range, CO(time_range)/k, 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, T.CO(CO_idxs), 'b');
 ylabel("CO"); xlabel("Time (Hrs)")
 ylim padded; xlim tight;
 
-subplot(4, 1, 2); hold on;
+subplot(4, 1, 2);
+k_PP = FEA(CO_idxs(1), 5) / (T.ABPSys(CO_idxs(1)) + T.ABPDias(CO_idxs(1)));
 plot(timehr_range, FEA(time_range, 5), 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, k_PP*(T.ABPSys(CO_idxs) + T.ABPDias(CO_idxs)), 'b');
 ylabel("PP"); xlabel("Time (Hrs)");
 ylim padded; xlim tight;
 
-subplot(4, 1, 3); hold on;
+subplot(4, 1, 3);
+k_MAP = FEA(CO_idxs(1), 6) / (T.ABPMean(CO_idxs(1)));
 plot(timehr_range, FEA(time_range, 6), 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, k_MAP*T.ABPMean(CO_idxs), 'b');
 ylabel("MAP"); xlabel("Time (Hrs)");
 ylim padded; xlim tight;
 
-subplot(4, 1, 4); hold on;
+subplot(4, 1, 4);
+k_HR = FEA(CO_idxs(1), 7) / T.HR(CO_idxs(1));
 plot((1:43200)/3600, FEA(1:43200, 7), 'r');
 stem(T.ElapsedTime(CO_idxs) / 36e2, k_HR * T.HR(CO_idxs), 'b');
 ylabel("HR"); xlabel("Time (Hrs)");
