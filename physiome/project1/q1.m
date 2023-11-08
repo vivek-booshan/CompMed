@@ -10,13 +10,15 @@ base_path = pwd;
 s00020_struct = dir(fullfile(".", "**/s00020", "*.txt"));
 s00020_folder = s00020_struct.folder;
 s00020_folder = convertCharsToStrings(s00020_folder);
-[ABP_125Hz_FILE, S00020_FILE] = s00020_struct.name;
+[ABP_125Hz_FILE, s00020_FILE] = s00020_struct.name;
+ABP_125Hz_FILE = base_path + "/s00020/" + ABP_125Hz_FILE;
+s00020_FILE = base_path + "/s00020/" + s00020_FILE;
 
 % Recursively search to find the 2analyze folder and set path
 analyze2_path = dir(fullfile(".", "**/2analyze", "*.m")).folder;
 
 % load ABP data (125 Hz sampled) using ascii flag
-ABP_125Hz_DATA = load(s00020_folder + "/" + ABP_125Hz_FILE, "-ascii");
+ABP_125Hz_DATA = load(ABP_125Hz_FILE, "-ascii");
 abp = ABP_125Hz_DATA(:, 2);
 time = ABP_125Hz_DATA(:, 1);
 
@@ -103,3 +105,15 @@ plot( ...
 title("11 Hr")
 axis padded;
 xlim('tight');
+
+%%
+[CO, TO, TOLD, FEA] = estimateCO_v3(onset_times, ABP_features, beatQ, 5, 0);
+
+% load ABP data (125 Hz sampled) using ascii flag
+opts = detectImportOptions(s00020_FILE);
+opts.SelectedVariableNames = ["ElapsedTime", "HR", "ABPSys", "ABPDias", "CO"];
+T = readtable(s00020_FILE, opts);
+CO_idxs = find(T.CO ~= 0);
+k = CO(CO_idxs(1)) / T.CO(CO_idxs(1));
+
+
