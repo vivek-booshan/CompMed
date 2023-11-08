@@ -1,6 +1,7 @@
 % THIS FILE WORKS AS LONG AS SUBJECT FOLDER AND PHYSIOTOOLKIT 
 % ARE SUBDIRECTORIES OF THE FOLDER THIS FILE IS STORED
 
+clf; clc; clear;
 % Set present working directory as var
 base_path = pwd;
 
@@ -23,44 +24,38 @@ time = ABP_125Hz_DATA(:, 1);
 % mv to 2analyze folder and get onset sample times w/ wabp()
 cd(analyze2_path);
 onset_times = wabp(abp);
-
-%%
-idx10 = find(time == 36e3);
-idx11 = find(time == 11*36e2);
-
-% wrapped with cd(base_path) for debugging
-% mv to 2analyze and get ABP features
-cd(base_path)
-cd(analyze2_path)
 ABP_features = abpfeature(abp, onset_times);
-cd(base_path)
-
-%%
-cd(analyze2_path)
 [beatQ, r] = jSQI(ABP_features, onset_times, abp);
-cd(base_path)
+cd(base_path);
 
 %%
+
+%filter first 20 pulses for the 10th hr
 idx10 = find(time == 10*36e2);
 time10hr_pulse20 = time(idx10 : idx10 + 20*125);
 abp10hr_pulse20 = abp(idx10 : idx10 + 20*125);
 
-% detect the onset and end of systole (lowest non-negative slope)
-% using peak detection and collect indexes
-% (I just didn't realize abp features included all this, so I used this)
+% Use peak detection to get onset and min slope estimated EoS (end of systole)
+% (I just didn't realize abp features included all this and 
+% this was my first instinct)
 [~, idxs] = findpeaks(-abp10hr_pulse20);
 onset_idxs = idxs(2:2:end);
 offset_minslope_idxs = idxs(1:2:end);
 sample_num = 1:length(time10hr_pulse20);
 
-%get end of systole usisng beat period estimation using ABPfeatures
+% get beat period estimated EoS from ABPfeatures
+% generate a new filter using indexes and create an offset index from the
+% filter. 
 filter = (ABP_features(:, 1) >= idx10) & (ABP_features(:, 1) <= idx10 + 20*125);
 offset_beatperiod_idxs = ABP_features(filter, 9);
+% convert offset_beatperiod_idxs to match the reorded sample_nums
 offset_beatperiod_idxs = offset_beatperiod_idxs - 125*time10hr_pulse20(1);
 offset_beatperiod_idxs = offset_beatperiod_idxs(offset_beatperiod_idxs > 0);
-subplot(2, 1, 1);
-hold on;
 
+subplot(2, 1, 1); hold on;
+
+% plot (in order) ABP, onset, min slope estimated EoS and beat period
+% estimated EoS
 plot(sample_num, abp10hr_pulse20);
 plot(onset_idxs, abp10hr_pulse20(onset_idxs), 'k*');
 plot(offset_minslope_idxs, abp10hr_pulse20(idxs(1:2:end)), 'ro');
@@ -75,23 +70,27 @@ title("10 Hr")
 axis padded;
 xlim('tight');
 
+% Get the first 20 pulses at the 11th hour
 idx11 = find(time == 11*36e2);
 time11hr_pulse20 = time(idx11 : idx11 + 20*125);
 abp11hr_pulse20 = abp(idx11 : idx11 + 20*125);
 
-
+% use peak detection to get the onset and min slope estimated EoS
 [~, idxs] = findpeaks(-abp11hr_pulse20);
 onset_idxs = idxs(2:2:end);
 offset_minslope_idxs = idxs(1:2:end);
 sample_num = 1:length(time11hr_pulse20);
 
+% get beat period estimated EoS and transform indexes to match sample num
 filter = (ABP_features(:, 1) >= idx11) & (ABP_features(:, 1) <= idx11 + 20*125);
 offset_beatperiod_idxs = ABP_features(filter, 9);
 offset_beatperiod_idxs = offset_beatperiod_idxs - 125*time11hr_pulse20(1);
 offset_beatperiod_idxs = offset_beatperiod_idxs(offset_beatperiod_idxs > 0);
 
-subplot(2, 1, 2);
-hold on;
+subplot(2, 1, 2); hold on;
+
+% plot (in order) ABP, onset, min slope estimated EoS, beat period
+% estimated EoS
 plot(sample_num, abp11hr_pulse20);
 plot(onset_idxs, abp11hr_pulse20(onset_idxs), 'ro');
 plot(offset_minslope_idxs, abp11hr_pulse20(offset_minslope_idxs), 'k*');
