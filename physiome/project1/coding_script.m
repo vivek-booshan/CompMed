@@ -135,7 +135,7 @@ timehr_range = time_range/3600;
 % Cardiac Output (CO) ; Pulse Pressure (PP); Mean Arterial Pressure (MAP) ;
 % Heart Rate (HR);
 k_CO = CO(CO_idxs(1)) / T.CO(CO_idxs(1));
-k_PP = FEA(CO_idxs(1), 5) / (T.ABPSys(CO_idxs(1)) + T.ABPDias(CO_idxs(1)));
+k_PP = FEA(CO_idxs(1), 5) / (T.ABPSys(CO_idxs(1)) - T.ABPDias(CO_idxs(1)));
 k_MAP = FEA(CO_idxs(1), 6) / (T.ABPMean(CO_idxs(1)));
 k_HR = FEA(CO_idxs(1), 7) / T.HR(CO_idxs(1));
 
@@ -149,7 +149,7 @@ ylim padded; xlim tight;
 % plot estimated PP and measured PP
 subplot(4, 1, 2); hold on;
 plot(timehr_range, FEA(time_range, 5), 'r');
-stem(T.ElapsedTime(CO_idxs)/36e2, k_PP*(T.ABPSys(CO_idxs) + T.ABPDias(CO_idxs)), 'b');
+stem(T.ElapsedTime(CO_idxs)/36e2, k_PP*(T.ABPSys(CO_idxs) - T.ABPDias(CO_idxs)), 'b');
 ylabel("PP"); xlabel("Time (Hrs)");
 ylim padded; xlim tight;
 
