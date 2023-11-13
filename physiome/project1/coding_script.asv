@@ -5,7 +5,7 @@ clf; clc; clear;
 % Set present working directory as var
 base_path = pwd;
 
-% Recursively search to find subject 20 data files to set path and file
+% Recursively search to find subject data files to set path and file
 % names
 s00020 = Subject("s00020");
 s00138 = Subject("s00138");
@@ -89,6 +89,7 @@ subplot(2, 1, 2); hold on;
     offset_beatperiod_idxs, ...
     abp_pulses...
 ] = get_trace(s00214.time, s00214.abp, s00214.features, 11, 20);
+offset_minslope_idxs
 
 plot_trace(...
     sample_idxs, ...
@@ -129,7 +130,7 @@ timehr_range = time_range/3600;
 % Cardiac Output (CO) ; Pulse Pressure (PP); Mean Arterial Pressure (MAP) ;
 % Heart Rate (HR);
 
-[k_CO, k_PP, k_MAP, k_HR] = s00214.get_k(CO_idxs, CO, FEA, T);
+[k_CO, k_PP, k_MAP, k_HR] = s00020.get_k(CO_idxs, CO, FEA, T);
 % k_CO = CO(CO_idxs(1)) / T.CO(CO_idxs(1));
 % k_PP = FEA(CO_idxs(1), 5) / (T.ABPSys(CO_idxs(1)) - T.ABPDias(CO_idxs(1)));
 % k_MAP = FEA(CO_idxs(1), 6) / (T.ABPMean(CO_idxs(1)));
@@ -166,7 +167,7 @@ ylim padded; xlim tight;
 %% Q4
 figure;
 % plot estimated cardiac output and measured CO
-[k_CO, k_PP, k_MAP, k_HR] = s00214.get_k(CO_idxs, CO1, FEA1, T);
+[k_CO, k_PP, k_MAP, k_HR] = s00020.get_k(CO_idxs, CO1, FEA1, T);
 subplot(4, 1, 1); hold on;
 plot(timehr_range, CO1(time_range) / k_CO, 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, T.CO(CO_idxs), 'b');
@@ -193,10 +194,11 @@ plot((1:43200)/3600, FEA(1:43200, 7), 'r');
 stem(T.ElapsedTime(CO_idxs) / 36e2, k_HR * T.HR(CO_idxs), 'b');
 ylabel("HR"); xlabel("Time (Hrs)");
 ylim padded; xlim tight;
-
-[k_CO, k_PP, k_MAP, k_HR] = s00214.get_k(CO_idxs, CO1, FEA1, T);
+%%
+figure;
+[k_CO, k_PP, k_MAP, k_HR] = s00020.get_k(CO_idxs, CO2, FEA2, T);
 subplot(4, 1, 1); hold on;
-plot(timehr_range, CO1(time_range) / k_CO, 'r');
+plot(timehr_range, CO1(time_range)/k_CO, 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, T.CO(CO_idxs), 'b');
 ylabel("CO"); xlabel("Time (Hrs)")
 ylim padded; xlim tight;

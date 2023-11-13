@@ -26,7 +26,7 @@ classdef Subject
             
             base_path = pwd;
             path_2analyze = dir(fullfile(".", "**/2analyze", "*.m")).folder;
-            cd(path_2analyze)
+            cd(path_2analyze);
             obj.onset_times = wabp(obj.abp);
             obj.features = abpfeature(obj.abp, obj.onset_times);
             [obj.beatQ, ~] = jSQI(obj.features, obj.onset_times, obj.abp);
@@ -58,18 +58,18 @@ classdef Subject
             onset_idxs = onset_idxs(onset_idxs > 0);
 
             offset_minslope_idxs = obj.features(filter, 11);
-            offset_minslope_idxs = offset_minslope_idxs - 125*time_pulses(1);
+            offset_minslope_idxs = offset_minslope_idxs - idx;
             offset_minslope_idxs = offset_minslope_idxs(offset_minslope_idxs > 0);
             
             offset_beatperiod_idxs = obj.features(filter, 9);
-            offset_beatperiod_idxs = offset_beatperiod_idxs - 125*time_pulses(1);
+            offset_beatperiod_idxs = offset_beatperiod_idxs - idx;
             offset_beatperiod_idxs = offset_beatperiod_idxs(offset_beatperiod_idxs > 0); 
         end
         function [co, to, told, fea] = estimateCO(obj, estID, filt_order)
             base_path = pwd;
             path_3estimate = dir(fullfile(".", "**/3estimate", "*.m")).folder;
             cd(path_3estimate);
-            [co, to, told, fea] = estimateCO_v3(obj.onset_times, obj.features, obj.beatQ, estID, filt_order);
+            [co, to, told, fea] = estimateCO_v4(obj.abp, obj.onset_times, obj.features, obj.beatQ, estID, filt_order);
             cd(base_path);
         end
         function [k_CO, k_PP, k_MAP, k_HR] = get_k(obj, CO_idxs, CO, FEA, T)
