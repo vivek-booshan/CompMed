@@ -152,6 +152,9 @@ fea = [];
 %     told = [told; t_old];
 %     fea = [fea; ff];
     co = x_filt;
+    % add rescaling factor based on order of magnitude
+    %order_scale = floor(log10(co(1))) - 1;
+    %co = co ./ (10^order_scale);
     to = t;
     told = t_old;
     fea = ff;
