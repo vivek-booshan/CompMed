@@ -1,5 +1,5 @@
-function [x, tau] = est14_Parlikar(abp_on, onset_times, Period, MAP, PDias)
-    delta_ABP = abp_on(onset_times(2:end)) - abp_on(onset_times(1:end-1));
+function [x, tau] = est14_Parlikar(ABP, Period, MAP, PDias)
+    delta_ABP = s00020.abp(s00020.onset_times(2:end)) - s00020.abp(s00020)
     PP = 2 * (MAP - PDias);
 
     tau0 = (Period .* MAP) ./ (PP - delta_ABP);

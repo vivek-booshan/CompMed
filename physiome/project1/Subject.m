@@ -96,7 +96,9 @@ classdef Subject
             );
             %offset_beatperiod_idxs = offset_beatperiod_idxs(offset_beatperiod_idxs > 0); 
         end
+
         function plot_trace(obj, varargin)
+        
             if nargin == 3
                 hour = varargin{1};
                 pulses = varargin{2};
@@ -141,21 +143,101 @@ classdef Subject
             legend(["", "onset", "offset_{minslope}", "offset_{beatperiod}"]);
             hold off;
         end 
+
         function [co, to, told, fea] = estimateCO(obj, estID, filt_order)
             base_path = pwd;
             path_3estimate = dir(fullfile(".", "**/3estimate", "*.m")).folder;
             cd(path_3estimate);
-            [co, to, told, fea] = estimateCO_v4(obj.abp, obj.onset_times, obj.features, obj.beatQ, estID, filt_order);
+            [co, to, told, fea] = estimateCO_v4( ...
+                obj.abp, ...
+                obj.onset_times, ...
+                obj.features, ...
+                obj.beatQ, ...
+                estID, ...
+                filt_order ...
+            );
             cd(base_path);
         end
+
         function num = get_num(obj)
             num = str2double(extract(inputname(1), digitsPattern));
         end
+
         function [k_CO, k_PP, k_MAP, k_HR] = get_k(obj, CO_idxs, CO, FEA, T)
             k_CO = CO(CO_idxs(1)) / T.CO(CO_idxs(1));
             k_PP = FEA(CO_idxs(1), 5) / (T.ABPSys(CO_idxs(1)) - T.ABPDias(CO_idxs(1)));
             k_MAP = FEA(CO_idxs(1), 6) / (T.ABPMean(CO_idxs(1)));
             k_HR = FEA(CO_idxs(1), 7) / T.HR(CO_idxs(1));
+        end
+
+        function calibrateCO = Parlikar(obj, alpha, window_size)
+            delta_p = obj.abp(obj.onset_times(2:end)) - obj.abp(obj.onset_times(1:end-1));
+            
+            T = obj.table;
+            CO_idxs = find(T.CO ~= 0);
+            MAP = obj.features(:, 6);
+            DAP = obj.features(:, 4);
+            PP = alpha * (MAP - DAP);
+            trueCO_times = T.ElapsedTime(CO_idxs);
+            trueCO = T.CO(CO_idxs);
+            
+            Tn = obj.onset_times(2:end) - obj.onset_times(1:end-1);
+            tau_n = MAP ./ ((PP ./ Tn) - (delta_p ./ Tn));
+            beta_n = zeros(length(obj.onset_times) - 1, 1);
+
+            for i = 1 : length(tau_n)
+                left_slice = i - (window_size - 1)/2;
+                right_slice = i + (window_size - 1)/2;
+
+                if left_slice < 1
+                    numerator = left_slice * MAP(i) * (PP(i) - delta_p(i)) / Tn(i);
+                    denominator = left_slice * MAP(i)^2;
+
+                    for j = (i + 1) : right_slice
+                        numerator = numerator + MAP(j) * (PP(j) - delta_p(j)) / Tn(j);
+                        denominator = denominator + MAP(j)^2;
+                    end
+
+                    beta_n(i) = numerator / denominator;
+                elseif right_slice > length(tau_n)
+                    beta_n(i) = beta_n(end);
+                else
+                    for j = left_slice : 1 : right_slice
+                        numerator = numerator + MAP(j) * (PP(j) - delta_p(j)) / Tn(j);
+                        denominator = denominator + MAP(j)^2;
+                    end
+
+                    beta_n(i) = numerator / denominator;
+                end
+            end
+            
+            CO = ((delta_p ./ Tn) + (MAP .* beta_n));
+            j = 1;
+            m = length(CO_idxs);
+            ref_MAP = zeros(1, m);
+            ref_CO = zeros(1, m);
+            t_new = zeros(1, m);
+
+            for i = 1 : length(obj.onset_times)
+                if obj.onset_times(i) >= trueCO_times(j)
+                    t_new(i) = obj.onset_times(i);
+                    ref_CO = CO(i);
+                    ref_MAP = PP(i);
+
+                    j = j + 1;
+                end
+                if j > length(CO_idxs)
+                    break;
+                end
+            end
+
+            A = [ref_CO ./ trueCO, ref_MAP .* (ref_CO ./ trueCO)];
+            b = ones(length(trueCO), 1);
+            x = linsolve(A, b);
+            gamma_1 = x(1);
+            gamma_2 = x(2);
+            Cn = gamma_1 + gamma_2 * MAP;
+            calibrateCO = Cn .* CO;
         end
     end
 end

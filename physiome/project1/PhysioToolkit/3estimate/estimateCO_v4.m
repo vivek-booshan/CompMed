@@ -1,4 +1,4 @@
-function [co, to, told, fea] = estimateCO_v4(abp_on, t_on,feat,beatq,estID,filt_order)
+function [co, to, told, fea] = estimateCO_v4(abp_on, t_on, feat, beatq, estID, filt_order)
 %function [co, to, told, fea] = estimateCO_v2(fname,estID,filt_order)
 
 % Modifed for a single (continuous segment of data)
@@ -114,7 +114,7 @@ fea = [];
  %       case 11,   x = est11_mf(abp,onset1,MAP,HR,age,gender);
         case 12,   x = est12_coalees(PP,HR,onset1,tSA,Psys,Pdias);
         case 13,   x = est13_trivial(PP,HR,MAP);
-        case 14, [x, ~] = est14_Parlikar(abp_on, Period, MAP, Pdias);
+        case 14,  [x, tau] = est14_Parlikar(abp_on, t_on, Period, MAP, Pdias);
         otherwise, x = nan;
     end
     
@@ -131,8 +131,7 @@ fea = [];
     x(ind) = [];
     t(ind) = [];
     % 
-    % if estID == 14
-    %     tau(ind) = [];
+    
         
     % apply zero-phase moving avg LPF
     if filt_order<2 
@@ -145,13 +144,14 @@ fea = [];
 %    ff = F{seg};
     ff = F1;
     ff(ind,:) = [];
-    
+
     % append segment data to pool
 %     co = [co; x_filt];
 %     to = [to; t];
 %     told = [told; t_old];
 %     fea = [fea; ff];
     co = x_filt;
+
     % add rescaling factor based on order of magnitude
     %order_scale = floor(log10(co(1))) - 1;
     %co = co ./ (10^order_scale);

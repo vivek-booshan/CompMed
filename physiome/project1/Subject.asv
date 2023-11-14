@@ -57,8 +57,19 @@ classdef Subject
             %
             %
             % ARGIN
-            %   hour (double) : the starting time for getting a trace
-        %                       this value must have a direct conversion
+            %   - hour (int | double) : the starting time for getting a trace
+            %   - pulses (int) : #  of pulses to trace out
+            %
+            %
+            % ARGOUT 5 (nx1 double)
+            %   - sample_idxs (nx1 double) : returns a column of sample nums
+            %   - onset_idxs (nx1 double) : returns idxs of all onsets
+            %   - offset_minslope_idxs (nx1 double) : returns idxs of all
+            %       offset idxs calculated by minslope method (Sun et al. 2009)
+            %   - offset_beatperiod_idxs (nx1 double) : returns idxs of all
+            %       offset idxs calculated by using beatperiods (Sun et al.
+            %       2009)
+
                     
             idx = find(obj.time == hour*36e2);
             time_pulses = obj.time(idx : idx + pulses * 125);
@@ -134,7 +145,14 @@ classdef Subject
             base_path = pwd;
             path_3estimate = dir(fullfile(".", "**/3estimate", "*.m")).folder;
             cd(path_3estimate);
-            [co, to, told, fea] = estimateCO_v4(obj.abp, obj.onset_times, obj.features, obj.beatQ, estID, filt_order);
+            [co, to, told, fea] = estimateCO_v4( ...
+                obj.abp, ...
+                obj.onset_times, ...
+                obj.features, ...
+                obj.beatQ, ...
+                estID, ...
+                filt_order ...
+            );
             cd(base_path);
         end
         function num = get_num(obj)
@@ -145,6 +163,65 @@ classdef Subject
             k_PP = FEA(CO_idxs(1), 5) / (T.ABPSys(CO_idxs(1)) - T.ABPDias(CO_idxs(1)));
             k_MAP = FEA(CO_idxs(1), 6) / (T.ABPMean(CO_idxs(1)));
             k_HR = FEA(CO_idxs(1), 7) / T.HR(CO_idxs(1));
+        end
+        function calibrateCO = Parlikar(obj, alpha, window_size)
+            delta_p = obj.abp(obj.onset_times(2:end)) - obj.abp(obj.onset_times(1:end-1));
+            
+            T = obj.table;
+            CO_idxs = find(T.CO ~= 0);
+            MAP = obj.features(:, 6);
+            DAP = obj.features(:, 4);
+            PP = alpha * (MAP - DAP);
+            trueCO_times = T.ElapsedTime(CO_idxs);
+            trueCO = T.CO(CO_idxs);
+            
+            Tn = obj.onset_times(2:end) - s00020.onset_times(1:end-1);
+            tau_n = MAP ./ ((PP ./ Tn) - (delta_p ./ Tn));
+            beta_n = zeros(length(obj.onset_times) - 1, 1);
+
+            for i = 1 : length(tau_n)
+                left_slice = i - (window_size - 1)/2;
+                right_slice = i + (window_size - 1)/2;
+
+                if left_slice < 1
+                    numerator = left_slice * MAP(i) * (PP(i) - delta_p(i)) / Tn(i);
+                    denominator = left_slice * MAP(i)^2;
+
+                    for j = (i + 1) : right_slice
+                        numerator = numerator + MAP(j) * (PP(j) - delta_p(j)) / Tn(j);
+                        denominator = denominator + MAP(j)^2
+                    end
+
+                    beta_n(i) = numerator / denominator;
+                elseif
+
+            for i = 1 : length
+            j = 1;
+            m = length(CO_idxs);
+            ref_MAP = zeros(1, m);
+            ref_CO = zeros(1, m);
+            t_new = zeros(1, m);
+
+            for i = 1 : length(obj.onset_times)
+                if obj.onset_times(i) >= trueCO_times(j)
+                    t_new(i) = obj.onset_times(i);
+                    ref_CO = CO(i);
+                    ref_MAP = PP(i);
+
+                    j = j + 1;
+                end
+                if j > length(CO_idxs)
+                    break;
+                end
+            end
+
+            A = [ref_CO ./ trueCO, ref_MAP .* (ref_CO ./ trueCO)];
+            b = ones(length(trueCO), 1);
+            x = linsolve(A, b);
+            gamma_1 = x(1);
+            gamma_2 = x(2);
+            Cn = gamma_1 + gamma_2 * MAP;
+            calibrateCO = Cn .* CO;
         end
     end
 end
