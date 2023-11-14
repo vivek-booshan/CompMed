@@ -9,4 +9,6 @@ function plot_trace(sample_idxs, onset_idxs, offset_minslope_idxs, offset_beatpe
         'x', ...
         'Color', [0.4940, 0.1840, 0.5560] ... %purple color
     )
+
+    title("")
 end
