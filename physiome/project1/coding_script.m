@@ -24,15 +24,24 @@ subplot(2, 1, 2); hold on;
 s00020.plot_trace(11, 20);
 
 %% Q2
+figure; 
 
-subplot(2, 1, 1); hold on;
+subplot(2, 1, 1); 
 s00151.plot_trace(10, 20);
 
-subplot(2, 1, 2); hold on;
+subplot(2, 1, 2);
 s00151.plot_trace(11, 20);
 
-%% Q3
+figure;
 
+subplot(2, 1, 1);
+s00214.plot_trace(10, 20);
+
+subplot(2, 1, 2);
+s00214.plot_trace(11, 20);
+
+%% Q3
+clf;
 % Get CO, onset times and features from CO estimator using Liljestrand,
 % onset times, and ABP features.
 [CO, ~, ~, FEA] = s00020.estimateCO(5, 0);
@@ -53,96 +62,89 @@ timehr_range = time_range/3600;
 % Heart Rate (HR);
 
 [k_CO, k_PP, k_MAP, k_HR] = s00020.get_k(CO_idxs, CO, FEA, T);
-% k_CO = CO(CO_idxs(1)) / T.CO(CO_idxs(1));
-% k_PP = FEA(CO_idxs(1), 5) / (T.ABPSys(CO_idxs(1)) - T.ABPDias(CO_idxs(1)));
-% k_MAP = FEA(CO_idxs(1), 6) / (T.ABPMean(CO_idxs(1)));
-% k_HR = FEA(CO_idxs(1), 7) / T.HR(CO_idxs(1));
 
-% plot estimated cardiac output and measured CO
-subplot(4, 1, 1); hold on;
+subplot(3, 4, 1); hold on;
 plot(timehr_range, CO(time_range) / k_CO, 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, T.CO(CO_idxs), 'b');
-ylabel("CO"); xlabel("Time (Hrs)")
+title("CO"); ylabel("Liljestrand")
 ylim padded; xlim tight;
 
 % plot estimated PP and measured PP
-subplot(4, 1, 2); hold on;
+subplot(3, 4, 2); hold on;
 plot(timehr_range, FEA(time_range, 5), 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, k_PP*(T.ABPSys(CO_idxs) - T.ABPDias(CO_idxs)), 'b');
-ylabel("PP"); xlabel("Time (Hrs)");
+title("PP"); 
 ylim padded; xlim tight;
 
 % plot estimated MAP and measured MAP
-subplot(4, 1, 3); hold on;
+subplot(3, 4, 3); hold on;
 plot(timehr_range, FEA(time_range, 6), 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, k_MAP*T.ABPMean(CO_idxs), 'b');
-ylabel("MAP"); xlabel("Time (Hrs)");
+title("MAP"); 
 ylim padded; xlim tight;
 
 % plot estiamted HR and measured HR
-subplot(4, 1, 4); hold on;
+subplot(3, 4, 4); hold on;
 plot((1:43200)/3600, FEA(1:43200, 7), 'r');
-stem(T.ElapsedTime(CO_idxs) / 36e2, k_HR * T.HR(CO_idxs), 'b');
-ylabel("HR"); xlabel("Time (Hrs)");
+stem(T.ElapsedTime(CO_idxs) / 36e2, k_HR * T.HR(CO_idxs), 'b')
+title("HR"); 
 ylim padded; xlim tight;
 
 %% Q4
-figure;
+%figure;
 % plot estimated cardiac output and measured CO
 [k_CO, k_PP, k_MAP, k_HR] = s00020.get_k(CO_idxs, CO1, FEA1, T);
-subplot(4, 1, 1); hold on;
+subplot(3, 4, 5); hold on;
 plot(timehr_range, CO1(time_range) / k_CO, 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, T.CO(CO_idxs), 'b');
-ylabel("CO"); xlabel("Time (Hrs)")
+ylabel("Mean Pressure")
 ylim padded; xlim tight;
 
 % plot estimated PP and measured PP
-subplot(4, 1, 2); hold on;
-plot(timehr_range, FEA(time_range, 5), 'r');
+subplot(3, 4, 6); hold on;
+plot(timehr_range, FEA1(time_range, 5), 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, k_PP*(T.ABPSys(CO_idxs) - T.ABPDias(CO_idxs)), 'b');
-ylabel("PP"); xlabel("Time (Hrs)");
 ylim padded; xlim tight;
 
 % plot estimated MAP and measured MAP
-subplot(4, 1, 3); hold on;
-plot(timehr_range, FEA(time_range, 6), 'r');
+subplot(3, 4, 7); hold on;
+plot(timehr_range, FEA1(time_range, 6), 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, k_MAP*T.ABPMean(CO_idxs), 'b');
-ylabel("MAP"); xlabel("Time (Hrs)");
 ylim padded; xlim tight;
 
 % plot estiamted HR and measured HR
-subplot(4, 1, 4); hold on;
-plot((1:43200)/3600, FEA(1:43200, 7), 'r');
+subplot(3, 4, 8); hold on;
+plot((1:43200)/3600, FEA1(1:43200, 7), 'r');
 stem(T.ElapsedTime(CO_idxs) / 36e2, k_HR * T.HR(CO_idxs), 'b');
-ylabel("HR"); xlabel("Time (Hrs)");
+
 ylim padded; xlim tight;
 %%
-figure;
+%figure;
 [k_CO, k_PP, k_MAP, k_HR] = s00020.get_k(CO_idxs, CO2, FEA2, T);
-subplot(4, 1, 1); hold on;
-plot(timehr_range, CO1(time_range)/k_CO, 'r');
+subplot(3, 4, 9); hold on;
+plot(timehr_range, CO2(time_range) / k_CO, 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, T.CO(CO_idxs), 'b');
-ylabel("CO"); xlabel("Time (Hrs)")
+xlabel("Time (Hrs)"); ylabel("Windkessel");
 ylim padded; xlim tight;
 
 % plot estimated PP and measured PP
-subplot(4, 1, 2); hold on;
-plot(timehr_range, FEA(time_range, 5), 'r');
+subplot(3, 4, 10); hold on;
+plot(timehr_range, FEA2(time_range, 5), 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, k_PP*(T.ABPSys(CO_idxs) - T.ABPDias(CO_idxs)), 'b');
-ylabel("PP"); xlabel("Time (Hrs)");
+xlabel("Time (Hrs)");
 ylim padded; xlim tight;
 
 % plot estimated MAP and measured MAP
-subplot(4, 1, 3); hold on;
-plot(timehr_range, FEA(time_range, 6), 'r');
+subplot(3, 4, 11); hold on;
+plot(timehr_range, FEA2(time_range, 6), 'r');
 stem(T.ElapsedTime(CO_idxs)/36e2, k_MAP*T.ABPMean(CO_idxs), 'b');
-ylabel("MAP"); xlabel("Time (Hrs)");
+xlabel("Time (Hrs)");
 ylim padded; xlim tight;
 
 % plot estiamted HR and measured HR
-subplot(4, 1, 4); hold on;
-plot((1:43200)/3600, FEA(1:43200, 7), 'r');
+subplot(3, 4, 12); hold on;
+plot((1:43200)/3600, FEA2(1:43200, 7), 'r');
 stem(T.ElapsedTime(CO_idxs) / 36e2, k_HR * T.HR(CO_idxs), 'b');
-ylabel("HR"); xlabel("Time (Hrs)");
+xlabel("Time (Hrs)");
 ylim padded; xlim tight;
 

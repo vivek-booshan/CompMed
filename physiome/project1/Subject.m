@@ -1,29 +1,41 @@
 classdef Subject
+    % SUBJECT CLASS : Converts all subject abp files and measurements into
+    % a series of subject properties for ease of use. 
+    % Currently handles *ABP.txt and *n.txt files
     properties
-        time
-        abp
-        features
-        onset_times
-        beatQ
-        table
-        % abp_pulses
-        % sample_idxs
-        % onset_idxs
-        % offset_minslope_idxs
-        % offset_beatperiod_idxs
+        time % abp times from any *ABP.txt file
+        abp % abp values from any *ABP.txt file
+        features % abp features extracted from *ABP.txt file
+        onset_times % onset times extracted from *ABP.txt file
+        beatQ % beatQ extracted from features, abp values, and onset times
+        table % converts *n.txt file to table format
     end
 
     methods
         function obj = Subject(name)
+            % Constructs subject class by extracting all data from 
+            % *ABP and *n.txt files
+            %
+            %
+            % REQUIRES SUBJECT FOLDER AS N-CHILD IN PROJECT DIRECTORY
+            % REQUIRES PHYSIOTOOLKIT AS N-CHILD IN PROJECT DIRECTORY
+            %
+            % ARGIN: 
+            %   name (str) : name of subject (ex. "s00020")
+
+            % find the subject folder and extract *ABP and *n.txt files
             subject_struct = dir(fullfile(".", sprintf("**/%s", name), "*.txt"));
             [subject_abp_file, subject_file] = subject_struct.name;
             subject_abp_file = pwd + sprintf("/%s/", name) + subject_abp_file;
             subject_file = pwd + sprintf("/%s/", name) + subject_file;
             subject_abp_data = load(subject_abp_file, "-ascii");
+            
+            % get time, abp, and table properties from ABP and n files
             obj.time = subject_abp_data(:, 1);
             obj.abp = subject_abp_data(:, 2);
             obj.table = readtable(subject_file);
             
+            % move to 2analyze and extract onset times, features, and beatQ
             base_path = pwd;
             path_2analyze = dir(fullfile(".", "**/2analyze", "*.m")).folder;
             cd(path_2analyze);
@@ -39,6 +51,25 @@ classdef Subject
             offset_beatperiod_idxs,...
             abp_pulses...
         ] = get_trace(obj, hour, pulses)
+            % GET_TRACE
+            % Finds the ABP trace of the subject data given the starting
+            % hour and the # of pulses to be measured
+            %
+            %
+            % ARGIN
+            %   - hour (int | double) : the starting time for getting a trace
+            %   - pulses (int) : #  of pulses to trace out
+            %
+            %
+            % ARGOUT 5 (nx1 double)
+            %   - sample_idxs (nx1 double) : returns a column of sample nums
+            %   - onset_idxs (nx1 double) : returns idxs of all onsets
+            %   - offset_minslope_idxs (nx1 double) : returns idxs of all
+            %       offset idxs calculated by minslope method (Sun et al. 2009)
+            %   - offset_beatperiod_idxs (nx1 double) : returns idxs of all
+            %       offset idxs calculated by using beatperiods (Sun et al.
+            %       2009)
+
                     
             idx = find(obj.time == hour*36e2);
             time_pulses = obj.time(idx : idx + pulses * 125);
@@ -65,8 +96,7 @@ classdef Subject
             );
             %offset_beatperiod_idxs = offset_beatperiod_idxs(offset_beatperiod_idxs > 0); 
         end
-        function plot_trace(obj, varargin)%obj, sample_idxs, onset_idxs, offset_minslope_idxs, offset_beatperiod_idxs, abp_pulses)
-            nargin
+        function plot_trace(obj, varargin)
             if nargin == 3
                 hour = varargin{1};
                 pulses = varargin{2};
@@ -81,11 +111,11 @@ classdef Subject
                 title( ...
                     sprintf(...
                         "ABP Trace at %d Hours for Subject %d",...
-                        hour,...
-                        obj.get_num ...
+                        hour, obj.get_num ...
                     ) ...
                 );
-          
+                xlabel("Sample #");
+                ylabel("ABP");
             elseif nargin == 6
                 sample_idxs = varargin{1};
                 onset_idxs = varargin{2};
@@ -109,7 +139,7 @@ classdef Subject
             
             ylim padded; xlim tight;
             legend(["", "onset", "offset_{minslope}", "offset_{beatperiod}"]);
-            
+            hold off;
         end 
         function [co, to, told, fea] = estimateCO(obj, estID, filt_order)
             base_path = pwd;
