@@ -7,6 +7,7 @@ base_path = pwd;
 
 % Recursively search to find subject data files to set path and file
 % names
+%%%% TAKES A LONG TIME %%%%
 s00020 = Subject("s00020");
 s00151 = Subject("s00151");
 s00214 = Subject("s00214");
@@ -65,6 +66,7 @@ z4 = zeros(3, 1);
 T = s00020.table(s00020.table.ElapsedTime <= 12*36e2, :);
 CO_idxs = find(T.CO ~= 0);
 
+figure;
 % plot parlikar and tpr
 subplot(3, 1, 1); hold on;
 plot(timehr_range, calibratedCO_20(time_range), 'r');
@@ -113,6 +115,7 @@ h.XLabel = "Estimator";
 h.Title = "Normalized RMSE For Each Estimator w.r.t. Patients";
 
 %% Q6
+figure;
 %%%%% TO DO %%%%%
 % - detect bad reference
 % - Dynamic Rn allocation

@@ -6,7 +6,7 @@ sgtitle("Subject 20")
 [CO, ~, ~, FEA] = s00020.estimateCO(5, 0);
 [CO1, ~, ~, FEA1] = s00020.estimateCO(1, 0);
 [CO2, ~, ~, FEA2] = s00020.estimateCO(2, 0);
-N = length(CO_idxs);
+
 % read data as table and filter first 12 hours
 T = s00020.table(s00020.table.ElapsedTime <= 12*36e2, :);
 % get measured CO indexes
@@ -114,7 +114,7 @@ z(3, 4, 12) = rmse(FEA2(CO_idxs, 7), k_HR * T.HR(CO_idxs));
 z = reshape(z(3, 4, :), [4, 3])';
 %% s00151 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 z1 = zeros(3, 4);
-clf;
+figure;
 sgtitle("Subject 151")
 % Get CO, onset times and features from CO estimator using Liljestrand,
 % onset times, and ABP features.
@@ -233,7 +233,7 @@ z1(3, 4, 12) = rmse(FEA2(CO_idxs, 7), k_HR * T.HR(CO_idxs));
 z1 = reshape(z1(3, 4, :), [4, 3])';
 %% s00214 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 z2 = zeros(3, 4);
-clf;
+figure;
 sgtitle("Subject 214")
 % Get CO, onset times and features from CO estimator using Liljestrand,
 % onset times, and ABP features.
