@@ -44,6 +44,7 @@ classdef Subject
             [obj.beatQ, ~] = jSQI(obj.features, obj.onset_times, obj.abp);
             cd(base_path);
         end
+
         function [...
             sample_idxs,...
             onset_idxs,...
@@ -71,31 +72,30 @@ classdef Subject
             %       2009)
             %   - abp_pulses (nx1 double) : abp pulses of desired slice
 
-                    
+            % find idx and get desired slice for time and abp        
             idx = find(obj.time == hour*36e2);
             time_pulses = obj.time(idx : idx + pulses * 125);
             abp_pulses = obj.abp(idx : idx + pulses * 125);
-            
+            % get sample indexes
             sample_idxs = 1:length(time_pulses);
-      
+            % generate filter for feature times within slice range
             filter = (obj.features(:, 1) >= idx) & (obj.features(:, 1) <= idx + pulses*125);
+            % get onsets using filter and trim potential accidentals
             onset_idxs = obj.features(filter, 3) - idx;
             onset_idxs = onset_idxs(onset_idxs > 0);
             onset_idxs = onset_idxs(onset_idxs < sample_idxs(end));
-
+            % get offsets using minslope using filter and trim
             offset_minslope_idxs = obj.features(filter, 11) - idx;
             offset_minslope_idxs = offset_minslope_idxs(...
                 offset_minslope_idxs < sample_idxs(end) & ...
                 offset_minslope_idxs > 0 ...
             );
-            %offset_minslope_idxs = offset_minslope_idxs(offset_minslope_idxs > 0);
-            
+            % get offsets using beatperiod using filter and trim
             offset_beatperiod_idxs = obj.features(filter, 9) - idx;
             offset_beatperiod_idxs = offset_beatperiod_idxs(...
                 offset_beatperiod_idxs < sample_idxs(end) & ...
                 offset_beatperiod_idxs > 0 ...
             );
-            %offset_beatperiod_idxs = offset_beatperiod_idxs(offset_beatperiod_idxs > 0); 
         end
 
         function plot_trace(obj, varargin)
@@ -212,26 +212,7 @@ classdef Subject
             k_HR = FEA(CO_idxs(1), 7) / T.HR(CO_idxs(1));
         end
 
-        function plot_comparisons(obj, filt_order, varargin)
-
-            T = obj.table(obj.table.ElapsedTime <= 12*36e2, :);
-            CO_idxs = find(T.CO ~= 0);
-            time_range = 1:(12*36e2);
-            timehr_range = time_range / 3600;
-
-            for j = 1 : length(varargin)
-
-                [k_CO, k_PP, k_MAP, k_HR] = obj.get_k(CO_idxs, CO(j), FEA())
-                for i = 1 : 4
-                    [k_CO, k_PP, k_MAP, k_HR] = obj.get_k(CO_idxs, CO, FEA, T);
-
-                end
-            end
-            [k_CO, k_PP, k_MAP, k_HR] = obj.get_k(CO_idxs, CO, FEA, T);
-
-        end
-
-        function [calibrateCO, Cn, delta_p, k_parli] = Parlikar(obj, alpha, window_size)
+        function [calibrateCO, k_parli, R_n, true_Rn] = Parlikar(obj, alpha, window_size)
             % PARLIKAR (Parlikar et al. 2007)
             % provides the calibrated CO using the Parlikar method
             %
@@ -241,8 +222,10 @@ classdef Subject
             %
             % ARGOUT
             %   - calibrateCO (nx1 double) : calibrated CO
+            %   - k_parli (double) : scale factor
+            %   - R_n (nx1 double) : TPR estimates
             
-            delta_p = obj.abp(obj.onset_times(2:end)) - obj.abp(obj.onset_times(1:end-1));
+            delta_p = (obj.abp(obj.onset_times(2:end))) - obj.abp(obj.onset_times(1:end-1));
             
             T = obj.table;
             CO_idxs = find(T.CO ~= 0);
@@ -311,6 +294,12 @@ classdef Subject
             calibrateCO = Cn .* CO;
 
             k_parli = calibrateCO(CO_idxs(1)) / T.CO(CO_idxs(1));
+            R_n = MAP ./ (calibrateCO - Cn .* (delta_p ./ Tn));
+
+            true_deltaP = T.ABPDias(CO_idxs(2:end)) - T.ABPDias(CO_idxs(1:end-1));
+            true_Cn = gamma_1 + gamma_2 * T.ABPMean;
+            true_Tn = T.ElapsedTime(CO_idxs(2:end)) - T.ElapsedTime(CO_idxs(1:end-1));
+            true_Rn = T.ABPMean(CO_idxs) ./ (T.CO(CO_idxs) - true_Cn .* (true_deltaP ./ true_Tn));
         end
     end
 end
