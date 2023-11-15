@@ -1,4 +1,4 @@
-function [co, to, told, fea] = estimateCO_v3(t_on,feat,beatq,estID,filt_order)
+function [co, to, told, fea] = estimateCO_v4(t_on,feat,beatq,estID,filt_order)
 %function [co, to, told, fea] = estimateCO_v2(fname,estID,filt_order)
 
 % Modifed for a single (continuous segment of data)
@@ -114,6 +114,7 @@ fea = [];
  %       case 11,   x = est11_mf(abp,onset1,MAP,HR,age,gender);
         case 12,   x = est12_coalees(PP,HR,onset1,tSA,Psys,Pdias);
         case 13,   x = est13_trivial(PP,HR,MAP);
+        case 14, [x, tau] = est14_Parlikar();
         otherwise, x = nan;
     end
     
