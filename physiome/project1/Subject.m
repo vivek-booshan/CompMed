@@ -61,14 +61,15 @@ classdef Subject
             %   - pulses (int) : #  of pulses to trace out
             %
             %
-            % ARGOUT 5 (nx1 double)
-            %   - sample_idxs (nx1 double) : returns a column of sample nums
-            %   - onset_idxs (nx1 double) : returns idxs of all onsets
-            %   - offset_minslope_idxs (nx1 double) : returns idxs of all
+            % ARGOUT
+            %   - sample_idxs (nx1 double) : a column of sample nums
+            %   - onset_idxs (nx1 double) : idxs of all onsets
+            %   - offset_minslope_idxs (nx1 double) : idxs of all
             %       offset idxs calculated by minslope method (Sun et al. 2009)
-            %   - offset_beatperiod_idxs (nx1 double) : returns idxs of all
+            %   - offset_beatperiod_idxs (nx1 double) : idxs of all
             %       offset idxs calculated by using beatperiods (Sun et al.
             %       2009)
+            %   - abp_pulses (nx1 double) : abp pulses of desired slice
 
                     
             idx = find(obj.time == hour*36e2);
@@ -98,7 +99,27 @@ classdef Subject
         end
 
         function plot_trace(obj, varargin)
-        
+            % PLOT_TRACE
+            % plots a trace of ABP and handles variable arguments.
+            % Depending on argin, plots trace with onsets, offsets,
+            % legends, and appropriate labels and titles
+            %
+            % VARARGIN (2)
+            %   - hour (double) : the starting time for trace
+            %   - pulses (int) : # of pulses to sample
+            %
+            % 
+            % VARARGIN (5)
+            %   - sample_idxs (nx1 double) : a column of sample nums
+            %   - onset_idxs (nx1 double) : idxs of all onsets
+            %   - offset_minslope_idxs (nx1 double) : idxs of all
+            %       offset idxs calculated by minslope method (Sun et al. 2009)
+            %   - offset_beatperiod_idxs (nx1 double) : idxs of all
+            %       offset idxs calculated by using beatperiods (Sun et al.
+            %       2009)
+            %   - abp_pulses (nx1 double) : abp of desired pulse slice
+            
+            % if only 3 arguments, get trace and plot with title and labels
             if nargin == 3
                 hour = varargin{1};
                 pulses = varargin{2};
@@ -118,6 +139,7 @@ classdef Subject
                 );
                 xlabel("Sample #");
                 ylabel("ABP");
+            % if trace directly provided, plot
             elseif nargin == 6
                 sample_idxs = varargin{1};
                 onset_idxs = varargin{2};
@@ -127,7 +149,8 @@ classdef Subject
             else
                 error("plot trace takes either 2 or 5 arguments (See DOC)");
             end
-
+            
+            %plot trace
             hold on;
             plot(sample_idxs, abp_pulses);
             plot(onset_idxs, abp_pulses(onset_idxs), 'k*');
@@ -145,6 +168,21 @@ classdef Subject
         end 
 
         function [co, to, told, fea] = estimateCO(obj, estID, filt_order)
+            % ESTIMATECO (Sun et al. 2009)
+            % Estimates CO, Times, and Features 
+            %
+            % ARGIN
+            %   - estID (int) : respective ID for estimators in 3estimate
+            %   - filt_order (int | bool) : order of running avg LPF to use on
+            %       output. (if bool : no LPF)
+            %
+            % ARGOUT
+            %   - CO (nx1 double) : uncalibrated CO
+            %   - TO (nx1 double) : time (minutes) unevenly sampled
+            %   - TOLD (mx1 double) : time (minutes) not sqi filtered
+            %   - FEA (nx11) : feature matrix
+            %
+
             base_path = pwd;
             path_3estimate = dir(fullfile(".", "**/3estimate", "*.m")).folder;
             cd(path_3estimate);
@@ -160,17 +198,50 @@ classdef Subject
         end
 
         function num = get_num(obj)
+            % GET_NUM
+            % extract patient number
             num = str2double(extract(inputname(1), digitsPattern));
         end
 
         function [k_CO, k_PP, k_MAP, k_HR] = get_k(obj, CO_idxs, CO, FEA, T)
+            % GET_K
+            % retrieve the calibration scales for CO, PP, MAP, and HR
             k_CO = CO(CO_idxs(1)) / T.CO(CO_idxs(1));
             k_PP = FEA(CO_idxs(1), 5) / (T.ABPSys(CO_idxs(1)) - T.ABPDias(CO_idxs(1)));
             k_MAP = FEA(CO_idxs(1), 6) / (T.ABPMean(CO_idxs(1)));
             k_HR = FEA(CO_idxs(1), 7) / T.HR(CO_idxs(1));
         end
 
-        function calibrateCO = Parlikar(obj, alpha, window_size)
+        function plot_comparisons(obj, filt_order, varargin)
+
+            T = obj.table(obj.table.ElapsedTime <= 12*36e2, :);
+            CO_idxs = find(T.CO ~= 0);
+            time_range = 1:(12*36e2);
+            timehr_range = time_range / 3600;
+
+            for j = 1 : length(varargin)
+
+                [k_CO, k_PP, k_MAP, k_HR] = obj.get_k(CO_idxs, CO(j), FEA())
+                for i = 1 : 4
+                    [k_CO, k_PP, k_MAP, k_HR] = obj.get_k(CO_idxs, CO, FEA, T);
+
+                end
+            end
+            [k_CO, k_PP, k_MAP, k_HR] = obj.get_k(CO_idxs, CO, FEA, T);
+
+        end
+
+        function [calibrateCO, k_parli] = Parlikar(obj, alpha, window_size)
+            % PARLIKAR (Parlikar et al. 2007)
+            % provides the calibrated CO using the Parlikar method
+            %
+            % ARGIN
+            %   - alpha (double) : Pulse Pressure scale coefficient
+            %   - window_size (int) : size of window to use in parlikar
+            %
+            % ARGOUT
+            %   - calibrateCO (nx1 double) : calibrated CO
+            
             delta_p = obj.abp(obj.onset_times(2:end)) - obj.abp(obj.onset_times(1:end-1));
             
             T = obj.table;
@@ -238,6 +309,8 @@ classdef Subject
             gamma_2 = x(2);
             Cn = gamma_1 + gamma_2 * MAP;
             calibrateCO = Cn .* CO;
+
+            k_parli = calibrateCO(CO_idxs(1)) / T.CO(CO_idxs(1));
         end
     end
 end

@@ -150,7 +150,13 @@ fea = [];
 %     to = [to; t];
 %     told = [told; t_old];
 %     fea = [fea; ff];
-    co = x_filt;
+
+    if estID == 14
+        tau(ind) = [];
+        co(:, 2) = tau;
+    else
+        co = x_filt;
+    end
 
     % add rescaling factor based on order of magnitude
     %order_scale = floor(log10(co(1))) - 1;
