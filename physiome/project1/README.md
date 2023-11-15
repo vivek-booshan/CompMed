@@ -1,4 +1,3 @@
-
 The only script that needs to be run is coding_script.m. However, coding_script.m depends on the 
 - physiotoolkit folder
 - estimateComparisons (off loads some q3 and q4 scripting for clarity)
@@ -9,16 +8,19 @@ To run the script, make sure those three files are within the same directory as 
 
 An example is provided below
 
---- Project/
-      |
-      |___ physiotoolkit/
-      |
-      |___ estimateComparisons.m
-      |___ Subject.m
-      |___ coding_script.m
-      |
-      |___ s00020/ 
-      |
-      |___ s00151/
-      |
-      |___ s00214/
+.
+├── archive
+├── coding_script.asv
+├── coding_script.m
+├── estimateComparisons.m
+├── images
+├── PhysioToolkit
+├── README.md
+├── s00020
+├── s00138
+├── s00151
+├── s00214
+├── Subject.asv
+└── Subject.m
+
+7 directories, 6 files
