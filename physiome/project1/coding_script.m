@@ -116,10 +116,8 @@ ylim padded; xlim tight;
 subplot(3, 4, 8); hold on;
 plot((1:43200)/3600, FEA1(1:43200, 7), 'r');
 stem(T.ElapsedTime(CO_idxs) / 36e2, k_HR * T.HR(CO_idxs), 'b');
-
 ylim padded; xlim tight;
-%%
-%figure;
+
 [k_CO, k_PP, k_MAP, k_HR] = s00020.get_k(CO_idxs, CO2, FEA2, T);
 subplot(3, 4, 9); hold on;
 plot(timehr_range, CO2(time_range) / k_CO, 'r');
@@ -148,3 +146,28 @@ stem(T.ElapsedTime(CO_idxs) / 36e2, k_HR * T.HR(CO_idxs), 'b');
 xlabel("Time (Hrs)");
 ylim padded; xlim tight;
 
+
+%% Q5
+[calibratedCO_20, k_parli] = s00020.Parlikar(2, 3);
+T = s00020.table(s00020.table.ElapsedTime <= 12*36e2, :);
+CO_idxs = find(T.CO ~= 0);
+
+hold on;
+plot(timehr_range, calibratedCO_20(time_range), 'r');
+stem(s00020.table.ElapsedTime(CO_idxs)/3600, k_parli * s00020.table.CO(CO_idxs), 'b');
+title(sprintf("Parlikar Calibrated CO for Subject %d", s00020.get_num));
+
+% 151 NOISY ==> BAD PARLIKAR IN GENERAL
+% figure; hold on;
+% [calibratedCO_151, k_parli] = s00151.Parlikar(2, 3);
+% plot(timehr_range, calibratedCO_151(time_range), 'r');
+% stem(s00151.table.ElapsedTime(CO_idxs) / 3600, k_parli * s00151.table.CO(CO_idxs), 'b');
+% title(sprintf("Parlikar Calibrated CO for Subject %d", s00151.get_num));
+
+figure; hold on;
+T = s00214.table(s00214.table.ElapsedTime <= 12*36e2, :);
+CO_idxs = find(T.CO ~= 0);
+[calibratedCO_214, k_parli] = s00214.Parlikar(2, 3);
+plot(timehr_range, calibratedCO_214(time_range), "r");
+stem(s00214.table.ElapsedTime(CO_idxs) / 3600, k_parli * s00214.table.CO(CO_idxs), 'b');
+title(sprintf("Parlikar Calibrated CO for Subject %d", s00214.get_num));
