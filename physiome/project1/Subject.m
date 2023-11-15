@@ -213,7 +213,7 @@ classdef Subject
         end
 
         function [calibrateCO, k_parli, Rn, true_Rn, k_Rn] = Parlikar(obj, alpha, window_size)
-            % PARLIKAR (Parlikar et al. 2007)
+            %%%% SEE PARLIKAR (2007) FOR SPECIFICS %%%%
             % provides the calibrated CO using the Parlikar method
             %
             % ARGIN
@@ -227,8 +227,10 @@ classdef Subject
             %   - true_Rn (kx1 double) : Rn from measured patient data
             %   - k_Rn (double) : Rn scale factor
             
+            % get delta p by subtracting shift in abp
             delta_p = (obj.abp(obj.onset_times(2:end))) - obj.abp(obj.onset_times(1:end-1));
             
+            %set up MAP, DAP, PP, and true CO
             T = obj.table;
             CO_idxs = find(T.CO ~= 0);
             MAP = obj.features(:, 6);
@@ -237,14 +239,19 @@ classdef Subject
             trueCO_times = T.ElapsedTime(CO_idxs);
             trueCO = T.CO(CO_idxs);
             
+            % get onset times of T_{n+1} - T_n
             Tn = obj.onset_times(2:end) - obj.onset_times(1:end-1);
             tau_n = MAP ./ ((PP ./ Tn) - (delta_p ./ Tn));
+            % preallocate for outputs (beta_n is "x")
             beta_n = zeros(length(obj.onset_times) - 1, 1);
 
             for i = 1 : length(tau_n)
+                %%%% SEE PARLIKAR FOR MATH IN THIS LOOP %%%%
+                % split window into LHS and RHS
                 left_slice = i - (window_size - 1)/2;
                 right_slice = i + (window_size - 1)/2;
-
+                
+                % handle LHS conditional
                 if left_slice < 1
                     numerator = left_slice * MAP(i) * (PP(i) - delta_p(i)) / Tn(i);
                     denominator = left_slice * MAP(i)^2;
@@ -255,6 +262,7 @@ classdef Subject
                     end
 
                     beta_n(i) = numerator / denominator;
+                % handle RHS conditional
                 elseif right_slice > length(tau_n)
                     beta_n(i) = beta_n(end);
                 else
@@ -262,19 +270,21 @@ classdef Subject
                         numerator = numerator + MAP(j) * (PP(j) - delta_p(j)) / Tn(j);
                         denominator = denominator + MAP(j)^2;
                     end
-
+            
                     beta_n(i) = numerator / denominator;
                 end
             end
-            
+            % generate uncalibrated CO
             CO = ((delta_p ./ Tn) + (MAP .* beta_n));
+            
+            % preallocate for calibration
             j = 1;
             m = length(CO_idxs);
             ref_MAP = zeros(1, m);
             ref_CO = zeros(1, m);
             t_new = zeros(1, m);
-
             for i = 1 : length(obj.onset_times)
+                %%%% SEE PARLIKAR FOR MATH %%%%
                 if obj.onset_times(i) >= trueCO_times(j)
                     t_new(i) = obj.onset_times(i);
                     ref_CO = CO(i);
@@ -286,23 +296,31 @@ classdef Subject
                     break;
                 end
             end
-
+            
+            % solve for gamma by setting up linear system
             A = [ref_CO ./ trueCO, ref_MAP .* (ref_CO ./ trueCO)];
             b = ones(length(trueCO), 1);
             x = linsolve(A, b);
             gamma_1 = x(1);
             gamma_2 = x(2);
+
+            % find calibration Cn and get calibrated CO
             Cn = gamma_1 + gamma_2 * MAP;
             calibrateCO = Cn .* CO;
-
+            
+            % get parlikar scale factor wrt true measurements
             k_parli = calibrateCO(CO_idxs(1)) / T.CO(CO_idxs(1));
+            
+            % get estimated TPR (Rn)
             Rn = MAP ./ (calibrateCO - Cn .* (delta_p ./ Tn));
 
+            % set up true TPR (Rn) calculations and get true measurements
             true_deltaP = T.ABPDias(CO_idxs(2:end)) - T.ABPDias(CO_idxs(1:end-1));
             true_Cn = gamma_1 + gamma_2 * T.ABPMean(CO_idxs(2:end));
             true_Tn = T.ElapsedTime(CO_idxs(2:end)) - T.ElapsedTime(CO_idxs(1:end-1));
+            % solve for true Rn
             true_Rn = T.ABPMean(CO_idxs(2:end)) ./ (T.CO(CO_idxs(2:end)) - true_Cn .* (true_deltaP ./ true_Tn));
-
+            % get Rn scale factor
             k_Rn = Rn(T.ElapsedTime(CO_idxs(1))) / true_Rn(1);
         end
     end
