@@ -16,19 +16,14 @@ X = table2array(static_train(:,3:7));
 
 %compute glm
 
-%%%%%%%%%%%%%
-model = fitglm(X, y, 'y ~ x1 + x2 + x3 + x4 + x5', 'Distribution', 'binomial');
-ci = coefCI(model);
-LB = ci(:, 1);
-UB = ci(:, 2);
-%%%%%%%%%%%%%
-
 [B,dev,stats] = glmfit(X,y,'binomial', 'link', 'logit');
 %construct phat from parameters and X 
 Phat = 1 ./ (1 + exp( -[ones(size(X, 1), 1), X] * B)); 
 %Phat is the estimated probability of sepsis occurence for patients
 
 %plot phat versus patient along with its confidence bounds (1.96*stats.se)
+UB = B + 1.96 * stats.se;
+LB = B - 1.96 * stats.se;
 Phat_UB = 1 ./ (1 + exp( -[ones(length(X), 1), X] * (UB)));
 Phat_LB = 1 ./ (1 + exp( -[ones(length(X), 1), X] * (LB)));
 
@@ -45,8 +40,8 @@ plot(y(1:30),'r*')
 title('Models for Each Patient')
 
 %test performance of models
-% [threshold] = test_performance(Phat, Y);
-% l=Y;
-% [X,Y,T,AUC] = perfcurve(l,Phat, 1);
-% figure;
-% plot(X,Y)
+[threshold] = test_performance(Phat, Y);
+l=Y;
+[X,Y,T,AUC] = perfcurve(l,Phat, 1);
+figure;
+plot(X,Y)
