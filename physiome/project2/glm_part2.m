@@ -6,7 +6,6 @@ load('dynamic_data_training.mat');
 
 %%%%
 %generate covariates for complex model
-
 %preparing a septic/non-septic vector for glmfit
 %note all septic data will be first, followed by all non-septic data
 Y = nan(length(dynamic_train(:,1)),1);

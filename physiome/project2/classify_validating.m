@@ -3,6 +3,9 @@ clear
 glm_part2
 clearvars -except B % save coefficients
 
+% load training data
+load('static_data_training.mat');
+
 %bring in testing data
 load('static_data_validating.mat');
 load('dynamic_data_validating.mat');
