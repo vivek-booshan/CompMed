@@ -28,8 +28,10 @@ Phat_val = 1./(1+exp(-[ones(size(X_val,1),1) X_val]*B));
 %Implement your decision rule for each patient here.
 
 %YOU ADD YOUR CLASSIFIER HERE!!!! 
-% Y_test_bestguess = ????????????????
+[X2, Y2, T2, ~, OPTROCPT] = perfcurve(Y_val, Phat_val, 1);
+threshold = T2((X2 == OPTROCPT(1)) & (Y2 == OPTROCPT(2)));
+Y_test_bestguess = (Phat_val >= threshold);
 
-% PercentCorrect = (1 - sum(abs(Y_test-Y_test_bestguess))/length(Y_test))*100
+% PercentCorrect = (1 - sum(abs(Y_val-Y_test_bestguess))/length(Y_val))*100
 
 
