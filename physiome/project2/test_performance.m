@@ -4,12 +4,10 @@ function [max_alpha]= test_performance(phat,y)
 %classes (y), and computes an array of confusion matrices (C) for different
 %thresholds alphas
 
-alphas = [0:0.01:1]';
+alphas = (0:0.01:1)';
 C = zeros(2, 2, 101);
 
 for i=1:length(alphas)  %threshold loop
-   
-    %C{i} = zeros(2,2);
     
     thresh = alphas(i);
     
@@ -22,17 +20,7 @@ for i=1:length(alphas)  %threshold loop
             yhat(p)=0;
         end
         
-        %populate confusion matrix
-        % if(y(p)==1 && yhat(p)==1)   %true positive
-        %     C{i}(1,1) = C{i}(1,1)+1;
-        % elseif(y(p)==1 && yhat(p)==0) %false negative
-        %     C{i}(2,1) = C{i}(2,1)+1;
-        % elseif(y(p)==0 && yhat(p)==1) %false positive
-        %     C{i}(1,2) = C{i}(1,2)+1;
-        % elseif(y(p)==0 && yhat(p)==0) %true negative
-        %     C{i}(2,2) = C{i}(2,2)+1;
-        % end
-        % 
+        % populate confusion matrix
         if (y(p) && yhat(p))
             C(1, 1, i) = C(1, 1, i) + 1;
         elseif (y(p))
@@ -47,17 +35,11 @@ for i=1:length(alphas)  %threshold loop
 
 end
 
-% plot ROC curve and compute AUC
-% tpr = zeros(length(alphas), 1);
-% fpr = zeros(length(alphas), 1);
-% accuracy = zeros(length(alphas), 1);
 
-C = cat(3, C{:});
-
-tpr = C(1, 1, :) ./ sum(C(:, 1, :)); %(C(1, 1, :) + C(2, 1, :));
+tpr = C(1, 1, :) ./ sum(C(:, 1, :)); 
 tpr = reshape(tpr, [1, length(alphas)]);
 
-fpr = 1 - C(2, 2, :) ./ sum(C(:, 2, :)); %(C(1, 2, :) + C(2, 2, :)));
+fpr = 1 - C(2, 2, :) ./ sum(C(:, 2, :)); 
 fpr = reshape(fpr, [1, length(alphas)]);
 
 accuracy = (C(1, 1, :) + C(2, 2, :)) ./ sum(sum(C(:, :, :)));
@@ -68,11 +50,11 @@ accuracy = reshape(accuracy, [1, length(alphas)]);
 max_alpha = alphas(I);
 
 AUC = abs(trapz(fpr, tpr));
-figure(2)
+figure;
 clf
 plot(fpr, tpr)
 hold on 
-plot(fpr(I), tpr(I), 'g*');
+plot(fpr(I), tpr(I), 'r*');
 hline = plot(0:0.001:1, 0:0.001:1, 'r:');
 legend(hline, 'line of no discrimination')
 legend('boxoff')
