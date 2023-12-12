@@ -1,4 +1,5 @@
 % branchless hand solution using integer replacements for coefficients
+% solution generated from previous ICs + BCs provided and DiffEQ system
 CF = @(t) ((90 - 55) ./ (1 + exp((t - 180)/15))).*(t > 90) + 90*(t < 91) + 55*(t > 90);
 MS = @(t) ((170 - 90) ./ (1 + exp(-(t - 180)/15))).*(t > 90) + 90;
 subplot(2, 1, 1);
