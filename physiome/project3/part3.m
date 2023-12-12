@@ -1,20 +1,13 @@
-%%% [INCOMPLETE] PROBLEM 3 (credit: project3_tips.pdf; Luis Sanchez)
-syms kg ag G s
-%%%%%% PARAMETERS %%%%%%
-G = 90;
-ax = 0.04; 
-ag = 0.03;
-% Kx / Kg = 10
-Kx = 100;
-kg = 0.1 * Kx;
-
-F1 = (1/s) * kg/(1 + s*(1/ag) )^2 + (1/s)*G;
-f1 = ilaplace(F1);
-
-t = 1:1:930;
-
-f1_result = G + kg - kg*exp(-ag*t) - ag*kg*t.*exp(-ag*t);
-
-plot(t, f1_result)
-ylim([80 180])
-
+% branchless hand solution using integer replacements for coefficients
+CF = @(t) ((90 - 55) ./ (1 + exp((t - 180)/15))).*(t > 90) + 90*(t < 91) + 55*(t > 90);
+MS = @(t) ((170 - 90) ./ (1 + exp(-(t - 180)/15))).*(t > 90) + 90;
+subplot(2, 1, 1);
+plot(t, CF(t)); grid;
+axis([0 930 50 100])
+title("BG Concentration")
+ylabel("BG concentration (mg/dl)");
+subplot(2, 1, 2);
+plot(t, MS(t)); grid;
+axis([0 930 80 180]);
+ylabel("BG concentration (mg/dl)");
+xlabel("Time (min)");
