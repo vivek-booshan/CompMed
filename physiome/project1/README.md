@@ -1,5 +1,5 @@
 The only script that needs to be run is coding_script.m. However, coding_script.m depends on the 
-- physiotoolkit folder
+- physiotoolkit folder (acquired from Dr. Greenstein)
 - estimateComparisons (off loads some q3 and q4 scripting for clarity)
 - Subject.m (class methods for subjects | houses all functions)
 
